@@ -40,27 +40,29 @@
 
         // Resilient popup builder
         map.on('click', 'community-points', (e) => {
-            const props = e.features[0].properties;
-            const coordinates = e.features[0].geometry.coordinates.slice();
+    const props = e.features[0].properties;
+    const coordinates = e.features[0].geometry.coordinates.slice();
 
-            const builder = props.builder || 'Unknown Builder';
-            const community = props.community || 'Unnamed Community';
-            const status = props.status || '';
-            const price = props.price_min || '';
-            const sqft = props.sqft || '';
+    const builder = props.builder || 'Unknown Builder';
+    const community = props.community || 'Unnamed Community';
+    const status = props.status || '';
+    const price = props.price_min || '';
+    const sqft = props.sqft || '';
 
-            const html = `
-                <strong>${builder}</strong><br>
-                ${community}<br>
-                ${status ? `${status}<br>` : ''}
-                ${price && sqft ? `${price} – ${sqft}` : ''}
-            `;
+    const html = `
+        <strong>${builder}</strong><br>
+        ${community}<br>
+        ${status ? `<em>${status}</em><br>` : ''}
+        ${price ? `Price: ${price}<br>` : ''}
+        ${sqft ? `Size: ${sqft}` : ''}
+    `;
 
-            new mapboxgl.Popup()
-                .setLngLat(coordinates)
-                .setHTML(html)
-                .addTo(map);
-        });
+    new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(html)
+        .addTo(map);
+});
+
 
         map.on('mouseenter', 'community-points', () => {
             map.getCanvas().style.cursor = 'pointer';
