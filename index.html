@@ -38,13 +38,27 @@
             }
         });
 
+        // Resilient popup builder
         map.on('click', 'community-points', (e) => {
+            const props = e.features[0].properties;
             const coordinates = e.features[0].geometry.coordinates.slice();
-            const description = e.features[0].properties.description;
+
+            const builder = props.builder || 'Unknown Builder';
+            const community = props.community || 'Unnamed Community';
+            const status = props.status || '';
+            const price = props.price_min || '';
+            const sqft = props.sqft || '';
+
+            const html = `
+                <strong>${builder}</strong><br>
+                ${community}<br>
+                ${status ? `${status}<br>` : ''}
+                ${price && sqft ? `${price} – ${sqft}` : ''}
+            `;
 
             new mapboxgl.Popup()
                 .setLngLat(coordinates)
-                .setHTML(description)
+                .setHTML(html)
                 .addTo(map);
         });
 
