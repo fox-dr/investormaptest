@@ -63,6 +63,44 @@ map.addLayer({
         'line-width': 2
     }
 });
+
+// Add TTLCProjects source
+map.addSource('ttlcp', {
+    type: 'geojson',
+    data: 'data/TTLCProjects.geojson'
+});
+
+// Add TTLCProjects layer
+map.addLayer({
+    id: 'ttlcp-layer',
+    type: 'circle',
+    source: 'ttlcp',
+    paint: {
+        'circle-radius': 8,
+        'circle-color': '#cc5500', // burnt orange, on-brand
+        'circle-stroke-width': 1,
+        'circle-stroke-color': '#fff'
+    }
+});
+
+// Add popups for TTLCProjects
+map.on('click', 'ttlcp-layer', (e) => {
+    const coordinates = e.features[0].geometry.coordinates.slice();
+    const description = e.features[0].properties.description;
+
+    new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(description)
+        .addTo(map);
+});
+
+map.on('mouseenter', 'ttlcp-layer', () => {
+    map.getCanvas().style.cursor = 'pointer';
+});
+map.on('mouseleave', 'ttlcp-layer', () => {
+    map.getCanvas().style.cursor = '';
+});
+        
         
 // Add popups to ActiveRaise (project-boundaries) layer
 map.on('click', 'project-boundaries', (e) => {
