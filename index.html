@@ -63,7 +63,26 @@ map.addLayer({
         'line-width': 2
     }
 });
+        
+// Add popups to ActiveRaise (project-boundaries) layer
+map.on('click', 'project-boundaries', (e) => {
+    const props = e.features[0].properties;
+    const coordinates = e.lngLat;
 
+    const name = props.Name || 'Unnamed Project';
+
+    const html = `
+        <strong>${name}</strong><br>
+        <em>TTLC Project</em>
+    `;
+
+    new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(html)
+        .addTo(map);
+});
+
+        
         // Resilient popup builder
         map.on('click', 'community-points', (e) => {
         const props = e.features[0].properties;
