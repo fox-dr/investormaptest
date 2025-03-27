@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Investor Map Viewer</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+<div id="map"></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhOWpzemwifQ.cRt9ebRFaM0_DlIS9MlACA';
+const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v11',
+    center: [-122.27, 37.8],
+    zoom: 9
+});
+map.on('load', () => {
+    map.loadImage('icons/icon_house_active.png', (error, image) => {
+        if (error) throw error;
+        map.addImage('active-house', image);
+        map.addSource('communities', {
+            type: 'geojson',
+            data: 'data/communities.geojson'
+        });
+        map.addLayer({
+            id: 'builder-communities',
+            type: 'symbol',
+            source: 'communities',
+            layout: {
+                'icon-image': 'active-house',
+                'icon-size': 0.05,
+                'text-field': ['get', 'community'],
+                'text-offset': [0, 1.25],
+                'text-anchor': 'top'
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>
