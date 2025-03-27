@@ -37,6 +37,32 @@
                 'circle-color': '#007cbf'
             }
         });
+// Add TTLC project boundaries as a polygon fill
+map.addSource('projects', {
+    type: 'geojson',
+    data: 'data/ActiveRaise.geojson'
+});
+
+map.addLayer({
+    id: 'project-boundaries',
+    type: 'fill',
+    source: 'projects',
+    paint: {
+        'fill-color': '#FFA500',
+        'fill-opacity': 0.3
+    }
+});
+
+// Optional: add an outline
+map.addLayer({
+    id: 'project-boundary-lines',
+    type: 'line',
+    source: 'projects',
+    paint: {
+        'line-color': '#cc6600',
+        'line-width': 2
+    }
+});
 
         // Resilient popup builder
         map.on('click', 'community-points', (e) => {
