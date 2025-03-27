@@ -12,7 +12,7 @@
       },
       "properties": {
         "name": "Calistoga",
-        "description": "\n    <strong>Calistoga</strong><br>\n    Residential, Single-Famly Detached<br>\n    47 Lots<br>\n    Onboarded: 6/14/2017<br>\n    Projected Exit: <br>\n    <em>Calistoga, Napa</em><br>\n    <div style="max-width: 250px;"><img src="data/assets/YellowRoseRanch.jpg" style="width: 100%; height: auto; display: block; border-radius: 6px;"></div>\n    "
+        "description": "\n    <strong>Calistoga</strong><br>\n    Residential, Single-Famly Detached<br>\n    47 Lots<br>\n    Onboarded: 6/14/2017<br>\n    Projected Exit: <br>\n    <em>Calistoga, Napa</em><br>\n    <img src='...' width='250'>\n    "
       }
     },
     {
