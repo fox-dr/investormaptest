@@ -107,6 +107,14 @@ map.on('click', 'project-boundaries', (e) => {
             .setHTML(html)
             .addTo(map);
     });
+        
+        // Change cursor when hovering over project boundaries
+        map.on('mouseenter', 'project-boundaries', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'project-boundaries', () => {
+            map.getCanvas().style.cursor = '';
+        });
 
 
         map.on('mouseenter', 'community-points', () => {
