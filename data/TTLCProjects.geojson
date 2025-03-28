@@ -42,6 +42,38 @@
         "name": "Chino Hills - Paradise Ranch",
         "description": "\n    <strong>Chino Hills - Paradise Ranch</strong><br>\n    <br>\n     Lots<br>\n    Onboarded: <br>\n    Projected Exit: <br>\n    <em>, </em><br>\n    \n    "
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Some Project",
+        ...
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -121.89, 37.33 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tokay Crossing",
+        "City": "Sacramento",
+        "County": "Sacramento",
+        "ZonedUse": "Residential",
+        "TargetUse": "Residential, Single-Family Detached",
+        "Lots": 120,
+        "OnboardDate": "Jun-2019",
+        "ProjectedExit": "Q4 2027",
+        "elev_url": "",
+        "description": "<b>Tokay Crossing – Sacramento, CA</b><br><br><i>High quality of life, major employers, vibrant cultural scene, and balanced zoning make Sacramento a top-tier location for modern residential development.</i>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.4944, 38.5816]
+      }
     }
+  ]
+}
   ]
 }
