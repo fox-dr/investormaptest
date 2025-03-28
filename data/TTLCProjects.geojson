@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.597031,
+          38.58474
+        ]
+      },
+      "properties": {
+        "name": "Calistoga",
+        "description": "\n    <strong>Calistoga</strong><br>\n    Residential, Single-Famly Detached<br>\n    47 Lots<br>\n    Onboarded: 6/14/2017<br>\n    Projected Exit: <br>\n    <em>Calistoga, Napa</em><br>\n    <img src='https://fox-dr.github.io/investormaptest/data/assets/YellowRoseRanch.jpg' width='200'>\n    "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.972843,
+          38.690814
+        ]
+      },
+      "properties": {
+        "name": "Cameron Park - Meadows",
+        "description": "\n    <strong>Cameron Park - Meadows</strong><br>\n    Residential, Single-Famly Detached<br>\n     Lots<br>\n    Onboarded: 7/21/2021<br>\n    Projected Exit: <br>\n    <em>Cameron Park, El Dorado</em><br>\n    \n    "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.778269,
+          33.959661
+        ]
+      },
+      "properties": {
+        "name": "Chino Hills - Paradise Ranch",
+        "description": "\n    <strong>Chino Hills - Paradise Ranch</strong><br>\n    <br>\n     Lots<br>\n    Onboarded: <br>\n    Projected Exit: <br>\n    <em>, </em><br>\n    \n    "
+      }
+    }
+  ]
+}
