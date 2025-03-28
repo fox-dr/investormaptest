@@ -1,24 +1,4 @@
 {
-  "type": "Feature",
-  "properties": {
-    "Name": "Tokay Crossing",
-    "City": "Sacramento",
-    "County": "Sacramento",
-    "ZonedUse": "Residential",
-    "TargetUse": "Residential, Single-Family Detached",
-    "Lots": 41,
-    "OnboardDate": "Jun-2017",
-    "ProjectedExit": "Q2 2026",
-    "elev_url": "https://fox-dr.github.io/investormaptest/data/assets/YellowRoseRanch.jpg",
-    "description": "<div style=\"max-width: 280px; font-family: sans-serif; font-size: 13px; line-height: 1.4;\"><h3 style=\"margin: 0 0 6px 0; font-size: 15px;\">Tokay Crossing</h3><strong>Sacramento, CA</strong><br><em>41 Acres • Single-Family Detached</em><br><br><strong>Why Here?</strong><ul style=\"padding-left: 18px; margin: 6px 0;\"><li>California’s capital city with major civic investment</li><li>Affordable housing corridor in NorCal</li><li>Proximity to jobs, transit, parks, and walkable districts</li><li>Rising demand from families and state employees</li><li>Supportive long-range housing and rezoning policy</li></ul><strong>Top Employers</strong><ul style=\"padding-left: 18px; margin: 6px 0;\"><li>State of California (69k employees)</li><li>UC Davis Health (22k)</li><li>Sacramento County (15k)</li><li>Dignity Health (10k)</li><li>Sutter Health (9k)</li></ul><a href=\"https://en.wikipedia.org/wiki/Sacramento,_California\" target=\"_blank\" style=\"color:#007cbf;\">Learn more →</a></div>"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [-121.4944, 38.5816]
-  }
-}
-
-{
   "type": "FeatureCollection",
   "features": [
     {
