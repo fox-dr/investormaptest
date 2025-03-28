@@ -5,10 +5,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -122.597031,
-          38.58474
-        ]
+        "coordinates": [-122.597031, 38.58474]
       },
       "properties": {
         "name": "Calistoga",
@@ -19,10 +16,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -120.972843,
-          38.690814
-        ]
+        "coordinates": [-120.972843, 38.690814]
       },
       "properties": {
         "name": "Cameron Park - Meadows",
@@ -33,10 +27,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -117.778269,
-          33.959661
-        ]
+        "coordinates": [-117.778269, 33.959661]
       },
       "properties": {
         "name": "Chino Hills - Paradise Ranch",
@@ -45,32 +36,13 @@
     },
     {
       "type": "Feature",
-      "properties": {
-        "Name": "Some Project",
-        ...
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [ -121.89, 37.33 ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Tokay Crossing",
-        "City": "Sacramento",
-        "County": "Sacramento",
-        "ZonedUse": "Residential",
-        "TargetUse": "Residential, Single-Family Detached",
-        "Lots": 120,
-        "OnboardDate": "Jun-2019",
-        "ProjectedExit": "Q4 2027",
-        "elev_url": "",
-        "description": "<b>Tokay Crossing – Sacramento, CA</b><br><br><i>High quality of life, major employers, vibrant cultural scene, and balanced zoning make Sacramento a top-tier location for modern residential development.</i>"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [-121.4944, 38.5816]
+      },
+      "properties": {
+        "name": "Sacramento – Tokay Crossing",
+        "description": "\n    <strong>Tokay Crossing</strong><br>\n    Residential, Single-Famly Detached<br>\n    41 Acres – SFD<br>\n    Onboarded: MMM-YYYY<br>\n    Projected Exit: Q4 2027<br>\n    <em>Sacramento, Sacramento County</em><br>\n    <div style='max-width: 200px;'>\n      <img src='https://fox-dr.github.io/investormaptest/data/assets/YellowRoseRanch.jpg' style='width: 100%; height: auto; display: block; border-radius: 6px;'>\n    </div>\n    <br>\n    <strong>Executive Summary</strong><br>\n    <ol>\n      <li><strong>Livability:</strong> Diverse neighborhoods, parks, and a vibrant lifestyle.</li>\n      <li><strong>Top Employers:</strong> State of California, UC Davis Health, Dignity Health, etc.</li>\n      <li><strong>Cultural Scene:</strong> Museums, music, festivals, and historical richness.</li>\n      <li><strong>Zoning/Development:</strong> Balanced residential and commercial zoning.</li>\n      <li><strong>Target Market:</strong> Millennial professionals and families seeking affordable urban-suburban life.</li>\n    </ol>\n    "
       }
     }
   ]
