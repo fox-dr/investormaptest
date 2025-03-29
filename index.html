@@ -109,13 +109,43 @@ map.on('click', 'ttlcp-layer', (e) => {
         .addTo(map);
 });
 
-map.on('mouseenter', 'ttlcp-layer', () => {
+// Add The Bay Area Portfolio as placemarks
+map.addSource('bayarea-portfolio', {
+    type: 'geojson',
+    data: 'data/portfolio_bay.geojson'
+});
+
+map.addLayer({
+    id: 'bayarea-portfolio-layer',
+    type: 'circle',
+    source: 'bayarea-portfolio',
+    paint: {
+        'circle-radius': 7,
+        'circle-color': '#1E90FF',  // Dodger blue for contrast
+        'circle-stroke-width': 1,
+        'circle-stroke-color': '#fff'
+    }
+});
+
+// Popups for Bay Area Portfolio points
+map.on('click', 'bayarea-portfolio-layer', (e) => {
+    const coords = e.features[0].geometry.coordinates.slice();
+    const props = e.features[0].properties;
+    const name = props.name || 'Unnamed';
+    const desc = props.description || '';
+
+    new mapboxgl.Popup()
+        .setLngLat(coords)
+        .setHTML(`<strong>${name}</strong><br>${desc}`)
+        .addTo(map);
+});
+
+map.on('mouseenter', 'bayarea-portfolio-layer', () => {
     map.getCanvas().style.cursor = 'pointer';
 });
-map.on('mouseleave', 'ttlcp-layer', () => {
+map.on('mouseleave', 'bayarea-portfolio-layer', () => {
     map.getCanvas().style.cursor = '';
 });
-        
         
 // Add popups to ActiveRaise (project-boundaries) layer
 map.on('click', 'project-boundaries', (e) => {
