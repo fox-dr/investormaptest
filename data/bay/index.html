@@ -27,15 +27,12 @@
 </head>
 <body>
 <div id="map"></div>
-<script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhOWpzemwifQ.cRt9ebRFaM0_DlIS9MlACA'; // Insert your token here
-
+ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhOWpzemwifQ.cRt9ebRFaM0_DlIS9MlACA';
     const map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: [-121.9, 37.4],
+        style: 'mapbox://styles/mapbox/light-v11',
+        center: [-122.27, 37.8],
         zoom: 9
-    });
 
     map.on('load', () => {
         map.addSource('communities', {
