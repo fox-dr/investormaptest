@@ -13,7 +13,7 @@
       "properties": {
         "name": "Las Positas Blvd.",
         "description": "Approved Units: 184 Townhomes + ADUs<br><br>Parcel Size: 7.3 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -28,7 +28,7 @@
       "properties": {
         "name": "Pedro St.",
         "description": "Approved Units: 85 Townhomes<br><br>Parcel Size: 3.3 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -43,7 +43,7 @@
       "properties": {
         "name": "Lakehaven",
         "description": "Approved Units: 117 Townhomes<br><br>Parcel Size: 5.3 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -58,7 +58,7 @@
       "properties": {
         "name": "Black Ave.",
         "description": "Approved Units: 55 Townhomes<br><br>Parcel Size: 2.6 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -73,7 +73,7 @@
       "properties": {
         "name": "Glider School",
         "description": "Approved Units: 80 Single-Family Detached<br><br>Parcel Size: 9.5 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -88,7 +88,7 @@
       "properties": {
         "name": "Edes Court",
         "description": "Approved Units: 21 Townhomes<br><br>Parcel Size: 1.1 Acres<br><br>Sale At: Final Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -103,7 +103,7 @@
       "properties": {
         "name": "California Circle",
         "description": "Approved Units: 68 Townhomes<br><br>Parcel Size: 3 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -118,7 +118,7 @@
       "properties": {
         "name": "Yellow Rose Ranch",
         "description": "Approved Units: 45 Single-Family Detached<br><br>Parcel Size: 46.3 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -133,7 +133,7 @@
       "properties": {
         "name": "Moorpark",
         "description": "Approved Units: 41 Townhomes<br><br>Parcel Size: 1.76 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -148,7 +148,7 @@
       "properties": {
         "name": "Deerwood",
         "description": "Approved Units: 57 Townhomes<br><br>Parcel Size: 2.46 Acres<br><br>Sale At: Final Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -163,7 +163,7 @@
       "properties": {
         "name": "Fremont Corners II",
         "description": "Approved Units: 35 Townhomes<br><br>Parcel Size: 2.5 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -178,7 +178,7 @@
       "properties": {
         "name": "Fremont Corners III",
         "description": "Approved Units: 45 Townhomes<br><br>Parcel Size: 2.5 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -193,7 +193,7 @@
       "properties": {
         "name": "W Edmundson Ave.",
         "description": "Approved Units: 93 Single-Family Detached<br><br>Parcel Size: 13.3<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -208,7 +208,7 @@
       "properties": {
         "name": "Leigh Ave.",
         "description": "Approved Units: TBD<br><br>Parcel Size: TBD<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -223,7 +223,7 @@
       "properties": {
         "name": "Fair View Drive",
         "description": "Approved Units: TBD<br><br>Parcel Size: TBD<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "Feasibility"
       }
     }
   ]
