@@ -1,14 +1,51 @@
 {
-  "regionName": "Bay Area",
-  "center": [-121.9, 37.4],
-  "zoom": 8.5,
-  "colors": {
-    "LOI": "#4CAF50",
-    "PSA": "#F6FF00",
-    "Onboarded": "#B2292E",
-    "Sold": "#777777",
-    "Other": "#CCCCCC"
-  },
-  "communities": "communities_bay.geojson",
-  "portfolio": "portfolio_bay.geojson"
+  "region": "bay",
+  "center": [-122.27, 37.8],
+  "zoom": 9,
+  "layers": [
+    {
+      "id": "communities",
+      "type": "point",
+      "file": "communities_bay.geojson",
+      "style": {
+        "circle-radius": 6,
+        "circle-color": "#FF4081",
+        "circle-stroke-width": 1,
+        "circle-stroke-color": "#fff"
+      },
+      "popup": true
+    },
+    {
+      "id": "ttlcp-layer",
+      "type": "point",
+      "file": "portfolio_bay.geojson",
+      "style": {
+        "circle-radius": 8,
+        "circle-color-by-status": {
+          "LOI": "#4CAF50",
+          "PSA": "#F6FF00",
+          "In Feasibility": "#F6FF00",
+          "Onboarded": "#B2292E",
+          "Sold": "#777777",
+          "Other": "#CCCCCC"
+        },
+        "circle-stroke-width": 1,
+        "circle-stroke-color": "#fff"
+      },
+      "popup": true
+    },
+    {
+      "id": "project-boundaries",
+      "type": "polygon",
+      "file": "../../data/ActiveRaise.geojson",
+      "style": {
+        "fill-color": "#FFA500",
+        "fill-opacity": 0.2,
+        "line-color": "#CC6600",
+        "line-width": 2
+      },
+      "minZoom": 11,
+      "popup": false
+    }
+  ]
 }
