@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>TTLC Community Map</title>
+    <title>Builder Community Map</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
@@ -40,7 +40,7 @@
     map.on('load', () => {
         map.addSource('communities', {
             type: 'geojson',
-            data: 'ttlcmapped.geojson'
+            data: 'communities_bay.geojson'
         });
 
         map.addLayer({
