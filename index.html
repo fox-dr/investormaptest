@@ -14,7 +14,7 @@
     top: 10px;
     left: 10px;
     z-index: 10;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 #branding img {
@@ -143,21 +143,6 @@ map.addLayer({
         'circle-stroke-color': '#fff'
     }
 });
-// Helper: categorize statuses into 3 groups
-const statusGroups = {
-    live: ['LOI', 'PSA', 'In Feasibility'],
-    onboarded: ['Onboarded'],
-    archived: ['Sold', 'Other']
-};
-
-// Toggle layer visibility based on group
-function toggleGroup(group) {
-    const visibleStatuses = Object.entries(statusGroups)
-        .filter(([key, _]) => document.querySelector(`input[onchange*="${key}"]`).checked)
-        .flatMap(([_, statuses]) => statuses);
-
-    map.setFilter('ttlcp-layer', ['in', ['get', 'status'], ['literal', visibleStatuses]]);
-}
 
 // Add popups for TTLCProjects
 map.on('click', 'ttlcp-layer', (e) => {
