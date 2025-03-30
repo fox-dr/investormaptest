@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,22 +11,25 @@
     <style>
         body { margin: 0; padding: 0; }
         #map { position: absolute; top: 0; bottom: 0; width: 100%; }
-        
-	.popup-content {
-	    font-family: 'Lato', sans-serif;
-	    font-size: 15px;
-	    line-height: 1.5;
-	    color: #222;
-	}
-	.popup-content b {
-	    font-size: 17px;
-	    font-weight: 700;
-	}
+
+        .popup-content {
+            font-family: 'Lato', sans-serif;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #222;
+        }
+        .popup-content b {
+            font-size: 17px;
+            font-weight: 700;
+        }
     </style>
 </head>
 <body>
+
+<div id="map"></div> <!-- MISSING DIV HERE -->
+
 <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhOWpzemwifQ.cRt9ebRFaM0_DlIS9MlACA'; // Insert your token here
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhOWpzemwifQ.cRt9ebRFaM0_DlIS9MlACA';
 
     const map = new mapboxgl.Map({
         container: 'map',
@@ -35,6 +37,14 @@
         center: [-121.9, 37.4],
         zoom: 9
     });
+
+    // Add source for 'communities' (this was missing too)
+    map.on('load', () => {
+        map.addSource('communities', {
+            type: 'geojson',
+            data: 'data/communities.geojson' // Change path if needed
+        });
+
         map.addLayer({
             id: 'community-points',
             type: 'circle',
