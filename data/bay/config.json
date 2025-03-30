@@ -1,0 +1,14 @@
+{
+  "regionName": "Bay Area",
+  "center": [-121.9, 37.4],
+  "zoom": 8.5,
+  "colors": {
+    "LOI": "#4CAF50",
+    "PSA": "#F6FF00",
+    "Onboarded": "#B2292E",
+    "Sold": "#777777",
+    "Other": "#CCCCCC"
+  },
+  "communities": "communities_bay.geojson",
+  "portfolio": "portfolio_bay.geojson"
+}
