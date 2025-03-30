@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TTLC Community Map</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        
+	.popup-content {
+	    font-family: 'Lato', sans-serif;
+	    font-size: 15px;
+	    line-height: 1.5;
+	    color: #222;
+	}
+	.popup-content b {
+	    font-size: 17px;
+	    font-weight: 700;
+	}
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhOWpzemwifQ.cRt9ebRFaM0_DlIS9MlACA'; // Insert your token here
+
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-121.9, 37.4],
+        zoom: 9
+    });
+
+    map.on('load', () => {
+        map.addSource('communities', {
+            type: 'geojson',
+            data: 'ttlcmapped.geojson'
+        });
+
+        map.addLayer({
+            id: 'community-points',
+            type: 'circle',
+            source: 'communities',
+            paint: {
+                'circle-radius': 6,
+                'circle-color': '#FF4081',
+                'circle-stroke-width': 1,
+                'circle-stroke-color': '#fff'
+            }
+        });
+
+        map.on('click', 'community-points', (e) => {
+            const props = e.features[0].properties;
+            const content = `
+                <div class='popup-content'>
+                    <b>${props.builder} – ${props.community}</b><br/>
+                    Project Type: ${props.project_type}<br/>
+                    ${props.price_range}<br/>
+                    ${props.sf_range}<br/><br/>
+                    Status: ${props.status}<br/>
+                    ${props.city}, ${props.county}, ${props.state} ${props.zip}<br/>
+                    School Dist: ${props.schools}
+                </div>
+            `;
+            new mapboxgl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML(content)
+                .addTo(map);
+        });
+
+        map.on('mouseenter', 'community-points', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'community-points', () => {
+            map.getCanvas().style.cursor = '';
+        });
+    });
+</script>
+</body>
+</html>
