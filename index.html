@@ -21,6 +21,38 @@
     height: 70px;
     width: auto;
 }
+#controls {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  background: white;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 13px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  z-index: 5;
+  max-width: 200px;
+}
+
+.legend label {
+  display: block;
+  margin-top: 6px;
+}
+
+.legend-colors div {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.legend-colors span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+        
     </style>
 </head>
 <body>
@@ -28,6 +60,22 @@
     <img src="data/assets/TTLCSilver.png" alt="The True Life Companies Logo">
 </div>
 <div id="map"></div>
+<!-- Legend and Filters -->
+<div id="controls">
+  <div class="legend">
+    <strong>Project Status</strong>
+    <label><input type="checkbox" checked onchange="toggleGroup('live')"> Live Projects</label>
+    <label><input type="checkbox" checked onchange="toggleGroup('onboarded')"> Onboarded</label>
+    <label><input type="checkbox" checked onchange="toggleGroup('archived')"> Archived</label>
+    <div class="legend-colors">
+      <div><span style="background:#00cc66"></span> LOI / PSA / Feasibility</div>
+      <div><span style="background:#b2292e"></span> Onboarded</div>
+      <div><span style="background:#777777"></span> Sold</div>
+      <div><span style="background:#cccccc"></span> Other</div>
+    </div>
+  </div>
+</div>
+
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhOWpzemwifQ.cRt9ebRFaM0_DlIS9MlACA';
     const map = new mapboxgl.Map({
@@ -97,6 +145,21 @@ map.addLayer({
         'circle-stroke-color': '#fff'
     }
 });
+// Helper: categorize statuses into 3 groups
+const statusGroups = {
+    live: ['LOI', 'PSA', 'In Feasibility'],
+    onboarded: ['Onboarded'],
+    archived: ['Sold', 'Other']
+};
+
+// Toggle layer visibility based on group
+function toggleGroup(group) {
+    const visibleStatuses = Object.entries(statusGroups)
+        .filter(([key, _]) => document.querySelector(`input[onchange*="${key}"]`).checked)
+        .flatMap(([_, statuses]) => statuses);
+
+    map.setFilter('ttlcp-layer', ['in', ['get', 'status'], ['literal', visibleStatuses]]);
+}
 
 // Add popups for TTLCProjects
 map.on('click', 'ttlcp-layer', (e) => {
