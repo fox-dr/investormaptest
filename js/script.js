@@ -103,7 +103,7 @@ if (layerType === 'circle') {
 
     let html = '';
 
-    if (layerName.startsWith('communities')) {
+    if (layerName.startsWith('communities_')) {
       console.log('Using communities popup logic');
       html += `<b>${properties.community || 'Unnamed'}</b><br>`;
       if (properties.builder) html += `${properties.builder}<br>`;
@@ -111,7 +111,7 @@ if (layerType === 'circle') {
         html += `${properties.city}, ${properties.state} ${properties.zip}<br>`;
       if (properties.price_range) html += `${properties.price_range}<br>`;
       if (properties.sf_range) html += `${properties.sf_range}<br>`;
-    } else if (layerName.startsWith('portfolio')) {
+    } else if (layerName.startsWith('portfolio_')) {
       console.log('Using portfolio popup logic');
       html += `<b>${properties.name || 'Unnamed'}</b><br>`;
       if (properties.description) html += `${properties.description}<br>`;
