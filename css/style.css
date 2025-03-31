@@ -10,66 +10,50 @@ body {
   bottom: 0;
   width: 100%;
 }
-@media (max-width: 600px) {
 #region-selector {
   position: absolute;
-  top:  10px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: rgba(255, 255, 255, 0.9);
-  padding: 6px 10px;
+  top: calc(env(safe-area-inset-top, 20px) + 10px);
+  left: 10px;
+  background: rgba(255,255,255,0.9);
+  padding: 8px;
   border-radius: 6px;
   z-index: 1000;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   width: max-content;
-  max-width: 90vw;  /* Prevent wide overflow */
-  font-size: 13px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-  font-family: 'Lato', sans-serif; /* Apply Lato to the region selector */
+  font-family: 'Lato', sans-serif;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
 }
 
 #region-selector button {
   width: 100%;
   display: block;
-  font-size: 13px;
   margin-bottom: 4px;
   padding: 6px 8px;
   cursor: pointer;
   border: 1px solid #ccc;
   border-radius: 3px;
   background-color: #f0f0f0;
-  font-family: 'Lato', sans-serif; /* Apply Lato to the buttons */
+  font-family: 'Lato', sans-serif;
 }
 
 #region-selector button:hover {
   background-color: #e0e0e0;
 }
 
-/* Mobile-friendly adjustments */
-@media (max-width: 600px) {
-  #region-selector {
-    top: auto;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    text-align: center;
-  }
-}
 #legend {
   position: absolute;
   bottom: 20px;
   left: 10px;
   background: rgba(255,255,255,0.9);
-  padding: 8px 10px;
+  padding: 10px 14px;
   border-radius: 6px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.4;
   box-shadow: 0 0 3px rgba(0,0,0,0.3);
-  z-index: 10;
-  max-width: 85vw;  /* Prevent it from going wide */
+  z-index: 1000;
+  font-family: 'Lato', sans-serif;
 }
 
 .legend-title {
@@ -84,20 +68,20 @@ body {
 }
 
 .legend-dot {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   margin-right: 6px;
   display: inline-block;
   border: 1px solid #666;
 }
+
 #ttlc-logo {
   position: absolute;
   top: 10px;
   right: 10px;
-  width: 120px; /* Adjust size as needed */
+  width: 120px;
   height: auto;
-  z-index: 30;
+  z-index: 1000;
   opacity: 0.9;
 }
-
