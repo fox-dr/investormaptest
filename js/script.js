@@ -80,7 +80,7 @@ async function loadRegionData(region, config) {
         } else {
           paint = {
             'circle-radius': 6,
-            'circle-color': '#FF4081',
+            'circle-color': '#2979FF',
             'circle-stroke-width': 1,
             'circle-stroke-color': '#fff',
           };
