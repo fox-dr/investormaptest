@@ -1,0 +1,230 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9011794,
+          37.6815174
+        ]
+      },
+      "properties": {
+        "name": "Las Positas Blvd.",
+        "description": "Approved Units: 184 Townhomes + ADUs<br><br>Parcel Size: 7.3 Acres<br><br>Sale At: Tentative Map",
+        "status": "Onboarded"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9073148,
+          37.3124314
+        ]
+      },
+      "properties": {
+        "name": "Pedro St.",
+        "description": "Approved Units: 85 Townhomes<br><br>Parcel Size: 3.3 Acres<br><br>Sale At: Tentative Map",
+        "status": "Onboarded"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9960655,
+          37.3968284
+        ]
+      },
+      "properties": {
+        "name": "Lakehaven",
+        "description": "Approved Units: 117 Townhomes<br><br>Parcel Size: 5.3 Acres<br><br>Sale At: Tentative Map",
+        "status": "Onboarded"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.875754,
+          37.6713995
+        ]
+      },
+      "properties": {
+        "name": "Black Ave.",
+        "description": "Approved Units: 55 Townhomes<br><br>Parcel Size: 2.6 Acres<br><br>Sale At: Tentative Map",
+        "status": "Onboarded"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.82448,
+          37.2331465
+        ]
+      },
+      "properties": {
+        "name": "Glider School",
+        "description": "Approved Units: 80 Single-Family Detached<br><br>Parcel Size: 9.5 Acres<br><br>Sale At: Tentative Map",
+        "status": "Onboarded"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.687842,
+          37.166584
+        ]
+      },
+      "properties": {
+        "name": "Edes Court",
+        "description": "Approved Units: 21 Townhomes<br><br>Parcel Size: 1.1 Acres<br><br>Sale At: Final Map",
+        "status": "Onboarded"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.920039,
+          37.446894
+        ]
+      },
+      "properties": {
+        "name": "California Circle",
+        "description": "Approved Units: 68 Townhomes<br><br>Parcel Size: 3 Acres<br><br>Sale At: Tentative Map",
+        "status": "Onboarded"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5979306,
+          38.5832864
+        ]
+      },
+      "properties": {
+        "name": "Yellow Rose Ranch",
+        "description": "Approved Units: 45 Single-Family Detached<br><br>Parcel Size: 46.3 Acres<br><br>Sale At: Tentative Map",
+        "status": "Onboarded"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.93442,
+          37.3163868
+        ]
+      },
+      "properties": {
+        "name": "Moorpark",
+        "description": "Approved Units: 41 Townhomes<br><br>Parcel Size: 1.76 Acres<br><br>Sale At: Tentative Map",
+        "status": "Onboarded"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.982192,
+          37.7796168
+        ]
+      },
+      "properties": {
+        "name": "Deerwood",
+        "description": "Approved Units: 57 Townhomes<br><br>Parcel Size: 2.46 Acres<br><br>Sale At: Final Map",
+        "status": "Onboarded"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0316,
+          37.351335
+        ]
+      },
+      "properties": {
+        "name": "Fremont Corners II",
+        "description": "Approved Units: 35 Townhomes<br><br>Parcel Size: 2.5 Acres<br><br>Sale At: Tentative Map",
+        "status": "Onboarded"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0307856,
+          37.3513866
+        ]
+      },
+      "properties": {
+        "name": "Fremont Corners III",
+        "description": "Approved Units: 45 Townhomes<br><br>Parcel Size: 2.5 Acres<br><br>Sale At: Tentative Map",
+        "status": "Onboarded"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.651683,
+          37.107551
+        ]
+      },
+      "properties": {
+        "name": "W Edmundson Ave.",
+        "description": "Approved Units: 93 Single-Family Detached<br><br>Parcel Size: 13.3<br><br>Sale At: TBD",
+        "status": "LOI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9226887,
+          37.3045322
+        ]
+      },
+      "properties": {
+        "name": "Leigh Ave.",
+        "description": "Approved Units: TBD<br><br>Parcel Size: TBD<br><br>Sale At: TBD",
+        "status": "LOI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.308836,
+          37.929463
+        ]
+      },
+      "properties": {
+        "name": "Fair View Drive",
+        "description": "Approved Units: TBD<br><br>Parcel Size: TBD<br><br>Sale At: TBD",
+        "status": "In Feasibility"
+      }
+    }
+  ]
+}
