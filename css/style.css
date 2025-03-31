@@ -1,9 +1,51 @@
-body { margin: 0; padding: 0; }
-#map { position:absolute; top:0; bottom:0; width:100%; }
-.mapboxgl-popup-content{
-  background-color: rgba(255, 255, 255, 0.7) !important; /* semi-transparent white */
-  color: #111;
-  padding: 12px;
-  border-radius: 8px;
-  font-family: 'Lato', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif; /* Apply Lato to the entire body */
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#region-selector {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: 'Lato', sans-serif; /* Apply Lato to the region selector */
+}
+
+#region-selector button {
+  display: block;
+  margin-bottom: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  font-family: 'Lato', sans-serif; /* Apply Lato to the buttons */
+}
+
+#region-selector button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 600px) {
+  #region-selector {
+    top: auto;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    text-align: center;
+  }
 }
