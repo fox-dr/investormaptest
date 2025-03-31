@@ -20,8 +20,7 @@ async function loadRegion(region) {
 
       map.on('load', () => {
         console.log('Map style loaded.');
-        loadRegionData(region, config); // Call the simplified function
-        console.log('Data load initiated.');
+        loadRegionData(region, config); // Call the helper function
       });
     } else {
       map.flyTo({
@@ -31,45 +30,92 @@ async function loadRegion(region) {
       });
       console.log('Map moved to:', config.initialCenter, config.initialZoom);
 
-      loadRegionData(region, config); // Call the simplified function
-      console.log('Data load initiated.');
+      loadRegionData(region, config); // Call the helper function
     }
   } catch (error) {
     console.error('Error loading region:', error);
   }
 }
 
-async function loadRegionData(region, config) { // Simplified function
-  console.log('Simplified loadRegionData: Loading portfolio');
-  const geojsonResponse = await fetch(`data/${region}/portfolio_bay.geojson`);
-  const geojson = await geojsonResponse.json();
-  console.log('GeoJSON loaded:', geojson);
+async function loadRegionData(region, config) {
+  console.log('loadRegionData started:', region, config);
+  // Helper function to load and add data
+  for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
+    console.log('Loading GeoJSON:', layerName, fileName);
+    const geojsonResponse = await fetch(`data/${region}/${fileName}`);
+    console.log('GeoJSON response:', geojsonResponse);
+    const geojson = await geojsonResponse.json();
+    console.log('GeoJSON loaded:', layerName, geojson);
 
-  if (map.getLayer('portfolio')) {
-    map.removeLayer('portfolio');
-    map.removeSource('portfolio');
+    if (map.getLayer(layerName)) {
+      console.log('Removing existing layer:', layerName);
+      map.removeLayer(layerName);
+      map.removeSource(layerName);
+      console.log('Layer and source removed:', layerName);
+    }
+
+    map.addSource(layerName, {
+      type: 'geojson',
+      data: geojson,
+    });
+    console.log('GeoJSON source added:', layerName);
+
+    // Determine layer type based on GeoJSON
+    const firstFeatureType = geojson.features[0].geometry.type;
+    let layerType;
+    if (firstFeatureType === 'Point') {
+      layerType = 'symbol';
+    } else if (firstFeatureType.includes('Polygon')) {
+      layerType = 'fill';
+    } else if (firstFeatureType === 'LineString' || firstFeatureType === 'MultiLineString') {
+      layerType = 'line';
+    } else {
+      console.warn('Unknown geometry type:', firstFeatureType);
+      continue; // Skip adding this layer
+    }
+    console.log('Layer type determined:', layerType);
+
+    map.addLayer({
+      id: layerName,
+      type: layerType,
+      source: layerName,
+      layout: layerType === 'symbol' ? {
+        'icon-image': 'marker-15',
+        'icon-allow-overlap': true,
+        'icon-anchor': 'bottom',
+      } : {}, // Empty layout for other types
+      paint: layerType === 'fill' ? {
+        'fill-color': '#088',
+        'fill-opacity': 0.8,
+        'fill-outline-color': 'black',
+      } : layerType === 'line' ? {
+        'line-color': '#888',
+        'line-width': 2,
+      } : {
+        'icon-color': '#888',
+      },
+    });
+    console.log('Layer added:', layerName);
+
+    // Add popup logic for point data
+    if (layerType === 'symbol') {
+      map.on('click', layerName, (e) => {
+        const coordinates = e.features[0].geometry.coordinates.slice();
+        const properties = e.features[0].properties;
+        let html = `<b>${properties.name}</b><br>`;
+        if (properties.description) {
+          html += `${properties.description}<br>`;
+        }
+        if (properties.status) {
+          html += `Status: ${properties.status}`;
+        }
+        new mapboxgl.Popup().setLngLat(coordinates).setHTML(html).addTo(map);
+        console.log('Popup opened for:', properties.name);
+      });
+      console.log('Click event added:', layerName);
+    }
   }
-
-  map.addSource('portfolio', {
-    type: 'geojson',
-    data: geojson,
-  });
-
-  map.addLayer({
-    id: 'portfolio',
-    type: 'symbol',
-    source: 'portfolio',
-    layout: {
-      'icon-image': 'marker-15',
-      'icon-allow-overlap': true,
-      'icon-anchor': 'bottom',
-    },
-    paint: {
-      'icon-color': '#888',
-    },
-  });
-
-  console.log('Portfolio layer added.');
+  console.log('loadRegionData finished:', region, config);
 }
 
 function createRegionSelector() {
