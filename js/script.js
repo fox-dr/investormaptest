@@ -62,12 +62,30 @@ async function loadRegionData(region, config) {
 
       if (geometryType === 'Point') {
         layerType = 'circle';
-        paint = {
-          'circle-radius': 6,
-          'circle-color': '#FF4081',
-          'circle-stroke-width': 1,
-          'circle-stroke-color': '#fff',
-        };
+        if (layerName.startsWith('portfolio_')) {
+          paint = {
+            'circle-radius': 6,
+            'circle-color': [
+              'match',
+              ['get', 'status'],
+              'Onboarded', '#b30000',
+              'LOI', '#00cc44',
+              'In Feasibility', '#ffd700',
+              'Sold', '#888888',
+              /* default */ '#999999'
+            ],
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#fff',
+          };
+        } else {
+          paint = {
+            'circle-radius': 6,
+            'circle-color': '#FF4081',
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#fff',
+          };
+        }
+
       } else if (geometryType.includes('Polygon')) {
         layerType = 'fill';
         paint = {
