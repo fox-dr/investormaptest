@@ -95,6 +95,9 @@ async function loadRegionData(region, config) {
 
 if (layerType === 'circle') {
   map.on('click', layerName, (e) => {
+    console.log('Clicked layer:', layerName);
+    console.log('Feature properties:', e.features[0].properties);
+
     const { geometry, properties } = e.features[0];
     const coords = geometry.coordinates;
 console.log('DEBUG properties:', properties);
@@ -102,6 +105,7 @@ console.log('DEBUG properties:', properties);
     let html = '';
 
     if (layerName.startsWith('communities_')) {
+      console.log('Using communities popup logic');
       html += `<b>${properties.community || 'Unnamed'}</b><br>`;
       if (properties.builder) html += `${properties.builder}<br>`;
       if (properties.city && properties.state && properties.zip)
@@ -109,6 +113,10 @@ console.log('DEBUG properties:', properties);
       if (properties.price_range) html += `${properties.price_range}<br>`;
       if (properties.sf_range) html += `${properties.sf_range}<br>`;
     } else if (layerName.startsWith('portfolio_')) {
+      console.log('Using portfolio popup logic');
+      } else {
+  console.log('No matching popup logic for layer:', layerName);
+      }
       html += `<b>${properties.name || 'Unnamed'}</b><br>`;
       if (properties.description) html += `${properties.description}<br>`;
     }
