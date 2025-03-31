@@ -15,18 +15,25 @@ body {
   position: absolute;
   top: calc(env(safe-area-inset-top, 20px) + 10px);
   left: 10px;
-  background: white;
-  padding: 10px;
-  border-radius: 5px;
-  z-index: 1000;
+ background: rgba(255, 255, 255, 0.9);
+  padding: 8px;
+  border-radius: 6px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: max-content;
+  max-width: 90vw;  /* Prevent wide overflow */
+  font-size: 13px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   font-family: 'Lato', sans-serif; /* Apply Lato to the region selector */
 }
 
 #region-selector button {
+  width: 100%;
   display: block;
-  margin-bottom: 5px;
-  padding: 8px 12px;
+  margin-bottom: 4px;
+  padding: 6px 8px;
   cursor: pointer;
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -54,12 +61,13 @@ body {
   bottom: 20px;
   left: 10px;
   background: rgba(255,255,255,0.9);
-  padding: 10px 14px;
+  padding: 8px 10px;
   border-radius: 6px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.4;
   box-shadow: 0 0 3px rgba(0,0,0,0.3);
-  z-index: 20;
+  z-index: 10;
+  max-width: 85vw;  /* Prevent it from going wide */
 }
 
 .legend-title {
@@ -74,8 +82,8 @@ body {
 }
 
 .legend-dot {
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   margin-right: 6px;
   display: inline-block;
