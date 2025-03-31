@@ -80,7 +80,7 @@ async function loadRegionData(region, config) {
       type: layerType,
       source: layerName,
       layout: layerType === 'symbol' ? {
-        'icon-image': 'marker-15',
+        'icon-image': 'marker-default',
         'icon-allow-overlap': true,
         'icon-anchor': 'bottom',
       } : {}, // Empty layout for other types
