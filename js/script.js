@@ -97,6 +97,7 @@ if (layerType === 'circle') {
   map.on('click', layerName, (e) => {
     const { geometry, properties } = e.features[0];
     const coords = geometry.coordinates;
+console.log('DEBUG properties:', properties);
 
     let html = '';
 
