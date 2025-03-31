@@ -1,4 +1,16 @@
 {
-    "type": "FeatureCollection",
-    "features": []
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.0840899, 37.4220035]
+      },
+      "properties": {
+        "name": "Googleplex",
+        "description": "Google Headquarters"
+      }
+    }
+  ]
 }
