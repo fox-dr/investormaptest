@@ -1,7 +1,7 @@
 {
   "regionName": "The True Life Companies",
   "initialCenter": [-122.4194, 37.7749],
-  "initialZoom": 10,
+  "initialZoom": 5,
   "dataFiles": {
     "communities": "communities_bay.geojson",
     "portfolio": "portfolio_bay.geojson",
