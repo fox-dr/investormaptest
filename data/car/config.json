@@ -1,6 +1,6 @@
 {
-  "regionName": "Bay Area Region",
-  "initialCenter": [-122.4194, 37.7749],
+  "regionName": "Raleigh Region",
+  "initialCenter": [-78.63817, 35.7721],
   "initialZoom": 10,
   "dataFiles": {
     "communities": "communities_bay.geojson",
