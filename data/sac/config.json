@@ -1,6 +1,6 @@
 {
-  "regionName": "Bay Area Region",
-  "initialCenter": [-122.4194, 37.7749],
+  "regionName": "Sacramento Region",
+  "initialCenter": [-121.4944, 38.5816],
   "initialZoom": 10,
   "dataFiles": {
     "communities": "communities_bay.geojson",
