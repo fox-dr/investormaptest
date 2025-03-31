@@ -93,25 +93,34 @@ async function loadRegionData(region, config) {
         paint: paint,
       });
 
-      if (layerType === 'circle') {
-        map.on('click', layerName, (e) => {
-          const { geometry, properties } = e.features[0];
-          const coords = geometry.coordinates;
+if (layerType === 'circle') {
+  // Click handler for popups
+  map.on('click', layerName, (e) => {
+    const { geometry, properties } = e.features[0];
+    const coords = geometry.coordinates;
 
-          let html = `<b>${properties.name || 'Unnamed'}</b><br>`;
-          if (properties.description) html += `${properties.description}<br>`;
-          if (properties.status) html += `<em>Status:</em> ${properties.status}`;
+    let html = `<b>${properties.community || 'Unnamed'}</b><br>`;
 
-          new mapboxgl.Popup().setLngLat(coords).setHTML(html).addTo(map);
-        });
+    if (properties.builder) html += `${properties.builder}<br>`;
+    if (properties.city && properties.state && properties.zip)
+      html += `${properties.city}, ${properties.state} ${properties.zip}<br>`;
+    if (properties.price_range) html += `${properties.price_range}<br>`;
+    if (properties.sf_range) html += `${properties.sf_range}<br>`;
+    if (properties.status) html += `<em>Status:</em> ${properties.status}`;
 
-        map.on('mouseenter', layerName, () => {
-          map.getCanvas().style.cursor = 'pointer';
-        });
-        map.on('mouseleave', layerName, () => {
-          map.getCanvas().style.cursor = '';
-        });
-      }
+    new mapboxgl.Popup().setLngLat(coords).setHTML(html).addTo(map);
+  });
+
+  // Mouse events (attach only once)
+  map.on('mouseenter', layerName, () => {
+    map.getCanvas().style.cursor = 'pointer';
+  });
+
+  map.on('mouseleave', layerName, () => {
+    map.getCanvas().style.cursor = '';
+  });
+}
+    
 
       console.log('Loaded layer:', layerName);
     } catch (e) {
