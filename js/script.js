@@ -122,10 +122,8 @@ function createRegionSelector() {
   }
 }
 
-async function init() { // Define an async init function
-  createRegionSelector();
-  await loadRegion('bay'); // Load bay region only (await it)
-}
-
 // Add DOMContentLoaded event listener
-document.addEventListener('DOMContentLoaded', init); // Call init
+document.addEventListener('DOMContentLoaded', function() {
+  createRegionSelector();
+  loadRegion('bay'); // Load bay region only
+});
