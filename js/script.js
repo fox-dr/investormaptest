@@ -27,6 +27,7 @@ async function loadRegion(region) {
     for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
       const geojsonResponse = await fetch(`data/<span class="math-inline">\{region\}/</span>{fileName}`);
       const geojson = await geojsonResponse.json();
+      console.log("Config loaded:", config); // Add this line
 
       if (map.getLayer(layerName)) {
         map.removeLayer(layerName);
