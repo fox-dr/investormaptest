@@ -1,6 +1,6 @@
 {
-  "regionName": "Bay Area Region",
-  "initialCenter": [-122.4194, 37.7749],
+  "regionName": "Austin Region",
+  "initialCenter": [-97.74306, 30.26722],
   "initialZoom": 10,
   "dataFiles": {
     "communities": "communities_bay.geojson",
