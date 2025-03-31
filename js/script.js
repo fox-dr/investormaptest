@@ -90,6 +90,10 @@ async function loadRegionData(region, config) {
       } : layerType === 'line' ? {
         'line-color': '#888',
         'line-width': 2,
+      } : layerType === 'symbol' ? { // **Crucial change here!**
+        'icon-color': '#888',
+        'circle-radius': 5,
+        'circle-color': '#888',
       } : {
         'icon-color': '#888',
       },
