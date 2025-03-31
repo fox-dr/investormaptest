@@ -3,9 +3,9 @@
   "initialCenter": [-122.4194, 37.7749],
   "initialZoom": 8,
   "dataFiles": {
-    "communities": "communities_bay.geojson",
-    "portfolio": "portfolio_bay.geojson",
-    "amenities": "amenities_bay.geojson"
+    "communities_bay": "communities_bay.geojson",
+    "portfolio_bay": "portfolio_bay.geojson",
+    "amenities_bay": "amenities_bay.geojson"
   },
   "layerVisibility": {
     "communities": true,
