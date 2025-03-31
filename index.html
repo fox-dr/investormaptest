@@ -23,21 +23,24 @@
     
 #region-selector {
   position: absolute;
-  top: calc(env(safe-area-inset-top, 20px) + 10px); /* avoids iOS top bar */
+  top: calc(env(safe-area-inset-top, 20px) + 10px);
   left: 10px;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255, 255, 255, 0.8);
   padding: 8px;
   border-radius: 6px;
-  z-index: 10;
-  display: flex;
+  z-index: 9999;
+  display: inline-flex; /* <— key fix: no more block width */
   flex-direction: column;
-  align-items: stretch;
-  width: max-content;
+  align-items: flex-start;
+  max-width: 90vw;
+  box-sizing: border-box;
 }
 
 #region-selector button {
   width: 100%;
+  box-sizing: border-box;
 }
+
 
 
     #region-selector button:hover {
