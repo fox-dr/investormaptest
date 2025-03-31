@@ -1,6 +1,6 @@
 {
   "regionName": "San Diego / SoCal Region",
-  "initialCenter": [-121.4944, 38.5816],
+  "initialCenter": [118.2437, 34.0522],
   "initialZoom": 10,
   "dataFiles": {
     "communities": "communities_bay.geojson",
