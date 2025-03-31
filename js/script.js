@@ -100,14 +100,14 @@ if (layerType === 'circle') {
 
     let html = '';
 
-    if (layerName.includes('community')) {
+    if (layerName.startsWith('communities_')) {
       html += `<b>${properties.community || 'Unnamed'}</b><br>`;
       if (properties.builder) html += `${properties.builder}<br>`;
       if (properties.city && properties.state && properties.zip)
         html += `${properties.city}, ${properties.state} ${properties.zip}<br>`;
       if (properties.price_range) html += `${properties.price_range}<br>`;
       if (properties.sf_range) html += `${properties.sf_range}<br>`;
-    } else if (layerName.includes('portfolio')) {
+    } else if (layerName.startsWith('portfolio_')) {
       html += `<b>${properties.name || 'Unnamed'}</b><br>`;
       if (properties.description) html += `${properties.description}<br>`;
     }
@@ -117,14 +117,15 @@ if (layerType === 'circle') {
     new mapboxgl.Popup().setLngLat(coords).setHTML(html).addTo(map);
   });
 
-  // Cursor events
   map.on('mouseenter', layerName, () => {
     map.getCanvas().style.cursor = 'pointer';
   });
+
   map.on('mouseleave', layerName, () => {
     map.getCanvas().style.cursor = '';
   });
 }
+
  
 
       console.log('Loaded layer:', layerName);
