@@ -10,13 +10,14 @@ body {
   bottom: 0;
   width: 100%;
 }
-
+@media (max-width: 600px) {
 #region-selector {
   position: absolute;
-  top: calc(env(safe-area-inset-top, 20px) + 10px);
-  left: 10px;
- background: rgba(255, 255, 255, 0.9);
-  padding: 8px;
+  top:  10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 6px 10px;
   border-radius: 6px;
   z-index: 10;
   display: flex;
@@ -25,13 +26,14 @@ body {
   width: max-content;
   max-width: 90vw;  /* Prevent wide overflow */
   font-size: 13px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   font-family: 'Lato', sans-serif; /* Apply Lato to the region selector */
 }
 
 #region-selector button {
   width: 100%;
   display: block;
+  font-size: 13px;
   margin-bottom: 4px;
   padding: 6px 8px;
   cursor: pointer;
