@@ -11,15 +11,15 @@ async function loadRegion(region) {
     if (!map) {
       map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/light-v11', // Use your desired style
+        style: 'mapbox://styles/mapbox/light-v11',
         center: config.initialCenter,
-        zoom: config.initialZoom
+        zoom: config.initialZoom,
       });
     } else {
       map.flyTo({
         center: config.initialCenter,
         zoom: config.initialZoom,
-        essential: true // This animation is considered essential with respect to prefers-reduced-motion
+        essential: true,
       });
     }
 
@@ -27,7 +27,7 @@ async function loadRegion(region) {
     for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
       const geojsonResponse = await fetch(`data/${region}/${fileName}`);
       const geojson = await geojsonResponse.json();
-      console.log("Config loaded:", config); // Add this line
+      console.log('Config loaded:', config);
 
       if (map.getLayer(layerName)) {
         map.removeLayer(layerName);
@@ -36,17 +36,17 @@ async function loadRegion(region) {
 
       map.addSource(layerName, {
         type: 'geojson',
-        data: geojson
+        data: geojson,
       });
 
       map.addLayer({
         id: layerName,
-        type: 'fill', // or 'line', 'circle', etc. based on your GeoJSON
+        type: 'fill',
         source: layerName,
         paint: {
           'fill-color': '#088',
-          'fill-opacity': 0.8
-        }
+          'fill-opacity': 0.8,
+        },
       });
       map.setLayoutProperty(layerName, 'visibility', config.layerVisibility[layerName] ? 'visible' : 'none');
     }
@@ -57,18 +57,27 @@ async function loadRegion(region) {
 
 function createRegionSelector() {
   const selector = document.getElementById('region-selector');
-  regions.forEach(region => {
-    fetch(`data/${region}/config.json`)
-    .then(response => response.json())
-    .then(config => {
-      const button = document.createElement('button');
-      button.textContent = config.regionName;
-      button.addEventListener('click', () => loadRegion(region));
-      selector.appendChild(button);
+  if (selector) {
+    regions.forEach(region => {
+      fetch(`data/${region}/config.json`)
+        .then(response => response.json())
+        .then(config => {
+          const button = document.createElement('button');
+          button.textContent = config.regionName;
+          button.addEventListener('click', () => loadRegion(region));
+          selector.appendChild(button);
+        })
+        .catch(error => {
+          console.error('error fetching config.json for ' + region, error);
+        });
     });
-  });
+  } else {
+    console.error('region-selector div not found!');
+  }
 }
 
-// Initial load
-createRegionSelector();
-loadRegion('bay'); // Default region
+// Add DOMContentLoaded event listener
+document.addEventListener('DOMContentLoaded', function() {
+  createRegionSelector();
+  loadRegion('bay'); // Load bay region only
+});
