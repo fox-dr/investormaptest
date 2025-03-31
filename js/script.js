@@ -122,7 +122,8 @@ if (layerType === 'circle') {
     if (properties.status) {
       html += `<em>Status:</em> ${properties.status}`;
     }
-
+    
+    console.log('HTML for popup:', html);
     new mapboxgl.Popup().setLngLat(coords).setHTML(html).addTo(map);
   });
 
