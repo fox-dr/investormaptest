@@ -13,7 +13,7 @@ body {
 
 #region-selector {
   position: absolute;
-  top: 10px;
+  top: calc(env(safe-area-inset-top, 20px) + 10px);
   left: 10px;
   background: white;
   padding: 10px;
