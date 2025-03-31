@@ -96,9 +96,10 @@ async function loadRegionData(region, config) {
 if (layerType === 'circle') {
   map.on('click', layerName, (e) => {
     console.log('Clicked layer:', layerName);
-    const properties = e.features[0].properties;
-    const coords = e.features[0].geometry.coordinates;
-    console.log('Feature properties:', properties);
+    console.log('Feature properties:', e.features[0].properties);
+
+    const { geometry, properties } = e.features[0];
+    const coords = geometry.coordinates;
 
     let html = '';
 
@@ -134,8 +135,6 @@ if (layerType === 'circle') {
   });
 }
 
-
- 
 
       console.log('Loaded layer:', layerName);
     } catch (e) {
