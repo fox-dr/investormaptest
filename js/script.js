@@ -17,6 +17,12 @@ async function loadRegion(region) {
         zoom: config.initialZoom,
       });
       console.log('Map initialized:', map);
+
+      // **Move data loading inside map.on('load')**
+      map.on('load', () => {
+        console.log('Map style loaded.');
+        loadRegionData(region, config); // Call a helper function
+      });
     } else {
       map.flyTo({
         center: config.initialCenter,
@@ -24,80 +30,84 @@ async function loadRegion(region) {
         essential: true,
       });
       console.log('Map moved to:', config.initialCenter, config.initialZoom);
-    }
 
-    // Load and add GeoJSON data
-    for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
-      const geojsonResponse = await fetch(`data/${region}/${fileName}`); // Corrected path
-      const geojson = await geojsonResponse.json();
-      console.log('GeoJSON loaded:', layerName, geojson);
-
-      if (map.getLayer(layerName)) {
-        map.removeLayer(layerName);
-        map.removeSource(layerName);
-      }
-
-      map.addSource(layerName, {
-        type: 'geojson',
-        data: geojson,
-      });
-
-      // Determine layer type based on GeoJSON
-      const firstFeatureType = geojson.features[0].geometry.type;
-      let layerType;
-      if (firstFeatureType === 'Point') {
-        layerType = 'symbol';
-      } else if (firstFeatureType.includes('Polygon')) {
-        layerType = 'fill';
-      } else if (firstFeatureType === 'LineString' || firstFeatureType === 'MultiLineString') {
-        layerType = 'line';
-      } else {
-        console.warn('Unknown geometry type:', firstFeatureType);
-        continue; // Skip adding this layer
-      }
-
-      map.addLayer({
-        id: layerName,
-        type: layerType,
-        source: layerName,
-        layout: layerType === 'symbol' ? {
-          'icon-image': 'marker-15',
-          'icon-allow-overlap': true,
-          'icon-anchor': 'bottom',
-        } : {}, // Empty layout for other types
-        paint: layerType === 'fill' ? {
-          'fill-color': '#088',
-          'fill-opacity': 0.8,
-          'fill-outline-color': 'black',
-        } : layerType === 'line' ? {
-          'line-color': '#888',
-          'line-width': 2,
-        } : {
-          'icon-color': '#888',
-        },
-      });
-      console.log('Layer added:', layerName, 'type:', layerType);
-
-      // Add popup logic for point data
-      if (layerType === 'symbol') {
-        map.on('click', layerName, (e) => {
-          const coordinates = e.features[0].geometry.coordinates.slice();
-          const properties = e.features[0].properties;
-          let html = `<b>${properties.name}</b><br>`;
-          if (properties.description) {
-            html += `${properties.description}<br>`;
-          }
-          if (properties.status) {
-            html += `Status: ${properties.status}`;
-          }
-          new mapboxgl.Popup().setLngLat(coordinates).setHTML(html).addTo(map);
-          console.log('Popup opened for:', properties.name);
-        });
-        console.log('Click event added to layer:', layerName);
-      }
+      loadRegionData(region, config); // Call helper function
     }
   } catch (error) {
     console.error('Error loading region:', error);
+  }
+}
+
+async function loadRegionData(region, config) {
+  // Helper function to load and add data
+  for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
+    const geojsonResponse = await fetch(`data/${region}/${fileName}`);
+    const geojson = await geojsonResponse.json();
+    console.log('GeoJSON loaded:', layerName, geojson);
+
+    if (map.getLayer(layerName)) {
+      map.removeLayer(layerName);
+      map.removeSource(layerName);
+    }
+
+    map.addSource(layerName, {
+      type: 'geojson',
+      data: geojson,
+    });
+
+    // Determine layer type based on GeoJSON
+    const firstFeatureType = geojson.features[0].geometry.type;
+    let layerType;
+    if (firstFeatureType === 'Point') {
+      layerType = 'symbol';
+    } else if (firstFeatureType.includes('Polygon')) {
+      layerType = 'fill';
+    } else if (firstFeatureType === 'LineString' || firstFeatureType === 'MultiLineString') {
+      layerType = 'line';
+    } else {
+      console.warn('Unknown geometry type:', firstFeatureType);
+      continue; // Skip adding this layer
+    }
+
+    map.addLayer({
+      id: layerName,
+      type: layerType,
+      source: layerName,
+      layout: layerType === 'symbol' ? {
+        'icon-image': 'marker-15',
+        'icon-allow-overlap': true,
+        'icon-anchor': 'bottom',
+      } : {}, // Empty layout for other types
+      paint: layerType === 'fill' ? {
+        'fill-color': '#088',
+        'fill-opacity': 0.8,
+        'fill-outline-color': 'black',
+      } : layerType === 'line' ? {
+        'line-color': '#888',
+        'line-width': 2,
+      } : {
+        'icon-color': '#888',
+      },
+    });
+    console.log('Layer added:', layerName, 'type:', layerType);
+
+    // Add popup logic for point data
+    if (layerType === 'symbol') {
+      map.on('click', layerName, (e) => {
+        const coordinates = e.features[0].geometry.coordinates.slice();
+        const properties = e.features[0].properties;
+        let html = `<b>${properties.name}</b><br>`;
+        if (properties.description) {
+          html += `${properties.description}<br>`;
+        }
+        if (properties.status) {
+          html += `Status: ${properties.status}`;
+        }
+        new mapboxgl.Popup().setLngLat(coordinates).setHTML(html).addTo(map);
+        console.log('Popup opened for:', properties.name);
+      });
+      console.log('Click event added to layer:', layerName);
+    }
   }
 }
 
