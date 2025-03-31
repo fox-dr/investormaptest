@@ -1,6 +1,6 @@
 {
-  "regionName": "Denver Region",
-  "initialCenter": [-112.4194, 37.7749],
+  "regionName": "Bay Area Region",
+  "initialCenter": [-122.4194, 37.7749],
   "initialZoom": 10,
   "dataFiles": {
     "communities": "communities_bay.geojson",
