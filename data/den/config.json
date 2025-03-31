@@ -1,7 +1,6 @@
-// data/bay/config.json
 {
   "regionName": "Denver Region",
-  "initialCenter": [-112.4194, 37.7749], // [longitude, latitude]
+  "initialCenter": [-112.4194, 37.7749],
   "initialZoom": 10,
   "dataFiles": {
     "communities": "communities_bay.geojson",
