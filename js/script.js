@@ -133,6 +133,14 @@ if (layerType === 'circle') {
       console.log('Using portfolio popup logic');
       html += `<b>${properties.name || 'Unnamed'}</b><br>`;
       if (properties.description) html += `${properties.description}<br>`;
+
+         // Future: show image if present
+      /*
+      if (properties.image) {
+        html += `<img src="data/assets/${properties.image}" alt="${properties.name}" style="margin-top:6px; width:100%; max-width:250px; border-radius:4px;">`;
+      }
+      */
+      
     } else {
       console.log('No matching popup logic for layer:', layerName);
     }
