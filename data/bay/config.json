@@ -4,11 +4,12 @@
   "initialZoom": 10,
   "dataFiles": {
     "communities": "communities_bay.geojson",
-   
+    "portfolio": "portfolio_bay.geojson",
+    "amenities": "amenities_bay.geojson"
   },
   "layerVisibility": {
     "communities": true,
-   
-   
+    "portfolio": true,
+    "amenities": true
   }
 }
