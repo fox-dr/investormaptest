@@ -1,4 +1,3 @@
-// data/bay/config.json
 {
   "regionName": "Bay Area Region",
   "initialCenter": [-122.4194, 37.7749], // [longitude, latitude]
