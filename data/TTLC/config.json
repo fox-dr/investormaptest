@@ -1,7 +1,6 @@
-// data/bay/config.json
 {
   "regionName": "TTLC",
-  "initialCenter": [-110.4194, 37.7749], // [longitude, latitude]
+  "initialCenter": [-110.4194, 37.7749],
   "initialZoom": 10,
   "dataFiles": {
     "communities": "communities_bay.geojson",
