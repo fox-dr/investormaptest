@@ -16,11 +16,10 @@ async function loadRegion(region) {
         center: config.initialCenter,
         zoom: config.initialZoom,
       });
-      console.log('Map initialized:', map);
 
       map.on('load', () => {
-        console.log('Map style loaded.');
-        loadRegionData(region, config); // Call the helper function
+        console.log('Map loaded');
+        loadRegionData(region, config);
       });
     } else {
       map.flyTo({
@@ -28,118 +27,117 @@ async function loadRegion(region) {
         zoom: config.initialZoom,
         essential: true,
       });
-      console.log('Map moved to:', config.initialCenter, config.initialZoom);
-
-      loadRegionData(region, config); // Call the helper function
+      console.log('Switched to region:', region);
+      loadRegionData(region, config);
     }
   } catch (error) {
-    console.error('Error loading region:', error);
+    console.error('Failed to load region:', error);
   }
 }
 
 async function loadRegionData(region, config) {
-  console.log('loadRegionData started:', region, config);
-  // Helper function to load and add data
+  console.log('Loading data files:', config.dataFiles);
+
   for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
-    console.log('Loading GeoJSON:', layerName, fileName);
-    const geojsonResponse = await fetch(`data/${region}/${fileName}`);
-    console.log('GeoJSON response:', geojsonResponse);
-    const geojson = await geojsonResponse.json();
-    console.log('GeoJSON loaded:', layerName, geojson);
+    try {
+      const geojsonResponse = await fetch(`data/${region}/${fileName}`);
+      const geojson = await geojsonResponse.json();
 
-    if (map.getLayer(layerName)) {
-      console.log('Removing existing layer:', layerName);
-      map.removeLayer(layerName);
-      map.removeSource(layerName);
-      console.log('Layer and source removed:', layerName);
-    }
+      if (map.getLayer(layerName)) {
+        map.removeLayer(layerName);
+        map.removeSource(layerName);
+      }
 
-    map.addSource(layerName, {
-      type: 'geojson',
-      data: geojson,
-    });
-    console.log('GeoJSON source added:', layerName);
-
-    // Determine layer type based on GeoJSON
-    const firstFeatureType = geojson.features[0].geometry.type;
-    let layerType;
-    if (firstFeatureType === 'Point') {
-      layerType = 'symbol';
-    } else if (firstFeatureType.includes('Polygon')) {
-      layerType = 'fill';
-    } else if (firstFeatureType === 'LineString' || firstFeatureType === 'MultiLineString') {
-      layerType = 'line';
-    } else {
-      console.warn('Unknown geometry type:', firstFeatureType);
-      continue; // Skip adding this layer
-    }
-    console.log('Layer type determined:', layerType);
-
-    map.addLayer({
-      id: layerName,
-      type: layerType,
-      source: layerName,
-      layout: layerType === 'symbol' ? {
-        'icon-allow-overlap': true,
-        'icon-anchor': 'bottom',
-      } : {}, // Empty layout for other types
-      paint: layerType === 'fill' ? {
-        'fill-color': '#088',
-        'fill-opacity': 0.8,
-        'fill-outline-color': 'black',
-      } : layerType === 'line' ? {
-        'line-color': '#888',
-        'line-width': 2,
-      } : {
-        'icon-color': '#888',
-      },
-    });
-    console.log('Layer added:', layerName);
-
-    // Add popup logic for point data
-    if (layerType === 'symbol') {
-      map.on('click', layerName, (e) => {
-        const coordinates = e.features[0].geometry.coordinates.slice();
-        const properties = e.features[0].properties;
-        let html = `<b>${properties.name}</b><br>`;
-        if (properties.description) {
-          html += `${properties.description}<br>`;
-        }
-        if (properties.status) {
-          html += `Status: ${properties.status}`;
-        }
-        new mapboxgl.Popup().setLngLat(coordinates).setHTML(html).addTo(map);
-        console.log('Popup opened for:', properties.name);
+      map.addSource(layerName, {
+        type: 'geojson',
+        data: geojson,
       });
-      console.log('Click event added:', layerName);
+
+      const firstFeature = geojson.features?.[0];
+      if (!firstFeature) continue;
+
+      const geometryType = firstFeature.geometry.type;
+      let layerType;
+      let paint = {};
+
+      if (geometryType === 'Point') {
+        layerType = 'circle';
+        paint = {
+          'circle-radius': 6,
+          'circle-color': '#FF4081',
+          'circle-stroke-width': 1,
+          'circle-stroke-color': '#fff',
+        };
+      } else if (geometryType.includes('Polygon')) {
+        layerType = 'fill';
+        paint = {
+          'fill-color': '#088',
+          'fill-opacity': 0.6,
+          'fill-outline-color': 'black',
+        };
+      } else if (geometryType.includes('LineString')) {
+        layerType = 'line';
+        paint = {
+          'line-color': '#888',
+          'line-width': 2,
+        };
+      } else {
+        console.warn('Unknown geometry type:', geometryType);
+        continue;
+      }
+
+      map.addLayer({
+        id: layerName,
+        type: layerType,
+        source: layerName,
+        paint: paint,
+      });
+
+      if (layerType === 'circle') {
+        map.on('click', layerName, (e) => {
+          const { geometry, properties } = e.features[0];
+          const coords = geometry.coordinates;
+
+          let html = `<b>${properties.name || 'Unnamed'}</b><br>`;
+          if (properties.description) html += `${properties.description}<br>`;
+          if (properties.status) html += `<em>Status:</em> ${properties.status}`;
+
+          new mapboxgl.Popup().setLngLat(coords).setHTML(html).addTo(map);
+        });
+
+        map.on('mouseenter', layerName, () => {
+          map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', layerName, () => {
+          map.getCanvas().style.cursor = '';
+        });
+      }
+
+      console.log('Loaded layer:', layerName);
+    } catch (e) {
+      console.error(`Failed to load ${layerName}:`, e);
     }
   }
-  console.log('loadRegionData finished:', region, config);
 }
 
 function createRegionSelector() {
   const selector = document.getElementById('region-selector');
-  if (selector) {
-    regions.forEach(region => {
-      fetch(`data/${region}/config.json`)
-        .then(response => response.json())
-        .then(config => {
-          const button = document.createElement('button');
-          button.textContent = config.regionName;
-          button.addEventListener('click', () => loadRegion(region));
-          selector.appendChild(button);
-        })
-        .catch(error => {
-          console.error('error fetching config.json for ' + region, error);
-        });
-    });
-  } else {
-    console.error('region-selector div not found!');
-  }
+  if (!selector) return;
+
+  regions.forEach(region => {
+    fetch(`data/${region}/config.json`)
+      .then(res => res.json())
+      .then(config => {
+        const button = document.createElement('button');
+        button.textContent = config.regionName || region.toUpperCase();
+        button.onclick = () => loadRegion(region);
+        selector.appendChild(button);
+      })
+      .catch(err => console.warn(`Failed to load config for ${region}:`, err));
+  });
 }
 
-// Add DOMContentLoaded event listener
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
   createRegionSelector();
-  loadRegion('bay'); // Load bay region only
+  loadRegion('bay'); // Default load
 });
