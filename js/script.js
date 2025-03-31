@@ -96,11 +96,9 @@ async function loadRegionData(region, config) {
 if (layerType === 'circle') {
   map.on('click', layerName, (e) => {
     console.log('Clicked layer:', layerName);
-    console.log('Feature properties:', e.features[0].properties);
-
-    const { geometry, properties } = e.features[0];
-    const coords = geometry.coordinates;
-console.log('DEBUG properties:', properties);
+    const properties = e.features[0].properties;
+    const coords = e.features[0].geometry.coordinates;
+    console.log('Feature properties:', properties);
 
     let html = '';
 
@@ -114,14 +112,15 @@ console.log('DEBUG properties:', properties);
       if (properties.sf_range) html += `${properties.sf_range}<br>`;
     } else if (layerName.startsWith('portfolio_')) {
       console.log('Using portfolio popup logic');
-      } else {
-  console.log('No matching popup logic for layer:', layerName);
-      }
       html += `<b>${properties.name || 'Unnamed'}</b><br>`;
       if (properties.description) html += `${properties.description}<br>`;
+    } else {
+      console.log('No matching popup logic for layer:', layerName);
     }
 
-    if (properties.status) html += `<em>Status:</em> ${properties.status}`;
+    if (properties.status) {
+      html += `<em>Status:</em> ${properties.status}`;
+    }
 
     new mapboxgl.Popup().setLngLat(coords).setHTML(html).addTo(map);
   });
@@ -134,6 +133,7 @@ console.log('DEBUG properties:', properties);
     map.getCanvas().style.cursor = '';
   });
 }
+
 
  
 
