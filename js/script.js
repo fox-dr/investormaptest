@@ -25,7 +25,7 @@ async function loadRegion(region) {
 
     // Load and add GeoJSON data
     for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
-      const geojsonResponse = await fetch(`data/<span class="math-inline">\{region\}/</span>{fileName}`);
+      const geojsonResponse = await fetch(`data/${region}/${fileName}`);
       const geojson = await geojsonResponse.json();
       console.log("Config loaded:", config); // Add this line
 
