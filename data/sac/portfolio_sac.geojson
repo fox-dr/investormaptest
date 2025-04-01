@@ -1,0 +1,260 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.242513,
+          38.525717
+        ]
+      },
+      "properties": {
+        "name": "Shalako West",
+        "description": "Approved Units: 364 Single-Family Detached<br><br>Parcel Size: 60 Acres<br><br>Sale At: Tentative Map",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.018197,
+          38.691047
+        ]
+      },
+      "properties": {
+        "name": "Silver Springs",
+        "description": "Approved Units: 181 Single-Family Detached<br><br>Parcel Size: 187 Acres<br><br>Sale At: Final Map<br><br>Homebuilder: Lennar",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.372154,
+          38.498519
+        ]
+      },
+      "properties": {
+        "name": "Southeast Watt",
+        "description": "Approved Units: 282 Single-Family Detached<br><br>Parcel Size: 61.1 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3628896,
+          38.5069746
+        ]
+      },
+      "properties": {
+        "name": "Tokay Crossing",
+        "description": "Approved Units: 193 Single-Family<br><br>Parcel Size: 40.9 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.971743,
+          38.69
+        ]
+      },
+      "properties": {
+        "name": "Cameron Meadows",
+        "description": "Approved Units: 161 Single-Family<br><br>Parcel Size: 104 Acres<br><br>Sale At: Final Map",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3056068,
+          38.2472562
+        ]
+      },
+      "properties": {
+        "name": "Lippi Ranch",
+        "description": "Approved Units: 94 Single-Family<br><br>Parcel Size: 9 Acres<br><br>Sale At: Tentative Map",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.320802,
+          37.901221
+        ]
+      },
+      "properties": {
+        "name": "Asano",
+        "description": "Approved Units: 211 Single-Family<br><br>Parcel Size: 44 Acres<br><br>Sale At: Final Map<br><br>Homebuilder: Khov",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.0431594,
+          38.7092289
+        ]
+      },
+      "properties": {
+        "name": "Generations",
+        "description": "Approved Units: 378 Single-Family<br><br>Parcel Size: 275 Acres<br><br>Sale At: Tentative Map",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3681978,
+          38.4817066
+        ]
+      },
+      "properties": {
+        "name": "Champion Oaks",
+        "description": "Approved Units: 216 Single-Family<br><br>Parcel Size: 43 Acres<br><br>Sale At: Tentative Map",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4462967,
+          38.6531662
+        ]
+      },
+      "properties": {
+        "name": "Dry Creek",
+        "description": "Approved Units: 135 Single-Family<br><br>Parcel Size: 26.56<br><br>Sale At: Finished Lots<br><br>Homebuilder: Lennar",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.978348,
+          38.705394
+        ]
+      },
+      "properties": {
+        "name": "Green Valley 88",
+        "description": "Approved Units: 178 Single-Family<br><br>Parcel Size: 88 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7144363,
+          37.9364159
+        ]
+      },
+      "properties": {
+        "name": "Brentwood II",
+        "description": "Approved Units: 57 Single-Family<br><br>Parcel Size: 13.6 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3309346,
+          38.8678105
+        ]
+      },
+      "properties": {
+        "name": "Lincoln Village 7",
+        "description": "Approved Units: 96 Single-Family<br><br>Parcel Size: 20.3 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.401363,
+          38.70015
+        ]
+      },
+      "properties": {
+        "name": "Antelope Elverta",
+        "description": "Approved Units: 320 Single-Family<br><br>Parcel Size: 43 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2945529,
+          38.2644378
+        ]
+      },
+      "properties": {
+        "name": "Simmerhorn Road",
+        "description": "Approved Units: 126 Single-Family<br><br>Parcel Size: 23 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1354141,
+          37.7394537
+        ]
+      },
+      "properties": {
+        "name": "Ripon",
+        "description": "Approved Units: 100 Single-Family<br><br>Parcel Size: 19.8 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.274574,
+          38.531723
+        ]
+      },
+      "properties": {
+        "name": "Shalako East",
+        "description": "Approved Units: 559 (Type TBD)<br><br>Parcel Size: 135 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    }
+  ]
+}
