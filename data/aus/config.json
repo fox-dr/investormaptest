@@ -1,7 +1,7 @@
 {
   "regionName": "Austin",
   "initialCenter": [-97.74306, 30.26722],
-  "initialZoom": 10,
+  "initialZoom": 9,
   "dataFiles": {
     "communities_aus": "communities_aus.geojson",
     "portfolio_aus": "portfolio_aus.geojson",
