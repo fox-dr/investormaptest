@@ -13,7 +13,7 @@
       "properties": {
         "name": "Stephens Land",
         "description": "Approved Units: 198 Single-Family<br><br>Parcel Size: 80 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -28,7 +28,7 @@
       "properties": {
         "name": "Holton Tract",
         "description": "Approved Units: 53 Single-Family<br><br>Parcel Size: 66 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -43,7 +43,7 @@
       "properties": {
         "name": "Wooten Tract",
         "description": "Approved Units: 225 Single-Family & Townhomes<br><br>Parcel Size: 62 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -58,7 +58,7 @@
       "properties": {
         "name": "Hall Tract",
         "description": "Approved Units: 180 Single-Family & Townhomes<br><br>Parcel Size: 72.5 Acres<br>\u00a0<br>Sale At: Shovel Ready",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -73,7 +73,7 @@
       "properties": {
         "name": "M. H. Freeman Tract",
         "description": "Approved Units: 170 Single-Family<br><br>Parcel Size: 282 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -88,7 +88,7 @@
       "properties": {
         "name": "Yergan Tract",
         "description": "Approved Units: 115 Townhomes<br><br>Parcel Size: 23 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -103,7 +103,7 @@
       "properties": {
         "name": "Delong Tract",
         "description": "Approved Units: 85 Townhomes<br><br>Parcel Size: 21 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -118,7 +118,7 @@
       "properties": {
         "name": "Boisseau Tract",
         "description": "Approved Units: 200 Townhomes<br><br>Parcel Size: 57 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -133,7 +133,7 @@
       "properties": {
         "name": "Weathersbee Tract",
         "description": "Approved Units: 130 Townhomes<br><br>Parcel Size: 22 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -148,7 +148,7 @@
       "properties": {
         "name": "Johnson Tract",
         "description": "Approved Units: TBD (Single-Family)<br><br>Parcel Size: 72 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -163,7 +163,7 @@
       "properties": {
         "name": "Terry Coats Tract",
         "description": "Approved Units: 200 Single-Family & Townhomes<br><br>Parcel Size: 51 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -178,7 +178,7 @@
       "properties": {
         "name": "White Tract",
         "description": "Approved Units: 500 Single-Family & Townhomes<br><br>Parcel Size: 260 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -193,7 +193,7 @@
       "properties": {
         "name": "Stockett Tract",
         "description": "Approved Units: 130 Townhomes<br><br>Parcel Size: 20 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -208,7 +208,7 @@
       "properties": {
         "name": "Stuart Surles Tract",
         "description": "Approved Units: 500 Single-Family & Townhomes<br><br>Parcel Size: 167 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -223,7 +223,7 @@
       "properties": {
         "name": "Honeycutt",
         "description": "Approved Units: 120 Single-Family<br><br>Parcel Size: 43 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -238,7 +238,7 @@
       "properties": {
         "name": "Hopkins Tract",
         "description": "Approved Units: 150 Single-Family & Townhomes<br><br>Parcel Size: 45 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -253,7 +253,7 @@
       "properties": {
         "name": "Johnston Heirs Tract",
         "description": "Approved Units: 15 Townhomes<br><br>Parcel Size: 3.8 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -268,7 +268,7 @@
       "properties": {
         "name": "Cross Link Partners Tract",
         "description": "Approved Units: 144 Single-Family<br><br>Parcel Size: 48 Acres<br><br>Sale At: Finished Lot Development",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -283,7 +283,7 @@
       "properties": {
         "name": "Willis Tract",
         "description": "Approved Units: 150 Single-Family<br><br>Parcel Size: 76 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Unknown"
+        "status": "In Feasibility"
       }
     },
     {
@@ -298,7 +298,7 @@
       "properties": {
         "name": "Kirk Tract",
         "description": "Approved Units: 55 Single-Family<br><br>Parcel Size: 27 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Unknown"
+        "status": "In Feasibility"
       }
     },
     {
@@ -313,7 +313,7 @@
       "properties": {
         "name": "Suggs Tract",
         "description": "Approved Units: 144 Single-Family<br><br>Parcel Size: 144 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Unknown"
+        "status": "In Feasibility"
       }
     }
   ]
