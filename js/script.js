@@ -38,6 +38,15 @@ async function loadRegion(region) {
 async function loadRegionData(region, config) {
   console.log('Loading data files:', config.dataFiles);
 
+  // Clear all existing region-related layers and sources
+  map.getStyle().layers.forEach((layer) => {
+    if (layer.id.startsWith('communities_') || layer.id.startsWith('portfolio_') || layer.id.startsWith('amenities_')) {
+      if (map.getLayer(layer.id)) map.removeLayer(layer.id);
+      if (map.getSource(layer.id)) map.removeSource(layer.id);
+    }
+  });
+  // end Clear all existing region-related layers and sources
+  
   for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
     try {
       const geojsonResponse = await fetch(`data/${region}/${fileName}`);
