@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8193716,
+          30.5738481
+        ]
+      },
+      "properties": {
+        "name": "Glory Hill",
+        "description": "Approved Units: 43 Single-Family Detached<br><br>Parcel Size: 15 Acres<br><br>Sale At: Tentative Map",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4508084,
+          29.248561
+        ]
+      },
+      "properties": {
+        "name": "Wright Ranch",
+        "description": "Approved Units: 635 Single-Family Detached<br><br>Parcel Size: 136 Acres<br><br>Sale At: Tentative Map",
+        "status": "Unknown"
+      }
+    }
+  ]
+}
