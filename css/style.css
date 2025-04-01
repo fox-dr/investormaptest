@@ -44,8 +44,8 @@ body {
 
 #layer-toggle {
   position: absolute;
-  top: 10px;
-  left: 200px;
+  bottom: 70px;
+  left: 10px;
   background: rgba(255,255,255,0.9);
   padding: 6px 10px;
   border-radius: 6px;
