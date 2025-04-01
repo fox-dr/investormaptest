@@ -1,7 +1,7 @@
 {
   "regionName": "Carolinas",
   "initialCenter": [-78.63817, 35.7721],
-  "initialZoom": 10,
+  "initialZoom": 9,
   "dataFiles": {
     "communities_car": "communities_car.geojson",
     "portfolio_car": "portfolio_bay.geojson",
