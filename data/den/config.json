@@ -1,7 +1,7 @@
 {
   "regionName": "Denver",
   "initialCenter": [-104.9903, 39.7392],
-  "initialZoom": 10,
+  "initialZoom": 8.5,
   "dataFiles": {
     "communities_den": "communities_den.geojson",
     "portfolio_den": "portfolio_den.geojson",
