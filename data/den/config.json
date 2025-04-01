@@ -3,13 +3,13 @@
   "initialCenter": [-104.9903, 39.7392],
   "initialZoom": 10,
   "dataFiles": {
-    "communities": "communities_bay.geojson",
-    "portfolio": "portfolio_bay.geojson",
-    "amenities": "amenities_bay.geojson"
+    "communities_den": "communities_den.geojson",
+    "portfolio_den": "portfolio_den.geojson",
+    "amenities_den": "amenities_den.geojson"
   },
   "layerVisibility": {
-    "communities": true,
-    "portfolio": true,
-    "amenities": true
+    "communities_den": true,
+    "portfolio_den": true,
+    "amenities_den": true
   }
 }
