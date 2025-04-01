@@ -3,13 +3,13 @@
   "initialCenter": [-97.74306, 30.26722],
   "initialZoom": 10,
   "dataFiles": {
-    "communities": "communities_bay.geojson",
-    "portfolio": "portfolio_bay.geojson",
-    "amenities": "amenities_bay.geojson"
+    "communities_aus": "communities_aus.geojson",
+    "portfolio_aus": "portfolio_aus.geojson",
+    "amenities_aus": "amenities_aus.geojson"
   },
   "layerVisibility": {
-    "communities": true,
-    "portfolio": true,
-    "amenities": true
+    "communities_aus": true,
+    "portfolio_aus": true,
+    "amenities_aus": true
   }
 }
