@@ -1,0 +1,320 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6626815,
+          35.4250242
+        ]
+      },
+      "properties": {
+        "name": "Stephens Land",
+        "description": "Approved Units: 198 Single-Family<br><br>Parcel Size: 80 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9727364,
+          36.0907594
+        ]
+      },
+      "properties": {
+        "name": "Holton Tract",
+        "description": "Approved Units: 53 Single-Family<br><br>Parcel Size: 66 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.332872,
+          35.807996
+        ]
+      },
+      "properties": {
+        "name": "Wooten Tract",
+        "description": "Approved Units: 225 Single-Family & Townhomes<br><br>Parcel Size: 62 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4301573,
+          35.7826717
+        ]
+      },
+      "properties": {
+        "name": "Hall Tract",
+        "description": "Approved Units: 180 Single-Family & Townhomes<br><br>Parcel Size: 72.5 Acres<br>\u00a0<br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4580543,
+          36.1018163
+        ]
+      },
+      "properties": {
+        "name": "M. H. Freeman Tract",
+        "description": "Approved Units: 170 Single-Family<br><br>Parcel Size: 282 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.907727,
+          36.080024
+        ]
+      },
+      "properties": {
+        "name": "Yergan Tract",
+        "description": "Approved Units: 115 Townhomes<br><br>Parcel Size: 23 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.774185,
+          35.952322
+        ]
+      },
+      "properties": {
+        "name": "Delong Tract",
+        "description": "Approved Units: 85 Townhomes<br><br>Parcel Size: 21 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7715672,
+          35.947512
+        ]
+      },
+      "properties": {
+        "name": "Boisseau Tract",
+        "description": "Approved Units: 200 Townhomes<br><br>Parcel Size: 57 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6012864,
+          35.8882578
+        ]
+      },
+      "properties": {
+        "name": "Weathersbee Tract",
+        "description": "Approved Units: 130 Townhomes<br><br>Parcel Size: 22 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7593,
+          35.417768
+        ]
+      },
+      "properties": {
+        "name": "Johnson Tract",
+        "description": "Approved Units: TBD (Single-Family)<br><br>Parcel Size: 72 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.441647,
+          35.636529
+        ]
+      },
+      "properties": {
+        "name": "Terry Coats Tract",
+        "description": "Approved Units: 200 Single-Family & Townhomes<br><br>Parcel Size: 51 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.57702,
+          35.649656
+        ]
+      },
+      "properties": {
+        "name": "White Tract",
+        "description": "Approved Units: 500 Single-Family & Townhomes<br><br>Parcel Size: 260 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6141709,
+          35.7112642
+        ]
+      },
+      "properties": {
+        "name": "Stockett Tract",
+        "description": "Approved Units: 130 Townhomes<br><br>Parcel Size: 20 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.741277,
+          35.463213
+        ]
+      },
+      "properties": {
+        "name": "Stuart Surles Tract",
+        "description": "Approved Units: 500 Single-Family & Townhomes<br><br>Parcel Size: 167 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7695903,
+          35.4924739
+        ]
+      },
+      "properties": {
+        "name": "Honeycutt",
+        "description": "Approved Units: 120 Single-Family<br><br>Parcel Size: 43 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8302569,
+          35.5771118
+        ]
+      },
+      "properties": {
+        "name": "Hopkins Tract",
+        "description": "Approved Units: 150 Single-Family & Townhomes<br><br>Parcel Size: 45 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5988252,
+          35.8660977
+        ]
+      },
+      "properties": {
+        "name": "Johnston Heirs Tract",
+        "description": "Approved Units: 15 Townhomes<br><br>Parcel Size: 3.8 Acres<br><br>Sale At: TBD",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.774967,
+          35.51012
+        ]
+      },
+      "properties": {
+        "name": "Cross Link Partners Tract",
+        "description": "Approved Units: 144 Single-Family<br><br>Parcel Size: 48 Acres<br><br>Sale At: Finished Lot Development",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4746523,
+          35.7439629
+        ]
+      },
+      "properties": {
+        "name": "Willis Tract",
+        "description": "Approved Units: 150 Single-Family<br><br>Parcel Size: 76 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4725061,
+          35.7388679
+        ]
+      },
+      "properties": {
+        "name": "Kirk Tract",
+        "description": "Approved Units: 55 Single-Family<br><br>Parcel Size: 27 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.271224,
+          35.732566
+        ]
+      },
+      "properties": {
+        "name": "Suggs Tract",
+        "description": "Approved Units: 144 Single-Family<br><br>Parcel Size: 144 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    }
+  ]
+}
