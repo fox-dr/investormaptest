@@ -3,13 +3,13 @@
   "initialCenter": [-78.63817, 35.7721],
   "initialZoom": 10,
   "dataFiles": {
-    "communities": "communities_bay.geojson",
-    "portfolio": "portfolio_bay.geojson",
-    "amenities": "amenities_bay.geojson"
+    "communities_car": "communities_car.geojson",
+    "portfolio_car": "portfolio_bay.geojson",
+    "amenities_car": "amenities_bay.geojson"
   },
   "layerVisibility": {
-    "communities": true,
-    "portfolio": true,
-    "amenities": true
+    "communities_car": true,
+    "portfolio_car": true,
+    "amenities_car": true
   }
 }
