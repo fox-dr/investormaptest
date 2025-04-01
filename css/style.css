@@ -80,8 +80,10 @@ body {
   position: absolute;
   top: 10px;
   right: 10px;
-  width: 120px;
+  width: 90px;              /* smaller size */
   height: auto;
   z-index: 1000;
-  opacity: 0.9;
+  opacity: 0.8;             /* 80% transparency */
+}
+
 }
