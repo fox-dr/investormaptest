@@ -13,7 +13,7 @@
       "properties": {
         "name": "Shalako West",
         "description": "Approved Units: 364 Single-Family Detached<br><br>Parcel Size: 60 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -28,7 +28,7 @@
       "properties": {
         "name": "Silver Springs",
         "description": "Approved Units: 181 Single-Family Detached<br><br>Parcel Size: 187 Acres<br><br>Sale At: Final Map<br><br>Homebuilder: Lennar",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -43,7 +43,7 @@
       "properties": {
         "name": "Southeast Watt",
         "description": "Approved Units: 282 Single-Family Detached<br><br>Parcel Size: 61.1 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -58,7 +58,7 @@
       "properties": {
         "name": "Tokay Crossing",
         "description": "Approved Units: 193 Single-Family<br><br>Parcel Size: 40.9 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -73,7 +73,7 @@
       "properties": {
         "name": "Cameron Meadows",
         "description": "Approved Units: 161 Single-Family<br><br>Parcel Size: 104 Acres<br><br>Sale At: Final Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -88,7 +88,7 @@
       "properties": {
         "name": "Lippi Ranch",
         "description": "Approved Units: 94 Single-Family<br><br>Parcel Size: 9 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -103,7 +103,7 @@
       "properties": {
         "name": "Asano",
         "description": "Approved Units: 211 Single-Family<br><br>Parcel Size: 44 Acres<br><br>Sale At: Final Map<br><br>Homebuilder: Khov",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -118,7 +118,7 @@
       "properties": {
         "name": "Generations",
         "description": "Approved Units: 378 Single-Family<br><br>Parcel Size: 275 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -133,7 +133,7 @@
       "properties": {
         "name": "Champion Oaks",
         "description": "Approved Units: 216 Single-Family<br><br>Parcel Size: 43 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -148,7 +148,7 @@
       "properties": {
         "name": "Dry Creek",
         "description": "Approved Units: 135 Single-Family<br><br>Parcel Size: 26.56<br><br>Sale At: Finished Lots<br><br>Homebuilder: Lennar",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -163,7 +163,7 @@
       "properties": {
         "name": "Green Valley 88",
         "description": "Approved Units: 178 Single-Family<br><br>Parcel Size: 88 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -178,7 +178,7 @@
       "properties": {
         "name": "Brentwood II",
         "description": "Approved Units: 57 Single-Family<br><br>Parcel Size: 13.6 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -193,7 +193,7 @@
       "properties": {
         "name": "Lincoln Village 7",
         "description": "Approved Units: 96 Single-Family<br><br>Parcel Size: 20.3 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -208,7 +208,7 @@
       "properties": {
         "name": "Antelope Elverta",
         "description": "Approved Units: 320 Single-Family<br><br>Parcel Size: 43 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -223,7 +223,7 @@
       "properties": {
         "name": "Simmerhorn Road",
         "description": "Approved Units: 126 Single-Family<br><br>Parcel Size: 23 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -238,7 +238,7 @@
       "properties": {
         "name": "Ripon",
         "description": "Approved Units: 100 Single-Family<br><br>Parcel Size: 19.8 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -253,7 +253,7 @@
       "properties": {
         "name": "Shalako East",
         "description": "Approved Units: 559 (Type TBD)<br><br>Parcel Size: 135 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "In Feasibility"
       }
     }
   ]
