@@ -13,7 +13,7 @@
       "properties": {
         "name": "Chino Hills",
         "description": "Approved Units: 50 Single-Family Detached<br><br>Parcel Size: 80 Acres<br><br>Sale At: Tentative Map<br><br>Homebuilder: Trumark",
-        "status": "Unknown"
+        "status": "Sold"
       }
     },
     {
@@ -28,7 +28,7 @@
       "properties": {
         "name": "Texas Street",
         "description": "Approved Units: 35 Single-Family Detached<br><br>Parcel Size: 13.1 Acres<br><br>Sale At: Tentative Map<br><br>Homebuilder: TriPointe",
-        "status": "Unknown"
+        "status": "Sold"
       }
     },
     {
@@ -43,7 +43,7 @@
       "properties": {
         "name": "East Vista",
         "description": "Approved Units: 51 2-Story Townhomes<br><br>Parcel Size: 3.7 Acres<br><br>Sale At: Tentative Map<br><br>Homebuilder: TriPointe",
-        "status": "Unknown"
+        "status": "Sold"
       }
     },
     {
@@ -58,7 +58,7 @@
       "properties": {
         "name": "Kearny Mesa Murphy Canyon",
         "description": "Approved Units: 278 Townhomes / 3-Story Rowhouses<br><br>Parcel Size: 22.3 Acres<br><br>Sale At:\u00a0Mass Grading Plan / Permit",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -73,7 +73,7 @@
       "properties": {
         "name": "Arroyo Vista",
         "description": "Approved Units: 231 Single-Family Detached<br><br>Parcel Size: 139 Acres<br><br>Sale At: Final Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -88,7 +88,7 @@
       "properties": {
         "name": "Vista Foothill",
         "description": "Approved Units: 24 Single-Family Detached<br><br>Parcel Size: 13.1 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -103,7 +103,7 @@
       "properties": {
         "name": "Vista Old Taylor",
         "description": "Approved Units: 26 Single-Family Detached<br><br>Parcel Size: 6.8 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -118,7 +118,7 @@
       "properties": {
         "name": "Oceanside Garrison",
         "description": "Approved Units: 132 Single-Family Detached & Townhomes<br><br>Parcel Size: 8.3 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -133,7 +133,7 @@
       "properties": {
         "name": "Westminster",
         "description": "Approved Units: 89 Townhomes<br><br>Parcel Size: 3.62 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -148,7 +148,7 @@
       "properties": {
         "name": "Baseline",
         "description": "Approved Units: 50 Townhomes<br><br>Parcel Size: 2.4 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -163,7 +163,7 @@
       "properties": {
         "name": "Conway Escondido",
         "description": "Approved Units: 29 Single-Family<br><br>Parcel Size: 10.38 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -178,7 +178,7 @@
       "properties": {
         "name": "El Sereno",
         "description": "Approved Units: 42 Single-Family Detached<br><br>Parcel Size: 5.03 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -193,7 +193,7 @@
       "properties": {
         "name": "High Point",
         "description": "Approved Units: 36 Single-Family Detached<br><br>Parcel Size: 451 Acres<br><br>Sale At: Final Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     },
     {
@@ -208,7 +208,7 @@
       "properties": {
         "name": "Temecula De Portola",
         "description": "Approved Units: 256 2-Story Single-Family Detached<br><br>Parcel Size: 77.8 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -223,7 +223,7 @@
       "properties": {
         "name": "Norwalk Imperial Hwy.",
         "description": "Approved Units: 78 3-Story Townhomes<br><br>Parcel Size: 4.4 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -238,7 +238,7 @@
       "properties": {
         "name": "Bella Vista",
         "description": "Approved Units: 17 2-Story Single-Family Detached<br><br>Parcel Size: 10 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -253,7 +253,7 @@
       "properties": {
         "name": "Cactus Flower",
         "description": "Approved Units: 130 2-Story Single-Family Detached<br><br>Parcel Size: 29 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "LOI"
       }
     },
     {
@@ -268,7 +268,7 @@
       "properties": {
         "name": "Del Norte West Covina",
         "description": "Approved Units: 178 Single-Family Detached & Townhomes<br><br>Parcel Size: 13.6 Acres<br><br>Sale At: TBD",
-        "status": "Unknown"
+        "status": "LOI"
       }
     }
   ]
