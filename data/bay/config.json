@@ -8,8 +8,8 @@
     "amenities_bay": "amenities_bay.geojson"
   },
   "layerVisibility": {
-    "communities": true,
-    "portfolio": true,
-    "amenities": true
+    "communities_bay": true,
+    "portfolio_bay": true,
+    "amenities_bay": true
   }
 }
