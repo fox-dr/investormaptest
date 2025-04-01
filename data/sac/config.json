@@ -8,8 +8,8 @@
     "amenities_sac": "amenities_sac.geojson"
   },
   "layerVisibility": {
-    "communities": true,
-    "portfolio": true,
-    "amenities": true
+    "communities_sac": true,
+    "portfolio_sac": true,
+    "amenities_sac": true
   }
 }
