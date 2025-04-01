@@ -1,7 +1,7 @@
 {
   "regionName": "San Diego",
   "initialCenter": [-116.6752, 33.5266],
-  "initialZoom": 7.8,
+  "initialZoom": 7.7,
   "dataFiles": {
     "communities_sca": "communities_sca.geojson",
     "portfolio_sca": "portfolio_sca.geojson",
