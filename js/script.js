@@ -4,6 +4,8 @@ const regions = ['aus', 'bay', 'car', 'den', 'sac', 'sca', 'TTLC'];
 let map;
 
 async function loadRegion(region) {
+  document.getElementById('toggle-communities').checked = true;
+
   try {
     const configResponse = await fetch(`data/${region}/config.json`);
     const config = await configResponse.json();
