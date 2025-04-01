@@ -4,8 +4,8 @@
   "initialZoom": 9,
   "dataFiles": {
     "communities_car": "communities_car.geojson",
-    "portfolio_car": "portfolio_bay.geojson",
-    "amenities_car": "amenities_bay.geojson"
+    "portfolio_car": "portfolio_car.geojson",
+    "amenities_car": "amenities_car.geojson"
   },
   "layerVisibility": {
     "communities_car": true,
