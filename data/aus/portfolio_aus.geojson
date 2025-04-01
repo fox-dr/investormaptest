@@ -13,7 +13,7 @@
       "properties": {
         "name": "Glory Hill",
         "description": "Approved Units: 43 Single-Family Detached<br><br>Parcel Size: 15 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Sold"
       }
     },
     {
@@ -28,7 +28,7 @@
       "properties": {
         "name": "Wright Ranch",
         "description": "Approved Units: 635 Single-Family Detached<br><br>Parcel Size: 136 Acres<br><br>Sale At: Tentative Map",
-        "status": "Unknown"
+        "status": "Onboarded"
       }
     }
   ]
