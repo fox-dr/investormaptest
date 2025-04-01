@@ -42,6 +42,19 @@ body {
   background-color: #e0e0e0;
 }
 
+#layer-toggle {
+  position: absolute;
+  top: 10px;
+  left: 200px;
+  background: rgba(255,255,255,0.9);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  z-index: 1000;
+  font-family: 'Lato', sans-serif;
+}
+
 #legend {
   position: absolute;
   bottom: 20px;
