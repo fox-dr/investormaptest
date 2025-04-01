@@ -177,6 +177,18 @@ if (layerType === 'circle') {
       console.error(`Failed to load ${layerName}:`, e);
     }
   }
+//  toggle communities
+document.getElementById('toggle-communities').onchange = function () {
+  const visible = this.checked ? 'visible' : 'none';
+  Object.keys(config.dataFiles).forEach(layerName => {
+    if (layerName.startsWith('communities_')) {
+      if (map.getLayer(layerName)) {
+        map.setLayoutProperty(layerName, 'visibility', visible);
+      }
+    }
+  });
+};
+//  end toggle
 }
 
 function createRegionSelector() {
