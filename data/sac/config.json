@@ -1,7 +1,7 @@
 {
   "regionName": "Sacramento",
   "initialCenter": [-121.4944, 38.5816],
-  "initialZoom": 10,
+  "initialZoom": 9,
   "dataFiles": {
     "communities_sac": "communities_sac.geojson",
     "portfolio_sac": "portfolio_sac.geojson",
