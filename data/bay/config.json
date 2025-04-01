@@ -1,6 +1,6 @@
 {
   "regionName": "Bay Area",
-  "initialCenter": [-122.4194, 37.7749],
+  "initialCenter": [-121.9596, 37.7726],
   "initialZoom": 8,
   "dataFiles": {
     "communities_bay": "communities_bay.geojson",
