@@ -1,0 +1,395 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0369992,
+          39.8127691
+        ]
+      },
+      "properties": {
+        "name": "Lowell",
+        "description": "Approved Units: 116 Duplex<br><br>Parcel Size: 7 Acres<br><br>Sale At: Shovel Ready<br><br>Homebuilder: Core Spaces",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.024002,
+          39.7982129
+        ]
+      },
+      "properties": {
+        "name": "56th & Federal",
+        "description": "Approved Units: 82 Townhomes<br><br>Parcel Size: 4.6 Acres<br><br>Sale At: Shovel Ready<br><br>Homebuilder: Trumark",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.965188,
+          39.9217268
+        ]
+      },
+      "properties": {
+        "name": "Eastlake",
+        "description": "Approved Units: 166 Townhomes & 340 Multi-Family<br><br>Parcel Size: 24.5 Acres<br><br>Sale At: Shovel Ready & Tentative Map<br><br>Homebuilder:\u00a0Mill Creek Residential (Townhomes) and Crescent Communities (Multi-Family Apartments)",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0748343,
+          40.3443712
+        ]
+      },
+      "properties": {
+        "name": "Broadmeadow",
+        "description": "Approved Units: 198 Single-Family (Detached & Duplex)<br><br>Parcel Size: 62 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1113576,
+          40.5492293
+        ]
+      },
+      "properties": {
+        "name": "Taft Hill",
+        "description": "Approved Units: 54 Single-Family Detached<br><br>Parcel Size: 12.4 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1231008,
+          39.7785393
+        ]
+      },
+      "properties": {
+        "name": "Prospect Lake",
+        "description": "Approved Units: 47 Townhomes<br><br>Parcel Size: 2.36 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.998449597121,
+          40.1752888707607
+        ]
+      },
+      "properties": {
+        "name": "Kimball Creek",
+        "description": "Approved Units: 138 Single-Family Detached<br><br>Parcel Size: 28.8 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7204781,
+          39.5246847
+        ]
+      },
+      "properties": {
+        "name": "Cicely Ridge",
+        "description": "Approved Units: 160\u00a0Single-Family Detached, Duplexes, Multi-Family & Commercial<br><br>Parcel Size: 40 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1670646,
+          40.1532088
+        ]
+      },
+      "properties": {
+        "name": "Nelson Pointe",
+        "description": "Approved Units: 660 Single-Family Detached, Duplexes, Multi-Family & Commercial<br><br>Parcel Size: 159 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.072238632353,
+          40.330847921253
+        ]
+      },
+      "properties": {
+        "name": "Mountain View",
+        "description": "Approved Units: 500 Single-Family Detached, Duplexes, Multi-Family & Commercial<br><br>Parcel Size: 100 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0667097,
+          40.0551006
+        ]
+      },
+      "properties": {
+        "name": "Jasper",
+        "description": "Approved Units: 304 Single-Family Detached<br><br>Parcel Size: 38 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0667881,
+          40.3213135
+        ]
+      },
+      "properties": {
+        "name": "420 E CR 10",
+        "description": "Approved Units: 248 Single-Family Detached<br><br>Parcel Size: 31 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0070031,
+          40.0136476
+        ]
+      },
+      "properties": {
+        "name": "Erie Commons",
+        "description": "Approved Units: 61 Single-Family Detached<br><br>Parcel Size: 17 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0397523,
+          40.0918985
+        ]
+      },
+      "properties": {
+        "name": "Wyndham Hill",
+        "description": "Approved Units: 74 Duplex<br><br>Parcel Size: 9.3 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9403,
+          39.8585464
+        ]
+      },
+      "properties": {
+        "name": "9200 Colorado",
+        "description": "Approved Units: 92 Single-Family Detached<br><br>Parcel Size: 11.4 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9338675,
+          39.8083196
+        ]
+      },
+      "properties": {
+        "name": "Second Creek",
+        "description": "Approved Units: 91 Single-Family Detached & Attached<br><br>Parcel Size: 11.5 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.5568116,
+          39.4945787
+        ]
+      },
+      "properties": {
+        "name": "Hunt Circle",
+        "description": "Approved Units: 213 Single-Family Detached<br><br>Parcel Size: 71 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1349216,
+          40.3765487
+        ]
+      },
+      "properties": {
+        "name": "1500 S CR 21",
+        "description": "Approved Units: 4 Single-Family Detached<br><br>Parcel Size: 6 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9985899,
+          40.2333174
+        ]
+      },
+      "properties": {
+        "name": "Kitely Ranch",
+        "description": "Approved Units: 433\u00a0Single-Family Detached, Duplexes & Commercial<br><br>Parcel Size: 130.8 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0107692,
+          40.4989734
+        ]
+      },
+      "properties": {
+        "name": "3480 Egret Lane",
+        "description": "Approved Units: 75 Single-Family Detached & Attached<br><br>Parcel Size: 18.8 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9381113,
+          40.4863086
+        ]
+      },
+      "properties": {
+        "name": "Jacoby Farm",
+        "description": "Approved Units: 150 Duplexes/Townhomes & Commercial<br><br>Parcel Size: 15 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6921874,
+          40.3763701
+        ]
+      },
+      "properties": {
+        "name": "AJ Gold",
+        "description": "Approved Units: 640 Single-Family Detached & Attached<br><br>Parcel Size: 160 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.945086,
+          40.055905
+        ]
+      },
+      "properties": {
+        "name": "3835 Colorado Blvd.",
+        "description": "Approved Units: 88 Single-Family Detached<br><br>Parcel Size: 22 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.033785,
+          39.509589
+        ]
+      },
+      "properties": {
+        "name": "7811 Titan",
+        "description": "Approved Units: 260 (Unit Type TBD)<br><br>Parcel Size: 51.7 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9664,
+          40.5488
+        ]
+      },
+      "properties": {
+        "name": "Martingale Farm / Countryside Estates",
+        "description": "Approved Units: 840 (Unit Type TBD)<br><br>Parcel Size: 140 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1149119,
+          40.589242
+        ]
+      },
+      "properties": {
+        "name": "Sanctuary on the Green",
+        "description": "Approved Units:\u00a0166 Single-Family Detached, 14 Duplexes, 32 Townhomes<br><br>Parcel Size: 41.3 Acres<br><br>Sale At: Shovel Ready",
+        "status": "Unknown"
+      }
+    }
+  ]
+}
