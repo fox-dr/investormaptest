@@ -12,10 +12,8 @@
       },
       "properties": {
         "name": "Glory Hill",
-        "status": "Sold",
-        "uuid": "220073a9-c392-5806-b489-198813eeeb47",
-        "last_updated": "2025-04-01T22:46:04.599649",
-        "description": "Units: TBD<br><br>Parcel Size: TBD<br><br>Sale At: TBD"
+        "description": "Approved Units: 43 Single-Family Detached<br><br>Parcel Size: 15 Acres<br><br>Sale At: Tentative Map",
+        "status": "Sold"
       }
     },
     {
@@ -29,10 +27,8 @@
       },
       "properties": {
         "name": "Wright Ranch",
-        "status": "Onboarded",
-        "uuid": "84e2cd94-1748-5685-a5a9-8443f8f32372",
-        "last_updated": "2025-04-01T22:46:04.599675",
-        "description": "Units: TBD<br><br>Parcel Size: TBD<br><br>Sale At: TBD"
+        "description": "Approved Units: 635 Single-Family Detached<br><br>Parcel Size: 136 Acres<br><br>Sale At: Tentative Map",
+        "status": "Onboarded"
       }
     }
   ]
