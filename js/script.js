@@ -75,8 +75,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
          layerType = 'circle';
          if (layerName.startsWith('portfolio_')) {
            paint = {
-             'circle-radius': 6,
-             'circle-radius': [
+               'circle-radius': [
                'interpolate',
                ['linear'],
                ['zoom'],
