@@ -5,7 +5,7 @@
   "dataFiles": {
     "communities_bay": "communities_bay.geojson",
     "portfolio_bay": "portfolio_bay.geojson",
-    "amenities_bay": "amenities_bay.geojson"
+    "amenities_bay": "amenities_bay.geojson",
     "commute_corridors_bay": "commute_corridors_bay.geojson"
   },
   "layerVisibility": {
