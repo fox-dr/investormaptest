@@ -12,8 +12,10 @@
       },
       "properties": {
         "name": "Lowell",
-        "description": "Approved Units: 116 Duplex<br><br>Parcel Size: 7 Acres<br><br>Sale At: Shovel Ready<br><br>Homebuilder: Core Spaces",
-        "status": "Sold"
+        "status": "Sold",
+        "uuid": "07692e95-1219-5a5f-b453-bf887b55eb2a",
+        "last_updated": "2025-04-01T22:46:04.600427",
+        "description": "Approved Units: 116 Duplex<br><br>Parcel Size: 7 Acres<br><br>Sale At: Shovel Ready<br><br>Homebuilder: Core Spaces"
       }
     },
     {
@@ -27,8 +29,10 @@
       },
       "properties": {
         "name": "56th & Federal",
-        "description": "Approved Units: 82 Townhomes<br><br>Parcel Size: 4.6 Acres<br><br>Sale At: Shovel Ready<br><br>Homebuilder: Trumark",
-        "status": "Sold"
+        "status": "Sold",
+        "uuid": "d5bd4992-a290-5fe9-bf31-1e67cdccf594",
+        "last_updated": "2025-04-01T22:46:04.600441",
+        "description": "Approved Units: 82 Townhomes<br><br>Parcel Size: 4.6 Acres<br><br>Sale At: Shovel Ready<br><br>Homebuilder: Trumark"
       }
     },
     {
@@ -42,8 +46,10 @@
       },
       "properties": {
         "name": "Eastlake",
-        "description": "Approved Units: 166 Townhomes & 340 Multi-Family<br><br>Parcel Size: 24.5 Acres<br><br>Sale At: Shovel Ready & Tentative Map<br><br>Homebuilder:\u00a0Mill Creek Residential (Townhomes) and Crescent Communities (Multi-Family Apartments)",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "88d2e524-c376-5950-bbd0-2cdef7235f54",
+        "last_updated": "2025-04-01T22:46:04.600451",
+        "description": "Approved Units: 166 Townhomes & 340 Multi-Family<br><br>Parcel Size: 24.5 Acres<br><br>Sale At: Shovel Ready & Tentative Map<br><br>Homebuilder:\u00a0Mill Creek Residential (Townhomes) and Crescent Communities (Multi-Family Apartments)"
       }
     },
     {
@@ -57,8 +63,10 @@
       },
       "properties": {
         "name": "Broadmeadow",
-        "description": "Approved Units: 198 Single-Family (Detached & Duplex)<br><br>Parcel Size: 62 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "a5529c18-53fc-50a1-b65b-299484b2dd06",
+        "last_updated": "2025-04-01T22:46:04.600462",
+        "description": "Approved Units: 198 Single-Family (Detached & Duplex)<br><br>Parcel Size: 62 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -72,8 +80,10 @@
       },
       "properties": {
         "name": "Taft Hill",
-        "description": "Approved Units: 54 Single-Family Detached<br><br>Parcel Size: 12.4 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "0a5bb278-d626-5df2-9195-a766623e567f",
+        "last_updated": "2025-04-01T22:46:04.600474",
+        "description": "Approved Units: 54 Single-Family Detached<br><br>Parcel Size: 12.4 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -87,8 +97,10 @@
       },
       "properties": {
         "name": "Prospect Lake",
-        "description": "Approved Units: 47 Townhomes<br><br>Parcel Size: 2.36 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "0346ee36-08ba-5222-8342-726ec0aae6b8",
+        "last_updated": "2025-04-01T22:46:04.600484",
+        "description": "Approved Units: 47 Townhomes<br><br>Parcel Size: 2.36 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -102,8 +114,10 @@
       },
       "properties": {
         "name": "Kimball Creek",
-        "description": "Approved Units: 138 Single-Family Detached<br><br>Parcel Size: 28.8 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "a7d6ab50-92d2-5850-85b3-817676748d13",
+        "last_updated": "2025-04-01T22:46:04.600495",
+        "description": "Approved Units: 138 Single-Family Detached<br><br>Parcel Size: 28.8 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -117,8 +131,10 @@
       },
       "properties": {
         "name": "Cicely Ridge",
-        "description": "Approved Units: 160\u00a0Single-Family Detached, Duplexes, Multi-Family & Commercial<br><br>Parcel Size: 40 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "44c5a0d2-8902-545c-8f71-062c5fac0caa",
+        "last_updated": "2025-04-01T22:46:04.600506",
+        "description": "Approved Units: 160\u00a0Single-Family Detached, Duplexes, Multi-Family & Commercial<br><br>Parcel Size: 40 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -132,8 +148,10 @@
       },
       "properties": {
         "name": "Nelson Pointe",
-        "description": "Approved Units: 660 Single-Family Detached, Duplexes, Multi-Family & Commercial<br><br>Parcel Size: 159 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "397179ab-19ab-52d0-9312-9836a574a123",
+        "last_updated": "2025-04-01T22:46:04.600517",
+        "description": "Approved Units: 660 Single-Family Detached, Duplexes, Multi-Family & Commercial<br><br>Parcel Size: 159 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -147,8 +165,10 @@
       },
       "properties": {
         "name": "Mountain View",
-        "description": "Approved Units: 500 Single-Family Detached, Duplexes, Multi-Family & Commercial<br><br>Parcel Size: 100 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "e942b692-f92d-59af-a821-d6b245fb0d35",
+        "last_updated": "2025-04-01T22:46:04.600527",
+        "description": "Approved Units: 500 Single-Family Detached, Duplexes, Multi-Family & Commercial<br><br>Parcel Size: 100 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -162,8 +182,10 @@
       },
       "properties": {
         "name": "Jasper",
-        "description": "Approved Units: 304 Single-Family Detached<br><br>Parcel Size: 38 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "c2bc1ef0-89e7-5d83-ad77-ce458ce5e58e",
+        "last_updated": "2025-04-01T22:46:04.600537",
+        "description": "Approved Units: 304 Single-Family Detached<br><br>Parcel Size: 38 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -177,8 +199,10 @@
       },
       "properties": {
         "name": "420 E CR 10",
-        "description": "Approved Units: 248 Single-Family Detached<br><br>Parcel Size: 31 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "769f4c02-fbf4-56d4-8dc5-49fd0c231e41",
+        "last_updated": "2025-04-01T22:46:04.600547",
+        "description": "Approved Units: 248 Single-Family Detached<br><br>Parcel Size: 31 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -192,8 +216,10 @@
       },
       "properties": {
         "name": "Erie Commons",
-        "description": "Approved Units: 61 Single-Family Detached<br><br>Parcel Size: 17 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "8cbc20a5-0406-54d9-9739-bdfe15f4eeb9",
+        "last_updated": "2025-04-01T22:46:04.600557",
+        "description": "Approved Units: 61 Single-Family Detached<br><br>Parcel Size: 17 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -207,8 +233,10 @@
       },
       "properties": {
         "name": "Wyndham Hill",
-        "description": "Approved Units: 74 Duplex<br><br>Parcel Size: 9.3 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "9bea7310-4a07-50d7-9398-2c755888dc79",
+        "last_updated": "2025-04-01T22:46:04.600569",
+        "description": "Approved Units: 74 Duplex<br><br>Parcel Size: 9.3 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -222,8 +250,10 @@
       },
       "properties": {
         "name": "9200 Colorado",
-        "description": "Approved Units: 92 Single-Family Detached<br><br>Parcel Size: 11.4 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "4afb607b-3900-52c3-83a3-f73d1240d619",
+        "last_updated": "2025-04-01T22:46:04.600582",
+        "description": "Approved Units: 92 Single-Family Detached<br><br>Parcel Size: 11.4 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -237,8 +267,10 @@
       },
       "properties": {
         "name": "Second Creek",
-        "description": "Approved Units: 91 Single-Family Detached & Attached<br><br>Parcel Size: 11.5 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "741584f4-6471-5d63-bfa1-40bed5a2268c",
+        "last_updated": "2025-04-01T22:46:04.600599",
+        "description": "Approved Units: 91 Single-Family Detached & Attached<br><br>Parcel Size: 11.5 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -252,8 +284,10 @@
       },
       "properties": {
         "name": "Hunt Circle",
-        "description": "Approved Units: 213 Single-Family Detached<br><br>Parcel Size: 71 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "4e076f8a-f29d-5d91-a4ff-029b5aed914f",
+        "last_updated": "2025-04-01T22:46:04.600613",
+        "description": "Approved Units: 213 Single-Family Detached<br><br>Parcel Size: 71 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -267,8 +301,10 @@
       },
       "properties": {
         "name": "1500 S CR 21",
-        "description": "Approved Units: 4 Single-Family Detached<br><br>Parcel Size: 6 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "fac6cec3-8aca-5dec-b48f-d45447d91b82",
+        "last_updated": "2025-04-01T22:46:04.600629",
+        "description": "Approved Units: 4 Single-Family Detached<br><br>Parcel Size: 6 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -282,8 +318,10 @@
       },
       "properties": {
         "name": "Kitely Ranch",
-        "description": "Approved Units: 433\u00a0Single-Family Detached, Duplexes & Commercial<br><br>Parcel Size: 130.8 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "42318ff1-b7e6-590f-b40f-b68b93763ecb",
+        "last_updated": "2025-04-01T22:46:04.600646",
+        "description": "Approved Units: 433\u00a0Single-Family Detached, Duplexes & Commercial<br><br>Parcel Size: 130.8 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -297,8 +335,10 @@
       },
       "properties": {
         "name": "3480 Egret Lane",
-        "description": "Approved Units: 75 Single-Family Detached & Attached<br><br>Parcel Size: 18.8 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "c39a1fff-4bd1-5208-b991-3aaa80dfeff1",
+        "last_updated": "2025-04-01T22:46:04.600662",
+        "description": "Approved Units: 75 Single-Family Detached & Attached<br><br>Parcel Size: 18.8 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -312,8 +352,10 @@
       },
       "properties": {
         "name": "Jacoby Farm",
-        "description": "Approved Units: 150 Duplexes/Townhomes & Commercial<br><br>Parcel Size: 15 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "f8ea140d-d0a8-5604-9da2-7e67fe66b09c",
+        "last_updated": "2025-04-01T22:46:04.600679",
+        "description": "Approved Units: 150 Duplexes/Townhomes & Commercial<br><br>Parcel Size: 15 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -327,8 +369,10 @@
       },
       "properties": {
         "name": "AJ Gold",
-        "description": "Approved Units: 640 Single-Family Detached & Attached<br><br>Parcel Size: 160 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "d1a207bd-4f84-5436-b9cd-80b837fcd62e",
+        "last_updated": "2025-04-01T22:46:04.600695",
+        "description": "Approved Units: 640 Single-Family Detached & Attached<br><br>Parcel Size: 160 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -342,8 +386,10 @@
       },
       "properties": {
         "name": "3835 Colorado Blvd.",
-        "description": "Approved Units: 88 Single-Family Detached<br><br>Parcel Size: 22 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "f8890ad0-849b-5a78-8953-794962dabfbe",
+        "last_updated": "2025-04-01T22:46:04.600712",
+        "description": "Approved Units: 88 Single-Family Detached<br><br>Parcel Size: 22 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -357,8 +403,10 @@
       },
       "properties": {
         "name": "7811 Titan",
-        "description": "Approved Units: 260 (Unit Type TBD)<br><br>Parcel Size: 51.7 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "a7b360c7-7ac3-543f-a418-d5d84c7af0e1",
+        "last_updated": "2025-04-01T22:46:04.600729",
+        "description": "Approved Units: 260 (Unit Type TBD)<br><br>Parcel Size: 51.7 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -372,8 +420,10 @@
       },
       "properties": {
         "name": "Martingale Farm / Countryside Estates",
-        "description": "Approved Units: 840 (Unit Type TBD)<br><br>Parcel Size: 140 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "6f4d1dda-2a95-5a4d-9067-9a583a04fc9c",
+        "last_updated": "2025-04-01T22:46:04.600747",
+        "description": "Approved Units: 840 (Unit Type TBD)<br><br>Parcel Size: 140 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -387,8 +437,10 @@
       },
       "properties": {
         "name": "Sanctuary on the Green",
-        "description": "Approved Units:\u00a0166 Single-Family Detached, 14 Duplexes, 32 Townhomes<br><br>Parcel Size: 41.3 Acres<br><br>Sale At: Shovel Ready",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "34b05745-e451-514c-bf7f-93d2249e74df",
+        "last_updated": "2025-04-01T22:46:04.600768",
+        "description": "Approved Units:\u00a0166 Single-Family Detached, 14 Duplexes, 32 Townhomes<br><br>Parcel Size: 41.3 Acres<br><br>Sale At: Shovel Ready"
       }
     }
   ]
