@@ -5,11 +5,12 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.0840899, 37.4220035]
+        "coordinates": [-97.7454,30.2800]
       },
       "properties": {
-        "name": "Googleplex",
-        "description": "Google Headquarters"
+        "name": "TTLC Austin Office",
+        "description": "1601 Rio Grande, Suite 340
+Austin, TX 78701"
       }
     }
   ]
