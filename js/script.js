@@ -142,7 +142,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
              'line-width': 2,
            };
          }
-       }
+       
 
        } else {
          console.warn('Unknown geometry type:', geometryType);
