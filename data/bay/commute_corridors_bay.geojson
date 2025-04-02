@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.038215,
+            37.76897
+          ],
+          [
+            -121.978057,
+            37.699432
+          ]
+        ]
+      },
+      "properties": {
+        "name": "I-680 Southbound",
+        "corridor": "I-680",
+        "direction": "Southbound",
+        "congestion_level": "High",
+        "notes": "Regular slowdowns 7\u20139AM, especially near Crow Canyon exit.",
+        "region": "bay",
+        "status": "active"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -121.865,
+            37.706
+          ],
+          [
+            -121.6,
+            37.7
+          ]
+        ]
+      },
+      "properties": {
+        "name": "I-580 Eastbound",
+        "corridor": "I-580",
+        "direction": "Eastbound",
+        "congestion_level": "Medium",
+        "notes": "Typical commute congestion from Castro Valley to Livermore.",
+        "region": "bay",
+        "status": "active"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.401,
+            37.786
+          ],
+          [
+            -122.273,
+            37.804
+          ]
+        ]
+      },
+      "properties": {
+        "name": "US-101 Northbound",
+        "corridor": "US-101",
+        "direction": "Northbound",
+        "congestion_level": "Low",
+        "notes": "Lighter flow northbound during AM hours.",
+        "region": "bay",
+        "status": "active"
+      }
+    }
+  ]
+}
