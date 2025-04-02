@@ -12,8 +12,10 @@
       },
       "properties": {
         "name": "Shalako West",
-        "description": "Approved Units: 364 Single-Family Detached<br><br>Parcel Size: 60 Acres<br><br>Sale At: Tentative Map",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "6ccf36f7-b575-5ea1-976f-6a0a5427a7b2",
+        "last_updated": "2025-04-01T22:46:04.597548",
+        "description": "Approved Units: 364 Single-Family Detached<br><br>Parcel Size: 60 Acres<br><br>Sale At: Tentative Map"
       }
     },
     {
@@ -27,8 +29,10 @@
       },
       "properties": {
         "name": "Silver Springs",
-        "description": "Approved Units: 181 Single-Family Detached<br><br>Parcel Size: 187 Acres<br><br>Sale At: Final Map<br><br>Homebuilder: Lennar",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "82b54f0a-e790-588e-bb3f-b61fb13968bf",
+        "last_updated": "2025-04-01T22:46:04.597579",
+        "description": "Approved Units: 181 Single-Family Detached<br><br>Parcel Size: 187 Acres<br><br>Sale At: Final Map<br><br>Homebuilder: Lennar"
       }
     },
     {
@@ -42,8 +46,10 @@
       },
       "properties": {
         "name": "Southeast Watt",
-        "description": "Approved Units: 282 Single-Family Detached<br><br>Parcel Size: 61.1 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "069cff92-3a2d-50cf-8077-dee69fd41def",
+        "last_updated": "2025-04-01T22:46:04.597594",
+        "description": "Approved Units: 282 Single-Family Detached<br><br>Parcel Size: 61.1 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -57,8 +63,10 @@
       },
       "properties": {
         "name": "Tokay Crossing",
-        "description": "Approved Units: 193 Single-Family<br><br>Parcel Size: 40.9 Acres<br><br>Sale At: Shovel Ready",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "8fad56ef-1933-5017-9989-8932a47e1e94",
+        "last_updated": "2025-04-01T22:46:04.597607",
+        "description": "Approved Units: 193 Single-Family<br><br>Parcel Size: 40.9 Acres<br><br>Sale At: Shovel Ready"
       }
     },
     {
@@ -72,8 +80,10 @@
       },
       "properties": {
         "name": "Cameron Meadows",
-        "description": "Approved Units: 161 Single-Family<br><br>Parcel Size: 104 Acres<br><br>Sale At: Final Map",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "fe4bd261-e726-53bc-99ea-40f4f34e78c2",
+        "last_updated": "2025-04-01T22:46:04.597618",
+        "description": "Approved Units: 161 Single-Family<br><br>Parcel Size: 104 Acres<br><br>Sale At: Final Map"
       }
     },
     {
@@ -87,8 +97,10 @@
       },
       "properties": {
         "name": "Lippi Ranch",
-        "description": "Approved Units: 94 Single-Family<br><br>Parcel Size: 9 Acres<br><br>Sale At: Tentative Map",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "57eb14ca-81fc-57a1-870d-80bec59a950e",
+        "last_updated": "2025-04-01T22:46:04.597630",
+        "description": "Approved Units: 94 Single-Family<br><br>Parcel Size: 9 Acres<br><br>Sale At: Tentative Map"
       }
     },
     {
@@ -102,8 +114,10 @@
       },
       "properties": {
         "name": "Asano",
-        "description": "Approved Units: 211 Single-Family<br><br>Parcel Size: 44 Acres<br><br>Sale At: Final Map<br><br>Homebuilder: Khov",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "ea1b80d4-cc77-5d24-87c5-ec332a6645b0",
+        "last_updated": "2025-04-01T22:46:04.597643",
+        "description": "Approved Units: 211 Single-Family<br><br>Parcel Size: 44 Acres<br><br>Sale At: Final Map<br><br>Homebuilder: Khov"
       }
     },
     {
@@ -117,8 +131,10 @@
       },
       "properties": {
         "name": "Generations",
-        "description": "Approved Units: 378 Single-Family<br><br>Parcel Size: 275 Acres<br><br>Sale At: Tentative Map",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "aed8909d-3f43-560b-9599-2e1ba36f4004",
+        "last_updated": "2025-04-01T22:46:04.597662",
+        "description": "Approved Units: 378 Single-Family<br><br>Parcel Size: 275 Acres<br><br>Sale At: Tentative Map"
       }
     },
     {
@@ -132,8 +148,10 @@
       },
       "properties": {
         "name": "Champion Oaks",
-        "description": "Approved Units: 216 Single-Family<br><br>Parcel Size: 43 Acres<br><br>Sale At: Tentative Map",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "54d4d7ca-80b2-5c3c-9f3b-72c87bd500ac",
+        "last_updated": "2025-04-01T22:46:04.597681",
+        "description": "Approved Units: 216 Single-Family<br><br>Parcel Size: 43 Acres<br><br>Sale At: Tentative Map"
       }
     },
     {
@@ -147,8 +165,10 @@
       },
       "properties": {
         "name": "Dry Creek",
-        "description": "Approved Units: 135 Single-Family<br><br>Parcel Size: 26.56<br><br>Sale At: Finished Lots<br><br>Homebuilder: Lennar",
-        "status": "Onboarded"
+        "status": "Onboarded",
+        "uuid": "0eb4fde2-4121-5b4a-b9b4-b0a2ebb9a79a",
+        "last_updated": "2025-04-01T22:46:04.597701",
+        "description": "Approved Units: 135 Single-Family<br><br>Parcel Size: 26.56<br><br>Sale At: Finished Lots<br><br>Homebuilder: Lennar"
       }
     },
     {
@@ -162,8 +182,10 @@
       },
       "properties": {
         "name": "Green Valley 88",
-        "description": "Approved Units: 178 Single-Family<br><br>Parcel Size: 88 Acres<br><br>Sale At: TBD",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "1ac78c47-94e1-5ba5-b0c0-f3dd9662cf7a",
+        "last_updated": "2025-04-01T22:46:04.597731",
+        "description": "Approved Units: 178 Single-Family<br><br>Parcel Size: 88 Acres<br><br>Sale At: TBD"
       }
     },
     {
@@ -177,8 +199,10 @@
       },
       "properties": {
         "name": "Brentwood II",
-        "description": "Approved Units: 57 Single-Family<br><br>Parcel Size: 13.6 Acres<br><br>Sale At: TBD",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "cffbfc72-950c-5b7d-b71f-0a86bdf5f873",
+        "last_updated": "2025-04-01T22:46:04.597744",
+        "description": "Approved Units: 57 Single-Family<br><br>Parcel Size: 13.6 Acres<br><br>Sale At: TBD"
       }
     },
     {
@@ -192,8 +216,10 @@
       },
       "properties": {
         "name": "Lincoln Village 7",
-        "description": "Approved Units: 96 Single-Family<br><br>Parcel Size: 20.3 Acres<br><br>Sale At: TBD",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "bb6bdfba-bf00-5ec6-994d-3cb8c500a637",
+        "last_updated": "2025-04-01T22:46:04.597755",
+        "description": "Approved Units: 96 Single-Family<br><br>Parcel Size: 20.3 Acres<br><br>Sale At: TBD"
       }
     },
     {
@@ -207,8 +233,10 @@
       },
       "properties": {
         "name": "Antelope Elverta",
-        "description": "Approved Units: 320 Single-Family<br><br>Parcel Size: 43 Acres<br><br>Sale At: TBD",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "a45aa69e-5f9d-5edc-bc80-578a335fa9fa",
+        "last_updated": "2025-04-01T22:46:04.597765",
+        "description": "Approved Units: 320 Single-Family<br><br>Parcel Size: 43 Acres<br><br>Sale At: TBD"
       }
     },
     {
@@ -222,8 +250,10 @@
       },
       "properties": {
         "name": "Simmerhorn Road",
-        "description": "Approved Units: 126 Single-Family<br><br>Parcel Size: 23 Acres<br><br>Sale At: TBD",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "cc2fa460-4ff6-592a-98a5-9e1bcc73ffaa",
+        "last_updated": "2025-04-01T22:46:04.597776",
+        "description": "Approved Units: 126 Single-Family<br><br>Parcel Size: 23 Acres<br><br>Sale At: TBD"
       }
     },
     {
@@ -237,8 +267,10 @@
       },
       "properties": {
         "name": "Ripon",
-        "description": "Approved Units: 100 Single-Family<br><br>Parcel Size: 19.8 Acres<br><br>Sale At: TBD",
-        "status": "LOI"
+        "status": "LOI",
+        "uuid": "bfe70fa3-93f7-5af5-b329-7c1b965cc885",
+        "last_updated": "2025-04-01T22:46:04.597787",
+        "description": "Approved Units: 100 Single-Family<br><br>Parcel Size: 19.8 Acres<br><br>Sale At: TBD"
       }
     },
     {
@@ -252,8 +284,10 @@
       },
       "properties": {
         "name": "Shalako East",
-        "description": "Approved Units: 559 (Type TBD)<br><br>Parcel Size: 135 Acres<br><br>Sale At: TBD",
-        "status": "In Feasibility"
+        "status": "In Feasibility",
+        "uuid": "2bb42a97-6575-5505-8658-3162c247181d",
+        "last_updated": "2025-04-01T22:46:04.597797",
+        "description": "Approved Units: 559 (Type TBD)<br><br>Parcel Size: 135 Acres<br><br>Sale At: TBD"
       }
     }
   ]
