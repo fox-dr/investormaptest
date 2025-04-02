@@ -5,11 +5,11 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.0840899, 37.4220035]
+        "coordinates": [-117.8608, 33.6646]
       },
       "properties": {
-        "name": "Googleplex",
-        "description": "Google Headquarters"
+        "name": "TTLC Newport Beach",
+        "description": "4350 Von Karman Ave, Suite 200 Newport Beach, CA 92660"
       }
     }
   ]
