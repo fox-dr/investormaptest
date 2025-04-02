@@ -90,7 +90,15 @@ async function loadRegionData(region, config) {
           };
         } else {
           paint = {
-            'circle-radius': 6,
+            'circle-radius': [
+              'interpolate',
+              ['linear'],
+              ['zoom'],
+              4, 12,   // Zoomed out → big thumb-friendly targets
+              10, 10,
+              14, 6    // Zoomed in → smaller, more precise
+          ],
+
             'circle-color': '#2979FF',
             'circle-stroke-width': 1,
             'circle-stroke-color': '#fff',
