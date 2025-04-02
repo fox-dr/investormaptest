@@ -11,6 +11,7 @@
   "layerVisibility": {
     "communities_bay": true,
     "portfolio_bay": true,
-    "amenities_bay": true
+    "amenities_bay": true,
+    "commute_corridors_bay": true
   }
 }
