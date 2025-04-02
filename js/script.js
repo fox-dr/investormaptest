@@ -122,10 +122,28 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
          };
        } else if (geometryType.includes('LineString')) {
          layerType = 'line';
-         paint = {
-           'line-color': '#888',
-           'line-width': 2,
-         };
+
+         if (layerName.startsWith('commute_corridors_')) {
+           paint = {
+             'line-width': 4,
+             'line-color': [
+               'match',
+               ['get', 'congestion_level'],
+               'High', '#FF3B30',      // red
+               'Medium', '#FF9500',    // orange
+               'Low', '#34C759',       // green
+               '#A9A9A9'               // fallback: gray
+             ],
+             'line-opacity': 0.8
+           };
+         } else {
+           paint = {
+             'line-color': '#888',
+             'line-width': 2,
+           };
+         }
+       }
+
        } else {
          console.warn('Unknown geometry type:', geometryType);
          continue;
