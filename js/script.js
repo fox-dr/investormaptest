@@ -71,6 +71,31 @@ async function loadRegionData(region, config) {
       let layerType;
       let paint = {};
 
+      if (geometryType.includes('LineString')) {
+        layerType = 'line';
+
+        if (layerName.startsWith('commute_corridors_')) {
+          paint = {
+            'line-width': 4,
+            'line-color': [
+              'match',
+              ['get', 'congestion_level'],
+              'High', '#FF3B30',
+              'Medium', '#FF9500',
+              'Low', '#34C759',
+              '#A9A9A9' // default/fallback
+            ]
+          };
+        } else {
+          paint = {
+            'line-color': '#888',
+            'line-width': 2,
+          };
+        }
+      }
+
+
+      
       if (geometryType === 'Point') {
         layerType = 'circle';
         if (layerName.startsWith('portfolio_')) {
