@@ -42,7 +42,12 @@ async function loadRegionData(region, config) {
 
   // Clear all existing region-related layers and sources
   map.getStyle().layers.forEach((layer) => {
-    if (layer.id.startsWith('communities_') || layer.id.startsWith('portfolio_') || layer.id.startsWith('amenities_') || layer.id.startsWith('commute_corridors_')) {
+    if (
+      layer.id.startsWith('communities_') ||
+      layer.id.startsWith('portfolio_') ||
+      layer.id.startsWith('amenities_') ||
+      layer.id.startsWith('commute_corridors_')
+    ) {
       if (map.getLayer(layer.id)) map.removeLayer(layer.id);
       if (map.getSource(layer.id)) map.removeSource(layer.id);
     }
@@ -82,7 +87,7 @@ async function loadRegionData(region, config) {
               'High', '#FF3B30',
               'Medium', '#FF9500',
               'Low', '#34C759',
-              '#A9A9A9'
+              '#A9A9A9' // fallback
             ]
           };
         } else {
@@ -140,7 +145,6 @@ async function loadRegionData(region, config) {
           'fill-opacity': 0.6,
           'fill-outline-color': 'black',
         };
-
       } else {
         console.warn('Unknown geometry type:', geometryType);
         continue;
@@ -155,41 +159,29 @@ async function loadRegionData(region, config) {
 
       if (layerType === 'circle') {
         map.on('click', layerName, (e) => {
-          console.log('Clicked layer:', layerName);
-          console.log('Feature properties:', e.features[0].properties);
-
           const { geometry, properties } = e.features[0];
           const coords = geometry.coordinates;
-
           let html = '';
 
           if (layerName.startsWith('communities_')) {
-            console.log('Using communities popup logic');
             html += `<b>${properties.community || 'Unnamed'}</b><br>`;
             if (properties.builder) html += `${properties.builder}<br>`;
             if (properties.city && properties.state && properties.zip)
               html += `${properties.city}, ${properties.state} ${properties.zip}<br>`;
             if (properties.price_range) html += `${properties.price_range}<br>`;
             if (properties.sf_range) html += `${properties.sf_range}<br>`;
-
           } else if (layerName.startsWith('portfolio_')) {
-            console.log('Using portfolio popup logic');
             html += `<b>${properties.name || 'Unnamed'}</b><br>`;
             if (properties.description) html += `${properties.description}<br>`;
-
           } else if (layerName.startsWith('amenities_')) {
-            console.log('Using amenities popup logic');
             html += `<b>${properties.name || 'Unnamed Amenity'}</b><br>`;
             if (properties.description) html += `${properties.description}<br>`;
-          } else {
-            console.log('No matching popup logic for layer:', layerName);
           }
 
           if (properties.status) {
             html += `<em>Status:</em> ${properties.status}`;
           }
 
-          console.log('HTML for popup:', html);
           new mapboxgl.Popup().setLngLat(coords).setHTML(html).addTo(map);
         });
 
@@ -208,6 +200,7 @@ async function loadRegionData(region, config) {
     }
   }
 
+  // Toggle community visibility
   document.getElementById('toggle-communities').onchange = function () {
     const visible = this.checked ? 'visible' : 'none';
     Object.keys(config.dataFiles).forEach(layerName => {
@@ -239,5 +232,5 @@ function createRegionSelector() {
 
 document.addEventListener('DOMContentLoaded', () => {
   createRegionSelector();
-  loadRegion('bay'); // Default load
+  loadRegion('bay'); // default region
 });
