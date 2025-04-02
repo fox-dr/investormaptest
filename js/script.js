@@ -164,10 +164,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
        console.log('Using amenities popup logic');
        html += `<b>${properties.name || 'Unnamed Amenity'}</b><br>`;
        if (properties.description) html += `${properties.description}<br>`;
-     }
-
+     
       
- 
           // Future: show image if present
        /*
        if (properties.image) {
