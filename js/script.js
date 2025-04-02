@@ -85,7 +85,7 @@ async function loadRegionData(region, config) {
               'Low', '#34C759',
               '#A9A9A9' // default/fallback
             ]
-          };
+          }
         } else {
           paint = {
             'line-color': '#888',
