@@ -15,7 +15,11 @@
         "status": "Sold",
         "uuid": "8c718b6c-b2c0-5a5d-ac34-51d51b741a83",
         "last_updated": "2025-04-01T22:46:04.598197",
-        "description": "Approved Units: 50 Single-Family Detached<br><br>Parcel Size: 80 Acres<br><br>Sale At: Tentative Map<br><br>Homebuilder: Trumark"
+        "description": "Approved Units: 50 Single-Family Detached<br><br>Parcel Size: 80 Acres<br><br>Sale At: Tentative Map<br><br>Homebuilder: Trumark",
+        "parcel_size_acres": 80.0,
+        "sale_at": "Tentative Map",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -32,7 +36,11 @@
         "status": "Sold",
         "uuid": "9d6d6133-f777-5d27-bef0-86682bebf41d",
         "last_updated": "2025-04-01T22:46:04.598214",
-        "description": "Approved Units: 35 Single-Family Detached<br><br>Parcel Size: 13.1 Acres<br><br>Sale At: Tentative Map<br><br>Homebuilder: TriPointe"
+        "description": "Approved Units: 35 Single-Family Detached<br><br>Parcel Size: 13.1 Acres<br><br>Sale At: Tentative Map<br><br>Homebuilder: TriPointe",
+        "parcel_size_acres": 13.1,
+        "sale_at": "Tentative Map",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -49,7 +57,11 @@
         "status": "Sold",
         "uuid": "c9f5e786-59b8-54e9-a7ec-7b35705ce9e7",
         "last_updated": "2025-04-01T22:46:04.598227",
-        "description": "Approved Units: 51 2-Story Townhomes<br><br>Parcel Size: 3.7 Acres<br><br>Sale At: Tentative Map<br><br>Homebuilder: TriPointe"
+        "description": "Approved Units: 51 2-Story Townhomes<br><br>Parcel Size: 3.7 Acres<br><br>Sale At: Tentative Map<br><br>Homebuilder: TriPointe",
+        "parcel_size_acres": 3.7,
+        "sale_at": "Tentative Map",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -66,7 +78,11 @@
         "status": "Onboarded",
         "uuid": "aa0660a5-b855-5ae4-91ca-07a1eedba723",
         "last_updated": "2025-04-01T22:46:04.598238",
-        "description": "Approved Units: 278 Townhomes / 3-Story Rowhouses<br><br>Parcel Size: 22.3 Acres<br><br>Sale At:\u00a0Mass Grading Plan / Permit"
+        "description": "Approved Units: 278 Townhomes / 3-Story Rowhouses<br><br>Parcel Size: 22.3 Acres<br><br>Sale At:\u00a0Mass Grading Plan / Permit",
+        "parcel_size_acres": 22.3,
+        "sale_at": "Mass Grading Plan / Permit",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -83,7 +99,11 @@
         "status": "Onboarded",
         "uuid": "d977d36a-2912-5cf7-8cf7-6daed26f22e6",
         "last_updated": "2025-04-01T22:46:04.598248",
-        "description": "Approved Units: 231 Single-Family Detached<br><br>Parcel Size: 139 Acres<br><br>Sale At: Final Map"
+        "description": "Approved Units: 231 Single-Family Detached<br><br>Parcel Size: 139 Acres<br><br>Sale At: Final Map",
+        "parcel_size_acres": 139.0,
+        "sale_at": "Final Map",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -100,7 +120,11 @@
         "status": "Onboarded",
         "uuid": "c4f56cc6-e3fe-5c1a-b417-a3648784451e",
         "last_updated": "2025-04-01T22:46:04.598260",
-        "description": "Approved Units: 24 Single-Family Detached<br><br>Parcel Size: 13.1 Acres<br><br>Sale At: Tentative Map"
+        "description": "Approved Units: 24 Single-Family Detached<br><br>Parcel Size: 13.1 Acres<br><br>Sale At: Tentative Map",
+        "parcel_size_acres": 13.1,
+        "sale_at": "Tentative Map",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -117,7 +141,11 @@
         "status": "Onboarded",
         "uuid": "60219cde-7cba-5138-bafd-aa757876614d",
         "last_updated": "2025-04-01T22:46:04.598286",
-        "description": "Approved Units: 26 Single-Family Detached<br><br>Parcel Size: 6.8 Acres<br><br>Sale At: Tentative Map"
+        "description": "Approved Units: 26 Single-Family Detached<br><br>Parcel Size: 6.8 Acres<br><br>Sale At: Tentative Map",
+        "parcel_size_acres": 6.8,
+        "sale_at": "Tentative Map",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -134,7 +162,11 @@
         "status": "Onboarded",
         "uuid": "e4004b02-0673-5214-bf0c-5f088d563922",
         "last_updated": "2025-04-01T22:46:04.598297",
-        "description": "Approved Units: 132 Single-Family Detached & Townhomes<br><br>Parcel Size: 8.3 Acres<br><br>Sale At: Tentative Map"
+        "description": "Approved Units: 132 Single-Family Detached & Townhomes<br><br>Parcel Size: 8.3 Acres<br><br>Sale At: Tentative Map",
+        "parcel_size_acres": 8.3,
+        "sale_at": "Tentative Map",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -151,7 +183,11 @@
         "status": "Onboarded",
         "uuid": "1e736e28-e1ad-5f46-b480-f30e9dced61b",
         "last_updated": "2025-04-01T22:46:04.598307",
-        "description": "Approved Units: 89 Townhomes<br><br>Parcel Size: 3.62 Acres<br><br>Sale At: Tentative Map"
+        "description": "Approved Units: 89 Townhomes<br><br>Parcel Size: 3.62 Acres<br><br>Sale At: Tentative Map",
+        "parcel_size_acres": 3.62,
+        "sale_at": "Tentative Map",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -168,7 +204,11 @@
         "status": "Onboarded",
         "uuid": "c91932cf-bbcf-5c39-a2ce-1e6883a4686e",
         "last_updated": "2025-04-01T22:46:04.598318",
-        "description": "Approved Units: 50 Townhomes<br><br>Parcel Size: 2.4 Acres<br><br>Sale At: TBD"
+        "description": "Approved Units: 50 Townhomes<br><br>Parcel Size: 2.4 Acres<br><br>Sale At: TBD",
+        "parcel_size_acres": 2.4,
+        "sale_at": "TBD",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -185,7 +225,11 @@
         "status": "Onboarded",
         "uuid": "66f25a34-3d59-5117-bec0-e9e084cfdb8d",
         "last_updated": "2025-04-01T22:46:04.598329",
-        "description": "Approved Units: 29 Single-Family<br><br>Parcel Size: 10.38 Acres<br><br>Sale At: Tentative Map"
+        "description": "Approved Units: 29 Single-Family<br><br>Parcel Size: 10.38 Acres<br><br>Sale At: Tentative Map",
+        "parcel_size_acres": 10.38,
+        "sale_at": "Tentative Map",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -202,7 +246,11 @@
         "status": "Onboarded",
         "uuid": "b5a1e2e2-d25d-5bb7-9a6c-952c28f1c683",
         "last_updated": "2025-04-01T22:46:04.598342",
-        "description": "Approved Units: 42 Single-Family Detached<br><br>Parcel Size: 5.03 Acres<br><br>Sale At: Tentative Map"
+        "description": "Approved Units: 42 Single-Family Detached<br><br>Parcel Size: 5.03 Acres<br><br>Sale At: Tentative Map",
+        "parcel_size_acres": 5.03,
+        "sale_at": "Tentative Map",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -219,7 +267,11 @@
         "status": "Onboarded",
         "uuid": "32fab500-f00d-5e72-b888-6630f4b6e166",
         "last_updated": "2025-04-01T22:46:04.598353",
-        "description": "Approved Units: 36 Single-Family Detached<br><br>Parcel Size: 451 Acres<br><br>Sale At: Final Map"
+        "description": "Approved Units: 36 Single-Family Detached<br><br>Parcel Size: 451 Acres<br><br>Sale At: Final Map",
+        "parcel_size_acres": 451.0,
+        "sale_at": "Final Map",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -236,7 +288,11 @@
         "status": "LOI",
         "uuid": "0f071c7b-d240-511c-b224-b3baa2cb2fb9",
         "last_updated": "2025-04-01T22:46:04.598364",
-        "description": "Approved Units: 256 2-Story Single-Family Detached<br><br>Parcel Size: 77.8 Acres<br><br>Sale At: TBD"
+        "description": "Approved Units: 256 2-Story Single-Family Detached<br><br>Parcel Size: 77.8 Acres<br><br>Sale At: TBD",
+        "parcel_size_acres": 77.8,
+        "sale_at": "TBD",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -253,7 +309,11 @@
         "status": "LOI",
         "uuid": "9a5c63cd-afd6-58cc-8c4d-9502230985b1",
         "last_updated": "2025-04-01T22:46:04.598379",
-        "description": "Approved Units: 78 3-Story Townhomes<br><br>Parcel Size: 4.4 Acres<br><br>Sale At: TBD"
+        "description": "Approved Units: 78 3-Story Townhomes<br><br>Parcel Size: 4.4 Acres<br><br>Sale At: TBD",
+        "parcel_size_acres": 4.4,
+        "sale_at": "TBD",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -270,7 +330,11 @@
         "status": "LOI",
         "uuid": "b8c0f852-543f-5f63-a4b2-39be2d0c8e3b",
         "last_updated": "2025-04-01T22:46:04.598390",
-        "description": "Approved Units: 17 2-Story Single-Family Detached<br><br>Parcel Size: 10 Acres<br><br>Sale At: Shovel Ready"
+        "description": "Approved Units: 17 2-Story Single-Family Detached<br><br>Parcel Size: 10 Acres<br><br>Sale At: Shovel Ready",
+        "parcel_size_acres": 10.0,
+        "sale_at": "Shovel Ready",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -287,7 +351,11 @@
         "status": "LOI",
         "uuid": "98c22e2c-c4c4-5ea3-9448-670e43388c88",
         "last_updated": "2025-04-01T22:46:04.598402",
-        "description": "Approved Units: 130 2-Story Single-Family Detached<br><br>Parcel Size: 29 Acres<br><br>Sale At: Tentative Map"
+        "description": "Approved Units: 130 2-Story Single-Family Detached<br><br>Parcel Size: 29 Acres<br><br>Sale At: Tentative Map",
+        "parcel_size_acres": 29.0,
+        "sale_at": "Tentative Map",
+        "img_file": null,
+        "notes": null
       }
     },
     {
@@ -304,7 +372,11 @@
         "status": "LOI",
         "uuid": "dfe82bbe-f9c5-5ab6-919f-f332fc658fa2",
         "last_updated": "2025-04-01T22:46:04.598413",
-        "description": "Approved Units: 178 Single-Family Detached & Townhomes<br><br>Parcel Size: 13.6 Acres<br><br>Sale At: TBD"
+        "description": "Approved Units: 178 Single-Family Detached & Townhomes<br><br>Parcel Size: 13.6 Acres<br><br>Sale At: TBD",
+        "parcel_size_acres": 13.6,
+        "sale_at": "TBD",
+        "img_file": null,
+        "notes": null
       }
     }
   ]
