@@ -145,12 +145,6 @@ async function loadRegionData(region, config) {
           'fill-opacity': 0.6,
           'fill-outline-color': 'black',
         };
-      } else if (geometryType.includes('LineString')) {
-        layerType = 'line';
-        paint = {
-          'line-color': '#888',
-          'line-width': 2,
-        };
       } else {
         console.warn('Unknown geometry type:', geometryType);
         continue;
