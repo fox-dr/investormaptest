@@ -5,11 +5,11 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.0840899, 37.4220035]
+        "coordinates": [-121.9594, 37.7728]
       },
       "properties": {
-        "name": "Googleplex",
-        "description": "Google Headquarters"
+        "name": "TTLC San Ramon",
+        "description": "12647 Alcosta Blvd. San Ramon CA 94583"
       }
     }
   ]
