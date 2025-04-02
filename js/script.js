@@ -160,6 +160,12 @@ if (layerType === 'circle') {
       console.log('Using portfolio popup logic');
       html += `<b>${properties.name || 'Unnamed'}</b><br>`;
       if (properties.description) html += `${properties.description}<br>`;
+      } else if (layerName.startsWith('amenities_')) {
+  console.log('Using amenities popup logic');
+  html += `<b>${properties.name || 'Unnamed Amenity'}</b><br>`;
+  if (properties.description) html += `${properties.description}<br>`;
+}
+
 
          // Future: show image if present
       /*
