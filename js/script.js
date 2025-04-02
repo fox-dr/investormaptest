@@ -164,9 +164,7 @@ if (layerType === 'circle') {
       console.log('Using amenities popup logic');
       html += `<b>${properties.name || 'Unnamed Amenity'}</b><br>`;
       if (properties.description) html += `${properties.description}<br>`;
-    }
-
-
+    
          // Future: show image if present
       /*
       if (properties.image) {
