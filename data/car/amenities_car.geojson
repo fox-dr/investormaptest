@@ -5,11 +5,11 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.0840899, 37.4220035]
+        "coordinates": [-78.6654, 35.8220]
       },
       "properties": {
-        "name": "Googleplex",
-        "description": "Google Headquarters"
+        "name": "TTLC Raleigh",
+        "description": "3101 Glenwood Ave, Suite 205 Raleigh, NC 27612"
       }
     }
   ]
