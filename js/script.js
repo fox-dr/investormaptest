@@ -175,7 +175,11 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
          type: layerType,
          source: layerName,
          paint: paint,
+         layout: {
+           visibility: layerName.startsWith('ca_county_income') ? 'none' : 'visible'
+         }
        });
+
  
  if (layerType === 'circle') {
    map.on('click', layerName, (e) => {
