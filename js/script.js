@@ -121,9 +121,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
              ['linear'],
              ['get', 'median_income'],
              0, '#f0f0f0',        // Very low income — light gray
-             80000, '#a6bddb',    // Moderate — light blue
+             70000, '#a6bddb',    // Moderate — light blue
              90000, '#3690c0',    // High — medium blue
-             110000, '#034e7b'    // Very high — dark blue
+             115000, '#034e7b'    // Very high — dark blue
            ],
             'fill-opacity': 0.7,
             'fill-outline-color': '#ffffff'
