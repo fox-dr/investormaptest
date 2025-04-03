@@ -7,8 +7,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.01554,
-            37.83870
+            -122.02875,
+            37.84954
           ],
           [
             -121.99510,
@@ -21,7 +21,7 @@
         "corridor": "I-680",
         "direction": "Southbound",
         "congestion_level": "High",
-        "notes": "Regular slowdowns 7\u20139AM, especially near Crow Canyon exit.",
+        "notes": "Regular slowdowns 7\u20139AM, especially near Alamo.",
         "region": "bay",
         "status": "active"
       }
@@ -32,12 +32,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -121.865,
-            37.706
+            -121.92006,
+            37.70143
           ],
           [
-            -121.6,
-            37.7
+            -121.79430,
+            37.70075
           ]
         ]
       },
@@ -46,7 +46,7 @@
         "corridor": "I-580",
         "direction": "Eastbound",
         "congestion_level": "Medium",
-        "notes": "Typical commute congestion from Castro Valley to Livermore.",
+        "notes": "Typical commute congestion from I-680 to Isabel.",
         "region": "bay",
         "status": "active"
       }
