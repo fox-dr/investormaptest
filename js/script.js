@@ -116,10 +116,20 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
        } else if (geometryType.includes('Polygon')) {
          layerType = 'fill';
          paint = {
-           'fill-color': '#088',
-           'fill-opacity': 0.6,
-           'fill-outline-color': 'black',
+           'fill-color': [
+             'interpolate',
+             ['linear'],
+             ['get', 'median_income'],
+             0, '#f0f0f0',        // Very low income — light gray
+             80000, '#a6bddb',    // Moderate — light blue
+             90000, '#3690c0',    // High — medium blue
+             110000, '#034e7b'    // Very high — dark blue
+           ],
+            'fill-opacity': 0.7,
+            'fill-outline-color': '#ffffff'
          };
+       }
+
        } else if (geometryType.includes('LineString')) {
          layerType = 'line';
 
