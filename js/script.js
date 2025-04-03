@@ -125,7 +125,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
 
          if (layerName.startsWith('commute_corridors_')) {
            paint = {
-             'line-width': 4,
+             'line-width': 6,
              'line-color': [
                'match',
                ['get', 'congestion_level'],
