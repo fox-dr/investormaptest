@@ -128,8 +128,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
             'fill-opacity': 0.7,
             'fill-outline-color': '#ffffff'
          };
-       }
-
+       
        } else if (geometryType.includes('LineString')) {
          layerType = 'line';
 
