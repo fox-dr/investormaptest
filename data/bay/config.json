@@ -6,12 +6,14 @@
     "communities_bay": "communities_bay.geojson",
     "portfolio_bay": "portfolio_bay.geojson",
     "amenities_bay": "amenities_bay.geojson",
-    "commute_corridors_bay": "commute_corridors_bay.geojson"
+    "commute_corridors_bay": "commute_corridors_bay.geojson",
+    "ca_county_income": "ca_county_income.geojson"
   },
   "layerVisibility": {
     "communities_bay": true,
     "portfolio_bay": true,
     "amenities_bay": true,
-    "commute_corridors_bay": true
+    "commute_corridors_bay": true,
+    "ca_county_income": true
   }
 }
