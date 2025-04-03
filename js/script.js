@@ -67,7 +67,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
        document.getElementById('toggle-income').onchange = function () {
          const visible = this.checked ? 'visible' : 'none';
          Object.keys(config.dataFiles).forEach(layerName => {
-           if (layerName.startsWith('income_')) {
+           if (layerName.startsWith('ca_county_income')) {
              if (map.getLayer(layerName)) {
                map.setLayoutProperty(layerName, 'visibility', visible);
              }
