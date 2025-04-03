@@ -120,8 +120,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
              'interpolate',
              ['linear'],
              ['get', 'median_income'],
-             0, '#f0f0f0',        // Very low income — light gray
-             80000, '#a6bddb',    // Moderate — light blue
+             55000, '#f0f0f0',        // Very low income — light gray
+            78000, '#a6bddb',    // Moderate — light blue
              104000, '#3690c0',    // High — medium blue
              111000, '#034e7b'    // Very high — dark blue
            ],
