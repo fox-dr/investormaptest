@@ -106,6 +106,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
               ],
               'circle-stroke-width': 0.5,
               'circle-stroke-color': '#fff',
+              'circle-opacity': 0.6,
             };
           } else if (layerName.startsWith('portfolio_')) {
             paint = {
