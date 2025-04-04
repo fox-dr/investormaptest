@@ -41,8 +41,6 @@
   box-sizing: border-box;
 }
 
-
-
     #region-selector button:hover {
       background-color: #007cbf;
     }
@@ -52,10 +50,7 @@
 <body>
   <div id="map"></div>
   <div id="region-selector"></div>
- <div id="layer-toggle">
-  <label><input type="checkbox" id="toggle-communities" checked> Show Builder Communities</label>
-  <label><input type="checkbox" id="toggle-income"> Show Income Map</label>
-</div>
+c
 
   <!-- Mapbox JS -->
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
@@ -71,6 +66,15 @@
   <p></p>
   <div class="legend-item"><span class="legend-dot" style="background-color:#2979FF"></span> Builder Communities</div>
 </div>
+
+<div id="legend">
+  <h4>Gen X Income (USD)</h4>
+  <div><span style="background:#f2e5f7"></span> Less than $75,000</div>
+  <div><span style="background:#d4b9da"></span> $75,000–$99,999</div>
+  <div><span style="background:#c994c7"></span> $100,000–$124,999</div>
+  <div><span style="background:#762a83"></span> $125,000+</div>
+</div>
+  
 <img id="ttlc-logo" src="data/assets/TTLCRed.png" alt="TTLC Logo">
 
 </body>
