@@ -101,7 +101,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
                 ['get', 'median_income'],
                 74999, '#f0f0f0',
                 99999, '#a6bddb',
-                124999 '#3690c0',
+                124999, '#3690c0',
                 149999, '#034e7b'
               ],
               'circle-stroke-width': 0.5,
