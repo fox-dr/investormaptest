@@ -98,7 +98,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
               'circle-color': [
                 'interpolate',
                 ['linear'],
-                ['get', 'income_mln'],
+                ['get', 'mln_inc'],
                 74999, '#f0f0f0',
                 99999, '#a6bddb',
                 124999, '#3690c0',
