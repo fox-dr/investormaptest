@@ -68,6 +68,15 @@ body {
   z-index: 1000;
   font-family: 'Lato', sans-serif;
 }
+#legend, #layer-toggle {
+  width: 220px; /* or whatever width your legend uses */
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+
+
 
 .legend-title {
   font-weight: bold;
