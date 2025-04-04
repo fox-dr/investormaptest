@@ -1,0 +1,3755 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.10991,
+          38.99039
+        ]
+      },
+      "properties": {
+        "zip": 95602.0,
+        "city": "Auburn",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 19248.0,
+        "density": 149.6,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 78.03, \"06057\": 21.97}",
+        "county_names_all": "Placer|Nevada",
+        "county_fips_all": "06061|06057",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 87600
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.08559,
+          38.91167
+        ]
+      },
+      "properties": {
+        "zip": 95603.0,
+        "city": "Auburn",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 28195.0,
+        "density": 304.4,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 99.6, \"06017\": 0.4}",
+        "county_names_all": "Placer|El Dorado",
+        "county_fips_all": "06061|06017",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.0982,
+          38.9112
+        ]
+      },
+      "properties": {
+        "zip": 95604.0,
+        "city": "Auburn",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 24.0,
+        "density": 185.6,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 76850
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.53929,
+          38.59289
+        ]
+      },
+      "properties": {
+        "zip": 95605.0,
+        "city": "West Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 14711.0,
+        "density": 1456.7,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 100}",
+        "county_names_all": "Yolo",
+        "county_fips_all": 6113,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.19387,
+          38.75604
+        ]
+      },
+      "properties": {
+        "zip": 95606.0,
+        "city": "Brooks",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 230.0,
+        "density": 2.3,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 98.13, \"06055\": 1.87}",
+        "county_names_all": "Yolo|Napa",
+        "county_fips_all": "06113|06055",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.12585,
+          38.7899
+        ]
+      },
+      "properties": {
+        "zip": 95607.0,
+        "city": "Capay",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 271.0,
+        "density": 0.8,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 99.87, \"06055\": 0.13}",
+        "county_names_all": "Yolo|Napa",
+        "county_fips_all": "06113|06055",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 67469
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.32886,
+          38.62611
+        ]
+      },
+      "properties": {
+        "zip": 95608.0,
+        "city": "Carmichael",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 63052.0,
+        "density": 1840.4,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 69093
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.27219,
+          38.69494
+        ]
+      },
+      "properties": {
+        "zip": 95610.0,
+        "city": "Citrus Heights",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 46759.0,
+        "density": 2277.1,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.58118,
+          38.38644
+        ]
+      },
+      "properties": {
+        "zip": 95612.0,
+        "city": "Clarksburg",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1519.0,
+        "density": 9.2,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 88.11, \"06095\": 11.89}",
+        "county_names_all": "Yolo|Solano",
+        "county_fips_all": "06113|06095",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.89173,
+          38.81272
+        ]
+      },
+      "properties": {
+        "zip": 95613.0,
+        "city": "Coloma",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 0.0,
+        "density": 0.0,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 140000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.98896,
+          38.88649
+        ]
+      },
+      "properties": {
+        "zip": 95614.0,
+        "city": "Cool",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 4504.0,
+        "density": 54.8,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 63594
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.54595,
+          38.31113
+        ]
+      },
+      "properties": {
+        "zip": 95615.0,
+        "city": "Courtland",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 978.0,
+        "density": 17.8,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 74688
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.80044,
+          38.55819
+        ]
+      },
+      "properties": {
+        "zip": 95616.0,
+        "city": "Davis",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 51863.0,
+        "density": 670.7,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 96.75, \"06095\": 3.25}",
+        "county_names_all": "Yolo|Solano",
+        "county_fips_all": "06113|06095",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 115222
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.6917,
+          38.54348
+        ]
+      },
+      "properties": {
+        "zip": 95618.0,
+        "city": "Davis",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 27007.0,
+        "density": 324.5,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 77.29, \"06095\": 22.71}",
+        "county_names_all": "Yolo|Solano",
+        "county_fips_all": "06113|06095",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 74415
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.81401,
+          38.68218
+        ]
+      },
+      "properties": {
+        "zip": 95619.0,
+        "city": "Diamond Springs",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 6362.0,
+        "density": 413.8,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 80768
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.30862,
+          38.69551
+        ]
+      },
+      "properties": {
+        "zip": 95621.0,
+        "city": "Citrus Heights",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 41747.0,
+        "density": 2414.6,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 116477
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.84873,
+          38.6075
+        ]
+      },
+      "properties": {
+        "zip": 95623.0,
+        "city": "El Dorado",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 4725.0,
+        "density": 40.8,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 121747
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.30506,
+          38.43203
+        ]
+      },
+      "properties": {
+        "zip": 95624.0,
+        "city": "Elk Grove",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 68036.0,
+        "density": 576.7,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.48898,
+          38.73378
+        ]
+      },
+      "properties": {
+        "zip": 95626.0,
+        "city": "Elverta",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 4974.0,
+        "density": 50.9,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 57.51, \"06061\": 25.62, \"06101\": 16.87}",
+        "county_names_all": "Sacramento|Placer|Sutter",
+        "county_fips_all": "06067|06061|06101",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 83889
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00959,
+          38.72936
+        ]
+      },
+      "properties": {
+        "zip": 95627.0,
+        "city": "Esparto",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 3935.0,
+        "density": 29.0,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 100}",
+        "county_names_all": "Yolo",
+        "county_fips_all": 6113,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 108106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2543,
+          38.65212
+        ]
+      },
+      "properties": {
+        "zip": 95628.0,
+        "city": "Fair Oaks",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 43783.0,
+        "density": 1311.3,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 103993
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.141,
+          38.66558
+        ]
+      },
+      "properties": {
+        "zip": 95630.0,
+        "city": "Folsom",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 77952.0,
+        "density": 1149.1,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 85809
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.75365,
+          39.05453
+        ]
+      },
+      "properties": {
+        "zip": 95631.0,
+        "city": "Foresthill",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 6934.0,
+        "density": 15.4,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 89716
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.26128,
+          38.27705
+        ]
+      },
+      "properties": {
+        "zip": 95632.0,
+        "city": "Galt",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 31889.0,
+        "density": 108.7,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 69.49, \"06077\": 30.51}",
+        "county_names_all": "Sacramento|San Joaquin",
+        "county_fips_all": "06067|06077",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 45327
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.82328,
+          38.84919
+        ]
+      },
+      "properties": {
+        "zip": 95633.0,
+        "city": "Garden Valley",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2653.0,
+        "density": 26.0,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.69443,
+          38.9123
+        ]
+      },
+      "properties": {
+        "zip": 95634.0,
+        "city": "Georgetown",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 3792.0,
+        "density": 12.3,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.90043,
+          38.91111
+        ]
+      },
+      "properties": {
+        "zip": 95635.0,
+        "city": "Greenwood",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1424.0,
+        "density": 18.6,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 78553
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.51852,
+          38.6274
+        ]
+      },
+      "properties": {
+        "zip": 95636.0,
+        "city": "Grizzly Flats",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1387.0,
+        "density": 46.7,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2729,
+          38.85283
+        ]
+      },
+      "properties": {
+        "zip": 95637.0,
+        "city": "Guinda",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 374.0,
+        "density": 3.4,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 99.44, \"06055\": 0.56}",
+        "county_names_all": "Yolo|Napa",
+        "county_fips_all": "06113|06055",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 128306
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.11481,
+          38.33969
+        ]
+      },
+      "properties": {
+        "zip": 95638.0,
+        "city": "Herald",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2295.0,
+        "density": 11.0,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.49599,
+          38.39202
+        ]
+      },
+      "properties": {
+        "zip": 95639.0,
+        "city": "Hood",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 286.0,
+        "density": 23.8,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 108200
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.60271,
+          38.15046
+        ]
+      },
+      "properties": {
+        "zip": 95641.0,
+        "city": "Isleton",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2086.0,
+        "density": 19.2,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 95.81, \"06077\": 4.19}",
+        "county_names_all": "Sacramento|San Joaquin",
+        "county_fips_all": "06067|06077",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 73724
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.79992,
+          38.89025
+        ]
+      },
+      "properties": {
+        "zip": 95645.0,
+        "city": "Knights Landing",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1363.0,
+        "density": 4.3,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 39.21, \"06101\": 35.98, \"06011\": 24.82}",
+        "county_names_all": "Yolo|Sutter|Colusa",
+        "county_fips_all": "06113|06101|06011",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.31101,
+          38.92643
+        ]
+      },
+      "properties": {
+        "zip": 95648.0,
+        "city": "Lincoln",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 56597.0,
+        "density": 151.4,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 163816
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.16831,
+          38.81339
+        ]
+      },
+      "properties": {
+        "zip": 95650.0,
+        "city": "Loomis",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 13314.0,
+        "density": 224.7,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.93515,
+          38.82088
+        ]
+      },
+      "properties": {
+        "zip": 95651.0,
+        "city": "Lotus",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 623.0,
+        "density": 18.0,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 30833
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.40079,
+          38.66265
+        ]
+      },
+      "properties": {
+        "zip": 95652.0,
+        "city": "Mcclellan",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1665.0,
+        "density": 172.0,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 33657
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.97723,
+          38.69151
+        ]
+      },
+      "properties": {
+        "zip": 95653.0,
+        "city": "Madison",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 682.0,
+        "density": 47.9,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 100}",
+        "county_names_all": "Yolo",
+        "county_fips_all": 6113,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 113194
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.27898,
+          38.54976
+        ]
+      },
+      "properties": {
+        "zip": 95655.0,
+        "city": "Mather",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 5029.0,
+        "density": 203.8,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 153090
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.15173,
+          38.87938
+        ]
+      },
+      "properties": {
+        "zip": 95658.0,
+        "city": "Newcastle",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 6197.0,
+        "density": 102.7,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 81607
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3805,
+          38.67883
+        ]
+      },
+      "properties": {
+        "zip": 95660.0,
+        "city": "North Highlands",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 35668.0,
+        "density": 2167.1,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 98358
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.24925,
+          38.74129
+        ]
+      },
+      "properties": {
+        "zip": 95661.0,
+        "city": "Roseville",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 32599.0,
+        "density": 1405.7,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 95694
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.21988,
+          38.68917
+        ]
+      },
+      "properties": {
+        "zip": 95662.0,
+        "city": "Orangevale",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 31895.0,
+        "density": 1139.6,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 179750
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.18251,
+          38.85739
+        ]
+      },
+      "properties": {
+        "zip": 95663.0,
+        "city": "Penryn",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 3126.0,
+        "density": 138.7,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 62237
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.05136,
+          38.79755
+        ]
+      },
+      "properties": {
+        "zip": 95664.0,
+        "city": "Pilot Hill",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1261.0,
+        "density": 13.3,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 119667
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.79216,
+          38.73407
+        ]
+      },
+      "properties": {
+        "zip": 95667.0,
+        "city": "Placerville",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 36286.0,
+        "density": 82.9,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 78906
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.27963,
+          38.60461
+        ]
+      },
+      "properties": {
+        "zip": 95670.0,
+        "city": "Rancho Cordova",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 59314.0,
+        "density": 1772.9,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.15671,
+          38.69529
+        ]
+      },
+      "properties": {
+        "zip": 95671.0,
+        "city": "Represa",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 4188.0,
+        "density": 1094.9,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 137863
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.99638,
+          38.72664
+        ]
+      },
+      "properties": {
+        "zip": 95672.0,
+        "city": "Rescue",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 5630.0,
+        "density": 100.0,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 74356
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.46603,
+          38.69029
+        ]
+      },
+      "properties": {
+        "zip": 95673.0,
+        "city": "Rio Linda",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 16935.0,
+        "density": 402.3,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 177917
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.23133,
+          38.79298
+        ]
+      },
+      "properties": {
+        "zip": 95677.0,
+        "city": "Rocklin",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 28873.0,
+        "density": 1146.4,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 94153
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.28847,
+          38.76536
+        ]
+      },
+      "properties": {
+        "zip": 95678.0,
+        "city": "Roseville",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 45744.0,
+        "density": 1545.9,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26727,
+          38.90524
+        ]
+      },
+      "properties": {
+        "zip": 95679.0,
+        "city": "Rumsey",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 113.0,
+        "density": 7.4,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 100}",
+        "county_names_all": "Yolo",
+        "county_fips_all": 6113,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.57816,
+          38.24142
+        ]
+      },
+      "properties": {
+        "zip": 95680.0,
+        "city": "Ryde",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 10.0,
+        "density": 1.7,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 47250
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.35422,
+          38.99809
+        ]
+      },
+      "properties": {
+        "zip": 95681.0,
+        "city": "Sheridan",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1525.0,
+        "density": 37.7,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 102022
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.96175,
+          38.60537
+        ]
+      },
+      "properties": {
+        "zip": 95682.0,
+        "city": "Shingle Springs",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 29249.0,
+        "density": 125.6,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 135227
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.09894,
+          38.51018
+        ]
+      },
+      "properties": {
+        "zip": 95683.0,
+        "city": "Sloughhouse",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 6128.0,
+        "density": 27.4,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 73646
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.55066,
+          38.59098
+        ]
+      },
+      "properties": {
+        "zip": 95684.0,
+        "city": "Somerset",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2637.0,
+        "density": 6.4,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 59645
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.58672,
+          38.23429
+        ]
+      },
+      "properties": {
+        "zip": 95690.0,
+        "city": "Walnut Grove",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1793.0,
+        "density": 13.4,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 64.07, \"06095\": 35.93}",
+        "county_names_all": "Sacramento|Solano",
+        "county_fips_all": "06067|06095",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 101389
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.58272,
+          38.62394
+        ]
+      },
+      "properties": {
+        "zip": 95691.0,
+        "city": "West Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 39894.0,
+        "density": 394.7,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 100}",
+        "county_names_all": "Yolo",
+        "county_fips_all": 6113,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 71599
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.21956,
+          38.39851
+        ]
+      },
+      "properties": {
+        "zip": 95693.0,
+        "city": "Wilton",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 7623.0,
+        "density": 50.2,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 86335
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00609,
+          38.56163
+        ]
+      },
+      "properties": {
+        "zip": 95694.0,
+        "city": "Winters",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 10156.0,
+        "density": 29.4,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 79.51, \"06095\": 19.97, \"06055\": 0.52}",
+        "county_names_all": "Yolo|Solano|Napa",
+        "county_fips_all": "06113|06095|06055",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 82056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.85666,
+          38.68847
+        ]
+      },
+      "properties": {
+        "zip": 95695.0,
+        "city": "Woodland",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 38787.0,
+        "density": 102.8,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 100}",
+        "county_names_all": "Yolo",
+        "county_fips_all": 6113,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.80701,
+          38.73284
+        ]
+      },
+      "properties": {
+        "zip": 95697.0,
+        "city": "Yolo",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 264.0,
+        "density": 372.0,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 100}",
+        "county_names_all": "Yolo",
+        "county_fips_all": 6113,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.91012,
+          38.8187
+        ]
+      },
+      "properties": {
+        "zip": 95698.0,
+        "city": "Zamora",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 255.0,
+        "density": 2.6,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 100}",
+        "county_names_all": "Yolo",
+        "county_fips_all": 6113,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.76741,
+          39.22633
+        ]
+      },
+      "properties": {
+        "zip": 95701.0,
+        "city": "Alta",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1077.0,
+        "density": 13.1,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 145156
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.9864,
+          38.99156
+        ]
+      },
+      "properties": {
+        "zip": 95703.0,
+        "city": "Applegate",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2099.0,
+        "density": 91.3,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 103500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.68134,
+          38.74886
+        ]
+      },
+      "properties": {
+        "zip": 95709.0,
+        "city": "Camino",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 5844.0,
+        "density": 94.8,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 93000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.92788,
+          39.08477
+        ]
+      },
+      "properties": {
+        "zip": 95713.0,
+        "city": "Colfax",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 10471.0,
+        "density": 66.5,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.83677,
+          39.2013
+        ]
+      },
+      "properties": {
+        "zip": 95714.0,
+        "city": "Dutch Flat",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 383.0,
+        "density": 41.1,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.64388,
+          39.27495
+        ]
+      },
+      "properties": {
+        "zip": 95715.0,
+        "city": "Emigrant Gap",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 85.0,
+        "density": 1.0,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.84268,
+          39.14258
+        ]
+      },
+      "properties": {
+        "zip": 95717.0,
+        "city": "Gold Run",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 111.0,
+        "density": 2.2,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.26021,
+          38.84536
+        ]
+      },
+      "properties": {
+        "zip": 95720.0,
+        "city": "Kyburz",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 52.0,
+        "density": 0.1,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.09379,
+          38.82341
+        ]
+      },
+      "properties": {
+        "zip": 95721.0,
+        "city": "Echo Lake",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 0.0,
+        "density": 0.0,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 133750
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.02891,
+          39.00467
+        ]
+      },
+      "properties": {
+        "zip": 95722.0,
+        "city": "Meadow Vista",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 4439.0,
+        "density": 164.1,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 74972
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.41989,
+          38.75418
+        ]
+      },
+      "properties": {
+        "zip": 95726.0,
+        "city": "Pollock Pines",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 8229.0,
+        "density": 22.2,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.40358,
+          39.29673
+        ]
+      },
+      "properties": {
+        "zip": 95728.0,
+        "city": "Soda Springs",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 593.0,
+        "density": 8.2,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 76.84, \"06057\": 23.16}",
+        "county_names_all": "Placer|Nevada",
+        "county_fips_all": "06061|06057",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.17936,
+          38.82986
+        ]
+      },
+      "properties": {
+        "zip": 95735.0,
+        "city": "Twin Bridges",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 54.0,
+        "density": 0.5,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.97738,
+          39.03905
+        ]
+      },
+      "properties": {
+        "zip": 95736.0,
+        "city": "Weimar",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 187.0,
+        "density": 312.3,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 162557
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.19854,
+          38.5735
+        ]
+      },
+      "properties": {
+        "zip": 95742.0,
+        "city": "Rancho Cordova",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 16287.0,
+        "density": 124.7,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 217188
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.16712,
+          38.75009
+        ]
+      },
+      "properties": {
+        "zip": 95746.0,
+        "city": "Granite Bay",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 22549.0,
+        "density": 473.2,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 145453
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.36798,
+          38.77963
+        ]
+      },
+      "properties": {
+        "zip": 95747.0,
+        "city": "Roseville",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 78987.0,
+        "density": 724.1,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 122197
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.43643,
+          38.33886
+        ]
+      },
+      "properties": {
+        "zip": 95757.0,
+        "city": "Elk Grove",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 54535.0,
+        "density": 326.5,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 95691
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.44603,
+          38.42932
+        ]
+      },
+      "properties": {
+        "zip": 95758.0,
+        "city": "Elk Grove",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 65999.0,
+        "density": 1870.4,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 174018
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.05755,
+          38.67694
+        ]
+      },
+      "properties": {
+        "zip": 95762.0,
+        "city": "El Dorado Hills",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 47262.0,
+        "density": 438.8,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 118667
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.27772,
+          38.81982
+        ]
+      },
+      "properties": {
+        "zip": 95765.0,
+        "city": "Rocklin",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 43225.0,
+        "density": 1332.8,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 92008
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.70776,
+          38.68889
+        ]
+      },
+      "properties": {
+        "zip": 95776.0,
+        "city": "Woodland",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 27189.0,
+        "density": 119.0,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 100}",
+        "county_names_all": "Yolo",
+        "county_fips_all": 6113,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 76385
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.49077,
+          38.58761
+        ]
+      },
+      "properties": {
+        "zip": 95811.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 8487.0,
+        "density": 1414.7,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 66487
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.49488,
+          38.58064
+        ]
+      },
+      "properties": {
+        "zip": 95814.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 12355.0,
+        "density": 3416.3,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 51606
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.44497,
+          38.60544
+        ]
+      },
+      "properties": {
+        "zip": 95815.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 26511.0,
+        "density": 1337.5,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 82443
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.46543,
+          38.57555
+        ]
+      },
+      "properties": {
+        "zip": 95816.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 19079.0,
+        "density": 2699.8,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 65417
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.45713,
+          38.55057
+        ]
+      },
+      "properties": {
+        "zip": 95817.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 14123.0,
+        "density": 2407.6,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 89239
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.49669,
+          38.55579
+        ]
+      },
+      "properties": {
+        "zip": 95818.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 22798.0,
+        "density": 2280.8,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 126875
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.43772,
+          38.56816
+        ]
+      },
+      "properties": {
+        "zip": 95819.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 20173.0,
+        "density": 2159.9,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 67931
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4442,
+          38.53491
+        ]
+      },
+      "properties": {
+        "zip": 95820.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 35359.0,
+        "density": 2591.9,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 48318
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.38479,
+          38.62541
+        ]
+      },
+      "properties": {
+        "zip": 95821.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 38372.0,
+        "density": 2098.0,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 74600
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.49556,
+          38.51273
+        ]
+      },
+      "properties": {
+        "zip": 95822.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 46269.0,
+        "density": 2127.4,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 49940
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.44266,
+          38.47473
+        ]
+      },
+      "properties": {
+        "zip": 95823.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 83254.0,
+        "density": 2800.3,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 48566
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.44147,
+          38.51746
+        ]
+      },
+      "properties": {
+        "zip": 95824.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 32432.0,
+        "density": 3140.0,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 51759
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.40644,
+          38.5901
+        ]
+      },
+      "properties": {
+        "zip": 95825.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 37077.0,
+        "density": 3074.9,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 81510
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.37885,
+          38.54554
+        ]
+      },
+      "properties": {
+        "zip": 95826.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 40500.0,
+        "density": 1483.9,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 66274
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3253,
+          38.55151
+        ]
+      },
+      "properties": {
+        "zip": 95827.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 21032.0,
+        "density": 907.8,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 64713
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.39598,
+          38.48943
+        ]
+      },
+      "properties": {
+        "zip": 95828.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 60532.0,
+        "density": 1884.4,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 112307
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.33326,
+          38.48759
+        ]
+      },
+      "properties": {
+        "zip": 95829.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 31370.0,
+        "density": 596.4,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.27229,
+          38.49415
+        ]
+      },
+      "properties": {
+        "zip": 95830.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 592.0,
+        "density": 17.6,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 83922
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.52948,
+          38.49599
+        ]
+      },
+      "properties": {
+        "zip": 95831.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 44366.0,
+        "density": 2448.8,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 59278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.49888,
+          38.43979
+        ]
+      },
+      "properties": {
+        "zip": 95832.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 12973.0,
+        "density": 602.7,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 75901
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.51558,
+          38.61529
+        ]
+      },
+      "properties": {
+        "zip": 95833.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 40205.0,
+        "density": 1919.1,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 86030
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.51967,
+          38.64207
+        ]
+      },
+      "properties": {
+        "zip": 95834.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 35062.0,
+        "density": 1358.6,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 108452
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.52464,
+          38.67088
+        ]
+      },
+      "properties": {
+        "zip": 95835.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 41678.0,
+        "density": 1812.3,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.59537,
+          38.68925
+        ]
+      },
+      "properties": {
+        "zip": 95837.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 263.0,
+        "density": 7.1,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 91.86, \"06101\": 8.14}",
+        "county_names_all": "Sacramento|Sutter",
+        "county_fips_all": "06067|06101",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 56629
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.44312,
+          38.64708
+        ]
+      },
+      "properties": {
+        "zip": 95838.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 40295.0,
+        "density": 1690.2,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 59415
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.34812,
+          38.66031
+        ]
+      },
+      "properties": {
+        "zip": 95841.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 21232.0,
+        "density": 2103.2,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 53539
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.34889,
+          38.687
+        ]
+      },
+      "properties": {
+        "zip": 95842.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 35031.0,
+        "density": 3405.4,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 90041
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.36366,
+          38.71532
+        ]
+      },
+      "properties": {
+        "zip": 95843.0,
+        "city": "Antelope",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 48321.0,
+        "density": 2862.9,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 98661
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.37655,
+          38.58512
+        ]
+      },
+      "properties": {
+        "zip": 95864.0,
+        "city": "Sacramento",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 25137.0,
+        "density": 1545.5,
+        "county_fips": 6067.0,
+        "county_name": "Sacramento",
+        "county_weights": "{\"06067\": 100}",
+        "county_names_all": "Sacramento",
+        "county_fips_all": 6067,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 59442
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99847,
+          38.88403
+        ]
+      },
+      "properties": {
+        "zip": 95937.0,
+        "city": "Dunnigan",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 996.0,
+        "density": 7.2,
+        "county_fips": 6113.0,
+        "county_name": "Yolo",
+        "county_weights": "{\"06113\": 100}",
+        "county_names_all": "Yolo",
+        "county_fips_all": 6113,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 79978
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.10364,
+          39.23244
+        ]
+      },
+      "properties": {
+        "zip": 96140.0,
+        "city": "Carnelian Bay",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1099.0,
+        "density": 41.0,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.19872,
+          39.10297
+        ]
+      },
+      "properties": {
+        "zip": 96141.0,
+        "city": "Homewood",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 621.0,
+        "density": 8.3,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 52917
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.02817,
+          39.26174
+        ]
+      },
+      "properties": {
+        "zip": 96143.0,
+        "city": "Kings Beach",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2852.0,
+        "density": 119.3,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 154191
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.15143,
+          39.18203
+        ]
+      },
+      "properties": {
+        "zip": 96145.0,
+        "city": "Tahoe City",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 3291.0,
+        "density": 71.7,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 73427
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.23681,
+          39.22556
+        ]
+      },
+      "properties": {
+        "zip": 96146.0,
+        "city": "Olympic Valley",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1120.0,
+        "density": 10.7,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 43295
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.05767,
+          39.24978
+        ]
+      },
+      "properties": {
+        "zip": 96148.0,
+        "city": "Tahoe Vista",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 462.0,
+        "density": 85.4,
+        "county_fips": 6061.0,
+        "county_name": "Placer",
+        "county_weights": "{\"06061\": 100}",
+        "county_names_all": "Placer",
+        "county_fips_all": 6061,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 77560
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.04409,
+          38.88971
+        ]
+      },
+      "properties": {
+        "zip": 96150.0,
+        "city": "South Lake Tahoe",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 29527.0,
+        "density": 69.9,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.09222,
+          38.75294
+        ]
+      },
+      "properties": {
+        "zip": 96155.0,
+        "city": "South Lake Tahoe",
+        "region": "sac",
+        "state_id": "CA",
+        "state_name": "California",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 0.0,
+        "density": 0.0,
+        "county_fips": 6017.0,
+        "county_name": "El Dorado",
+        "county_weights": "{\"06017\": 100}",
+        "county_names_all": "El Dorado",
+        "county_fips_all": 6017,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Los_Angeles",
+        "miln_inc": 112922
+      }
+    }
+  ]
+}
