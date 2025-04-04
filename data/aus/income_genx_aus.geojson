@@ -1,0 +1,6725 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.25469,
+          31.07555
+        ]
+      },
+      "properties": {
+        "zip": 76501.0,
+        "city": "Temple",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 17223.0,
+        "density": 56.2,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 100}",
+        "county_names_all": "Bell",
+        "county_fips_all": 48027,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 86810
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.41082,
+          31.09388
+        ]
+      },
+      "properties": {
+        "zip": 76502.0,
+        "city": "Temple",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 51175.0,
+        "density": 339.1,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 100}",
+        "county_names_all": "Bell",
+        "county_fips_all": 48027,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 37804
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.37748,
+          31.14135
+        ]
+      },
+      "properties": {
+        "zip": 76504.0,
+        "city": "Temple",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 24856.0,
+        "density": 311.2,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 100}",
+        "county_names_all": "Bell",
+        "county_fips_all": 48027,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 66250
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.42293,
+          30.79955
+        ]
+      },
+      "properties": {
+        "zip": 76511.0,
+        "city": "Bartlett",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2473.0,
+        "density": 11.5,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 57.24, \"48491\": 36.61, \"48331\": 6.15}",
+        "county_names_all": "Bell|Williamson|Milam",
+        "county_fips_all": "48027|48491|48331",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 88341
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50369,
+          31.05777
+        ]
+      },
+      "properties": {
+        "zip": 76513.0,
+        "city": "Belton",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 44855.0,
+        "density": 159.9,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 100}",
+        "county_names_all": "Bell",
+        "county_fips_all": 48027,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 55417
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.13957,
+          30.85091
+        ]
+      },
+      "properties": {
+        "zip": 76518.0,
+        "city": "Buckholts",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1290.0,
+        "density": 4.4,
+        "county_fips": 48331.0,
+        "county_name": "Milam",
+        "county_weights": "{\"48331\": 100}",
+        "county_names_all": "Milam",
+        "county_fips_all": 48331,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.03579,
+          30.98978
+        ]
+      },
+      "properties": {
+        "zip": 76519.0,
+        "city": "Burlington",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 672.0,
+        "density": 4.0,
+        "county_fips": 48331.0,
+        "county_name": "Milam",
+        "county_weights": "{\"48331\": 56.92, \"48027\": 28.49, \"48145\": 14.59}",
+        "county_names_all": "Milam|Bell|Falls",
+        "county_fips_all": "48331|48027|48145",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 69375
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.89972,
+          30.87266
+        ]
+      },
+      "properties": {
+        "zip": 76520.0,
+        "city": "Cameron",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 8098.0,
+        "density": 12.2,
+        "county_fips": 48331.0,
+        "county_name": "Milam",
+        "county_weights": "{\"48331\": 100}",
+        "county_names_all": "Milam",
+        "county_fips_all": 48331,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 71087
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.27795,
+          30.80366
+        ]
+      },
+      "properties": {
+        "zip": 76523.0,
+        "city": "Davilla",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 402.0,
+        "density": 70.9,
+        "county_fips": 48331.0,
+        "county_name": "Milam",
+        "county_weights": "{\"48331\": 99.76, \"48027\": 0.24}",
+        "county_names_all": "Milam|Bell",
+        "county_fips_all": "48331|48027",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 117750
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.79531,
+          30.8379
+        ]
+      },
+      "properties": {
+        "zip": 76527.0,
+        "city": "Florence",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 4686.0,
+        "density": 15.1,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 85.74, \"48053\": 7.62, \"48027\": 6.64}",
+        "county_names_all": "Williamson|Burnet|Bell",
+        "county_fips_all": "48491|48053|48027",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 55504
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.42434,
+          30.71357
+        ]
+      },
+      "properties": {
+        "zip": 76530.0,
+        "city": "Granger",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2704.0,
+        "density": 11.3,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 100}",
+        "county_names_all": "Williamson",
+        "county_fips_all": 48491,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 75642
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.36952,
+          30.88225
+        ]
+      },
+      "properties": {
+        "zip": 76534.0,
+        "city": "Holland",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2812.0,
+        "density": 12.4,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 93.28, \"48331\": 6.72}",
+        "county_names_all": "Bell|Milam",
+        "county_fips_all": "48027|48331",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 99750
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.60645,
+          30.81779
+        ]
+      },
+      "properties": {
+        "zip": 76537.0,
+        "city": "Jarrell",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 12526.0,
+        "density": 90.1,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 100}",
+        "county_names_all": "Williamson",
+        "county_fips_all": 48491,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 88375
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72922,
+          31.11447
+        ]
+      },
+      "properties": {
+        "zip": 76541.0,
+        "city": "Killeen",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 18571.0,
+        "density": 1466.0,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 100}",
+        "county_names_all": "Bell",
+        "county_fips_all": 48027,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 81622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7274,
+          31.00062
+        ]
+      },
+      "properties": {
+        "zip": 76542.0,
+        "city": "Killeen",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 53631.0,
+        "density": 328.6,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 100}",
+        "county_names_all": "Bell",
+        "county_fips_all": 48027,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 53420
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.64077,
+          31.12343
+        ]
+      },
+      "properties": {
+        "zip": 76543.0,
+        "city": "Killeen",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 33713.0,
+        "density": 366.0,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 100}",
+        "county_names_all": "Bell",
+        "county_fips_all": 48027,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 85405
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.64613,
+          31.05299
+        ]
+      },
+      "properties": {
+        "zip": 76548.0,
+        "city": "Harker Heights",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 33071.0,
+        "density": 793.0,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 100}",
+        "county_names_all": "Bell",
+        "county_fips_all": 48027,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 72648
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.82546,
+          31.01583
+        ]
+      },
+      "properties": {
+        "zip": 76549.0,
+        "city": "Killeen",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 56083.0,
+        "density": 230.1,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 88.62, \"48053\": 11.38}",
+        "county_names_all": "Bell|Burnet",
+        "county_fips_all": "48027|48053",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 68994
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3677,
+          30.97583
+        ]
+      },
+      "properties": {
+        "zip": 76554.0,
+        "city": "Little River Academy",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2199.0,
+        "density": 106.1,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 100}",
+        "county_names_all": "Bell",
+        "county_fips_all": 48027,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 64646
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.84487,
+          30.69481
+        ]
+      },
+      "properties": {
+        "zip": 76556.0,
+        "city": "Milano",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1928.0,
+        "density": 8.8,
+        "county_fips": 48331.0,
+        "county_name": "Milam",
+        "county_weights": "{\"48331\": 99.24, \"48051\": 0.76}",
+        "county_names_all": "Milam|Burleson",
+        "county_fips_all": "48331|48051",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 88625
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.39814,
+          31.29075
+        ]
+      },
+      "properties": {
+        "zip": 76557.0,
+        "city": "Moody",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 5341.0,
+        "density": 16.7,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 44.38, \"48309\": 39.75, \"48099\": 15.86}",
+        "county_names_all": "Bell|McLennan|Coryell",
+        "county_fips_all": "48027|48309|48099",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 85032
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61079,
+          31.07987
+        ]
+      },
+      "properties": {
+        "zip": 76559.0,
+        "city": "Nolanville",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 6896.0,
+        "density": 472.6,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 100}",
+        "county_names_all": "Bell",
+        "county_fips_all": 48027,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 79728
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.01363,
+          30.64535
+        ]
+      },
+      "properties": {
+        "zip": 76567.0,
+        "city": "Rockdale",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 8457.0,
+        "density": 15.2,
+        "county_fips": 48331.0,
+        "county_name": "Milam",
+        "county_weights": "{\"48331\": 90.63, \"48051\": 9.37}",
+        "county_names_all": "Milam|Burleson",
+        "county_fips_all": "48331|48051",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 94205
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.21904,
+          30.93873
+        ]
+      },
+      "properties": {
+        "zip": 76569.0,
+        "city": "Rogers",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2946.0,
+        "density": 11.9,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 72.62, \"48331\": 27.38}",
+        "county_names_all": "Bell|Milam",
+        "county_fips_all": "48027|48331",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 27010
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.58448,
+          30.93305
+        ]
+      },
+      "properties": {
+        "zip": 76571.0,
+        "city": "Salado",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 9454.0,
+        "density": 29.2,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 100}",
+        "county_names_all": "Bell",
+        "county_fips_all": 48027,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50226,
+          30.81864
+        ]
+      },
+      "properties": {
+        "zip": 76573.0,
+        "city": "Schwertner",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 22.0,
+        "density": 9.6,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 99.9, \"48027\": 0.1}",
+        "county_names_all": "Williamson|Bell",
+        "county_fips_all": "48491|48027",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 69365
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.38967,
+          30.58297
+        ]
+      },
+      "properties": {
+        "zip": 76574.0,
+        "city": "Taylor",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 19746.0,
+        "density": 51.2,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 99.86, \"48453\": 0.14}",
+        "county_names_all": "Williamson|Travis",
+        "county_fips_all": "48491|48453",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 79679
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1787,
+          30.62128
+        ]
+      },
+      "properties": {
+        "zip": 76577.0,
+        "city": "Thorndale",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 3297.0,
+        "density": 9.1,
+        "county_fips": 48331.0,
+        "county_name": "Milam",
+        "county_weights": "{\"48331\": 90.28, \"48491\": 9.72}",
+        "county_names_all": "Milam|Williamson",
+        "county_fips_all": "48331|48491",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 96250
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.24092,
+          30.53488
+        ]
+      },
+      "properties": {
+        "zip": 76578.0,
+        "city": "Thrall",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1561.0,
+        "density": 9.2,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 99.21, \"48331\": 0.79}",
+        "county_names_all": "Williamson|Milam",
+        "county_fips_all": "48491|48331",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 57730
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26046,
+          31.19894
+        ]
+      },
+      "properties": {
+        "zip": 76579.0,
+        "city": "Troy",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 5729.0,
+        "density": 37.2,
+        "county_fips": 48027.0,
+        "county_name": "Bell",
+        "county_weights": "{\"48027\": 85.39, \"48145\": 14.61}",
+        "county_names_all": "Bell|Falls",
+        "county_fips_all": "48027|48145",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.95543,
+          30.74599
+        ]
+      },
+      "properties": {
+        "zip": 76831.0,
+        "city": "Castell",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 0.0,
+        "density": 0.0,
+        "county_fips": 48299.0,
+        "county_name": "Llano",
+        "county_weights": "{\"48299\": 99.85, \"48319\": 0.15}",
+        "county_names_all": "Llano|Mason",
+        "county_fips_all": "48299|48319",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 39904
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.85742,
+          30.87304
+        ]
+      },
+      "properties": {
+        "zip": 76885.0,
+        "city": "Valley Spring",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 92.0,
+        "density": 0.5,
+        "county_fips": 48299.0,
+        "county_name": "Llano",
+        "county_weights": "{\"48299\": 100}",
+        "county_names_all": "Llano",
+        "county_fips_all": 48299,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.84035,
+          30.3623
+        ]
+      },
+      "properties": {
+        "zip": 77853.0,
+        "city": "Dime Box",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1052.0,
+        "density": 7.0,
+        "county_fips": 48287.0,
+        "county_name": "Lee",
+        "county_weights": "{\"48287\": 100}",
+        "county_names_all": "Lee",
+        "county_fips_all": 48287,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.73927,
+          30.78246
+        ]
+      },
+      "properties": {
+        "zip": 77857.0,
+        "city": "Gause",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1261.0,
+        "density": 5.0,
+        "county_fips": 48331.0,
+        "county_name": "Milam",
+        "county_weights": "{\"48331\": 100}",
+        "county_names_all": "Milam",
+        "county_fips_all": 48331,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 46641
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.73652,
+          29.28305
+        ]
+      },
+      "properties": {
+        "zip": 78002.0,
+        "city": "Atascosa",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 7482.0,
+        "density": 72.2,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 59223
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.53773,
+          29.85767
+        ]
+      },
+      "properties": {
+        "zip": 78004.0,
+        "city": "Bergheim",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 541.0,
+        "density": 18.4,
+        "county_fips": 48259.0,
+        "county_name": "Kendall",
+        "county_weights": "{\"48259\": 100}",
+        "county_names_all": "Kendall",
+        "county_fips_all": 48259,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.71368,
+          29.86869
+        ]
+      },
+      "properties": {
+        "zip": 78006.0,
+        "city": "Boerne",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 42200.0,
+        "density": 47.1,
+        "county_fips": 48259.0,
+        "county_name": "Kendall",
+        "county_weights": "{\"48259\": 92.17, \"48029\": 6.83, \"48091\": 1.0}",
+        "county_names_all": "Kendall|Bexar|Comal",
+        "county_fips_all": "48259|48029|48091",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.90647,
+          29.97798
+        ]
+      },
+      "properties": {
+        "zip": 78013.0,
+        "city": "Comfort",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 5305.0,
+        "density": 9.1,
+        "county_fips": 48259.0,
+        "county_name": "Kendall",
+        "county_weights": "{\"48259\": 50.18, \"48265\": 49.82}",
+        "county_names_all": "Kendall|Kerr",
+        "county_fips_all": "48259|48265",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 64114
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.64785,
+          29.7439
+        ]
+      },
+      "properties": {
+        "zip": 78015.0,
+        "city": "Boerne",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 23548.0,
+        "density": 350.9,
+        "county_fips": 48259.0,
+        "county_name": "Kendall",
+        "county_weights": "{\"48259\": 46.81, \"48029\": 42.81, \"48091\": 10.38}",
+        "county_names_all": "Kendall|Bexar|Comal",
+        "county_fips_all": "48259|48029|48091",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 81607
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.75443,
+          29.61549
+        ]
+      },
+      "properties": {
+        "zip": 78023.0,
+        "city": "Helotes",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 28585.0,
+        "density": 122.9,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 84.85, \"48325\": 13.64, \"48019\": 1.51}",
+        "county_names_all": "Bexar|Medina|Bandera",
+        "county_fips_all": "48029|48325|48019",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 65250
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.53868,
+          29.98193
+        ]
+      },
+      "properties": {
+        "zip": 78027.0,
+        "city": "Kendalia",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 576.0,
+        "density": 3.1,
+        "county_fips": 48259.0,
+        "county_name": "Kendall",
+        "county_weights": "{\"48259\": 100}",
+        "county_names_all": "Kendall",
+        "county_fips_all": 48259,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 65726
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.40732,
+          29.89291
+        ]
+      },
+      "properties": {
+        "zip": 78070.0,
+        "city": "Spring Branch",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 19836.0,
+        "density": 57.4,
+        "county_fips": 48091.0,
+        "county_name": "Comal",
+        "county_weights": "{\"48091\": 82.36, \"48259\": 9.89, \"48031\": 7.75}",
+        "county_names_all": "Comal|Kendall|Blanco",
+        "county_fips_all": "48091|48259|48031",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 47500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6213,
+          29.24569
+        ]
+      },
+      "properties": {
+        "zip": 78073.0,
+        "city": "Von Ormy",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 9510.0,
+        "density": 68.7,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 89.57, \"48013\": 10.43}",
+        "county_names_all": "Bexar|Atascosa",
+        "county_fips_all": "48029|48013",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.79214,
+          29.94234
+        ]
+      },
+      "properties": {
+        "zip": 78074.0,
+        "city": "Waring",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 60.0,
+        "density": 6.1,
+        "county_fips": 48259.0,
+        "county_name": "Kendall",
+        "county_weights": "{\"48259\": 100}",
+        "county_names_all": "Kendall",
+        "county_fips_all": 48259,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.23316,
+          29.34444
+        ]
+      },
+      "properties": {
+        "zip": 78101.0,
+        "city": "Adkins",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 8272.0,
+        "density": 60.4,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 52.36, \"48493\": 47.64}",
+        "county_names_all": "Bexar|Wilson",
+        "county_fips_all": "48029|48493",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 59225
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.22068,
+          29.57354
+        ]
+      },
+      "properties": {
+        "zip": 78108.0,
+        "city": "Cibolo",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 48458.0,
+        "density": 662.6,
+        "county_fips": 48187.0,
+        "county_name": "Guadalupe",
+        "county_weights": "{\"48187\": 87.09, \"48029\": 10.14, \"48091\": 2.77}",
+        "county_names_all": "Guadalupe|Bexar|Comal",
+        "county_fips_all": "48187|48029|48091",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 88724
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.29295,
+          29.47977
+        ]
+      },
+      "properties": {
+        "zip": 78109.0,
+        "city": "Converse",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 56372.0,
+        "density": 782.0,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.37266,
+          29.21353
+        ]
+      },
+      "properties": {
+        "zip": 78112.0,
+        "city": "Elmendorf",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 9959.0,
+        "density": 74.8,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 98.83, \"48493\": 1.17}",
+        "county_names_all": "Bexar|Wilson",
+        "county_fips_all": "48029|48493",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 94516
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.04236,
+          29.60056
+        ]
+      },
+      "properties": {
+        "zip": 78123.0,
+        "city": "McQueeney",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2271.0,
+        "density": 234.7,
+        "county_fips": 48187.0,
+        "county_name": "Guadalupe",
+        "county_weights": "{\"48187\": 100}",
+        "county_names_all": "Guadalupe",
+        "county_fips_all": 48187,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 94926
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.15176,
+          29.5585
+        ]
+      },
+      "properties": {
+        "zip": 78124.0,
+        "city": "Marion",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 6907.0,
+        "density": 46.8,
+        "county_fips": 48187.0,
+        "county_name": "Guadalupe",
+        "county_weights": "{\"48187\": 87.48, \"48029\": 12.52}",
+        "county_names_all": "Guadalupe|Bexar",
+        "county_fips_all": "48187|48029",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.06877,
+          29.69224
+        ]
+      },
+      "properties": {
+        "zip": 78130.0,
+        "city": "New Braunfels",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 95787.0,
+        "density": 406.3,
+        "county_fips": 48187.0,
+        "county_name": "Guadalupe",
+        "county_weights": "{\"48187\": 55.98, \"48091\": 43.52, \"48209\": 0.5}",
+        "county_names_all": "Guadalupe|Comal|Hays",
+        "county_fips_all": "48187|48091|48209",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 136892
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19,
+          29.76299
+        ]
+      },
+      "properties": {
+        "zip": 78132.0,
+        "city": "New Braunfels",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 40383.0,
+        "density": 86.9,
+        "county_fips": 48091.0,
+        "county_name": "Comal",
+        "county_weights": "{\"48091\": 99.47, \"48187\": 0.53}",
+        "county_names_all": "Comal|Guadalupe",
+        "county_fips_all": "48091|48187",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 85088
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.24624,
+          29.88119
+        ]
+      },
+      "properties": {
+        "zip": 78133.0,
+        "city": "Canyon Lake",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 21830.0,
+        "density": 111.6,
+        "county_fips": 48091.0,
+        "county_name": "Comal",
+        "county_weights": "{\"48091\": 100}",
+        "county_names_all": "Comal",
+        "county_fips_all": 48091,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 62827
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.29609,
+          29.54331
+        ]
+      },
+      "properties": {
+        "zip": 78148.0,
+        "city": "Universal City",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 22630.0,
+        "density": 906.3,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2815,
+          29.5381
+        ]
+      },
+      "properties": {
+        "zip": 78150.0,
+        "city": "Jbsa Randolph",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 0.0,
+        "density": 0.0,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 63250
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.20171,
+          29.43046
+        ]
+      },
+      "properties": {
+        "zip": 78152.0,
+        "city": "Saint Hedwig",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 3958.0,
+        "density": 42.4,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 109795
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26574,
+          29.54774
+        ]
+      },
+      "properties": {
+        "zip": 78154.0,
+        "city": "Schertz",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 40898.0,
+        "density": 480.6,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 56.52, \"48187\": 31.82, \"48091\": 11.66}",
+        "county_names_all": "Bexar|Guadalupe|Comal",
+        "county_fips_all": "48029|48187|48091",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 75764
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.93832,
+          29.53305
+        ]
+      },
+      "properties": {
+        "zip": 78155.0,
+        "city": "Seguin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 53449.0,
+        "density": 58.1,
+        "county_fips": 48187.0,
+        "county_name": "Guadalupe",
+        "county_weights": "{\"48187\": 100}",
+        "county_names_all": "Guadalupe",
+        "county_fips_all": 48187,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 45500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.44514,
+          29.7663
+        ]
+      },
+      "properties": {
+        "zip": 78163.0,
+        "city": "Bulverde",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 17455.0,
+        "density": 90.2,
+        "county_fips": 48091.0,
+        "county_name": "Comal",
+        "county_weights": "{\"48091\": 100}",
+        "county_names_all": "Comal",
+        "county_fips_all": 48091,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 91563
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.52861,
+          29.46901
+        ]
+      },
+      "properties": {
+        "zip": 78201.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 43426.0,
+        "density": 2351.9,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 33375
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.46078,
+          29.42821
+        ]
+      },
+      "properties": {
+        "zip": 78202.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 9952.0,
+        "density": 1665.9,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 43310
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4593,
+          29.41513
+        ]
+      },
+      "properties": {
+        "zip": 78203.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 4845.0,
+        "density": 1368.8,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 42981
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.50368,
+          29.40327
+        ]
+      },
+      "properties": {
+        "zip": 78204.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 11944.0,
+        "density": 1701.1,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 97543
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.48647,
+          29.42364
+        ]
+      },
+      "properties": {
+        "zip": 78205.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1653.0,
+        "density": 544.1,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 33776
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.52545,
+          29.42223
+        ]
+      },
+      "properties": {
+        "zip": 78207.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 54128.0,
+        "density": 2862.7,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 22880
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45823,
+          29.4399
+        ]
+      },
+      "properties": {
+        "zip": 78208.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 3877.0,
+        "density": 1532.2,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 91133
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45675,
+          29.48899
+        ]
+      },
+      "properties": {
+        "zip": 78209.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 43363.0,
+        "density": 1646.1,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 47564
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.46433,
+          29.39597
+        ]
+      },
+      "properties": {
+        "zip": 78210.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 34740.0,
+        "density": 1829.9,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 51225
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.56327,
+          29.34644
+        ]
+      },
+      "properties": {
+        "zip": 78211.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 30589.0,
+        "density": 1156.0,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 56450
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.49222,
+          29.46447
+        ]
+      },
+      "properties": {
+        "zip": 78212.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 26670.0,
+        "density": 1487.0,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 57017
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.52358,
+          29.51745
+        ]
+      },
+      "properties": {
+        "zip": 78213.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 41603.0,
+        "density": 1999.6,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 32252
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.47971,
+          29.34944
+        ]
+      },
+      "properties": {
+        "zip": 78214.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 21884.0,
+        "density": 1014.8,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 92964
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.48031,
+          29.4404
+        ]
+      },
+      "properties": {
+        "zip": 78215.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 3258.0,
+        "density": 1184.0,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 59286
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.48999,
+          29.53641
+        ]
+      },
+      "properties": {
+        "zip": 78216.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 42044.0,
+        "density": 1153.8,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 52320
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.42097,
+          29.54073
+        ]
+      },
+      "properties": {
+        "zip": 78217.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 33959.0,
+        "density": 1292.0,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 38808
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.39948,
+          29.49354
+        ]
+      },
+      "properties": {
+        "zip": 78218.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 38291.0,
+        "density": 1322.9,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 47474
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.38459,
+          29.44137
+        ]
+      },
+      "properties": {
+        "zip": 78219.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 16946.0,
+        "density": 416.2,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 38623
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.40152,
+          29.41308
+        ]
+      },
+      "properties": {
+        "zip": 78220.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 18497.0,
+        "density": 925.0,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 59225
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.47529,
+          29.28097
+        ]
+      },
+      "properties": {
+        "zip": 78221.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 41580.0,
+        "density": 442.1,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 60722
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.38334,
+          29.3679
+        ]
+      },
+      "properties": {
+        "zip": 78222.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 25008.0,
+        "density": 506.7,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 48726
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.38675,
+          29.31102
+        ]
+      },
+      "properties": {
+        "zip": 78223.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 57298.0,
+        "density": 540.8,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 91.62, \"48493\": 8.38}",
+        "county_names_all": "Bexar|Wilson",
+        "county_fips_all": "48029|48493",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 52045
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.53751,
+          29.30831
+        ]
+      },
+      "properties": {
+        "zip": 78224.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 20671.0,
+        "density": 523.3,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 53619
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.52586,
+          29.38795
+        ]
+      },
+      "properties": {
+        "zip": 78225.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 13188.0,
+        "density": 2640.6,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 31875
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.56885,
+          29.38442
+        ]
+      },
+      "properties": {
+        "zip": 78226.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 6907.0,
+        "density": 375.6,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 44966
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.64019,
+          29.39654
+        ]
+      },
+      "properties": {
+        "zip": 78227.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 44091.0,
+        "density": 892.1,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 49361
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.57201,
+          29.46072
+        ]
+      },
+      "properties": {
+        "zip": 78228.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 55474.0,
+        "density": 1964.1,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 50519
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.57261,
+          29.5056
+        ]
+      },
+      "properties": {
+        "zip": 78229.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 35195.0,
+        "density": 2350.4,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 72236
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.55571,
+          29.5455
+        ]
+      },
+      "properties": {
+        "zip": 78230.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 42070.0,
+        "density": 1548.0,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 100433
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.54504,
+          29.57978
+        ]
+      },
+      "properties": {
+        "zip": 78231.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 9966.0,
+        "density": 941.1,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 100705
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.47503,
+          29.58792
+        ]
+      },
+      "properties": {
+        "zip": 78232.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 36277.0,
+        "density": 1178.3,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 75455
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.36323,
+          29.55483
+        ]
+      },
+      "properties": {
+        "zip": 78233.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 47659.0,
+        "density": 1346.1,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 160114
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.43715,
+          29.46108
+        ]
+      },
+      "properties": {
+        "zip": 78234.0,
+        "city": "Jbsa Ft Sam Houston",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 6281.0,
+        "density": 476.8,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 66923
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.43934,
+          29.34244
+        ]
+      },
+      "properties": {
+        "zip": 78235.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2440.0,
+        "density": 494.5,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 126204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.62256,
+          29.3859
+        ]
+      },
+      "properties": {
+        "zip": 78236.0,
+        "city": "Jbsa Lackland",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 7629.0,
+        "density": 599.1,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 37888
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.56832,
+          29.42079
+        ]
+      },
+      "properties": {
+        "zip": 78237.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 36930.0,
+        "density": 2001.3,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 65226
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.61925,
+          29.47088
+        ]
+      },
+      "properties": {
+        "zip": 78238.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 26250.0,
+        "density": 997.9,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 72733
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3625,
+          29.51664
+        ]
+      },
+      "properties": {
+        "zip": 78239.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 29855.0,
+        "density": 1804.4,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 63065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.60813,
+          29.5244
+        ]
+      },
+      "properties": {
+        "zip": 78240.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 57014.0,
+        "density": 1970.4,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 46816
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.60751,
+          29.35067
+        ]
+      },
+      "properties": {
+        "zip": 78242.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 35976.0,
+        "density": 1754.9,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.59349,
+          29.37213
+        ]
+      },
+      "properties": {
+        "zip": 78243.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 251.0,
+        "density": 150.8,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 68327
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.35075,
+          29.47702
+        ]
+      },
+      "properties": {
+        "zip": 78244.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 37861.0,
+        "density": 1937.0,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 83051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.73549,
+          29.40106
+        ]
+      },
+      "properties": {
+        "zip": 78245.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 91388.0,
+        "density": 1001.1,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 90006
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.41196,
+          29.58005
+        ]
+      },
+      "properties": {
+        "zip": 78247.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 51979.0,
+        "density": 1378.0,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 165341
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.52553,
+          29.59022
+        ]
+      },
+      "properties": {
+        "zip": 78248.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 14127.0,
+        "density": 1415.4,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 90353
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.614,
+          29.56752
+        ]
+      },
+      "properties": {
+        "zip": 78249.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 61772.0,
+        "density": 1646.8,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 83699
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.66668,
+          29.50341
+        ]
+      },
+      "properties": {
+        "zip": 78250.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 57849.0,
+        "density": 2371.5,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 89142
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.67763,
+          29.46292
+        ]
+      },
+      "properties": {
+        "zip": 78251.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 61683.0,
+        "density": 1589.5,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 75278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.69682,
+          29.34167
+        ]
+      },
+      "properties": {
+        "zip": 78252.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 18256.0,
+        "density": 250.7,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 129653
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.78885,
+          29.46899
+        ]
+      },
+      "properties": {
+        "zip": 78253.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 67578.0,
+        "density": 486.6,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 62.69, \"48325\": 37.31}",
+        "county_names_all": "Bexar|Medina",
+        "county_fips_all": "48029|48325",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 124946
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.72805,
+          29.53011
+        ]
+      },
+      "properties": {
+        "zip": 78254.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 78865.0,
+        "density": 1505.7,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 169487
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.66405,
+          29.64814
+        ]
+      },
+      "properties": {
+        "zip": 78255.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 18107.0,
+        "density": 389.6,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 151818
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6262,
+          29.62272
+        ]
+      },
+      "properties": {
+        "zip": 78256.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 12014.0,
+        "density": 580.6,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 99590
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.57713,
+          29.64373
+        ]
+      },
+      "properties": {
+        "zip": 78257.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 10390.0,
+        "density": 140.8,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 135377
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.49282,
+          29.63574
+        ]
+      },
+      "properties": {
+        "zip": 78258.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 51672.0,
+        "density": 1146.2,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 114440
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.42031,
+          29.62512
+        ]
+      },
+      "properties": {
+        "zip": 78259.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 26931.0,
+        "density": 669.8,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 138547
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.49212,
+          29.69737
+        ]
+      },
+      "properties": {
+        "zip": 78260.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 37389.0,
+        "density": 578.4,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 135417
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.40072,
+          29.69189
+        ]
+      },
+      "properties": {
+        "zip": 78261.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 27060.0,
+        "density": 358.7,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 81035
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.31219,
+          29.35084
+        ]
+      },
+      "properties": {
+        "zip": 78263.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 4514.0,
+        "density": 45.6,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 100}",
+        "county_names_all": "Bexar",
+        "county_fips_all": 48029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 54559
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.50534,
+          29.19868
+        ]
+      },
+      "properties": {
+        "zip": 78264.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 11702.0,
+        "density": 63.9,
+        "county_fips": 48029.0,
+        "county_name": "Bexar",
+        "county_weights": "{\"48029\": 93.59, \"48013\": 6.41}",
+        "county_names_all": "Bexar|Atascosa",
+        "county_fips_all": "48029|48013",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 148257
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3295,
+          29.65611
+        ]
+      },
+      "properties": {
+        "zip": 78266.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 7274.0,
+        "density": 70.8,
+        "county_fips": 48091.0,
+        "county_name": "Comal",
+        "county_weights": "{\"48091\": 80.34, \"48029\": 19.66}",
+        "county_names_all": "Comal|Bexar",
+        "county_fips_all": "48091|48029",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 80938
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.32801,
+          30.12735
+        ]
+      },
+      "properties": {
+        "zip": 78602.0,
+        "city": "Bastrop",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 35786.0,
+        "density": 70.8,
+        "county_fips": 48021.0,
+        "county_name": "Bastrop",
+        "county_weights": "{\"48021\": 100}",
+        "county_names_all": "Bastrop",
+        "county_fips_all": 48021,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 107188
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.04663,
+          30.77366
+        ]
+      },
+      "properties": {
+        "zip": 78605.0,
+        "city": "Bertram",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 7632.0,
+        "density": 17.1,
+        "county_fips": 48053.0,
+        "county_name": "Burnet",
+        "county_weights": "{\"48053\": 100}",
+        "county_names_all": "Burnet",
+        "county_fips_all": 48053,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 95552
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.488,
+          30.81961
+        ]
+      },
+      "properties": {
+        "zip": 78607.0,
+        "city": "Bluffton",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 228.0,
+        "density": 3.9,
+        "county_fips": 48299.0,
+        "county_name": "Llano",
+        "county_weights": "{\"48299\": 100}",
+        "county_names_all": "Llano",
+        "county_fips_all": 48299,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.93255,
+          30.9341
+        ]
+      },
+      "properties": {
+        "zip": 78608.0,
+        "city": "Briggs",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 454.0,
+        "density": 3.9,
+        "county_fips": 48053.0,
+        "county_name": "Burnet",
+        "county_weights": "{\"48053\": 100}",
+        "county_names_all": "Burnet",
+        "county_fips_all": 48053,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 70750
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45271,
+          30.75975
+        ]
+      },
+      "properties": {
+        "zip": 78609.0,
+        "city": "Buchanan Dam",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1826.0,
+        "density": 44.4,
+        "county_fips": 48299.0,
+        "county_name": "Llano",
+        "county_weights": "{\"48299\": 100}",
+        "county_names_all": "Llano",
+        "county_fips_all": 48299,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 92993
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.84047,
+          30.07962
+        ]
+      },
+      "properties": {
+        "zip": 78610.0,
+        "city": "Buda",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 46685.0,
+        "density": 186.1,
+        "county_fips": 48209.0,
+        "county_name": "Hays",
+        "county_weights": "{\"48209\": 71.54, \"48453\": 26.1, \"48055\": 2.36}",
+        "county_names_all": "Hays|Travis|Caldwell",
+        "county_fips_all": "48209|48453|48055",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 111373
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26663,
+          30.79188
+        ]
+      },
+      "properties": {
+        "zip": 78611.0,
+        "city": "Burnet",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 14463.0,
+        "density": 20.4,
+        "county_fips": 48053.0,
+        "county_name": "Burnet",
+        "county_weights": "{\"48053\": 97.94, \"48299\": 2.06}",
+        "county_names_all": "Burnet|Llano",
+        "county_fips_all": "48053|48299",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 86115
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49017,
+          30.09301
+        ]
+      },
+      "properties": {
+        "zip": 78612.0,
+        "city": "Cedar Creek",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 19830.0,
+        "density": 77.3,
+        "county_fips": 48021.0,
+        "county_name": "Bastrop",
+        "county_weights": "{\"48021\": 98.79, \"48453\": 1.21}",
+        "county_names_all": "Bastrop|Travis",
+        "county_fips_all": "48021|48453",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 123922
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.81939,
+          30.50683
+        ]
+      },
+      "properties": {
+        "zip": 78613.0,
+        "city": "Cedar Park",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 89162.0,
+        "density": 1243.1,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 88.67, \"48453\": 11.33}",
+        "county_names_all": "Williamson|Travis",
+        "county_fips_all": "48491|48453",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.39061,
+          30.46426
+        ]
+      },
+      "properties": {
+        "zip": 78615.0,
+        "city": "Coupland",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1540.0,
+        "density": 10.9,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 64.22, \"48453\": 35.78}",
+        "county_names_all": "Williamson|Travis",
+        "county_fips_all": "48491|48453",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 89583
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55655,
+          29.92687
+        ]
+      },
+      "properties": {
+        "zip": 78616.0,
+        "city": "Dale",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 10008.0,
+        "density": 32.7,
+        "county_fips": 48055.0,
+        "county_name": "Caldwell",
+        "county_weights": "{\"48055\": 82.1, \"48021\": 17.9}",
+        "county_names_all": "Caldwell|Bastrop",
+        "county_fips_all": "48055|48021",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 88418
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59928,
+          30.1508
+        ]
+      },
+      "properties": {
+        "zip": 78617.0,
+        "city": "Del Valle",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 28932.0,
+        "density": 174.4,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 78.51, \"48021\": 21.49}",
+        "county_names_all": "Travis|Bastrop",
+        "county_fips_all": "48453|48021",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 86389
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.16794,
+          30.48624
+        ]
+      },
+      "properties": {
+        "zip": 78618.0,
+        "city": "Doss",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 292.0,
+        "density": 0.7,
+        "county_fips": 48171.0,
+        "county_name": "Gillespie",
+        "county_weights": "{\"48171\": 61.8, \"48319\": 38.2}",
+        "county_names_all": "Gillespie|Mason",
+        "county_fips_all": "48171|48319",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 159541
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.03101,
+          30.11215
+        ]
+      },
+      "properties": {
+        "zip": 78619.0,
+        "city": "Driftwood",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 6896.0,
+        "density": 66.7,
+        "county_fips": 48209.0,
+        "county_name": "Hays",
+        "county_weights": "{\"48209\": 100}",
+        "county_names_all": "Hays",
+        "county_fips_all": 48209,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 130605
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.13491,
+          30.22214
+        ]
+      },
+      "properties": {
+        "zip": 78620.0,
+        "city": "Dripping Springs",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 20624.0,
+        "density": 45.3,
+        "county_fips": 48209.0,
+        "county_name": "Hays",
+        "county_weights": "{\"48209\": 85.37, \"48453\": 9.64, \"48031\": 4.99}",
+        "county_names_all": "Hays|Travis|Blanco",
+        "county_fips_all": "48209|48453|48031",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 91127
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.36053,
+          30.33737
+        ]
+      },
+      "properties": {
+        "zip": 78621.0,
+        "city": "Elgin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 27860.0,
+        "density": 60.5,
+        "county_fips": 48021.0,
+        "county_name": "Bastrop",
+        "county_weights": "{\"48021\": 62.58, \"48453\": 14.51, \"48491\": 14.33, \"48287\": 8.58}",
+        "county_names_all": "Bastrop|Travis|Williamson|Lee",
+        "county_fips_all": "48021|48453|48491|48287",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.78229,
+          29.77225
+        ]
+      },
+      "properties": {
+        "zip": 78622.0,
+        "city": "Fentress",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 353.0,
+        "density": 33.6,
+        "county_fips": 48055.0,
+        "county_name": "Caldwell",
+        "county_weights": "{\"48055\": 100}",
+        "county_names_all": "Caldwell",
+        "county_fips_all": 48055,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 106146
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.21933,
+          29.95973
+        ]
+      },
+      "properties": {
+        "zip": 78623.0,
+        "city": "Fischer",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1575.0,
+        "density": 27.2,
+        "county_fips": 48091.0,
+        "county_name": "Comal",
+        "county_weights": "{\"48091\": 92.25, \"48209\": 7.75}",
+        "county_names_all": "Comal|Hays",
+        "county_fips_all": "48091|48209",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 87530
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.87141,
+          30.29227
+        ]
+      },
+      "properties": {
+        "zip": 78624.0,
+        "city": "Fredericksburg",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 23610.0,
+        "density": 12.3,
+        "county_fips": 48171.0,
+        "county_name": "Gillespie",
+        "county_weights": "{\"48171\": 91.34, \"48259\": 8.66}",
+        "county_names_all": "Gillespie|Kendall",
+        "county_fips_all": "48171|48259",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 93169
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59878,
+          30.66664
+        ]
+      },
+      "properties": {
+        "zip": 78626.0,
+        "city": "Georgetown",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 45020.0,
+        "density": 196.2,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 100}",
+        "county_names_all": "Williamson",
+        "county_fips_all": 48491,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 135650
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74636,
+          30.63981
+        ]
+      },
+      "properties": {
+        "zip": 78628.0,
+        "city": "Georgetown",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 44821.0,
+        "density": 267.4,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 100}",
+        "county_names_all": "Williamson",
+        "county_fips_all": 48491,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 55357
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75465,
+          30.73803
+        ]
+      },
+      "properties": {
+        "zip": 78633.0,
+        "city": "Georgetown",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 28877.0,
+        "density": 142.1,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 100}",
+        "county_names_all": "Williamson",
+        "county_fips_all": 48491,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 99858
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54404,
+          30.56
+        ]
+      },
+      "properties": {
+        "zip": 78634.0,
+        "city": "Hutto",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 43466.0,
+        "density": 297.7,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 99.56, \"48453\": 0.44}",
+        "county_names_all": "Williamson|Travis",
+        "county_fips_all": "48491|48453",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.79595,
+          29.65821
+        ]
+      },
+      "properties": {
+        "zip": 78638.0,
+        "city": "Kingsbury",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2064.0,
+        "density": 6.8,
+        "county_fips": 48187.0,
+        "county_name": "Guadalupe",
+        "county_weights": "{\"48187\": 98.34, \"48177\": 1.66}",
+        "county_names_all": "Guadalupe|Gonzales",
+        "county_fips_all": "48187|48177",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 59591
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45506,
+          30.65823
+        ]
+      },
+      "properties": {
+        "zip": 78639.0,
+        "city": "Kingsland",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 8517.0,
+        "density": 74.9,
+        "county_fips": 48299.0,
+        "county_name": "Llano",
+        "county_weights": "{\"48299\": 81.82, \"48053\": 18.18}",
+        "county_names_all": "Llano|Burnet",
+        "county_fips_all": "48299|48053",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 85540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.82355,
+          29.99619
+        ]
+      },
+      "properties": {
+        "zip": 78640.0,
+        "city": "Kyle",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 71460.0,
+        "density": 308.0,
+        "county_fips": 48209.0,
+        "county_name": "Hays",
+        "county_weights": "{\"48209\": 83.61, \"48055\": 14.99, \"48453\": 1.4}",
+        "county_names_all": "Hays|Caldwell|Travis",
+        "county_fips_all": "48209|48055|48453",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 127921
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.91473,
+          30.55851
+        ]
+      },
+      "properties": {
+        "zip": 78641.0,
+        "city": "Leander",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 93399.0,
+        "density": 290.0,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 63.17, \"48491\": 36.83}",
+        "county_names_all": "Travis|Williamson",
+        "county_fips_all": "48453|48491",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 130726
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.94087,
+          30.6946
+        ]
+      },
+      "properties": {
+        "zip": 78642.0,
+        "city": "Liberty Hill",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 24146.0,
+        "density": 83.9,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 92.0, \"48053\": 8.0}",
+        "county_names_all": "Williamson|Burnet",
+        "county_fips_all": "48491|48053",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 69754
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.71281,
+          30.68161
+        ]
+      },
+      "properties": {
+        "zip": 78643.0,
+        "city": "Llano",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 6837.0,
+        "density": 3.7,
+        "county_fips": 48299.0,
+        "county_name": "Llano",
+        "county_weights": "{\"48299\": 100}",
+        "county_names_all": "Llano",
+        "county_fips_all": 48299,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 74716
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.67292,
+          29.87111
+        ]
+      },
+      "properties": {
+        "zip": 78644.0,
+        "city": "Lockhart",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 20599.0,
+        "density": 44.2,
+        "county_fips": 48055.0,
+        "county_name": "Caldwell",
+        "county_weights": "{\"48055\": 100}",
+        "county_names_all": "Caldwell",
+        "county_fips_all": 48055,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 110919
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.96934,
+          30.4502
+        ]
+      },
+      "properties": {
+        "zip": 78645.0,
+        "city": "Leander",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 15042.0,
+        "density": 178.7,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 42149
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.63827,
+          29.69594
+        ]
+      },
+      "properties": {
+        "zip": 78648.0,
+        "city": "Luling",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 8022.0,
+        "density": 23.3,
+        "county_fips": 48055.0,
+        "county_name": "Caldwell",
+        "county_weights": "{\"48055\": 75.57, \"48187\": 15.48, \"48177\": 8.95}",
+        "county_names_all": "Caldwell|Guadalupe|Gonzales",
+        "county_fips_all": "48055|48187|48177",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 82167
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.21574,
+          30.30536
+        ]
+      },
+      "properties": {
+        "zip": 78650.0,
+        "city": "McDade",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2679.0,
+        "density": 16.3,
+        "county_fips": 48021.0,
+        "county_name": "Bastrop",
+        "county_weights": "{\"48021\": 71.02, \"48287\": 28.98}",
+        "county_names_all": "Bastrop|Lee",
+        "county_fips_all": "48021|48287",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 129257
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8606,
+          30.13462
+        ]
+      },
+      "properties": {
+        "zip": 78652.0,
+        "city": "Manchaca",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 5012.0,
+        "density": 172.8,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 56.47, \"48209\": 43.53}",
+        "county_names_all": "Travis|Hays",
+        "county_fips_all": "48453|48209",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 93664
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52006,
+          30.33783
+        ]
+      },
+      "properties": {
+        "zip": 78653.0,
+        "city": "Manor",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 35417.0,
+        "density": 129.9,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 98.86, \"48021\": 1.14}",
+        "county_names_all": "Travis|Bastrop",
+        "county_fips_all": "48453|48021",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 80967
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.20982,
+          30.57112
+        ]
+      },
+      "properties": {
+        "zip": 78654.0,
+        "city": "Marble Falls",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 19946.0,
+        "density": 38.3,
+        "county_fips": 48053.0,
+        "county_name": "Burnet",
+        "county_weights": "{\"48053\": 80.41, \"48453\": 19.59}",
+        "county_names_all": "Burnet|Travis",
+        "county_fips_all": "48053|48453",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83517,
+          29.82346
+        ]
+      },
+      "properties": {
+        "zip": 78655.0,
+        "city": "Martindale",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 3687.0,
+        "density": 49.6,
+        "county_fips": 48055.0,
+        "county_name": "Caldwell",
+        "county_weights": "{\"48055\": 59.94, \"48187\": 40.06}",
+        "county_names_all": "Caldwell|Guadalupe",
+        "county_fips_all": "48055|48187",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 42400
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8089,
+          29.90275
+        ]
+      },
+      "properties": {
+        "zip": 78656.0,
+        "city": "Maxwell",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2953.0,
+        "density": 40.1,
+        "county_fips": 48055.0,
+        "county_name": "Caldwell",
+        "county_weights": "{\"48055\": 97.04, \"48209\": 2.96}",
+        "county_names_all": "Caldwell|Hays",
+        "county_fips_all": "48055|48209",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 105375
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.37906,
+          30.53328
+        ]
+      },
+      "properties": {
+        "zip": 78657.0,
+        "city": "Horseshoe Bay",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 7061.0,
+        "density": 70.3,
+        "county_fips": 48299.0,
+        "county_name": "Llano",
+        "county_weights": "{\"48299\": 69.99, \"48053\": 30.01}",
+        "county_names_all": "Llano|Burnet",
+        "county_fips_all": "48299|48053",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.12624,
+          30.20667
+        ]
+      },
+      "properties": {
+        "zip": 78659.0,
+        "city": "Paige",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2898.0,
+        "density": 9.6,
+        "county_fips": 48021.0,
+        "county_name": "Bastrop",
+        "county_weights": "{\"48021\": 79.12, \"48287\": 20.88}",
+        "county_names_all": "Bastrop|Lee",
+        "county_fips_all": "48021|48287",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 108645
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59558,
+          30.44361
+        ]
+      },
+      "properties": {
+        "zip": 78660.0,
+        "city": "Pflugerville",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 118437.0,
+        "density": 1025.1,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74212,
+          29.72925
+        ]
+      },
+      "properties": {
+        "zip": 78661.0,
+        "city": "Prairie Lea",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 658.0,
+        "density": 61.6,
+        "county_fips": 48055.0,
+        "county_name": "Caldwell",
+        "county_weights": "{\"48055\": 99.43, \"48187\": 0.57}",
+        "county_names_all": "Caldwell|Guadalupe",
+        "county_fips_all": "48055|48187",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 73750
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.44231,
+          29.94316
+        ]
+      },
+      "properties": {
+        "zip": 78662.0,
+        "city": "Red Rock",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 3147.0,
+        "density": 18.0,
+        "county_fips": 48021.0,
+        "county_name": "Bastrop",
+        "county_weights": "{\"48021\": 81.26, \"48055\": 18.74}",
+        "county_names_all": "Bastrop|Caldwell",
+        "county_fips_all": "48021|48055",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 137873
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.64583,
+          30.50461
+        ]
+      },
+      "properties": {
+        "zip": 78664.0,
+        "city": "Round Rock",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 62272.0,
+        "density": 1447.3,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 85.62, \"48453\": 14.38}",
+        "county_names_all": "Williamson|Travis",
+        "county_fips_all": "48491|48453",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 120095
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.63681,
+          30.55038
+        ]
+      },
+      "properties": {
+        "zip": 78665.0,
+        "city": "Round Rock",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 64087.0,
+        "density": 1027.7,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 100}",
+        "county_names_all": "Williamson",
+        "county_fips_all": 48491,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 56393
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.97974,
+          29.8826
+        ]
+      },
+      "properties": {
+        "zip": 78666.0,
+        "city": "San Marcos",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 87775.0,
+        "density": 176.2,
+        "county_fips": 48209.0,
+        "county_name": "Hays",
+        "county_weights": "{\"48209\": 77.87, \"48187\": 15.76, \"48091\": 4.34, \"48055\": 2.03}",
+        "county_names_all": "Hays|Guadalupe|Comal|Caldwell",
+        "county_fips_all": "48209|48187|48091|48055",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 128307
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.13066,
+          30.4347
+        ]
+      },
+      "properties": {
+        "zip": 78669.0,
+        "city": "Spicewood",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 11980.0,
+        "density": 38.1,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 45.91, \"48053\": 36.18, \"48031\": 17.92}",
+        "county_names_all": "Travis|Burnet|Blanco",
+        "county_fips_all": "48453|48053|48031",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.84608,
+          29.76267
+        ]
+      },
+      "properties": {
+        "zip": 78670.0,
+        "city": "Staples",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 178.0,
+        "density": 12.2,
+        "county_fips": 48187.0,
+        "county_name": "Guadalupe",
+        "county_weights": "{\"48187\": 100}",
+        "county_names_all": "Guadalupe",
+        "county_fips_all": 48187,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 150431
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.63275,
+          30.20409
+        ]
+      },
+      "properties": {
+        "zip": 78671.0,
+        "city": "Stonewall",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 399.0,
+        "density": 3.2,
+        "county_fips": 48171.0,
+        "county_name": "Gillespie",
+        "county_weights": "{\"48171\": 100}",
+        "county_names_all": "Gillespie",
+        "county_fips_all": 48171,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 96964
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.49128,
+          30.88151
+        ]
+      },
+      "properties": {
+        "zip": 78672.0,
+        "city": "Tow",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 679.0,
+        "density": 8.8,
+        "county_fips": 48299.0,
+        "county_name": "Llano",
+        "county_weights": "{\"48299\": 100}",
+        "county_names_all": "Llano",
+        "county_fips_all": 48299,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59653,
+          30.67213
+        ]
+      },
+      "properties": {
+        "zip": 78674.0,
+        "city": "Weir",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 195.0,
+        "density": 210.5,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 100}",
+        "county_names_all": "Williamson",
+        "county_fips_all": 48491,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 34028
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.70534,
+          30.4585
+        ]
+      },
+      "properties": {
+        "zip": 78675.0,
+        "city": "Willow City",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 158.0,
+        "density": 1.4,
+        "county_fips": 48171.0,
+        "county_name": "Gillespie",
+        "county_weights": "{\"48171\": 100}",
+        "county_names_all": "Gillespie",
+        "county_fips_all": 48171,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 87630
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.15051,
+          30.04141
+        ]
+      },
+      "properties": {
+        "zip": 78676.0,
+        "city": "Wimberley",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 15896.0,
+        "density": 36.6,
+        "county_fips": 48209.0,
+        "county_name": "Hays",
+        "county_weights": "{\"48209\": 92.46, \"48031\": 6.6, \"48091\": 0.94}",
+        "county_names_all": "Hays|Blanco|Comal",
+        "county_fips_all": "48209|48031|48091",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71981,
+          30.5355
+        ]
+      },
+      "properties": {
+        "zip": 78681.0,
+        "city": "Round Rock",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 58531.0,
+        "density": 974.6,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 100}",
+        "county_names_all": "Williamson",
+        "county_fips_all": 48491,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 180994
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74248,
+          30.27022
+        ]
+      },
+      "properties": {
+        "zip": 78701.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 11114.0,
+        "density": 2845.1,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 59215
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7144,
+          30.26339
+        ]
+      },
+      "properties": {
+        "zip": 78702.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 26495.0,
+        "density": 2043.5,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 147417
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76554,
+          30.29385
+        ]
+      },
+      "properties": {
+        "zip": 78703.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 22484.0,
+        "density": 1544.0,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 91906
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76537,
+          30.24298
+        ]
+      },
+      "properties": {
+        "zip": 78704.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 50479.0,
+        "density": 2223.8,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 93300
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.739,
+          30.2947
+        ]
+      },
+      "properties": {
+        "zip": 78705.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 32937.0,
+        "density": 6143.4,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73294,
+          30.28393
+        ]
+      },
+      "properties": {
+        "zip": 78712.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 206.0,
+        "density": 139.6,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 135898
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75393,
+          30.48988
+        ]
+      },
+      "properties": {
+        "zip": 78717.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 36085.0,
+        "density": 1068.1,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 100}",
+        "county_names_all": "Williamson",
+        "county_fips_all": 48491,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 76326
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.67148,
+          30.14465
+        ]
+      },
+      "properties": {
+        "zip": 78719.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1556.0,
+        "density": 30.4,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 47276
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.68345,
+          30.27127
+        ]
+      },
+      "properties": {
+        "zip": 78721.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 10728.0,
+        "density": 1161.0,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 86198
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71458,
+          30.29005
+        ]
+      },
+      "properties": {
+        "zip": 78722.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 6576.0,
+        "density": 1873.3,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 71410
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.68578,
+          30.30423
+        ]
+      },
+      "properties": {
+        "zip": 78723.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 36307.0,
+        "density": 1986.0,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 72626
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61439,
+          30.29474
+        ]
+      },
+      "properties": {
+        "zip": 78724.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 29326.0,
+        "density": 454.0,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 77115
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.60859,
+          30.23554
+        ]
+      },
+      "properties": {
+        "zip": 78725.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 10810.0,
+        "density": 236.2,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 152656
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.84254,
+          30.42898
+        ]
+      },
+      "properties": {
+        "zip": 78726.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 14117.0,
+        "density": 470.5,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 101916
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71736,
+          30.42894
+        ]
+      },
+      "properties": {
+        "zip": 78727.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 30894.0,
+        "density": 1535.4,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 98.18, \"48491\": 1.82}",
+        "county_names_all": "Travis|Williamson",
+        "county_fips_all": "48453|48491",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 68918
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.68948,
+          30.45537
+        ]
+      },
+      "properties": {
+        "zip": 78728.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 26776.0,
+        "density": 1334.2,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 78.14, \"48491\": 21.86}",
+        "county_names_all": "Travis|Williamson",
+        "county_fips_all": "48453|48491",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 94219
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75516,
+          30.45738
+        ]
+      },
+      "properties": {
+        "zip": 78729.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 30440.0,
+        "density": 1197.8,
+        "county_fips": 48491.0,
+        "county_name": "Williamson",
+        "county_weights": "{\"48491\": 88.33, \"48453\": 11.67}",
+        "county_names_all": "Williamson|Travis",
+        "county_fips_all": "48491|48453",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 167000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83847,
+          30.36322
+        ]
+      },
+      "properties": {
+        "zip": 78730.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 9669.0,
+        "density": 247.8,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 144438
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7687,
+          30.34766
+        ]
+      },
+      "properties": {
+        "zip": 78731.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 27136.0,
+        "density": 1198.0,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 226648
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.89291,
+          30.3802
+        ]
+      },
+      "properties": {
+        "zip": 78732.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 20646.0,
+        "density": 620.9,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 212639
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.87762,
+          30.32338
+        ]
+      },
+      "properties": {
+        "zip": 78733.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 9339.0,
+        "density": 322.0,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 134830
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.94676,
+          30.38079
+        ]
+      },
+      "properties": {
+        "zip": 78734.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 22091.0,
+        "density": 450.4,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 136435
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.86775,
+          30.26634
+        ]
+      },
+      "properties": {
+        "zip": 78735.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 20112.0,
+        "density": 384.6,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 126139
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.94965,
+          30.24833
+        ]
+      },
+      "properties": {
+        "zip": 78736.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 9849.0,
+        "density": 170.6,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 96.72, \"48209\": 3.28}",
+        "county_names_all": "Travis|Hays",
+        "county_fips_all": "48453|48209",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 139502
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.96059,
+          30.18935
+        ]
+      },
+      "properties": {
+        "zip": 78737.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 26413.0,
+        "density": 279.9,
+        "county_fips": 48209.0,
+        "county_name": "Hays",
+        "county_weights": "{\"48209\": 71.17, \"48453\": 28.83}",
+        "county_names_all": "Hays|Travis",
+        "county_fips_all": "48209|48453",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 171786
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.99002,
+          30.30668
+        ]
+      },
+      "properties": {
+        "zip": 78738.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 28790.0,
+        "density": 264.1,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 178289
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.89087,
+          30.17596
+        ]
+      },
+      "properties": {
+        "zip": 78739.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 20850.0,
+        "density": 694.7,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 92.27, \"48209\": 7.73}",
+        "county_names_all": "Travis|Hays",
+        "county_fips_all": "48453|48209",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 55117
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71389,
+          30.23007
+        ]
+      },
+      "properties": {
+        "zip": 78741.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 45274.0,
+        "density": 2244.2,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.65869,
+          30.24375
+        ]
+      },
+      "properties": {
+        "zip": 78742.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 638.0,
+        "density": 41.7,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 68719
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72888,
+          30.18024
+        ]
+      },
+      "properties": {
+        "zip": 78744.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 51069.0,
+        "density": 872.3,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 69271
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.79822,
+          30.20743
+        ]
+      },
+      "properties": {
+        "zip": 78745.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 61122.0,
+        "density": 1718.0,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 209592
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.81136,
+          30.29759
+        ]
+      },
+      "properties": {
+        "zip": 78746.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 28268.0,
+        "density": 476.1,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 101884
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74117,
+          30.12521
+        ]
+      },
+      "properties": {
+        "zip": 78747.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 21757.0,
+        "density": 378.0,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 89558
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8227,
+          30.16144
+        ]
+      },
+      "properties": {
+        "zip": 78748.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 54942.0,
+        "density": 1500.9,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 117213
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.85732,
+          30.21329
+        ]
+      },
+      "properties": {
+        "zip": 78749.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 34939.0,
+        "density": 1393.2,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 146167
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.80223,
+          30.41685
+        ]
+      },
+      "properties": {
+        "zip": 78750.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 29322.0,
+        "density": 959.6,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 78.12, \"48491\": 21.88}",
+        "county_names_all": "Travis|Williamson",
+        "county_fips_all": "48453|48491",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 97569
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72278,
+          30.3108
+        ]
+      },
+      "properties": {
+        "zip": 78751.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 16027.0,
+        "density": 2562.0,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 51003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.70364,
+          30.33141
+        ]
+      },
+      "properties": {
+        "zip": 78752.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 22261.0,
+        "density": 2575.8,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 56041
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.67335,
+          30.38353
+        ]
+      },
+      "properties": {
+        "zip": 78753.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 58449.0,
+        "density": 1988.7,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 72794
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.63925,
+          30.35633
+        ]
+      },
+      "properties": {
+        "zip": 78754.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 31410.0,
+        "density": 801.1,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 101503
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7402,
+          30.32219
+        ]
+      },
+      "properties": {
+        "zip": 78756.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 9844.0,
+        "density": 2275.2,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 96022
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73267,
+          30.35164
+        ]
+      },
+      "properties": {
+        "zip": 78757.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 24327.0,
+        "density": 1897.0,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 70905
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.70665,
+          30.38768
+        ]
+      },
+      "properties": {
+        "zip": 78758.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 50592.0,
+        "density": 2149.7,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 100}",
+        "county_names_all": "Travis",
+        "county_fips_all": 48453,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 138586
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76093,
+          30.4027
+        ]
+      },
+      "properties": {
+        "zip": 78759.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 44882.0,
+        "density": 1216.0,
+        "county_fips": 48453.0,
+        "county_name": "Travis",
+        "county_weights": "{\"48453\": 98.83, \"48491\": 1.17}",
+        "county_names_all": "Travis|Williamson",
+        "county_fips_all": "48453|48491",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 61775
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.93153,
+          30.16803
+        ]
+      },
+      "properties": {
+        "zip": 78942.0,
+        "city": "Giddings",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 9858.0,
+        "density": 18.8,
+        "county_fips": 48287.0,
+        "county_name": "Lee",
+        "county_weights": "{\"48287\": 87.17, \"48149\": 7.77, \"48021\": 5.06}",
+        "county_names_all": "Lee|Fayette|Bastrop",
+        "county_fips_all": "48287|48149|48021",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": "-"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.77412,
+          30.18947
+        ]
+      },
+      "properties": {
+        "zip": 78946.0,
+        "city": "Ledbetter",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 760.0,
+        "density": 2.8,
+        "county_fips": 48287.0,
+        "county_name": "Lee",
+        "county_weights": "{\"48287\": 61.91, \"48149\": 33.78, \"48477\": 4.31}",
+        "county_names_all": "Lee|Fayette|Washington",
+        "county_fips_all": "48287|48149|48477",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 61250
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.04183,
+          30.42378
+        ]
+      },
+      "properties": {
+        "zip": 78947.0,
+        "city": "Lexington",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 5110.0,
+        "density": 9.5,
+        "county_fips": 48287.0,
+        "county_name": "Lee",
+        "county_weights": "{\"48287\": 100}",
+        "county_names_all": "Lee",
+        "county_fips_all": 48287,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 65817
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.97022,
+          30.30748
+        ]
+      },
+      "properties": {
+        "zip": 78948.0,
+        "city": "Lincoln",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 599.0,
+        "density": 3.6,
+        "county_fips": 48287.0,
+        "county_name": "Lee",
+        "county_weights": "{\"48287\": 100}",
+        "county_names_all": "Lee",
+        "county_fips_all": 48287,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 243060
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.35214,
+          29.85552
+        ]
+      },
+      "properties": {
+        "zip": 78953.0,
+        "city": "Rosanky",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 958.0,
+        "density": 3.2,
+        "county_fips": 48021.0,
+        "county_name": "Bastrop",
+        "county_weights": "{\"48021\": 65.24, \"48055\": 34.76}",
+        "county_names_all": "Bastrop|Caldwell",
+        "county_fips_all": "48021|48055",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 88472
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.17481,
+          30.01279
+        ]
+      },
+      "properties": {
+        "zip": 78957.0,
+        "city": "Smithville",
+        "region": "aus",
+        "state_id": "TX",
+        "state_name": "Texas",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 10282.0,
+        "density": 22.4,
+        "county_fips": 48021.0,
+        "county_name": "Bastrop",
+        "county_weights": "{\"48021\": 88.84, \"48149\": 11.16}",
+        "county_names_all": "Bastrop|Fayette",
+        "county_fips_all": "48021|48149",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Chicago",
+        "genx_inc": 41927
+      }
+    }
+  ]
+}
