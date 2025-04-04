@@ -69,9 +69,9 @@ body {
   font-family: 'Lato', sans-serif;
 }
 #legend, #layer-toggle {
-  width: 220px; /* or whatever width your legend uses */
+  width: 200px; /* or whatever width your legend uses */
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 1.4;
 }
 
