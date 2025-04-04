@@ -1,0 +1,3005 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.69334,
+          40.46629
+        ]
+      },
+      "properties": {
+        "zip": 84003.0,
+        "city": "American Fork",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 55259.0,
+        "density": 290.0,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 149778.09073889165
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.74447,
+          40.48444
+        ]
+      },
+      "properties": {
+        "zip": 84004.0,
+        "city": "Alpine",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 10272.0,
+        "density": 128.1,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 168057.85424354245
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.99942,
+          40.32277
+        ]
+      },
+      "properties": {
+        "zip": 84005.0,
+        "city": "Eagle Mountain",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 49116.0,
+        "density": 519.4,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 130650.59110970996
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.12373,
+          40.59682
+        ]
+      },
+      "properties": {
+        "zip": 84006.0,
+        "city": "Bingham Canyon",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 865.0,
+        "density": 12.9,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 137208.91860465117
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.05362,
+          40.55221
+        ]
+      },
+      "properties": {
+        "zip": 84009.0,
+        "city": "South Jordan",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 42091.0,
+        "density": 1520.1,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 153747.22639068565
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.83042,
+          40.87433
+        ]
+      },
+      "properties": {
+        "zip": 84010.0,
+        "city": "Bountiful",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 46666.0,
+        "density": 473.9,
+        "county_fips": 49011.0,
+        "county_name": "Davis",
+        "county_weights": "{\"49011\": 99.85, \"49029\": 0.15}",
+        "county_names_all": "Davis|Morgan",
+        "county_fips_all": "49011|49029",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 152188.65311004786
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0913,
+          40.2958
+        ]
+      },
+      "properties": {
+        "zip": 84013.0,
+        "city": "Cedar Valley",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 719.0,
+        "density": 6.2,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 130127.73076923077
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.85308,
+          40.93311
+        ]
+      },
+      "properties": {
+        "zip": 84014.0,
+        "city": "Centerville",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 16571.0,
+        "density": 497.6,
+        "county_fips": 49011.0,
+        "county_name": "Davis",
+        "county_weights": "{\"49011\": 100}",
+        "county_names_all": "Davis",
+        "county_fips_all": 49011,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 153464.27106109326
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.06129,
+          41.12073
+        ]
+      },
+      "properties": {
+        "zip": 84015.0,
+        "city": "Clearfield",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 70730.0,
+        "density": 1311.3,
+        "county_fips": 49011.0,
+        "county_name": "Davis",
+        "county_weights": "{\"49011\": 100}",
+        "county_names_all": "Davis",
+        "county_fips_all": 49011,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 134097.6474005514
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.20582,
+          40.9549
+        ]
+      },
+      "properties": {
+        "zip": 84017.0,
+        "city": "Coalville",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 4420.0,
+        "density": 3.2,
+        "county_fips": 49043.0,
+        "county_name": "Summit",
+        "county_weights": "{\"49043\": 100}",
+        "county_names_all": "Summit",
+        "county_fips_all": 49043,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 139304.78065395096
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.42716,
+          41.20535
+        ]
+      },
+      "properties": {
+        "zip": 84018.0,
+        "city": "Croydon",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 338.0,
+        "density": 0.7,
+        "county_fips": 49029.0,
+        "county_name": "Morgan",
+        "county_weights": "{\"49029\": 100}",
+        "county_names_all": "Morgan",
+        "county_fips_all": 49029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 174999.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8635,
+          40.49885
+        ]
+      },
+      "properties": {
+        "zip": 84020.0,
+        "city": "Draper",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 50159.0,
+        "density": 712.9,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 80.13, \"49049\": 19.87}",
+        "county_names_all": "Salt Lake|Utah",
+        "county_fips_all": "49035|49049",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 166485.62739484696
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.44721,
+          41.00765
+        ]
+      },
+      "properties": {
+        "zip": 84024.0,
+        "city": "Echo",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 134.0,
+        "density": 6.7,
+        "county_fips": 49043.0,
+        "county_name": "Summit",
+        "county_weights": "{\"49043\": 100}",
+        "county_names_all": "Summit",
+        "county_fips_all": 49043,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 137499.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89874,
+          40.97667
+        ]
+      },
+      "properties": {
+        "zip": 84025.0,
+        "city": "Farmington",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 25055.0,
+        "density": 680.0,
+        "county_fips": 49011.0,
+        "county_name": "Davis",
+        "county_weights": "{\"49011\": 100}",
+        "county_names_all": "Davis",
+        "county_fips_all": 49011,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 146806.11827689243
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.188,
+          40.35839
+        ]
+      },
+      "properties": {
+        "zip": 84032.0,
+        "city": "Heber City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 25328.0,
+        "density": 29.8,
+        "county_fips": 49051.0,
+        "county_name": "Wasatch",
+        "county_weights": "{\"49051\": 100}",
+        "county_names_all": "Wasatch",
+        "county_fips_all": 49051,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 143532.96266666666
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.49148,
+          40.98002
+        ]
+      },
+      "properties": {
+        "zip": 84033.0,
+        "city": "Henefer",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1002.0,
+        "density": 5.4,
+        "county_fips": 49043.0,
+        "county_name": "Summit",
+        "county_weights": "{\"49043\": 100}",
+        "county_names_all": "Summit",
+        "county_fips_all": 49043,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 136138.16336633664
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.1093,
+          40.66022
+        ]
+      },
+      "properties": {
+        "zip": 84036.0,
+        "city": "Kamas",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 8781.0,
+        "density": 10.2,
+        "county_fips": 49043.0,
+        "county_name": "Summit",
+        "county_weights": "{\"49043\": 71.79, \"49051\": 28.21}",
+        "county_names_all": "Summit|Wasatch",
+        "county_fips_all": "49043|49051",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 158925.9033557047
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.91444,
+          40.99281
+        ]
+      },
+      "properties": {
+        "zip": 84037.0,
+        "city": "Kaysville",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 39316.0,
+        "density": 312.3,
+        "county_fips": 49011.0,
+        "county_name": "Davis",
+        "county_weights": "{\"49011\": 100}",
+        "county_names_all": "Davis",
+        "county_fips_all": 49011,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 155747.66685520363
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89674,
+          41.09121
+        ]
+      },
+      "properties": {
+        "zip": 84040.0,
+        "city": "Layton",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 28269.0,
+        "density": 450.1,
+        "county_fips": 49011.0,
+        "county_name": "Davis",
+        "county_weights": "{\"49011\": 100}",
+        "county_names_all": "Davis",
+        "county_fips_all": 49011,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 144844.67139889198
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.98416,
+          41.07137
+        ]
+      },
+      "properties": {
+        "zip": 84041.0,
+        "city": "Layton",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 54750.0,
+        "density": 1415.9,
+        "county_fips": 49011.0,
+        "county_name": "Davis",
+        "county_weights": "{\"49011\": 100}",
+        "county_names_all": "Davis",
+        "county_fips_all": 49011,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 133910.98530658378
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.72466,
+          40.34113
+        ]
+      },
+      "properties": {
+        "zip": 84042.0,
+        "city": "Lindon",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 11570.0,
+        "density": 563.4,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 157393.61439732142
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.87377,
+          40.41209
+        ]
+      },
+      "properties": {
+        "zip": 84043.0,
+        "city": "Lehi",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 81839.0,
+        "density": 1014.7,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 148710.27787038966
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1474,
+          40.73
+        ]
+      },
+      "properties": {
+        "zip": 84044.0,
+        "city": "Magna",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 29488.0,
+        "density": 155.3,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 127193.55312710155
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.91384,
+          40.28574
+        ]
+      },
+      "properties": {
+        "zip": 84045.0,
+        "city": "Saratoga Springs",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 43369.0,
+        "density": 322.4,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 144137.03200808624
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89176,
+          40.61533
+        ]
+      },
+      "properties": {
+        "zip": 84047.0,
+        "city": "Midvale",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 36573.0,
+        "density": 2212.2,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 130103.98210412147
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.51657,
+          40.5136
+        ]
+      },
+      "properties": {
+        "zip": 84049.0,
+        "city": "Midway",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 6926.0,
+        "density": 35.8,
+        "county_fips": 49051.0,
+        "county_name": "Wasatch",
+        "county_weights": "{\"49051\": 100}",
+        "county_names_all": "Wasatch",
+        "county_fips_all": 49051,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 152217.10675039247
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.67229,
+          41.02244
+        ]
+      },
+      "properties": {
+        "zip": 84050.0,
+        "city": "Morgan",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 12247.0,
+        "density": 12.2,
+        "county_fips": 49029.0,
+        "county_name": "Morgan",
+        "county_weights": "{\"49029\": 100}",
+        "county_names_all": "Morgan",
+        "county_fips_all": 49029,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 157318.89241622575
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.91754,
+          40.84078
+        ]
+      },
+      "properties": {
+        "zip": 84054.0,
+        "city": "North Salt Lake",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 22201.0,
+        "density": 1000.1,
+        "county_fips": 49011.0,
+        "county_name": "Davis",
+        "county_weights": "{\"49011\": 100}",
+        "county_names_all": "Davis",
+        "county_fips_all": 49011,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 156822.97593984962
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.16106,
+          40.71889
+        ]
+      },
+      "properties": {
+        "zip": 84055.0,
+        "city": "Oakley",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 1805.0,
+        "density": 5.5,
+        "county_fips": 49043.0,
+        "county_name": "Summit",
+        "county_weights": "{\"49043\": 100}",
+        "county_names_all": "Summit",
+        "county_fips_all": 49043,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 136623.79299363057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.99084,
+          41.12679
+        ]
+      },
+      "properties": {
+        "zip": 84056.0,
+        "city": "Hill Air Force Base",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 3644.0,
+        "density": 146.0,
+        "county_fips": 49011.0,
+        "county_name": "Davis",
+        "county_weights": "{\"49011\": 100}",
+        "county_names_all": "Davis",
+        "county_fips_all": 49011,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 133151.76086956522
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.70948,
+          40.31427
+        ]
+      },
+      "properties": {
+        "zip": 84057.0,
+        "city": "Orem",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 37620.0,
+        "density": 2357.8,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 137704.99061032865
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.71468,
+          40.27474
+        ]
+      },
+      "properties": {
+        "zip": 84058.0,
+        "city": "Orem",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 34706.0,
+        "density": 1669.2,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 139650.82398956976
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.74853,
+          40.30353
+        ]
+      },
+      "properties": {
+        "zip": 84059.0,
+        "city": "Vineyard",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 16419.0,
+        "density": 1186.5,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 127301.67383820999
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.50332,
+          40.6418
+        ]
+      },
+      "properties": {
+        "zip": 84060.0,
+        "city": "Park City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 8575.0,
+        "density": 75.6,
+        "county_fips": 49043.0,
+        "county_name": "Summit",
+        "county_weights": "{\"49043\": 75.56, \"49051\": 24.44}",
+        "county_names_all": "Summit|Wasatch",
+        "county_fips_all": "49043|49051",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 164390.21347736625
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.3417,
+          40.74721
+        ]
+      },
+      "properties": {
+        "zip": 84061.0,
+        "city": "Peoa",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 315.0,
+        "density": 2.2,
+        "county_fips": 49043.0,
+        "county_name": "Summit",
+        "county_weights": "{\"49043\": 100}",
+        "county_names_all": "Summit",
+        "county_fips_all": 49043,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 125226.77272727272
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.68421,
+          40.38586
+        ]
+      },
+      "properties": {
+        "zip": 84062.0,
+        "city": "Pleasant Grove",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 47489.0,
+        "density": 361.6,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 142902.28519698724
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9444,
+          40.495
+        ]
+      },
+      "properties": {
+        "zip": 84065.0,
+        "city": "Riverton",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 50284.0,
+        "density": 940.5,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 152020.15143784788
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.04803,
+          41.17189
+        ]
+      },
+      "properties": {
+        "zip": 84067.0,
+        "city": "Roy",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 38795.0,
+        "density": 1826.7,
+        "county_fips": 49057.0,
+        "county_name": "Weber",
+        "county_weights": "{\"49057\": 100}",
+        "county_names_all": "Weber",
+        "county_fips_all": 49057,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 125610.16654867257
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88916,
+          40.57707
+        ]
+      },
+      "properties": {
+        "zip": 84070.0,
+        "city": "Sandy",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 30348.0,
+        "density": 1596.9,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 147011.0328990228
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.06933,
+          41.05975
+        ]
+      },
+      "properties": {
+        "zip": 84075.0,
+        "city": "Syracuse",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 34118.0,
+        "density": 377.0,
+        "county_fips": 49011.0,
+        "county_name": "Davis",
+        "county_weights": "{\"49011\": 100}",
+        "county_names_all": "Davis",
+        "county_fips_all": 49011,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 147778.62597984323
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.03821,
+          40.60275
+        ]
+      },
+      "properties": {
+        "zip": 84081.0,
+        "city": "West Jordan",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 52168.0,
+        "density": 1302.0,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 139780.2555166846
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.36184,
+          40.3404
+        ]
+      },
+      "properties": {
+        "zip": 84082.0,
+        "city": "Wallsburg",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 815.0,
+        "density": 2.2,
+        "county_fips": 49051.0,
+        "county_name": "Wasatch",
+        "county_weights": "{\"49051\": 100}",
+        "county_names_all": "Wasatch",
+        "county_fips_all": 49051,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 138046.94525547445
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.96603,
+          40.62139
+        ]
+      },
+      "properties": {
+        "zip": 84084.0,
+        "city": "West Jordan",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 31389.0,
+        "density": 1825.3,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 125132.96223316914
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.92898,
+          40.8891
+        ]
+      },
+      "properties": {
+        "zip": 84087.0,
+        "city": "Woods Cross",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 17028.0,
+        "density": 474.4,
+        "county_fips": 49011.0,
+        "county_name": "Davis",
+        "county_weights": "{\"49011\": 100}",
+        "county_names_all": "Davis",
+        "county_fips_all": 49011,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 144695.9812593703
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.96077,
+          40.59507
+        ]
+      },
+      "properties": {
+        "zip": 84088.0,
+        "city": "West Jordan",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 38915.0,
+        "density": 1603.7,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 137452.9483648881
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.74205,
+          40.55803
+        ]
+      },
+      "properties": {
+        "zip": 84092.0,
+        "city": "Sandy",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 28162.0,
+        "density": 200.2,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 160038.9992857143
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.82863,
+          40.59473
+        ]
+      },
+      "properties": {
+        "zip": 84093.0,
+        "city": "Sandy",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 23998.0,
+        "density": 1681.2,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 154531.2818329278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.86201,
+          40.57177
+        ]
+      },
+      "properties": {
+        "zip": 84094.0,
+        "city": "Sandy",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 28277.0,
+        "density": 2147.7,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 138191.09492875106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.94165,
+          40.55856
+        ]
+      },
+      "properties": {
+        "zip": 84095.0,
+        "city": "South Jordan",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 38240.0,
+        "density": 1279.3,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 154013.31532485876
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.08546,
+          40.50539
+        ]
+      },
+      "properties": {
+        "zip": 84096.0,
+        "city": "Herriman",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 71115.0,
+        "density": 386.4,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 148035.98587433025
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.67318,
+          40.3048
+        ]
+      },
+      "properties": {
+        "zip": 84097.0,
+        "city": "Orem",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 22024.0,
+        "density": 1409.6,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 149388.6925363276
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.53504,
+          40.73988
+        ]
+      },
+      "properties": {
+        "zip": 84098.0,
+        "city": "Park City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 20311.0,
+        "density": 109.2,
+        "county_fips": 49043.0,
+        "county_name": "Summit",
+        "county_weights": "{\"49043\": 100}",
+        "county_names_all": "Summit",
+        "county_fips_all": 49043,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 173031.6150909091
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89996,
+          40.75628
+        ]
+      },
+      "properties": {
+        "zip": 84101.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 8329.0,
+        "density": 1743.5,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 157732.39489489488
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.86367,
+          40.75992
+        ]
+      },
+      "properties": {
+        "zip": 84102.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 19145.0,
+        "density": 3827.2,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 162165.91097922847
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.84708,
+          40.8034
+        ]
+      },
+      "properties": {
+        "zip": 84103.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 23796.0,
+        "density": 447.8,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 164570.3811634349
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.98286,
+          40.74846
+        ]
+      },
+      "properties": {
+        "zip": 84104.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 24057.0,
+        "density": 430.4,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 120497.88325991189
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.85982,
+          40.73841
+        ]
+      },
+      "properties": {
+        "zip": 84105.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 22963.0,
+        "density": 2882.3,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 152734.473669924
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.85571,
+          40.70678
+        ]
+      },
+      "properties": {
+        "zip": 84106.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 33791.0,
+        "density": 2160.8,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 142227.16414835164
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88447,
+          40.65799
+        ]
+      },
+      "properties": {
+        "zip": 84107.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 37548.0,
+        "density": 1922.7,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 133060.7555197792
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7365,
+          40.78811
+        ]
+      },
+      "properties": {
+        "zip": 84108.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 21951.0,
+        "density": 117.3,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 160102.4782289628
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7051,
+          40.70196
+        ]
+      },
+      "properties": {
+        "zip": 84109.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 25879.0,
+        "density": 175.2,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 152896.28644001562
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88431,
+          40.75575
+        ]
+      },
+      "properties": {
+        "zip": 84111.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 12446.0,
+        "density": 3532.2,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 127436.4747706422
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.84123,
+          40.7652
+        ]
+      },
+      "properties": {
+        "zip": 84112.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2738.0,
+        "density": 1193.9,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 200000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.83291,
+          40.76248
+        ]
+      },
+      "properties": {
+        "zip": 84113.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 256.0,
+        "density": 513.0,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88831,
+          40.77794
+        ]
+      },
+      "properties": {
+        "zip": 84114.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 0.0,
+        "density": 0.0,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89266,
+          40.71467
+        ]
+      },
+      "properties": {
+        "zip": 84115.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 28411.0,
+        "density": 1806.2,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 114467.25651189128
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.01691,
+          40.83258
+        ]
+      },
+      "properties": {
+        "zip": 84116.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 37136.0,
+        "density": 284.8,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 116168.65476984656
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.83561,
+          40.66167
+        ]
+      },
+      "properties": {
+        "zip": 84117.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 24873.0,
+        "density": 1710.0,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 156804.82288401254
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.03812,
+          40.65598
+        ]
+      },
+      "properties": {
+        "zip": 84118.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 41969.0,
+        "density": 1248.1,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 127246.89250567752
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.94591,
+          40.70289
+        ]
+      },
+      "properties": {
+        "zip": 84119.0,
+        "city": "West Valley City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 50745.0,
+        "density": 1701.8,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 129554.71640879479
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.00178,
+          40.69686
+        ]
+      },
+      "properties": {
+        "zip": 84120.0,
+        "city": "West Valley City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 50589.0,
+        "density": 1934.3,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 129096.82932469936
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.69864,
+          40.62557
+        ]
+      },
+      "properties": {
+        "zip": 84121.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 39204.0,
+        "density": 234.9,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 155194.99338492262
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.92177,
+          40.65837
+        ]
+      },
+      "properties": {
+        "zip": 84123.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 36913.0,
+        "density": 1722.8,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 135756.23614775727
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.80705,
+          40.67113
+        ]
+      },
+      "properties": {
+        "zip": 84124.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 22992.0,
+        "density": 1150.6,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 163099.30959302327
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.04259,
+          40.70518
+        ]
+      },
+      "properties": {
+        "zip": 84128.0,
+        "city": "West Valley City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 32072.0,
+        "density": 1477.7,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 125399.69027611044
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.96209,
+          40.6536
+        ]
+      },
+      "properties": {
+        "zip": 84129.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 38128.0,
+        "density": 2207.6,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 138080.5639971398
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88724,
+          40.76675
+        ]
+      },
+      "properties": {
+        "zip": 84138.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 0.0,
+        "density": 0.0,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89107,
+          40.77151
+        ]
+      },
+      "properties": {
+        "zip": 84150.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 7.0,
+        "density": 60.5,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9011,
+          40.77044
+        ]
+      },
+      "properties": {
+        "zip": 84180.0,
+        "city": "Salt Lake City",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 0.0,
+        "density": 0.0,
+        "county_fips": 49035.0,
+        "county_name": "Salt Lake",
+        "county_weights": "{\"49035\": 100}",
+        "county_names_all": "Salt Lake",
+        "county_fips_all": 49035,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.84598,
+          41.3371
+        ]
+      },
+      "properties": {
+        "zip": 84310.0,
+        "city": "Eden",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 5002.0,
+        "density": 18.2,
+        "county_fips": 49057.0,
+        "county_name": "Weber",
+        "county_weights": "{\"49057\": 100}",
+        "county_names_all": "Weber",
+        "county_fips_all": 49057,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 161414.32110778443
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.13672,
+          41.16681
+        ]
+      },
+      "properties": {
+        "zip": 84315.0,
+        "city": "Hooper",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 9694.0,
+        "density": 209.7,
+        "county_fips": 49057.0,
+        "county_name": "Weber",
+        "county_weights": "{\"49057\": 77.87, \"49011\": 22.13}",
+        "county_names_all": "Weber|Davis",
+        "county_fips_all": "49057|49011",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 131076.64130434784
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.62178,
+          41.30359
+        ]
+      },
+      "properties": {
+        "zip": 84317.0,
+        "city": "Huntsville",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2814.0,
+        "density": 5.0,
+        "county_fips": 49057.0,
+        "county_name": "Weber",
+        "county_weights": "{\"49057\": 100}",
+        "county_names_all": "Weber",
+        "county_fips_all": 49057,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 151678.6895522388
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.03352,
+          41.21962
+        ]
+      },
+      "properties": {
+        "zip": 84401.0,
+        "city": "Ogden",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 46784.0,
+        "density": 589.0,
+        "county_fips": 49057.0,
+        "county_name": "Weber",
+        "county_weights": "{\"49057\": 100}",
+        "county_names_all": "Weber",
+        "county_fips_all": 49057,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 133251.10450346422
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9038,
+          41.19379
+        ]
+      },
+      "properties": {
+        "zip": 84403.0,
+        "city": "Ogden",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 37244.0,
+        "density": 422.8,
+        "county_fips": 49057.0,
+        "county_name": "Weber",
+        "county_weights": "{\"49057\": 100}",
+        "county_names_all": "Weber",
+        "county_fips_all": 49057,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 147457.41886930983
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.11705,
+          41.27198
+        ]
+      },
+      "properties": {
+        "zip": 84404.0,
+        "city": "Ogden",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 65875.0,
+        "density": 264.2,
+        "county_fips": 49057.0,
+        "county_name": "Weber",
+        "county_weights": "{\"49057\": 100}",
+        "county_names_all": "Weber",
+        "county_fips_all": 49057,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 129571.49361272971
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.96499,
+          41.15747
+        ]
+      },
+      "properties": {
+        "zip": 84405.0,
+        "city": "Ogden",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 34931.0,
+        "density": 728.9,
+        "county_fips": 49057.0,
+        "county_name": "Weber",
+        "county_weights": "{\"49057\": 66.21, \"49011\": 33.79}",
+        "county_names_all": "Weber|Davis",
+        "county_fips_all": "49057|49011",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 137620.30764384713
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.93966,
+          41.19252
+        ]
+      },
+      "properties": {
+        "zip": 84408.0,
+        "city": "Ogden",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 150.0,
+        "density": 117.6,
+        "county_fips": 49057.0,
+        "county_name": "Weber",
+        "county_weights": "{\"49057\": 100}",
+        "county_names_all": "Weber",
+        "county_fips_all": 49057,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.96547,
+          41.32578
+        ]
+      },
+      "properties": {
+        "zip": 84414.0,
+        "city": "Ogden",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 33288.0,
+        "density": 591.9,
+        "county_fips": 49057.0,
+        "county_name": "Weber",
+        "county_weights": "{\"49057\": 100}",
+        "county_names_all": "Weber",
+        "county_fips_all": 49057,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 133215.92602591793
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6955,
+          40.22593
+        ]
+      },
+      "properties": {
+        "zip": 84601.0,
+        "city": "Provo",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 32871.0,
+        "density": 953.8,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 124936.78828451883
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.65009,
+          40.25412
+        ]
+      },
+      "properties": {
+        "zip": 84602.0,
+        "city": "Provo",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 2115.0,
+        "density": 4648.7,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.57284,
+          40.3313
+        ]
+      },
+      "properties": {
+        "zip": 84604.0,
+        "city": "Provo",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 43749.0,
+        "density": 178.1,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 88.32, \"49051\": 11.68}",
+        "county_names_all": "Utah|Wasatch",
+        "county_fips_all": "49049|49051",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 146506.80399181167
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.62619,
+          40.2149
+        ]
+      },
+      "properties": {
+        "zip": 84606.0,
+        "city": "Provo",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 35931.0,
+        "density": 1198.3,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 140014.37352071007
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.98545,
+          39.93359
+        ]
+      },
+      "properties": {
+        "zip": 84626.0,
+        "city": "Elberta",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 617.0,
+        "density": 2.2,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 104166.16666666667
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89281,
+          39.94026
+        ]
+      },
+      "properties": {
+        "zip": 84633.0,
+        "city": "Goshen",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 833.0,
+        "density": 12.9,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 123259.01898734177
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.69342,
+          39.95633
+        ]
+      },
+      "properties": {
+        "zip": 84651.0,
+        "city": "Payson",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 29502.0,
+        "density": 89.9,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 139025.74497885836
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.66804,
+          40.04803
+        ]
+      },
+      "properties": {
+        "zip": 84653.0,
+        "city": "Salem",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 11531.0,
+        "density": 277.3,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 142266.56598062953
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.80716,
+          39.97427
+        ]
+      },
+      "properties": {
+        "zip": 84655.0,
+        "city": "Santaquin",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 17157.0,
+        "density": 143.1,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 130511.62409638554
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4268,
+          40.00724
+        ]
+      },
+      "properties": {
+        "zip": 84660.0,
+        "city": "Spanish Fork",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 47004.0,
+        "density": 50.1,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 135908.66223776224
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.48917,
+          40.19266
+        ]
+      },
+      "properties": {
+        "zip": 84663.0,
+        "city": "Springville",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 35889.0,
+        "density": 126.4,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 139081.87183544305
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.57712,
+          40.12627
+        ]
+      },
+      "properties": {
+        "zip": 84664.0,
+        "city": "Mapleton",
+        "region": "SLC",
+        "state_id": "UT",
+        "state_name": "Utah",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 12340.0,
+        "density": 476.3,
+        "county_fips": 49049.0,
+        "county_name": "Utah",
+        "county_weights": "{\"49049\": 100}",
+        "county_names_all": "Utah",
+        "county_fips_all": 49049,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/Denver",
+        "genx_inc": 159911.18628318585
+      }
+    }
+  ]
+}
