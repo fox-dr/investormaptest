@@ -176,7 +176,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
          source: layerName,
          paint: paint,
          layout: {
-           visibility: layerName.startsWith('ca_county_income') ? 'none' : 'visible'
+           visibility: layerName.startsWith('income_mln_') ? 'none' : 'visible'
          }
        });
 
