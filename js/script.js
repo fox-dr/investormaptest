@@ -97,8 +97,7 @@ function addStaticRegionStats(map) {
       .setLngLat([stat.lng, stat.lat])
       .addTo(map);
   });
-
-
+}
 async function loadRegionData(region, config) {
   console.log('Loading data files:', config.dataFiles);
 
@@ -356,4 +355,4 @@ document.addEventListener('DOMContentLoaded', () => {
   createRegionSelector();
   loadRegion('TTLC'); // Default load
 });
-}
+
