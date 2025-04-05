@@ -3,9 +3,9 @@
   "initialCenter": [-98.35, 39.83],
   "initialZoom": 3.5,
   "dataFiles": {
-    "communities": "communities_TTLC.geojson",
-    "portfolio": "portfolio_TTLC.geojson",
-    "amenities": "amenities_TTLC.geojson"
+    "communities_TTLC": "communities_TTLC.geojson",
+    "portfolio_TTLC": "portfolio_TTLC.geojson",
+    "amenities_TTLC": "amenities_TTLC.geojson"
   },
   "layerVisibility": {
     "communities_TTLC": true,
