@@ -117,11 +117,11 @@ const regionStats = [
             });
           });
         }
-
         //end add arrows       
+        //load the arrows
+        renderEconomicArrows(map, regionStats);
+
        });
-//load the arrows
-          renderEconomicArrows(map, regionStats);
 
        
 
