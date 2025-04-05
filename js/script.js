@@ -42,50 +42,50 @@ function addStaticRegionStats(map) {
   const stats = [
     {
       name: "United States",
-      gdpTotal: "$27.2T",
-      outputPerWorker: "$98K",
+      gdpTotal: "$26T",
+      outputPerWorker: "$191K",
       lng: -103.4591,
       lat: 43.8791
     },
     {
       name: "Bay Area",
-      gdpTotal: "$950B",
-      outputPerWorker: "$128K",
+      gdpTotal: "$1.04T",
+      outputPerWorker: "$399K",
       lng: -123.5,
       lat: 39.8
     },
     {
       name: "Sacramento",
-      gdpTotal: "$170B",
-      outputPerWorker: "$107K",
+      gdpTotal: "$150B",
+      outputPerWorker: "$175K",
       lng: -117.7,
       lat: 38.2
     },
     {
       name: "SoCal",
-      gdpTotal: "$1.2T",
-      outputPerWorker: "$94K",
+      gdpTotal: "$1.5T",
+      outputPerWorker: "$238K",
       lng: -113.5,
       lat: 34.0
     },
     {
       name: "Denver",
-      gdpTotal: "$260B",
-      outputPerWorker: "$115K",
+      gdpTotal: "$250B",
+      outputPerWorker: "$172K",
       lng: -99.5,
       lat: 40.5
     },
     {
       name: "Austin",
-      gdpTotal: "$180B",
-      outputPerWorker: "$131K",
+      gdpTotal: "$198B",
+      outputPerWorker: "$173K",
       lng: -97.0,
       lat: 33.5
     },
     {
       name: "Raleigh-Durham",
-      gdpTotal: "$160B",
-      outputPerWorker: "$110K",
+      gdpTotal: "$163B",
+      outputPerWorker: "$183K",
       lng: -84.5,
       lat: 36.2
     }
