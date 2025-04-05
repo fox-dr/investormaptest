@@ -110,12 +110,20 @@ const regionStats = [
           });
 
           // Hide arrows outside zoom range
-          map.on('zoom', () => {
-            const zoom = map.getZoom();
+          function updateArrowVisibility(zoom) {
             markers.forEach(({ element }) => {
               element.style.display = (zoom >= 3 && zoom <= 5) ? 'block' : 'none';
             });
+          }
+
+          // Initial visibility
+          updateArrowVisibility(map.getZoom());
+
+          // Update on zoom
+          map.on('zoom', () => {
+            updateArrowVisibility(map.getZoom());
           });
+
         }
         //end add arrows       
         //load the arrows
