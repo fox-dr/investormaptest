@@ -224,6 +224,47 @@
         "name": "Fair View Drive",
         "description": "Approved Units: TBD<br><br>Parcel Size: TBD<br><br>Sale At: TBD",
         "status": "In Feasibility"
+      },
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8193716,
+          30.5738481
+        ]
+      },
+      "properties": {
+        "name": "Glory Hill",
+        "status": "Sold",
+        "uuid": "220073a9-c392-5806-b489-198813eeeb47",
+        "last_updated": "2025-04-01T22:46:04.599649",
+        "description": "Approved Units: 43 Single-Family Detached<br><br>Parcel Size: 15 Acres<br><br>Sale At: Tentative Map",
+        "parcel_size_acres": 15.0,
+        "sale_at": "Tentative Map",
+        "img_file": null,
+        "notes": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4508084,
+          29.248561
+        ]
+      },
+      "properties": {
+        "name": "Wright Ranch",
+        "status": "Onboarded",
+        "uuid": "84e2cd94-1748-5685-a5a9-8443f8f32372",
+        "last_updated": "2025-04-01T22:46:04.599675",
+        "description": "Approved Units: 635 Single-Family Detached<br><br>Parcel Size: 136 Acres<br><br>Sale At: Tentative Map",
+        "parcel_size_acres": 136.0,
+        "sale_at": "Tentative Map",
+        "img_file": null,
+        "notes": null
       }
     }
   ]
