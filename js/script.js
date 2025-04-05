@@ -81,6 +81,45 @@ const regionStats = [
          console.log('Map loaded');
          loadRegionData(region, config);
        });
+//add economic arrows
+function renderEconomicArrows(map, statsArray) {
+  const markers = [];
+
+  statsArray.forEach((region, index) => {
+    const el = document.createElement('div');
+    el.className = 'economic-arrow';
+    el.innerHTML = `
+      <svg class="arrow" viewBox="0 0 100 20" style="transform: rotate(${region.rotation}deg);">
+        <path d="M0,10 L90,10 L85,5 M90,10 L85,15" stroke="#d73027" stroke-width="3" fill="none"/>
+      </svg>
+      <div class="arrow-label">
+        <strong>${region.name}</strong><br>
+        ${region.valuePerWorker}<br>
+        ${region.percentGDP}
+      </div>
+    `;
+
+    setTimeout(() => {
+      el.classList.add('pulse');
+    }, index * 300);
+
+    const marker = new mapboxgl.Marker(el)
+      .setLngLat([region.lng, region.lat])
+      .addTo(map);
+
+    markers.push({ marker, element: el });
+  });
+
+  // Hide arrows outside zoom range
+  map.on('zoom', () => {
+    const zoom = map.getZoom();
+    markers.forEach(({ element }) => {
+      element.style.display = (zoom >= 3 && zoom <= 5) ? 'block' : 'none';
+    });
+  });
+}
+
+//end add arrows       
      } else {
        map.flyTo({
          center: config.initialCenter,
