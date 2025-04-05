@@ -47,7 +47,16 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
        if (map.getSource(layer.id)) map.removeSource(layer.id);
      }
    });
-   // end Clear all existing region-related layers and sources
+   // ✅ ALSO: hide income layers (but don't remove them) and reset the toggle
+   map.getStyle().layers.forEach(layer => {
+     if (layer.id.startsWith('income_mln')) {
+       map.setLayoutProperty(layer.id, 'visibility', 'none');
+     }
+   });
+
+   document.getElementById('toggle-income').checked = false;  
+  
+  // end Clear all existing region-related layers and sources
  
    for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
      try {
