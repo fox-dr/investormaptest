@@ -89,7 +89,7 @@ const regionStats = [
             el.className = 'economic-arrow';
             el.innerHTML = `
               <svg class="arrow" viewBox="0 0 100 20" style="transform: rotate(${region.rotation}deg);">
-                <path d="M0,10 L90,10 L85,5 M90,10 L85,15" stroke="#d73027" stroke-width="3" fill="none"/>
+                <path d="M0,10 L90,10 L85,5 M90,10 L85,15" stroke="#d73027" stroke-width="6" fill="none"/>
               </svg>
               <div class="arrow-label">
                 <strong>${region.name}</strong><br>
