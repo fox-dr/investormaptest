@@ -1,7 +1,7 @@
 {
   "regionName": "TTLC",
   "initialCenter": [-98.35, 39.83],
-  "initialZoom": 3.5,
+  "initialZoom": 4,
   "dataFiles": {
     "communities_TTLC": "communities_TTLC.geojson",
     "portfolio_TTLC": "portfolio_TTLC.geojson",
