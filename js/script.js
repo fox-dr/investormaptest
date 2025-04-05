@@ -421,5 +421,5 @@ const regionStats = [
  
  document.addEventListener('DOMContentLoaded', () => {
    createRegionSelector();
-   loadRegion('bay'); // Default load
+   loadRegion('TTLC'); // Default load
  });
