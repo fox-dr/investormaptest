@@ -3,13 +3,13 @@
   "initialCenter": [-98.35, 39.83],
   "initialZoom": 3.5,
   "dataFiles": {
-    "communities": "communities_bay.geojson",
-    "portfolio": "portfolio_bay.geojson",
-    "amenities": "amenities_bay.geojson"
+    "communities": "communities_TTLC.geojson",
+    "portfolio": "portfolio_TTLC.geojson",
+    "amenities": "amenities_TTLC.geojson"
   },
   "layerVisibility": {
-    "communities": true,
-    "portfolio": true,
-    "amenities": true
+    "communities_TTLC": true,
+    "portfolio_TTLC": true,
+    "amenities_TTLC": true
   }
 }
