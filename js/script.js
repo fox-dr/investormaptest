@@ -115,9 +115,12 @@ const regionStats = [
               element.style.display = (zoom >= 3 && zoom <= 5) ? 'block' : 'none';
             });
           }
-
-          // Initial visibility
+  
+         // Initial visibility (delayed slightly to prevent flicker)
+        setTimeout(() => {
           updateArrowVisibility(map.getZoom());
+        }, 300); // adjust this if needed
+
 
           // Update on zoom
           map.on('zoom', () => {
