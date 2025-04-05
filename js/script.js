@@ -49,7 +49,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
    });
    // ✅ ALSO: hide income layers (but don't remove them) and reset the toggle
    map.getStyle().layers.forEach(layer => {
-     if (layer.id.startsWith('income_mln')) {
+     if (layer.id.startsWith('income_')) {
        map.setLayoutProperty(layer.id, 'visibility', 'none');
      }
    });
