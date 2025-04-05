@@ -44,7 +44,7 @@ const regionStats = [
     percentGDP: "17% of U.S. GDP",
     lng: -113.5,
     lat: 34.0,
-    rotation: 310
+    rotation: 180
   },
   {
     id: "austin",
