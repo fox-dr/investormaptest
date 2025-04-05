@@ -42,10 +42,10 @@ function addStaticRegionStats(map) {
   const stats = [
     {
       name: "United States",
-      gdpTotal: "$26.2T",
-      outputPerWorker: "$94K",
-      lng: -100.0,
-      lat: 42.8
+      gdpTotal: "$27.2T",
+      outputPerWorker: "$98K",
+      lng: -103.4591,
+      lat: 43.8791
     },
     {
       name: "Bay Area",
