@@ -193,15 +193,16 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
          continue;
        }
  
-       map.addLayer({
-         id: layerName,
-         type: layerType,
-         source: layerName,
-         paint: paint,
-         layout: {
-           visibility: layerName.startsWith('income_mln') ? 'none' : 'visible'
-         }
-       });
+        map.addLayer({
+          id: layerName,
+          type: layerType,
+          source: layerName,
+          paint: paint,
+          layout: {
+            visibility: layerName.startsWith('income_mln') ? 'none' : 'visible'
+          },
+          filter: ['!=', ['get', 'miln_inc'], null] // 👈 Hide null values
+        });
 
  
  if (layerType === 'circle') {
