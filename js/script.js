@@ -81,6 +81,10 @@ const regionStats = [
          console.log('Map loaded');
          loadRegionData(region, config);
        });
+//load the arrows
+          renderEconomicArrows(map, regionStats);
+
+       
 //add economic arrows
 function renderEconomicArrows(map, statsArray) {
   const markers = [];
