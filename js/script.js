@@ -40,12 +40,48 @@ async function loadRegion(region) {
 }
 function addStaticRegionStats(map) {
   const stats = [
-    { name: "Bay Area", GDP: "$950B", value: "$128K / worker", GDP: "13% of U.S. GDP", lng: -123.5, lat: 39.8 },
-    { name: "Sacramento", GDP: "$170B", value: "$107K / worker", GDP: "2% of U.S. GDP", lng: -116.7, lat: 37.8 },
-    { name: "Denver", GDP: "$260B", value: "$115K / worker", GDP: "4% of U.S. GDP", lng: -101.5, lat: 40.5 },
-    { name: "Raleigh", GDP: "$160B", value: "$110K / worker", GDP: "2% of U.S. GDP", lng: -83.5, lat: 36.2 },
-    { name: "SoCal", GDP: "$1.2T", value: "$94K / worker", GDP: "17% of U.S. GDP", lng: -113.5, lat: 34.0 },
-    { name: "Austin", GDP: "$180B", value: "$131K / worker", GDP: "3% of U.S. GDP", lng: -98.0, lat: 32.5 }
+    {
+      name: "Bay Area",
+      gdpTotal: "$950B",
+      outputPerWorker: "$128K",
+      lng: -123.5,
+      lat: 39.8
+    },
+    {
+      name: "Sacramento",
+      gdpTotal: "$170B",
+      outputPerWorker: "$107K",
+      lng: -118.7,
+      lat: 39.2
+    },
+    {
+      name: "SoCal",
+      gdpTotal: "$1.2T",
+      outputPerWorker: "$94K",
+      lng: -113.5,
+      lat: 34.0
+    },
+    {
+      name: "Denver",
+      gdpTotal: "$260B",
+      outputPerWorker: "$115K",
+      lng: -99.5,
+      lat: 40.5
+    },
+    {
+      name: "Austin",
+      gdpTotal: "$180B",
+      outputPerWorker: "$131K",
+      lng: -97.0,
+      lat: 33.5
+    },
+    {
+      name: "Raleigh-Durham",
+      gdpTotal: "$160B",
+      outputPerWorker: "$110K",
+      lng: -84.5,
+      lat: 36.2
+    }
   ];
 
   stats.forEach(stat => {
@@ -53,9 +89,24 @@ function addStaticRegionStats(map) {
     el.className = 'region-stat-box';
     el.innerHTML = `
       <strong>${stat.name}</strong><br>
-      ${stat.value}<br>
-      ${stat.gdp}
+      Total GDP: ${stat.gdpTotal}<br>
+      Output per worker: ${stat.outputPerWorker}
     `;
+    new mapboxgl.Marker(el)
+      .setLngLat([stat.lng, stat.lat])
+      .addTo(map);
+  });
+}
+
+
+  stats.forEach(stat => {
+    const el = document.createElement('div');
+    el.className = 'region-stat-box';
+    el.innerHTML = `
+  <strong>${stat.name}</strong><br>
+  Total GDP: ${stat.gdpTotal}<br>
+  Output per worker: ${stat.outputPerWorker}
+     `;
     new mapboxgl.Marker(el)
       .setLngLat([stat.lng, stat.lat])
       .addTo(map);
