@@ -1,5 +1,63 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhOWpzemwifQ.cRt9ebRFaM0_DlIS9MlACA';
- 
+
+const regionStats = [
+  {
+    id: "bay_area",
+    name: "Bay Area",
+    valuePerWorker: "$128K / worker",
+    percentGDP: "13% of U.S. GDP",
+    lng: -123.5,
+    lat: 39.8,
+    rotation: 135
+  },
+  {
+    id: "sacramento",
+    name: "Sacramento",
+    valuePerWorker: "$107K / worker",
+    percentGDP: "2% of U.S. GDP",
+    lng: -120.0,
+    lat: 39.2,
+    rotation: 270
+  },
+  {
+    id: "denver",
+    name: "Denver",
+    valuePerWorker: "$115K / worker",
+    percentGDP: "4% of U.S. GDP",
+    lng: -99.5,
+    lat: 40.5,
+    rotation: 315
+  },
+  {
+    id: "raleigh",
+    name: "Raleigh",
+    valuePerWorker: "$110K / worker",
+    percentGDP: "2% of U.S. GDP",
+    lng: -84.5,
+    lat: 36.2,
+    rotation: 0
+  },
+  {
+    id: "socal",
+    name: "SoCal",
+    valuePerWorker: "$94K / worker",
+    percentGDP: "17% of U.S. GDP",
+    lng: -113.5,
+    lat: 34.0,
+    rotation: 310
+  },
+  {
+    id: "austin",
+    name: "Austin",
+    valuePerWorker: "$131K / worker",
+    percentGDP: "3% of U.S. GDP",
+    lng: -97.0,
+    lat: 33.5,
+    rotation: 180
+  }
+];
+
+
  const regions = ['aus', 'bay', 'car', 'den', 'sac', 'sca', 'TTLC'];
  let map;
  
