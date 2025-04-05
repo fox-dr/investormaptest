@@ -81,7 +81,7 @@ const regionStats = [
          console.log('Map loaded');
          loadRegionData(region, config);
          //add economic arrows
-        function renderEconomicArrows(map, statsArray) {
+          function renderEconomicArrows(map, statsArray) {
           const markers = [];
 
           statsArray.forEach((region, index) => {
@@ -130,7 +130,10 @@ const regionStats = [
         }
         //end add arrows       
         //load the arrows
-        renderEconomicArrows(map, regionStats);
+        map.once('idle', () => {
+          renderEconomicArrows(map, regionStats);
+        });
+
 
        });
 
