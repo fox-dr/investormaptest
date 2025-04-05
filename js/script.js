@@ -84,20 +84,6 @@ function addStaticRegionStats(map) {
     }
   ];
 
-  stats.forEach(stat => {
-    const el = document.createElement('div');
-    el.className = 'region-stat-box';
-    el.innerHTML = `
-      <strong>${stat.name}</strong><br>
-      Total GDP: ${stat.gdpTotal}<br>
-      Output per worker: ${stat.outputPerWorker}
-    `;
-    new mapboxgl.Marker(el)
-      .setLngLat([stat.lng, stat.lat])
-      .addTo(map);
-  });
-}
-
 
   stats.forEach(stat => {
     const el = document.createElement('div');
