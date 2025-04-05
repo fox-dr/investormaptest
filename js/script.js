@@ -41,6 +41,13 @@ async function loadRegion(region) {
 function addStaticRegionStats(map) {
   const stats = [
     {
+      name: "United States",
+      gdpTotal: "$26.2T",
+      outputPerWorker: "$94K",
+      lng: -100.0,
+      lat: 42.8
+    },
+    {
       name: "Bay Area",
       gdpTotal: "$950B",
       outputPerWorker: "$128K",
