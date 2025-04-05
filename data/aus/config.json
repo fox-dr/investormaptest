@@ -6,14 +6,12 @@
     "communities_aus": "communities_aus.geojson",
     "portfolio_aus": "portfolio_aus.geojson",
     "amenities_aus": "amenities_aus.geojson",
-    "income_mln_aus": "income_mln_aus.geojson",
-    "income_genx_aus": "income_genx_aus.geojson"
+    "income_mln_aus": "income_mln_aus.geojson"
   },
   "layerVisibility": {
     "communities_aus": true,
     "portfolio_aus": true,
     "amenities_aus": true,
-    "income_mln_aus": true,
-    "income_genx_aus": true
+    "income_mln_aus": true
   }
 }
