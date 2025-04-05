@@ -40,12 +40,12 @@ async function loadRegion(region) {
 }
 function addStaticRegionStats(map) {
   const stats = [
-    { name: "Bay Area", value: "$128K / worker", gdp: "13% of U.S. GDP", lng: -123.5, lat: 39.8 },
-    { name: "Sacramento", value: "$107K / worker", gdp: "2% of U.S. GDP", lng: -116.7, lat: 37.5 },
-    { name: "Denver", value: "$115K / worker", gdp: "4% of U.S. GDP", lng: -101.5, lat: 40.5 },
-    { name: "Raleigh", value: "$110K / worker", gdp: "2% of U.S. GDP", lng: -83.5, lat: 36.2 },
-    { name: "SoCal", value: "$94K / worker", gdp: "17% of U.S. GDP", lng: -113.5, lat: 34.0 },
-    { name: "Austin", value: "$131K / worker", gdp: "3% of U.S. GDP", lng: -98.0, lat: 32.5 }
+    { name: "Bay Area", GDP: "$950B", value: "$128K / worker", GDP: "13% of U.S. GDP", lng: -123.5, lat: 39.8 },
+    { name: "Sacramento", GDP: "$170B", value: "$107K / worker", GDP: "2% of U.S. GDP", lng: -116.7, lat: 37.8 },
+    { name: "Denver", GDP: "$260B", value: "$115K / worker", GDP: "4% of U.S. GDP", lng: -101.5, lat: 40.5 },
+    { name: "Raleigh", GDP: "$160B", value: "$110K / worker", GDP: "2% of U.S. GDP", lng: -83.5, lat: 36.2 },
+    { name: "SoCal", GDP: "$1.2T", value: "$94K / worker", GDP: "17% of U.S. GDP", lng: -113.5, lat: 34.0 },
+    { name: "Austin", GDP: "$180B", value: "$131K / worker", GDP: "3% of U.S. GDP", lng: -98.0, lat: 32.5 }
   ];
 
   stats.forEach(stat => {
