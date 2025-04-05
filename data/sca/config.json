@@ -5,11 +5,13 @@
   "dataFiles": {
     "communities_sca": "communities_sca.geojson",
     "portfolio_sca": "portfolio_sca.geojson",
-    "amenities_sca": "amenities_sca.geojson"
+    "amenities_sca": "amenities_sca.geojson",
+    "income_mln_sca": "income_mln_sca.geojson"
   },
   "layerVisibility": {
     "communities_sca": true,
     "portfolio_sca": true,
-    "amenities_sca": true
+    "amenities_sca": true,
+    "income_mln_sca": true
   }
 }
