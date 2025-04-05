@@ -99,7 +99,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
                'case',
                ['any',
                ['==', ['get', 'miln_inc'], null],
-               ['==', ['get', 'miln_inc'], 0]
+               ['==', ['get', 'miln_inc'], 0], 
+               ['==', ['get', 'miln_inc'], '-']
                ],
                'rgba(0,0,0,0)',
                [
