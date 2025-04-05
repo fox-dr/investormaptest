@@ -22,6 +22,7 @@ async function loadRegion(region) {
       map.on('load', () => {
         console.log('Map loaded');
         loadRegionData(region, config);
+        addStaticRegionStats(map); // ✅ Add stat boxes
       });
 
     } else {
@@ -36,6 +37,29 @@ async function loadRegion(region) {
   } catch (error) {
     console.error('Failed to load region:', error);
   }
+}
+function addStaticRegionStats(map) {
+  const stats = [
+    { name: "Bay Area", value: "$128K / worker", gdp: "13% of U.S. GDP", lng: -123.5, lat: 39.8 },
+    { name: "Sacramento", value: "$107K / worker", gdp: "2% of U.S. GDP", lng: -120.0, lat: 39.2 },
+    { name: "Denver", value: "$115K / worker", gdp: "4% of U.S. GDP", lng: -99.5, lat: 40.5 },
+    { name: "Raleigh", value: "$110K / worker", gdp: "2% of U.S. GDP", lng: -84.5, lat: 36.2 },
+    { name: "SoCal", value: "$94K / worker", gdp: "17% of U.S. GDP", lng: -113.5, lat: 34.0 },
+    { name: "Austin", value: "$131K / worker", gdp: "3% of U.S. GDP", lng: -97.0, lat: 33.5 }
+  ];
+
+  stats.forEach(stat => {
+    const el = document.createElement('div');
+    el.className = 'region-stat-box';
+    el.innerHTML = `
+      <strong>${stat.name}</strong><br>
+      ${stat.value}<br>
+      ${stat.gdp}
+    `;
+    new mapboxgl.Marker(el)
+      .setLngLat([stat.lng, stat.lat])
+      .addTo(map);
+  });
 }
 
 async function loadRegionData(region, config) {
