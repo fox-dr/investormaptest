@@ -97,8 +97,10 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
              ],
              'circle-color': [
                'case',
+               ['any',
                ['==', ['get', 'miln_inc'], null],
                ['==', ['get', 'miln_inc'], 0]
+               ],
                'rgba(0,0,0,0)',
                [
                  'interpolate',
