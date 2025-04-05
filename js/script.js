@@ -86,28 +86,34 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
        if (geometryType === 'Point') {
          layerType = 'circle';
          if (layerName.startsWith('income_mln')) {
-            paint = {
-              'circle-radius': [
-                'interpolate',
-                ['linear'],
-                ['zoom'],
-                 4, 6,
-                10, 8,
-                14, 10
-              ],
-              'circle-color': [
-                'interpolate',
-                ['linear'],
-                ['get', 'miln_inc'],
-                74999, '#f0f0f0',
-                99999, '#a6bddb',
-                124999, '#3690c0',
-                149999, '#034e7b'
-              ],
-              'circle-stroke-width': 0.5,
-              'circle-stroke-color': '#fff',
-              'circle-opacity': 0.6,
-            };
+           paint = {
+             'circle-radius': [
+               'interpolate',
+               ['linear'],
+               ['zoom'],
+               4, 6,
+               10, 8,
+               14, 10
+             ],
+             'circle-color': [
+               'case',
+               ['==', ['get', 'miln_inc'], null],
+               'rgba(0,0,0,0)',
+               [
+                 'interpolate',
+                 ['linear'],
+                 ['get', 'miln_inc'],
+                 74999, '#f0f0f0',
+                 99999, '#a6bddb',
+                 124999, '#3690c0',
+                 149999, '#034e7b'
+               ]
+             ],
+             'circle-stroke-width': 0.5,
+             'circle-stroke-color': '#fff',
+             'circle-opacity': 0.6
+           };
+
           } else if (layerName.startsWith('portfolio_')) {
             paint = {
               'circle-radius': [
