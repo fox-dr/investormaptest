@@ -200,7 +200,10 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
          paint: paint,
          layout: {
            visibility: layerName.startsWith('income_mln') ? 'none' : 'visible'
-         }
+         },
+         filter: layerName.startswith('income_mln')
+           ?['!=', ['get', 'miln_inc'], null]
+           : undefined
        });
 
  
