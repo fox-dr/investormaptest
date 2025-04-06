@@ -99,7 +99,17 @@ function addStaticRegionStats(map) {
   <strong>${stat.name}</strong><br>
   Total GDP: ${stat.gdpTotal}<br>
   Output per worker: ${stat.outputPerWorker}
-     `;
+  <div class="tooltip">ⓘ
+    <span class="tooltiptext">
+      GDP: BEA 2022 • Labor Force: BLS (LAUS) 2022<br>
+      GDP per worker (25–54) = GDP ÷ est. workers<br>
+      Workers = labor force × % 25–54<br>
+      Estimates are approximate.
+    </span>
+  </div>
+`;
+
+    
     new mapboxgl.Marker(el)
       .setLngLat([stat.lng, stat.lat])
       .addTo(map);
