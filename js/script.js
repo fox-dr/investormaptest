@@ -52,7 +52,7 @@ function addStaticRegionStats(map) {
       gdpTotal: "$1.04T",
       outputPerWorker: "$399K",
       lng: -123.5,
-      lat: 39.8
+      lat: 40.5
     },
     {
       name: "Sacramento",
