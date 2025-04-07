@@ -23,6 +23,34 @@ async function loadRegion(region) {
         console.log('Map loaded');
         loadRegionData(region, config);
         addStaticRegionStats(map); // ✅ Add stat boxes
+      // === Function to render pinwheel as SVG ===
+      function createPinwheelSVG(values) {
+        const numSlices = values.length;
+        const center = 30;
+        const radius = 30;
+        const maxValue = Math.max(...values);
+        const anglePerSlice = (2 * Math.PI) / numSlices;
+      
+        let paths = '';
+        for (let i = 0; i < numSlices; i++) {
+          const value = values[i];
+          const ratio = value / maxValue;
+          const r = radius * ratio;
+          const angle1 = anglePerSlice * i;
+          const angle2 = angle1 + anglePerSlice;
+      
+          const x1 = center + r * Math.cos(angle1);
+          const y1 = center + r * Math.sin(angle1);
+          const x2 = center + r * Math.cos(angle2);
+          const y2 = center + r * Math.sin(angle2);
+      
+          paths += `<path d="M${center},${center} L${x1},${y1} A${r},${r} 0 0,1 ${x2},${y2} Z" fill="gold" stroke="black" stroke-width="0.5"/>`;
+        }
+      
+        return `<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">${paths}</svg>`;
+      }
+
+  
       });
 
     } else {
@@ -148,34 +176,7 @@ map.on('load', () => {
     });
 });
 
-// === Function to render pinwheel as SVG ===
-function createPinwheelSVG(values) {
-  const numSlices = values.length;
-  const center = 30;
-  const radius = 30;
-  const maxValue = Math.max(...values);
-  const anglePerSlice = (2 * Math.PI) / numSlices;
 
-  let paths = '';
-  for (let i = 0; i < numSlices; i++) {
-    const value = values[i];
-    const ratio = value / maxValue;
-    const r = radius * ratio;
-    const angle1 = anglePerSlice * i;
-    const angle2 = angle1 + anglePerSlice;
-
-    const x1 = center + r * Math.cos(angle1);
-    const y1 = center + r * Math.sin(angle1);
-    const x2 = center + r * Math.cos(angle2);
-    const y2 = center + r * Math.sin(angle2);
-
-    paths += `<path d="M${center},${center} L${x1},${y1} A${r},${r} 0 0,1 ${x2},${y2} Z" fill="gold" stroke="black" stroke-width="0.5"/>`;
-  }
-
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">${paths}</svg>`;
-}
-
-  
   // Hide income layers and reset toggle
   map.getStyle().layers.forEach(layer => {
     if (layer.id.startsWith('income_')) {
