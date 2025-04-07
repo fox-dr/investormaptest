@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "aus",
+        "values": [
+          1513,
+          1996,
+          2405,
+          2001,
+          1832,
+          1526
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7431,
+          30.2672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "den",
+        "values": [
+          648,
+          663,
+          1008,
+          773,
+          693,
+          534
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9903,
+          39.7392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "car",
+        "values": [
+          935,
+          1099,
+          1348,
+          1408,
+          1361,
+          1117
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6382,
+          35.7796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "sca",
+        "values": [
+          256,
+          248,
+          272,
+          283,
+          300,
+          255
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "sac",
+        "values": [
+          393,
+          465,
+          518,
+          450,
+          497,
+          480
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4944,
+          38.5816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "bay",
+        "values": [
+          306,
+          244,
+          276,
+          314,
+          210,
+          152
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4194,
+          37.7749
+        ]
+      }
+    }
+  ]
+}
