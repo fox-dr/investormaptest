@@ -1,19 +1,17 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-  
-    {
-      "type": "Feature",
-      "properties": {
-        "city": "Calistoga",
-        "theta": 89.999,
-        "title": "🐌 Calistoga – Bureaucratic Snail",
-        "description": "Slow walked projects"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-122.579704, 38.578796]
-      }
-    }
-  ]
+  "regionName": "LA -San Diego",
+  "initialCenter": [-116.4366, 33.7494],
+  "initialZoom": 5.8,
+  "dataFiles": {
+    "communities_sac": "communities_sca.geojson",
+    "portfolio_sac": "portfolio_sca.geojson",
+    "amenities_sac": "amenities_sca.geojson",
+    "income_mln_sac": "income_mln_sca.geojson"
+  },
+  "layerVisibility": {
+    "communities_sca": true,
+    "portfolio_sca": true,
+    "amenities_sca": true,
+    "income_mln_sca": true
+  }
 }
