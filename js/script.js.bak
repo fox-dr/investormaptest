@@ -23,7 +23,8 @@ async function loadRegion(region) {
         console.log('Map loaded');
         loadRegionData(region, config);
         addStaticRegionStats(map); // ✅ Add stat boxes
-      // === Function to render pinwheel as SVG ===
+      
+        // === Function to render pinwheel as SVG ===
       function createPinwheelSVG(values) {
         const numSlices = values.length;
         const center = 30;
