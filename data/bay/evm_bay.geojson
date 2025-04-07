@@ -1,15 +1,10 @@
 {
   "type": "FeatureCollection",
   "features": [
-   
     {
       "type": "Feature",
       "properties": {
-        "city": "Calistoga",
-        "theta": 89.999,
-        "title": "🐌 Calistoga – Bureaucratic Snail",
-        "name": "🐌 Calistoga – Bureaucratic Snail", 
-        "description": "Slow walked projects"
+        "icon": "snail"
       },
       "geometry": {
         "type": "Point",
