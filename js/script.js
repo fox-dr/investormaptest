@@ -47,7 +47,7 @@ function createPinwheelSVG(values) {
   const numSlices = values.length;
   const center = 30;
   const radius = 30;
-  const maxValue = Math.max(...values);
+  const maxValue = 2405; //Austin 2021 max
   const anglePerSlice = (2 * Math.PI) / numSlices;
 
   let paths = '';
