@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset="utf-8" />
+  <title>Investor Map</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  
+  <!-- Mapbox CSS -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+
+  <!-- Custom Styles -->
+  <link href="css/style.css" rel="stylesheet" />
+  
+  <!-- Font -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body { margin: 0; padding: 0; font-family: 'Lato', sans-serif; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    
+#region-selector {
+  position: absolute;
+  top: calc(env(safe-area-inset-top, 20px) + 10px);
+  left: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 8px;
+  border-radius: 6px;
+  z-index: 9999;
+  display: inline-flex; /* <— key fix: no more block width */
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 90vw;
+  box-sizing: border-box;
+}
+
+#region-selector button {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+    #region-selector button:hover {
+      background-color: #007cbf;
+    }
+  </style>
+ <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+  <div id="map"></div>
+  <div id="region-selector"></div>
+<div id="layer-toggle">
+  <label><input type="checkbox" id="toggle-communities" checked> Builder Communities</label><br>
+  <label><input type="checkbox" id="toggle-income"> Zip Income Map</label>
+</div>
+
+  <!-- Mapbox JS -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  
+  <!-- Custom Script -->
+  <script src="js/script.js"></script>
+  <div id="legend">
+  <div class="legend-title">TTLC Portfolio</div>
+  <div class="legend-item"><span class="legend-dot" style="background-color:#b30000"></span> Onboarded</div>
+  <div class="legend-item"><span class="legend-dot" style="background-color:#00cc44"></span> LOI</div>
+  <div class="legend-item"><span class="legend-dot" style="background-color:#ffd700"></span> In Feasibility</div>
+  <div class="legend-item"><span class="legend-dot" style="background-color:#888888"></span> Sold</div>
+  <p>Millennial & GenX income</p>
+  <div class="legend-item"><span class="legend-dot" style="background-color:#f0f0f0"></span> $75k</div>
+  <div class="legend-item"><span class="legend-dot" style="background-color:#a6bddb"></span> $100k</div>
+  <div class="legend-item"><span class="legend-dot" style="background-color:#3690c0"></span> $125k</div>
+  <div class="legend-item"><span class="legend-dot" style="background-color:#034e7b"></span> $150k</div>
+  <p></p>
+  <div class="legend-item"><span class="legend-dot" style="background-color:#2979FF"></span> Builder Communities</div>
+</div>
+
+<img id="ttlc-logo" src="data/assets/TTLCRed.png" alt="TTLC Logo">
+
+</body>
+</html>
