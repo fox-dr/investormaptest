@@ -3,6 +3,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
 const regions = ['aus', 'bay', 'car', 'den', 'sac', 'sca', 'TTLC'];
 let map;
 
+const opacities = [0.2, 0.35, 0.5, 0.65, 0.8, 1]; // 2019 → 2024
+
 async function loadRegion(region) {
   document.getElementById('toggle-communities').checked = true;
 
@@ -63,7 +65,8 @@ function createPinwheelSVG(values) {
     const x2 = center + r * Math.cos(angle2);
     const y2 = center + r * Math.sin(angle2);
 
-    paths += `<path d="M${center},${center} L${x1},${y1} A${r},${r} 0 0,1 ${x2},${y2} Z" fill="gold" stroke="black" stroke-width="0.5"/>`;
+    paths += `<path d="M${center},${center} L${x1},${y1} A${r},${r} 0 0,1 ${x2},${y2} Z" fill="rgba(255, 215, 0, ${opacities[i]})" stroke="black" stroke-width="0.5"/>`;
+
   }
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">${paths}</svg>`;
