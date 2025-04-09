@@ -257,15 +257,15 @@ async function loadRegionData(region, config) {
                 'interpolate',
                 ['linear'],
                 ['get', 'miln_inc'],
-                74999, '#feebe2',
+                74999, '#fde0dd',
                 99999, '#fa9fb5',
                 124999, '#c51b8a',
                 149999, '#7a0177'
               ]
             ],
-            'circle-stroke-width': 0.5,
+            'circle-stroke-width': 0.7,
             'circle-stroke-color': '#fff',
-            'circle-opacity': 0.6
+            'circle-opacity': 0.7
           };
         } else if (layerName.startsWith('portfolio_')) {
           paint = {
