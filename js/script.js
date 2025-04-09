@@ -379,7 +379,23 @@ async function loadRegionData(region, config) {
           } else if (layerName.startsWith('amenities_')) {
             html += `<b>${properties.name || 'Unnamed Amenity'}</b><br>`;
             if (properties.description) html += `${properties.description}<br>`;
+          } else if (layerName.startsWith('income_')) {
+            const county = properties.county_name || 'Unknown';
+            const rawIncome = properties.miln_inc;
+
+            let formattedIncome;
+
+            if (rawIncome === null || rawIncome === '-' || isNaN(parseFloat(rawIncome))) {
+              formattedIncome = 'No data';
+            } else {
+              formattedIncome = `$${parseFloat(rawIncome).toLocaleString(undefined, {
+                maximumFractionDigits: 0
+              })}`;
+            }
+
+            html += `<b>${county} County</b><br>${formattedIncome}`;
           }
+          
 
           if (properties.status) {
             html += `<em>Status:</em> ${properties.status}`;
