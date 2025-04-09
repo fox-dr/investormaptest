@@ -302,11 +302,11 @@ async function loadRegionData(region, config) {
             'circle-color': [
               'match',
               ['get', 'status'],
-              'Active', 'rgba(8, 81, 156, 0.9)',
-              'Close Out', 'rgba(49, 130, 189, 0.9)',
-              'Grand Opening', 'rgba(107, 174, 214, 0.9)',
-              'Coming Soon', 'rgba(189, 215, 231, 0.9)',
-              'rgba(8, 81, 156, 0.9)' // fallback = Active
+              'Active', 'rgba(8, 81, 156, 0.7)',
+              'Close Out', 'rgba(49, 130, 189, 0.7)',
+              'Grand Opening', 'rgba(107, 174, 214, 0.7)',
+              'Coming Soon', 'rgba(189, 215, 231, 0.7)',
+              'rgba(8, 81, 156, 0.7)' // fallback = Active
             ],
             'circle-stroke-width': 1,
             'circle-stroke-color': '#fff'
