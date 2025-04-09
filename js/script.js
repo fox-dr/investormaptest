@@ -289,6 +289,29 @@ async function loadRegionData(region, config) {
             'circle-stroke-width': 1,
             'circle-stroke-color': '#fff',
           };
+        }else if (layerName.startsWith('communities_')) {
+          paint = {
+            'circle-radius': [
+              'interpolate',
+              ['linear'],
+              ['zoom'],
+              4, 12,
+              10, 10,
+              14, 6
+            ],
+            'circle-color': [
+              'match',
+              ['get', 'status'],
+              'Active', 'rgba(8, 81, 156, 0.9)',
+              'Close Out', 'rgba(49, 130, 189, 0.9)',
+              'Grand Opening', 'rgba(107, 174, 214, 0.9)',
+              'Coming Soon', 'rgba(189, 215, 231, 0.9)',
+              'rgba(8, 81, 156, 0.9)' // fallback = Active
+            ],
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#fff'
+          };
+                  
         } else {
           paint = {
             'circle-radius': [
