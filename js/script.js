@@ -30,16 +30,35 @@ async function loadRegion(region) {
             data.features.forEach(feature => {
               const values = feature.properties.values;
               const svg = createPinwheelSVG(values);
-      
+
+              const tooltipText = values.map((v, i) => `${2019 + i}: ${v.toFixed(1)}`).join('<br>');
+
               const el = document.createElement('div');
-              el.innerHTML = svg;
+              el.className = 'pinwheel-marker';
+              el.innerHTML = `
+                <div class="tooltip-container" style="position: relative; width: 60px; height: 60px;">
+                  ${svg}
+                  <div class="tooltiptext">${tooltipText}</div>
+                </div>
+              `;
+
               el.style.width = '60px';
               el.style.height = '60px';
-              el.style.pointerEvents = 'none';
-      
+
               new mapboxgl.Marker(el)
                 .setLngLat(feature.geometry.coordinates)
                 .addTo(map);
+
+      
+              //const el = document.createElement('div');
+              //el.innerHTML = svg;
+              //el.style.width = '60px';
+              //el.style.height = '60px';
+              //el.style.pointerEvents = 'none';
+      //
+        //      new mapboxgl.Marker(el)
+          //      .setLngLat(feature.geometry.coordinates)
+            //    .addTo(map);
             });
           });
       });
