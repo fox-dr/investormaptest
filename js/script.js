@@ -44,6 +44,12 @@ async function loadRegion(region) {
           });
       });
 function createPinwheelSVG(values) {
+  return `
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">
+  <title>${values.map((v, i) => `${2019 + i}: ${v.toFixed(1)}`).join('\n')}</title>
+  ${paths}
+</svg>`;
+  
   const numSlices = values.length;
   const center = 30;
   const radius = 30;
