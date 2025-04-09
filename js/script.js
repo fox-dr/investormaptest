@@ -39,7 +39,7 @@ async function loadRegion(region) {
                 <div class="tooltip-container" style="position: relative; width: 60px; height: 60px;">
                   ${svg}
                   <div class="tooltiptext">${tooltipText}</div>
-
+                </div>
               `;
 
               el.style.width = '60px';
