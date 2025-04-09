@@ -132,7 +132,6 @@ body {
   visibility: hidden;
   width: auto;
   max-width: 240px;
-  white-space: normal;
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   text-align: left;
