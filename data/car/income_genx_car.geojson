@@ -1,0 +1,935 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.90828,
+          35.72123
+        ]
+      },
+      "properties": {
+        "zip": 27502.0,
+        "city": "Apex",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 47436.0,
+        "density": 646.5,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 79.53, \"37037\": 20.47}",
+        "county_names_all": "Wake|Chatham",
+        "county_fips_all": "37183|37037",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 156696.895576313
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.78437,
+          35.76324
+        ]
+      },
+      "properties": {
+        "zip": 27511.0,
+        "city": "Cary",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 33279.0,
+        "density": 1095.1,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 151070.483
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7736,
+          35.72927
+        ]
+      },
+      "properties": {
+        "zip": 27518.0,
+        "city": "Cary",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 18995.0,
+        "density": 741.0,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 163910.78693284935
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.88711,
+          35.80815
+        ]
+      },
+      "properties": {
+        "zip": 27519.0,
+        "city": "Cary",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 67976.0,
+        "density": 1177.4,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 91.86, \"37037\": 8.14}",
+        "county_names_all": "Wake|Chatham",
+        "county_fips_all": "37183|37037",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 168749.73403229692
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.95367,
+          35.77102
+        ]
+      },
+      "properties": {
+        "zip": 27523.0,
+        "city": "Apex",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 18330.0,
+        "density": 183.6,
+        "county_fips": 37037.0,
+        "county_name": "Chatham",
+        "county_weights": "{\"37037\": 70.4, \"37183\": 29.6}",
+        "county_names_all": "Chatham|Wake",
+        "county_fips_all": "37037|37183",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 162041.93915492957
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.58167,
+          35.65048
+        ]
+      },
+      "properties": {
+        "zip": 27529.0,
+        "city": "Garner",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 55201.0,
+        "density": 369.4,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 66.54, \"37101\": 33.46}",
+        "county_names_all": "Wake|Johnston",
+        "county_fips_all": "37183|37101",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 130757.47550278134
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.81269,
+          35.67713
+        ]
+      },
+      "properties": {
+        "zip": 27539.0,
+        "city": "Apex",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 25944.0,
+        "density": 323.1,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 159896.60253699787
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.87332,
+          35.6103
+        ]
+      },
+      "properties": {
+        "zip": 27540.0,
+        "city": "Holly Springs",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 45993.0,
+        "density": 370.0,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 73.0, \"37085\": 19.92, \"37037\": 7.08}",
+        "county_names_all": "Wake|Harnett|Chatham",
+        "county_fips_all": "37183|37085|37037",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 151696.36303960838
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.48045,
+          35.78513
+        ]
+      },
+      "properties": {
+        "zip": 27545.0,
+        "city": "Knightdale",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 33750.0,
+        "density": 411.8,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 131725.52434456928
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.82544,
+          35.85845
+        ]
+      },
+      "properties": {
+        "zip": 27560.0,
+        "city": "Morrisville",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 39442.0,
+        "density": 555.5,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 87.12, \"37063\": 12.88}",
+        "county_names_all": "Wake|Durham",
+        "county_fips_all": "37183|37063",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 148992.5079493398
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.98141,
+          35.64157
+        ]
+      },
+      "properties": {
+        "zip": 27562.0,
+        "city": "New Hill",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 5044.0,
+        "density": 35.9,
+        "county_fips": 37037.0,
+        "county_name": "Chatham",
+        "county_weights": "{\"37037\": 60.03, \"37183\": 39.97}",
+        "county_names_all": "Chatham|Wake",
+        "county_fips_all": "37037|37183",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 153774.47558770343
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4647,
+          35.92151
+        ]
+      },
+      "properties": {
+        "zip": 27571.0,
+        "city": "Rolesville",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 8908.0,
+        "density": 706.2,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 154148.79131652662
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.54963,
+          35.98098
+        ]
+      },
+      "properties": {
+        "zip": 27587.0,
+        "city": "Wake Forest",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 81902.0,
+        "density": 300.8,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 88.25, \"37077\": 9.18, \"37069\": 2.57}",
+        "county_names_all": "Wake|Granville|Franklin",
+        "county_fips_all": "37183|37077|37069",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 154259.79501955135
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.38638,
+          35.7859
+        ]
+      },
+      "properties": {
+        "zip": 27591.0,
+        "city": "Wendell",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 26745.0,
+        "density": 155.0,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 69.75, \"37101\": 30.25}",
+        "county_names_all": "Wake|Johnston",
+        "county_fips_all": "37183|37101",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 125776.22626025791
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.67164,
+          35.55922
+        ]
+      },
+      "properties": {
+        "zip": 27592.0,
+        "city": "Willow Spring",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 20239.0,
+        "density": 199.2,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 60.21, \"37101\": 39.25, \"37085\": 0.54}",
+        "county_names_all": "Wake|Johnston|Harnett",
+        "county_fips_all": "37183|37101|37085",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 139729.7803174603
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.30303,
+          35.84034
+        ]
+      },
+      "properties": {
+        "zip": 27597.0,
+        "city": "Zebulon",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 29003.0,
+        "density": 94.5,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 42.2, \"37069\": 28.46, \"37101\": 22.91, \"37127\": 6.43}",
+        "county_names_all": "Wake|Franklin|Johnston|Nash",
+        "county_fips_all": "37183|37069|37101|37127",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 128445.4144397562
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.63453,
+          35.7737
+        ]
+      },
+      "properties": {
+        "zip": 27601.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 9702.0,
+        "density": 2060.0,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 158581.75746268657
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.66186,
+          35.66408
+        ]
+      },
+      "properties": {
+        "zip": 27603.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 53835.0,
+        "density": 404.3,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 95.39, \"37101\": 4.61}",
+        "county_names_all": "Wake|Johnston",
+        "county_fips_all": "37183|37101",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 144297.7394228075
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.56369,
+          35.82011
+        ]
+      },
+      "properties": {
+        "zip": 27604.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 44094.0,
+        "density": 890.1,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 132742.64600650524
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.65452,
+          35.79046
+        ]
+      },
+      "properties": {
+        "zip": 27605.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 6121.0,
+        "density": 2308.5,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 170506.16455696203
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.71833,
+          35.73991
+        ]
+      },
+      "properties": {
+        "zip": 27606.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 45728.0,
+        "density": 721.7,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 147546.90148773624
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.72697,
+          35.82145
+        ]
+      },
+      "properties": {
+        "zip": 27607.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 26062.0,
+        "density": 579.2,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 154087.50236546423
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.64815,
+          35.81004
+        ]
+      },
+      "properties": {
+        "zip": 27608.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 12522.0,
+        "density": 1401.3,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 168123.15938303343
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.63282,
+          35.8437
+        ]
+      },
+      "properties": {
+        "zip": 27609.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 35548.0,
+        "density": 1254.4,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 149731.02283411685
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.54644,
+          35.7435
+        ]
+      },
+      "properties": {
+        "zip": 27610.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 80173.0,
+        "density": 685.6,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 99.81, \"37101\": 0.19}",
+        "county_names_all": "Wake|Johnston",
+        "county_fips_all": "37183|37101",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 129991.09286272466
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.70387,
+          35.85034
+        ]
+      },
+      "properties": {
+        "zip": 27612.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 40475.0,
+        "density": 941.1,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 161069.11149825784
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.71183,
+          35.92633
+        ]
+      },
+      "properties": {
+        "zip": 27613.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 44357.0,
+        "density": 671.6,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 83.69, \"37063\": 16.31}",
+        "county_names_all": "Wake|Durham",
+        "county_fips_all": "37183|37063",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 160067.71945570354
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.62059,
+          35.94739
+        ]
+      },
+      "properties": {
+        "zip": 27614.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 33021.0,
+        "density": 459.7,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 163213.7477668077
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.636,
+          35.89772
+        ]
+      },
+      "properties": {
+        "zip": 27615.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 45722.0,
+        "density": 934.2,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 151280.6283066028
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.53792,
+          35.86735
+        ]
+      },
+      "properties": {
+        "zip": 27616.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 61161.0,
+        "density": 1049.8,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 100}",
+        "county_names_all": "Wake",
+        "county_fips_all": 37183,
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 139687.57791917838
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.77221,
+          35.90723
+        ]
+      },
+      "properties": {
+        "zip": 27617.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "state_name": "North Carolina",
+        "zcta": true,
+        "parent_zcta": null,
+        "population": 20012.0,
+        "density": 934.1,
+        "county_fips": 37183.0,
+        "county_name": "Wake",
+        "county_weights": "{\"37183\": 97.55, \"37063\": 2.45}",
+        "county_names_all": "Wake|Durham",
+        "county_fips_all": "37183|37063",
+        "imprecise": false,
+        "military": false,
+        "timezone": "America/New_York",
+        "genx_inc": 150953.65459670426
+      }
+    }
+  ]
+}
