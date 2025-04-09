@@ -280,11 +280,10 @@ async function loadRegionData(region, config) {
             'circle-color': [
               'match',
               ['get', 'status'],
-              'Onboarded', '#b30000',
-              'LOI', '#00cc44',
-              'In Feasibility', '#ffd700',
-              'Sold', '#888888',
-              '#999999'
+              'Onboarded', 'rgba(153, 0, 13, 0.9)',
+              'LOI', 'rgba(116, 196, 118, 0.9)',
+              'In Feasibility', 'rgba(254, 227, 145, 0.9)',
+              'Sold', 'rgba(0, 109, 44, 0.9)'
             ],
             'circle-stroke-width': 1,
             'circle-stroke-color': '#fff',
