@@ -34,7 +34,7 @@ async function loadRegion(region) {
               const tooltipText = values.map((v, i) => `${2019 + i}: ${v.toFixed(1)}`).join('<br>');
 
               const el = document.createElement('div');
-              el.className = 'pinwheel-marker pinwheel tooltip';
+              el.className = 'pinwheel-marker';
               el.innerHTML = `
                 <div class="tooltip" style="position: relative; width: 60px; height: 60px;">
                   ${svg}
