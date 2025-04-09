@@ -82,7 +82,7 @@ function createPinwheelSVG(values) {
     const x2 = center + r * Math.cos(angle2);
     const y2 = center + r * Math.sin(angle2);
     const opacities = [0.2, 0.35, 0.5, 0.65, 0.8, 1]; // 2019 → 2024
-    paths += `<path d="M${center},${center} L${x1},${y1} A${r},${r} 0 0,1 ${x2},${y2} Z" fill="rgba(255, 215, 0, ${opacities[i]})" stroke="black" stroke-width="0.5"/>`;
+    paths += `<path d="M${center},${center} L${x1},${y1} A${r},${r} 0 0,1 ${x2},${y2} Z" fill="rgba(254, 196, 79, ${opacities[i]})" stroke="black" stroke-width="0.5"/>`;
 
   }
 
