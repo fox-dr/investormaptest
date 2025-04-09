@@ -257,10 +257,10 @@ async function loadRegionData(region, config) {
                 'interpolate',
                 ['linear'],
                 ['get', 'miln_inc'],
-                74999, '#f0f0f0',
-                99999, '#a6bddb',
-                124999, '#3690c0',
-                149999, '#034e7b'
+                74999, '#feebe2',
+                99999, '#fbb4b9',
+                124999, '#f768a1',
+                149999, '#ae017e'
               ]
             ],
             'circle-stroke-width': 0.5,
