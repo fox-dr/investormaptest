@@ -258,9 +258,9 @@ async function loadRegionData(region, config) {
                 ['linear'],
                 ['get', 'miln_inc'],
                 74999, '#feebe2',
-                99999, '#fbb4b9',
-                124999, '#f768a1',
-                149999, '#ae017e'
+                99999, '#fa9fb5',
+                124999, '#c51b8a',
+                149999, '#7a0177
               ]
             ],
             'circle-stroke-width': 0.5,
