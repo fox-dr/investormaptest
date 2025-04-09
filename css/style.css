@@ -130,8 +130,7 @@ body {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: auto;
-  max-width: 240px;
+  width: 240px;
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   text-align: left;
@@ -151,6 +150,11 @@ body {
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+.pinwheel .tooltiptext {
+  white-space: normal;
+  width: auto;
+  max-width: 180px;
 }
 
 
