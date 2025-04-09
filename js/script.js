@@ -381,20 +381,25 @@ async function loadRegionData(region, config) {
             if (properties.description) html += `${properties.description}<br>`;
           } else if (layerName.startsWith('income_')) {
             const county = properties.county_name || 'Unknown';
+            const zip = properties.zip ? properties.zip.toString().split('.')[0] : null;
             const rawIncome = properties.miln_inc;
 
             let formattedIncome;
-
             if (rawIncome === null || rawIncome === '-' || isNaN(parseFloat(rawIncome))) {
               formattedIncome = 'No data';
             } else {
-              formattedIncome = `$${parseFloat(rawIncome).toLocaleString(undefined, {
+                formattedIncome = `$${parseFloat(rawIncome).toLocaleString(undefined, {
                 maximumFractionDigits: 0
               })}`;
             }
-
-            html += `<b>${county} County</b><br>${formattedIncome}`;
+          
+            html += `<div style="text-align:center;">`;
+            html += `<b>${county} County</b><br>`;
+            if (zip) html += `<small>ZIP ${zip}</small><br>`;
+            html += `<strong>${formattedIncome}</strong>`;
+            html += `</div>`;
           }
+
           
 
           if (properties.status) {
