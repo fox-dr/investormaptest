@@ -36,7 +36,7 @@ async function loadRegion(region) {
               const el = document.createElement('div');
               el.className = 'pinwheel-marker';
               el.innerHTML = `
-                <div class="tooltip-container" style="position: relative; width: 60px; height: 60px;">
+                <div class="tooltip" style="position: relative; width: 60px; height: 60px;">
                   ${svg}
                   <div class="tooltiptext">${tooltipText}</div>
                 </div>
