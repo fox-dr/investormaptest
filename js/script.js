@@ -260,7 +260,7 @@ async function loadRegionData(region, config) {
                 74999, '#feebe2',
                 99999, '#fa9fb5',
                 124999, '#c51b8a',
-                149999, '#7a0177
+                149999, '#7a0177'
               ]
             ],
             'circle-stroke-width': 0.5,
