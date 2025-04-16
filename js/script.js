@@ -444,8 +444,7 @@ async function loadRegionData(region, config) {
             if (zip) html += `<small>ZIP ${zip}</small><br>`;
             html += `<strong>${formattedIncome}</strong>`;
             html += `</div>`;
-          }
-            
+                      
           } else if (layerName.startsWith('resales_')) {
               html += `<strong>Resale Info</strong><br>`;
               html += `Price: ${properties.purchase_price || 'n/a'}<br>`;
