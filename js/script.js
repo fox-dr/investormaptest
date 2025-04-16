@@ -310,7 +310,30 @@ async function loadRegionData(region, config) {
             ],
             'circle-stroke-width': 1,
             'circle-stroke-color': '#fff'
-          };
+          } else if (layerName.startsWith('resales_')) {
+            paint = {
+              'circle-radius': [
+                'interpolate',
+                ['linear'],
+                ['zoom'],
+                4, 6,
+                10, 8,
+                14, 10
+              ],
+              'circle-color': [
+                'match',
+                ['get', 'cohort_id'],
+                1, '#FFF9C4',
+                2, '#FFE082',
+                3, '#FFCA28',
+                4, '#FFB300',
+                5, '#FFA000',
+                '#000000' // fallback
+              ],
+              'circle-stroke-width': 0.7,
+              'circle-stroke-color': '#fff',
+              'circle-opacity': 0.7
+            };
                   
         } else {
           paint = {
@@ -406,6 +429,15 @@ async function loadRegionData(region, config) {
             const county = properties.county_name || 'Unknown';
             const zip = properties.zip ? properties.zip.toString().split('.')[0] : null;
             const rawIncome = properties.miln_inc;
+          } else if (layerName.startsWith('resales_')) {
+              html += `<strong>Resale Info</strong><br>`;
+              html += `Price: ${properties.purchase_price || 'n/a'}<br>`;
+              html += `Size: ${properties.building_size || 'n/a'} SF<br>`;
+              html += `Lot: ${properties.lot_size_sqft || 'n/a'} SF<br>`;
+          } else if (layerName.startsWith('resales_')) {
+              html += properties.description || 'No info available';
+          }
+
 
             let formattedIncome;
             if (rawIncome === null || rawIncome === '-' || isNaN(parseFloat(rawIncome))) {
