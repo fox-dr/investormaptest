@@ -430,14 +430,6 @@ async function loadRegionData(region, config) {
             const county = properties.county_name || 'Unknown';
             const zip = properties.zip ? properties.zip.toString().split('.')[0] : null;
             const rawIncome = properties.miln_inc;
-          } else if (layerName.startsWith('resales_')) {
-              html += `<strong>Resale Info</strong><br>`;
-              html += `Price: ${properties.purchase_price || 'n/a'}<br>`;
-              html += `Size: ${properties.building_size || 'n/a'} SF<br>`;
-              html += `Lot: ${properties.lot_size_sqft || 'n/a'} SF<br>`;
-          
-
-
             let formattedIncome;
             if (rawIncome === null || rawIncome === '-' || isNaN(parseFloat(rawIncome))) {
               formattedIncome = 'No data';
@@ -453,9 +445,14 @@ async function loadRegionData(region, config) {
             html += `<strong>${formattedIncome}</strong>`;
             html += `</div>`;
           }
-
-          
-
+            
+          } else if (layerName.startsWith('resales_')) {
+              html += `<strong>Resale Info</strong><br>`;
+              html += `Price: ${properties.purchase_price || 'n/a'}<br>`;
+              html += `Size: ${properties.building_size || 'n/a'} SF<br>`;
+              html += `Lot: ${properties.lot_size_sqft || 'n/a'} SF<br>`;
+        
+       
           if (properties.status) {
             html += `<em>Status:</em> ${properties.status}`;
           }
