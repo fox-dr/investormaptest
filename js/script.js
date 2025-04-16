@@ -310,6 +310,7 @@ async function loadRegionData(region, config) {
             ],
             'circle-stroke-width': 1,
             'circle-stroke-color': '#fff'
+            };
           } else if (layerName.startsWith('resales_')) {
             paint = {
               'circle-radius': [
@@ -434,9 +435,7 @@ async function loadRegionData(region, config) {
               html += `Price: ${properties.purchase_price || 'n/a'}<br>`;
               html += `Size: ${properties.building_size || 'n/a'} SF<br>`;
               html += `Lot: ${properties.lot_size_sqft || 'n/a'} SF<br>`;
-          } else if (layerName.startsWith('resales_')) {
-              html += properties.description || 'No info available';
-          }
+          
 
 
             let formattedIncome;
