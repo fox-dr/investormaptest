@@ -9,7 +9,7 @@
     "commute_corridors_bay": "commute_corridors_bay.geojson",
     "income_mln_bay": "income_mln_bay.geojson",
     "evm_bay": "evm_bay.geojson",
-    "resales_bay"; "resales_bay.geojson"
+    "resales_bay": "resales_bay.geojson"
   },
   "layerVisibility": {
     "communities_bay": true,
