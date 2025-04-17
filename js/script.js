@@ -203,8 +203,8 @@ fetch(`data/${region}/entitlement_${region}.geojson`)
       layout: {
         'text-field': ['get', 'Planning Mascot'],
         'text-size': 24,
-        'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
-        'text-anchor': 'center'
+        'text-anchor': 'center',
+        'text-allow-overlap': true
       }
     });
 
