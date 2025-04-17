@@ -206,7 +206,7 @@ fetch(url)
       type: 'symbol',
       source: sourceID,
       layout: {
-        'text-field': ['get', 'Planning Mascot']
+        'text-field': ['get', 'Planning Mascot'],
         'text-size': 36,
         'text-font': ['Open Sans Regular'],
         'text-anchor': 'bottom',
@@ -218,6 +218,7 @@ fetch(url)
         'text-halo-width': 2
       }
     });
+
     console.log("🧱 Did Mapbox add the layer?", map.getLayer(sourceID));
     map.on('click', sourceID, (e) => {
       const props = e.features[0].properties;
