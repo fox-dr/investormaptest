@@ -201,17 +201,23 @@ fetch(url)
     console.log("🔎 First feature:", geojson.features[0]);
 
 
-    map.addLayer({
-      id: sourceID,
-      type: 'symbol',
-      source: sourceID,
-      layout: {
-        'text-field': ['get', 'Planning Mascot'],
-        'text-size': 24,
-        'text-anchor': 'center',
-        'text-allow-overlap': true
-      }
-    });
+  map.addLayer({
+    id: sourceID,
+    type: 'symbol',
+    source: sourceID,
+    layout: {
+      'text-field': ['get', 'Planning Mascot'],
+      'text-size': 36,
+      'text-font': ['Arial Unicode MS Bold', 'Open Sans Bold', 'sans-serif'],
+      'text-anchor': 'bottom',
+      'text-allow-overlap': true
+    },
+    paint: {
+      'text-color': '#000000',
+      'text-halo-color': '#ffffff',
+      'text-halo-width': 2
+    }
+  });
     console.log("🧱 Did Mapbox add the layer?", map.getLayer(sourceID));
     map.on('click', sourceID, (e) => {
       const props = e.features[0].properties;
