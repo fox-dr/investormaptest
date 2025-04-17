@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8531,
+          30.578
+        ]
+      },
+      "properties": {
+        "City": "Leander",
+        "State": "Texas",
+        "Entitlement Duration (M)": "18-24",
+        "Planning Mascot": "\ud83d\udc07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4936,
+          29.4241
+        ]
+      },
+      "properties": {
+        "City": "San Antonio",
+        "State": "Texas",
+        "Entitlement Duration (M)": "24-36",
+        "Planning Mascot": "\ud83d\udc22"
+      }
+    }
+  ]
+}
