@@ -212,7 +212,7 @@ fetch(url)
         'text-allow-overlap': true
       }
     });
-
+    console.log("🧱 Did Mapbox add the layer?", map.getLayer(sourceID));
     map.on('click', sourceID, (e) => {
       const props = e.features[0].properties;
       const coords = e.features[0].geometry.coordinates;
