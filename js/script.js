@@ -206,7 +206,7 @@ fetch(url)
       type: 'symbol',
       source: sourceID,
       layout: {
-        'text-field': ['get', 'Planning Mascot'],
+        'text-field': ['concat', '🐇 ', ['get', 'City']]
         'text-size': 36,
         'text-font': ['Arial Unicode MS Bold', 'Open Sans Bold', 'sans-serif'],
         'text-anchor': 'bottom',
