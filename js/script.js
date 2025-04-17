@@ -195,6 +195,7 @@ fetch(`data/${region}/entitlement_${region}.geojson`)
       type: 'geojson',
       data: geojson
     });
+    console.log("Entitlement layer added:", map.getLayer(sourceID));
 
     map.addLayer({
       id: sourceID,
