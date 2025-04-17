@@ -184,7 +184,8 @@ async function loadRegionData(region, config) {
   console.log('Loading data files:', config.dataFiles);
 
   // 🐢 Load entitlement geojson for this region
-fetch(`data/${region}/entitlement_${region}.geojson`)
+const url = `data/${region}/entitlement_${region}.geojson?t=${Date.now()}`;
+fetch(url)
   .then(res => res.json())
   .then(geojson => {
     const sourceID = `entitlement_${region}`;
