@@ -183,6 +183,48 @@ function addStaticRegionStats(map) {
 async function loadRegionData(region, config) {
   console.log('Loading data files:', config.dataFiles);
 
+  // 🐢 Load entitlement geojson for this region
+fetch(`data/${region}/entitlement_${region}.geojson`)
+  .then(res => res.json())
+  .then(geojson => {
+    const sourceID = `entitlement_${region}`;
+    if (map.getLayer(sourceID)) map.removeLayer(sourceID);
+    if (map.getSource(sourceID)) map.removeSource(sourceID);
+
+    map.addSource(sourceID, {
+      type: 'geojson',
+      data: geojson
+    });
+
+    map.addLayer({
+      id: sourceID,
+      type: 'symbol',
+      source: sourceID,
+      layout: {
+        'text-field': ['get', 'Planning Mascot'],
+        'text-size': 24,
+        'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+        'text-anchor': 'center'
+      }
+    });
+
+    map.on('click', sourceID, (e) => {
+      const props = e.features[0].properties;
+      const coords = e.features[0].geometry.coordinates;
+
+      new mapboxgl.Popup()
+        .setLngLat(coords)
+        .setHTML(`
+          <strong>${props.City}, ${props.State}</strong><br>
+          Entitlement: ${props["Entitlement Duration (M)"]}<br>
+          Mascot: ${props["Planning Mascot"]}
+        `)
+        .addTo(map);
+    });
+  })
+  .catch(err => console.warn(`No entitlement geojson for ${region}`, err));
+
+  // end rabbits, tortises, snails
   // Clear region-related layers
   map.getStyle().layers.forEach((layer) => {
     if (layer.id.startsWith('communities_') || layer.id.startsWith('portfolio_') || layer.id.startsWith('amenities_')) {
