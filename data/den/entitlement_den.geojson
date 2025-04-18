@@ -1,0 +1,309 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0811,
+          40.3083
+        ]
+      },
+      "properties": {
+        "City": "Berthound",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0736,
+          40.3661
+        ]
+      },
+      "properties": {
+        "City": "Campion",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9339,
+          39.8083
+        ]
+      },
+      "properties": {
+        "City": "Commerce City",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9455,
+          40.0767
+        ]
+      },
+      "properties": {
+        "City": "Dacono",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.049,
+          40.0503
+        ]
+      },
+      "properties": {
+        "City": "Erie",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6922,
+          40.3755
+        ]
+      },
+      "properties": {
+        "City": "Evans",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9364,
+          40.1122
+        ]
+      },
+      "properties": {
+        "City": "Firestone",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0844,
+          40.5853
+        ]
+      },
+      "properties": {
+        "City": "Fort Collins",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9372,
+          40.0997
+        ]
+      },
+      "properties": {
+        "City": "Frederick",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1019,
+          40.1672
+        ]
+      },
+      "properties": {
+        "City": "Longmont",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0749,
+          40.3978
+        ]
+      },
+      "properties": {
+        "City": "Loveland",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9916,
+          40.2247
+        ]
+      },
+      "properties": {
+        "City": "Mead",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7614,
+          39.5186
+        ]
+      },
+      "properties": {
+        "City": "Parker",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6939,
+          39.4097
+        ]
+      },
+      "properties": {
+        "City": "Ponderosa Park",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0425,
+          39.4894
+        ]
+      },
+      "properties": {
+        "City": "Sterling Ranch",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9719,
+          39.868
+        ]
+      },
+      "properties": {
+        "City": "Thornton",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9719,
+          40.5308
+        ]
+      },
+      "properties": {
+        "City": "Timmath",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0772,
+          39.7661
+        ]
+      },
+      "properties": {
+        "City": "Wheat Ridge",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9014,
+          40.477
+        ]
+      },
+      "properties": {
+        "City": "Winsor",
+        "State": "Colorado",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    }
+  ]
+}
