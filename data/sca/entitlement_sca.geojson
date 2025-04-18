@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7326,
+          33.9898
+        ]
+      },
+      "properties": {
+        "City": "Chino Hills",
+        "State": "California",
+        "Entitlement Duration (M)": "36 plus",
+        "mascot": "snail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2919,
+          33.0369
+        ]
+      },
+      "properties": {
+        "City": "Encinitas",
+        "State": "California",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0864,
+          33.1192
+        ]
+      },
+      "properties": {
+        "City": "Escondido",
+        "State": "California",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.937,
+          33.7743
+        ]
+      },
+      "properties": {
+        "City": "Garden Grove",
+        "State": "California",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      },
+      "properties": {
+        "City": "Los Angeles",
+        "State": "California",
+        "Entitlement Duration (M)": "36 plus",
+        "mascot": "snail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0817,
+          33.9022
+        ]
+      },
+      "properties": {
+        "City": "Norwalk",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3795,
+          33.1959
+        ]
+      },
+      "properties": {
+        "City": "Oceanside",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5931,
+          34.1064
+        ]
+      },
+      "properties": {
+        "City": "Rancho Cucamonga",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1825,
+          34.0556
+        ]
+      },
+      "properties": {
+        "City": "Redlands",
+        "State": "California",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1611,
+          32.7157
+        ]
+      },
+      "properties": {
+        "City": "San Diego",
+        "State": "California",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1661,
+          33.1434
+        ]
+      },
+      "properties": {
+        "City": "San Marcos",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1484,
+          33.4936
+        ]
+      },
+      "properties": {
+        "City": "Temecula",
+        "State": "California",
+        "Entitlement Duration (M)": "36 plus",
+        "mascot": "snail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2425,
+          33.2
+        ]
+      },
+      "properties": {
+        "City": "Vista",
+        "State": "California",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9389,
+          34.0686
+        ]
+      },
+      "properties": {
+        "City": "West Covina",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3962,
+          33.9533
+        ]
+      },
+      "properties": {
+        "City": "Riverside County",
+        "State": "California",
+        "Entitlement Duration (M)": "36 plus",
+        "mascot": "snail"
+      }
+    }
+  ]
+}
