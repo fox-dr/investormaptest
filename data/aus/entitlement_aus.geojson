@@ -14,7 +14,7 @@
         "City": "Leander",
         "State": "Texas",
         "Entitlement Duration (M)": "18-24",
-        "Planning Mascot": "🐇"
+        "mascot": "rabbit"
       }
     },
     {
@@ -30,7 +30,7 @@
         "City": "San Antonio",
         "State": "Texas",
         "Entitlement Duration (M)": "24-36",
-        "Planning Mascot": "🐢"
+        "mascot": "tortoise"
       }
     }
   ]
