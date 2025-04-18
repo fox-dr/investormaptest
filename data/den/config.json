@@ -6,12 +6,14 @@
     "communities_den": "communities_den.geojson",
     "portfolio_den": "portfolio_den.geojson",
     "amenities_den": "amenities_den.geojson",
-    "income_mln_den": "income_mln_den.geojson"
+    "income_mln_den": "income_mln_den.geojson",
+    "entitlement_den": "entitlement_den.geojson"
   },
   "layerVisibility": {
     "communities_den": true,
     "portfolio_den": true,
     "amenities_den": true,
-    "income_mln_den": true
+    "income_mln_den": true,
+    "entitlement_den": true
   }
 }
