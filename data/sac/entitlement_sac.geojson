@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.9872,
+          38.6685
+        ]
+      },
+      "properties": {
+        "City": "Cameron Park",
+        "State": "California",
+        "Entitlement Duration (M)": "36 plus",
+        "mascot": "snail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.0822,
+          38.694
+        ]
+      },
+      "properties": {
+        "City": "El Dorado Hills",
+        "State": "California",
+        "Entitlement Duration (M)": "36 plus",
+        "mascot": "snail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3716,
+          38.4088
+        ]
+      },
+      "properties": {
+        "City": "Elk Grove",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2994,
+          38.2546
+        ]
+      },
+      "properties": {
+        "City": "Galt",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.293,
+          38.8916
+        ]
+      },
+      "properties": {
+        "City": "Lincoln",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3027,
+          38.5891
+        ]
+      },
+      "properties": {
+        "City": "Rancho Cordova",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.9883,
+          38.7007
+        ]
+      },
+      "properties": {
+        "City": "Rescue",
+        "State": "California",
+        "Entitlement Duration (M)": "36 plus",
+        "mascot": "snail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.448,
+          38.691
+        ]
+      },
+      "properties": {
+        "City": "Rio Linda",
+        "State": "California",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1283,
+          37.7416
+        ]
+      },
+      "properties": {
+        "City": "Ripon",
+        "State": "California",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4944,
+          38.5816
+        ]
+      },
+      "properties": {
+        "City": "Sacramento",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2908,
+          37.9577
+        ]
+      },
+      "properties": {
+        "City": "Stockton",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2566,
+          38.1041
+        ]
+      },
+      "properties": {
+        "City": "Vallejo",
+        "State": "Califronia",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    }
+  ]
+}
