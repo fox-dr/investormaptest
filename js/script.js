@@ -327,6 +327,13 @@ async function loadRegionData(region, config) {
             'circle-stroke-width': 1,
             'circle-stroke-color': '#fff',
           };
+        }else if (layerName.startsWith('entitlement_')) {
+          paint = {
+            'circle-radius': 4,
+            'circle-color': 'rgba(41, 121, 255, 0.3)',
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#ffffff',
+          };
         }else if (layerName.startsWith('communities_')) {
           paint = {
             'circle-radius': [
