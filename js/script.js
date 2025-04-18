@@ -21,6 +21,22 @@ async function loadRegion(region) {
 
       map.on('load', () => {
         console.log('Map loaded');
+
+        // ✅ Load mascot icons
+        const mascots = ['rabbit', 'tortoise', 'snail'];
+        mascots.forEach((name) => {
+          map.loadImage(`icons/${name}.png`, (error, image) => {
+            if (error) {
+              console.error(`Failed to load ${name}.png`, error);
+              return;
+            }
+            if (!map.hasImage(`${name}-icon`)) {
+              map.addImage(`${name}-icon`, image);
+              console.log(`✅ ${name}-icon loaded`);
+            }
+          });
+        });
+
         loadRegionData(region, config);
         addStaticRegionStats(map); // ✅ Add stat boxes
           // ✅ Add pinwheels
@@ -214,6 +230,28 @@ async function loadRegionData(region, config) {
         type: 'geojson',
         data: geojson,
       });
+      if (layerName.startsWith('entitlement_')) {
+        map.addLayer({
+          id: `${layerName}_mascots`,
+          type: 'symbol',
+          source: layerName,
+          layout: {
+            'icon-image': ['concat', ['get', 'mascot'], '-icon'],
+            'icon-size': 0.5,
+            'icon-anchor': 'bottom',
+            'icon-allow-overlap': true,
+            'text-field': ['get', 'City'],
+            'text-font': ['Open Sans Bold'],
+            'text-size': 12,
+            'text-offset': [0, 1.2]
+          },
+          paint: {
+            'text-color': '#000000',
+            'text-halo-color': '#ffffff',
+            'text-halo-width': 1
+          }
+        });
+      }
 
       document.getElementById('toggle-income').onchange = function () {
         const visible = this.checked ? 'visible' : 'none';
