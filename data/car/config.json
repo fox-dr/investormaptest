@@ -7,13 +7,15 @@
     "portfolio_car": "portfolio_car.geojson",
     "amenities_car": "amenities_car.geojson",
     "income_mln_car": "income_mln_car.geojson",
-    "entitlement_car": "entitlement_car.geojson"
+    "entitlement_car": "entitlement_car.geojson",
+    "entitlement_den": "entitlement_den.geojson"
   },
   "layerVisibility": {
     "communities_car": true,
     "portfolio_car": true,
     "amenities_car": true,
     "income_mln_car": true,
-    "entitlement_car": true
+    "entitlement_car": true,
+    "entitlement_den": true
   }
 }
