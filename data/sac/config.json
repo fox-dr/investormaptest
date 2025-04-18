@@ -6,12 +6,14 @@
     "communities_sac": "communities_sac.geojson",
     "portfolio_sac": "portfolio_sac.geojson",
     "amenities_sac": "amenities_sac.geojson",
-    "income_mln_sac": "income_mln_sac.geojson"
+    "income_mln_sac": "income_mln_sac.geojson",
+    "entitlement_sac": "entitlement_sac.geojson"
   },
   "layerVisibility": {
     "communities_sac": true,
     "portfolio_sac": true,
     "amenities_sac": true,
-    "income_mln_sac": true
+    "income_mln_sac": true,
+    "entitlement_sac": true
   }
 }
