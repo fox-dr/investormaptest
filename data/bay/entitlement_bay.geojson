@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.6958,
+          37.9319
+        ]
+      },
+      "properties": {
+        "City": "Brentwood",
+        "State": "California",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5797,
+          38.5785
+        ]
+      },
+      "properties": {
+        "City": "Calistoga",
+        "State": "California",
+        "Entitlement Duration (M)": "36 plus",
+        "mascot": "snail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3116,
+          37.9158
+        ]
+      },
+      "properties": {
+        "City": "El Cerrito",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0808,
+          37.6688
+        ]
+      },
+      "properties": {
+        "City": "Hayward",
+        "State": "California ",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8996,
+          37.4323
+        ]
+      },
+      "properties": {
+        "City": "Milpitas",
+        "State": "California",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.6544,
+          37.1305
+        ]
+      },
+      "properties": {
+        "City": "Morgan Hill",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8747,
+          37.6624
+        ]
+      },
+      "properties": {
+        "City": "Pleasanton",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8863,
+          37.3382
+        ]
+      },
+      "properties": {
+        "City": "San Jose",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.978,
+          37.7799
+        ]
+      },
+      "properties": {
+        "City": "San Ramon",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9552,
+          37.3541
+        ]
+      },
+      "properties": {
+        "City": "Santa Clara",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0363,
+          37.3688
+        ]
+      },
+      "properties": {
+        "City": "Sunnyvale",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4252,
+          37.7397
+        ]
+      },
+      "properties": {
+        "City": "Tracy",
+        "State": "California",
+        "Entitlement Duration (M)": "24-36",
+        "mascot": "tortoise"
+      }
+    }
+  ]
+}
