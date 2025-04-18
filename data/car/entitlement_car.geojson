@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7395,
+          35.5077
+        ]
+      },
+      "properties": {
+        "City": "Angier",
+        "State": "North Carolina",
+        "Entitlement Duration (M)": "10-18",
+        "Planning Mascot": "\ud83d\udc07\ud83d\udc07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4564,
+          35.6507
+        ]
+      },
+      "properties": {
+        "City": "Clayton",
+        "State": "North Carolina",
+        "Entitlement Duration (M)": "12-24",
+        "Planning Mascot": "\ud83d\udc07\ud83d\udc07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6714,
+          35.4079
+        ]
+      },
+      "properties": {
+        "City": "Coats",
+        "State": "North Carolina",
+        "Entitlement Duration (M)": "10-18",
+        "Planning Mascot": "\ud83d\udc07\ud83d\udc07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8986,
+          35.994
+        ]
+      },
+      "properties": {
+        "City": "Durham",
+        "State": "North Carolina",
+        "Entitlement Duration (M)": "15-30",
+        "Planning Mascot": "\ud83d\udc07\ud83d\udc07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4578,
+          36.101
+        ]
+      },
+      "properties": {
+        "City": "Franklinton",
+        "State": "North Carolina",
+        "Entitlement Duration (M)": "10-15",
+        "Planning Mascot": "\ud83d\udc07\ud83d\udc07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8,
+          35.584
+        ]
+      },
+      "properties": {
+        "City": "Fuquay-Varina",
+        "State": "North Carolina",
+        "Entitlement Duration (M)": "12-24",
+        "Planning Mascot": "\ud83d\udc07\ud83d\udc07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6142,
+          35.7113
+        ]
+      },
+      "properties": {
+        "City": "Garner",
+        "State": "North Carolina",
+        "Entitlement Duration (M)": "12-14",
+        "Planning Mascot": "\ud83d\udc07\ud83d\udc07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.65,
+          35.89
+        ]
+      },
+      "properties": {
+        "City": "North Raleigh",
+        "State": "North Carolina",
+        "Entitlement Duration (M)": "12-24",
+        "Planning Mascot": "\ud83d\udc07\ud83d\udc07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.177,
+          35.7201
+        ]
+      },
+      "properties": {
+        "City": "Pittsboro",
+        "State": "North Carolina",
+        "Entitlement Duration (M)": "10-18",
+        "Planning Mascot": "\ud83d\udc07\ud83d\udc07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6382,
+          35.7796
+        ]
+      },
+      "properties": {
+        "City": "Raleigh",
+        "State": "North Carolina",
+        "Entitlement Duration (M)": "12-24",
+        "Planning Mascot": "\ud83d\udc07\ud83d\udc07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.3147,
+          35.824
+        ]
+      },
+      "properties": {
+        "City": "Zebulon",
+        "State": "North Carolina",
+        "Entitlement Duration (M)": "18-24",
+        "mascot": "rabbit"
+      }
+    }
+  ]
+}
