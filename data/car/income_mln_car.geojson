@@ -28,7 +28,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 148808.2749
+        "miln_inc": 144512.8479
       }
     },
     {
@@ -58,7 +58,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 156696.8956
+        "miln_inc": 152381.1637
       }
     },
     {
@@ -88,7 +88,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 144690.7548
+        "miln_inc": 167356.4013
       }
     },
     {
@@ -118,7 +118,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 111827.457
+        "miln_inc": 103658.0366
       }
     },
     {
@@ -148,7 +148,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 144974.4787
+        "miln_inc": 116066.7443
       }
     },
     {
@@ -178,7 +178,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 151070.483
+        "miln_inc": 133313.0924
       }
     },
     {
@@ -208,7 +208,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 158933.0599
+        "miln_inc": 147708.6485
       }
     },
     {
@@ -238,7 +238,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 173604.9851
+        "miln_inc": 145023.5559
       }
     },
     {
@@ -268,7 +268,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 164149.0365
+        "miln_inc": 155912.905
       }
     },
     {
@@ -298,7 +298,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 165415.4775
+        "miln_inc": 155679.746
       }
     },
     {
@@ -328,7 +328,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 165415.4775
+        "miln_inc": 155679.746
       }
     },
     {
@@ -358,7 +358,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 163910.7869
+        "miln_inc": 145769.4282
       }
     },
     {
@@ -388,7 +388,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 168749.734
+        "miln_inc": 157597.4044
       }
     },
     {
@@ -418,7 +418,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 168749.734
+        "miln_inc": 157597.4044
       }
     },
     {
@@ -448,7 +448,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 128957.037
+        "miln_inc": 126907.6634
       }
     },
     {
@@ -478,7 +478,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 128812.1928
+        "miln_inc": 118144.7005
       }
     },
     {
@@ -508,7 +508,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 128812.1928
+        "miln_inc": 118144.7005
       }
     },
     {
@@ -538,7 +538,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 162041.9392
+        "miln_inc": 150203.3522
       }
     },
     {
@@ -568,7 +568,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 138154.247
+        "miln_inc": 114404.6076
       }
     },
     {
@@ -598,7 +598,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 138154.247
+        "miln_inc": 114404.6076
       }
     },
     {
@@ -628,7 +628,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 144670.0086
+        "miln_inc": 134177.8916
       }
     },
     {
@@ -658,7 +658,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 147776.5691
+        "miln_inc": 136617.7442
       }
     },
     {
@@ -688,7 +688,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 130757.4755
+        "miln_inc": 136718.081
       }
     },
     {
@@ -718,7 +718,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 159896.6025
+        "miln_inc": 151207.9177
       }
     },
     {
@@ -748,7 +748,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 151696.363
+        "miln_inc": 147870.8049
       }
     },
     {
@@ -778,7 +778,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 131725.5243
+        "miln_inc": 126793.0721
       }
     },
     {
@@ -808,7 +808,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 148992.5079
+        "miln_inc": 136150.2671
       }
     },
     {
@@ -838,7 +838,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 148992.5079
+        "miln_inc": 136150.2671
       }
     },
     {
@@ -868,7 +868,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 153774.4756
+        "miln_inc": 163157.5457
       }
     },
     {
@@ -898,7 +898,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 153774.4756
+        "miln_inc": 163157.5457
       }
     },
     {
@@ -928,7 +928,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 154148.7913
+        "miln_inc": 160805.8603
       }
     },
     {
@@ -958,7 +958,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 154148.7913
+        "miln_inc": 160805.8603
       }
     },
     {
@@ -988,7 +988,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 154259.795
+        "miln_inc": 148134.4109
       }
     },
     {
@@ -1018,7 +1018,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 125776.2263
+        "miln_inc": 136760.533
       }
     },
     {
@@ -1048,7 +1048,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 139729.7803
+        "miln_inc": 129340.6411
       }
     },
     {
@@ -1078,7 +1078,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 139729.7803
+        "miln_inc": 129340.6411
       }
     },
     {
@@ -1108,7 +1108,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 131698.5364
+        "miln_inc": 121943.7435
       }
     },
     {
@@ -1138,7 +1138,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 131698.5364
+        "miln_inc": 121943.7435
       }
     },
     {
@@ -1168,7 +1168,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 128445.4144
+        "miln_inc": 124124.8713
       }
     },
     {
@@ -1198,7 +1198,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 128445.4144
+        "miln_inc": 124124.8713
       }
     },
     {
@@ -1228,7 +1228,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 158581.7575
+        "miln_inc": 147707.4938
       }
     },
     {
@@ -1258,7 +1258,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 144297.7394
+        "miln_inc": 135286.0122
       }
     },
     {
@@ -1288,7 +1288,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 132742.646
+        "miln_inc": 128213.3477
       }
     },
     {
@@ -1318,7 +1318,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 170506.1646
+        "miln_inc": 128638.5786
       }
     },
     {
@@ -1348,7 +1348,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 147546.9015
+        "miln_inc": 134068.1506
       }
     },
     {
@@ -1378,7 +1378,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 147546.9015
+        "miln_inc": 134068.1506
       }
     },
     {
@@ -1408,7 +1408,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 154087.5024
+        "miln_inc": 147019.0712
       }
     },
     {
@@ -1438,7 +1438,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 168123.1594
+        "miln_inc": 182780.2022
       }
     },
     {
@@ -1468,7 +1468,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 149731.0228
+        "miln_inc": 132464.3238
       }
     },
     {
@@ -1498,7 +1498,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 129991.0929
+        "miln_inc": 116962.7759
       }
     },
     {
@@ -1528,7 +1528,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 129991.0929
+        "miln_inc": 116962.7759
       }
     },
     {
@@ -1558,7 +1558,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 161069.1115
+        "miln_inc": 145208.8261
       }
     },
     {
@@ -1588,7 +1588,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 161069.1115
+        "miln_inc": 145208.8261
       }
     },
     {
@@ -1618,7 +1618,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 160067.7195
+        "miln_inc": 148151.0884
       }
     },
     {
@@ -1648,7 +1648,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 163213.7478
+        "miln_inc": 155149.4896
       }
     },
     {
@@ -1678,7 +1678,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 151280.6283
+        "miln_inc": 142406.8173
       }
     },
     {
@@ -1708,7 +1708,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 139687.5779
+        "miln_inc": 121023.2261
       }
     },
     {
@@ -1738,7 +1738,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 150953.6546
+        "miln_inc": 140097.9729
       }
     },
     {
@@ -1768,7 +1768,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 142773.7566
+        "miln_inc": 144283.441
       }
     },
     {
@@ -1798,7 +1798,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 133220.7431
+        "miln_inc": 133001.7324
       }
     },
     {
@@ -1828,7 +1828,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 133220.7431
+        "miln_inc": 133001.7324
       }
     },
     {
@@ -1858,7 +1858,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 133220.7431
+        "miln_inc": 133001.7324
       }
     },
     {
@@ -1888,7 +1888,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 118549.2393
+        "miln_inc": 112467.7531
       }
     },
     {
@@ -1918,7 +1918,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 148716.4566
+        "miln_inc": 144234.1775
       }
     },
     {
@@ -1948,7 +1948,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 142306.122
+        "miln_inc": 135926.9997
       }
     },
     {
@@ -1978,7 +1978,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 142306.122
+        "miln_inc": 135926.9997
       }
     },
     {
@@ -2008,7 +2008,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 0
+        "miln_inc": 0
       }
     },
     {
@@ -2038,7 +2038,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 154720.9456
+        "miln_inc": 150399.1031
       }
     },
     {
@@ -2068,7 +2068,7 @@
         "imprecise": false,
         "military": false,
         "timezone": "America/New_York",
-        "genx_inc": 150048.2734
+        "miln_inc": 135192.764
       }
     }
   ]
