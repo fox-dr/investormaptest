@@ -258,16 +258,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.651683,
-          37.107551
+          -121.65,
+          37.107
         ]
       },
       "properties": {
-        "name": "W Edmundson Ave.",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "aef47365-14d3-5b3f-aff1-c2172f65e83f",
         "last_updated": "2025-04-01T22:46:04.599310",
-        "description": "Approved Units: 93 Single-Family Detached<br><br>Parcel Size: 13.3<br><br>Sale At: TBD",
+        "description": "Location approximate. Approved Units: TBD<br><br>Parcel Size: 13.3<br><br>Sale At: TBD",
         "parcel_size_acres": null,
         "sale_at": "TBD",
         "img_file": null,
@@ -279,16 +279,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.9226887,
-          37.3045322
+          -121.922,
+          37.30
         ]
       },
       "properties": {
-        "name": "Leigh Ave.",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "86acf692-3fa9-54ce-89a1-22d854e88a94",
         "last_updated": "2025-04-01T22:46:04.599320",
-        "description": "Approved Units: TBD<br><br>Parcel Size: TBD<br><br>Sale At: TBD",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: TBD<br><br>Sale At: TBD",
         "parcel_size_acres": null,
         "sale_at": "TBD",
         "img_file": null,
