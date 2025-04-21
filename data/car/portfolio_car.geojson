@@ -48,16 +48,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.332872,
-          35.807996
+          -78.332,
+          35.80
         ]
       },
       "properties": {
-        "name": "Wooten Tract",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "1a487045-773f-589c-9e1b-22e71de13885",
         "last_updated": "2025-04-01T22:46:04.598728",
-        "description": "Approved Units: 225 Single-Family & Townhomes<br><br>Parcel Size: 62 Acres<br><br>Sale At: Shovel Ready",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 62 Acres<br><br>Sale At: Shovel Ready",
         "parcel_size_acres": 62.0,
         "sale_at": "Shovel Ready",
         "img_file": null,
@@ -69,16 +69,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.4301573,
-          35.7826717
+          -78.430,
+          35.782
         ]
       },
       "properties": {
-        "name": "Hall Tract",
+        "name": "Prospect,
         "status": "LOI",
         "uuid": "69ee1eb3-2e43-5fa4-8e27-b1fe0bc85168",
         "last_updated": "2025-04-01T22:46:04.598739",
-        "description": "Approved Units: 180 Single-Family & Townhomes<br><br>Parcel Size: 72.5 Acres<br>\u00a0<br>Sale At: Shovel Ready",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 72.5 Acres<br>\u00a0<br>Sale At: Shovel Ready",
         "parcel_size_acres": 72.5,
         "sale_at": "Shovel Ready",
         "img_file": null,
@@ -90,16 +90,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.4580543,
-          36.1018163
+          -78.458,
+          36.10
         ]
       },
       "properties": {
-        "name": "M. H. Freeman Tract",
+        "name": "Prospect,
         "status": "LOI",
         "uuid": "c75ab8dd-68bd-5951-8749-7ad6c9ea2e04",
         "last_updated": "2025-04-01T22:46:04.598749",
-        "description": "Approved Units: 170 Single-Family<br><br>Parcel Size: 282 Acres<br><br>Sale At: Shovel Ready",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 282 Acres<br><br>Sale At: Shovel Ready",
         "parcel_size_acres": 282.0,
         "sale_at": "Shovel Ready",
         "img_file": null,
@@ -111,16 +111,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.907727,
-          36.080024
+          -78.907,
+          36.08
         ]
       },
       "properties": {
-        "name": "Yergan Tract",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "88f502f4-95c5-591a-8d2c-a3515ff2bab6",
         "last_updated": "2025-04-01T22:46:04.598759",
-        "description": "Approved Units: 115 Townhomes<br><br>Parcel Size: 23 Acres<br><br>Sale At: Shovel Ready",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 23 Acres<br><br>Sale At: Shovel Ready",
         "parcel_size_acres": 23.0,
         "sale_at": "Shovel Ready",
         "img_file": null,
@@ -132,16 +132,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.774185,
-          35.952322
+          -78.774,
+          35.95
         ]
       },
       "properties": {
-        "name": "Delong Tract",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "756ce9da-c859-5485-a888-81f2684a4982",
         "last_updated": "2025-04-01T22:46:04.598769",
-        "description": "Approved Units: 85 Townhomes<br><br>Parcel Size: 21 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 21 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 21.0,
         "sale_at": "TBD",
         "img_file": null,
@@ -153,16 +153,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.7715672,
-          35.947512
+          -78.77,
+          35.947
         ]
       },
       "properties": {
-        "name": "Boisseau Tract",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "5824ca46-48d1-5a4f-a238-70bd0bbaa533",
         "last_updated": "2025-04-01T22:46:04.598783",
-        "description": "Approved Units: 200 Townhomes<br><br>Parcel Size: 57 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 57 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 57.0,
         "sale_at": "TBD",
         "img_file": null,
@@ -174,16 +174,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.6012864,
-          35.8882578
+          -78.60,
+          35.88
         ]
       },
       "properties": {
-        "name": "Weathersbee Tract",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "d4a0b59a-00e2-514c-92d5-3c8687555d49",
         "last_updated": "2025-04-01T22:46:04.598802",
-        "description": "Approved Units: 130 Townhomes<br><br>Parcel Size: 22 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 22 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 22.0,
         "sale_at": "TBD",
         "img_file": null,
@@ -195,16 +195,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.7593,
-          35.417768
+          -78.759,
+          35.41
         ]
       },
       "properties": {
-        "name": "Johnson Tract",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "f022a326-af19-5c63-bf48-6c653a8b8390",
         "last_updated": "2025-04-01T22:46:04.598828",
-        "description": "Approved Units: TBD (Single-Family)<br><br>Parcel Size: 72 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 72 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 72.0,
         "sale_at": "TBD",
         "img_file": null,
@@ -216,16 +216,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.441647,
-          35.636529
+          -78.44,
+          35.636
         ]
       },
       "properties": {
-        "name": "Terry Coats Tract",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "71a3c73e-2f10-5e9c-924a-d5dfd673c430",
         "last_updated": "2025-04-01T22:46:04.598839",
-        "description": "Approved Units: 200 Single-Family & Townhomes<br><br>Parcel Size: 51 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 51 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 51.0,
         "sale_at": "TBD",
         "img_file": null,
@@ -237,16 +237,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.57702,
-          35.649656
+          -78.57,
+          35.649
         ]
       },
       "properties": {
-        "name": "White Tract",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "bd31de43-9ecc-5e66-b787-d64503d1a071",
         "last_updated": "2025-04-01T22:46:04.598849",
-        "description": "Approved Units: 500 Single-Family & Townhomes<br><br>Parcel Size: 260 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 260 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 260.0,
         "sale_at": "TBD",
         "img_file": null,
@@ -258,16 +258,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.6141709,
-          35.7112642
+          -78.614,
+          35.71
         ]
       },
       "properties": {
-        "name": "Stockett Tract",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "500b9063-ec71-5147-b47a-067ac1ff8009",
         "last_updated": "2025-04-01T22:46:04.598860",
-        "description": "Approved Units: 130 Townhomes<br><br>Parcel Size: 20 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 20 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 20.0,
         "sale_at": "TBD",
         "img_file": null,
@@ -279,16 +279,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.741277,
-          35.463213
+          -78.742,
+          35.461
         ]
       },
       "properties": {
-        "name": "Stuart Surles Tract",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "3dfe9816-fc39-55f2-b968-20d6d7a61fe2",
         "last_updated": "2025-04-01T22:46:04.598870",
-        "description": "Approved Units: 500 Single-Family & Townhomes<br><br>Parcel Size: 167 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 167 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 167.0,
         "sale_at": "TBD",
         "img_file": null,
@@ -300,16 +300,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.7695903,
-          35.4924739
+          -78.77,
+          35.493
         ]
       },
       "properties": {
-        "name": "Honeycutt",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "8531148a-8d1d-58dc-8570-13856724b421",
         "last_updated": "2025-04-01T22:46:04.598880",
-        "description": "Approved Units: 120 Single-Family<br><br>Parcel Size: 43 Acres<br><br>Sale At: Shovel Ready",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 43 Acres<br><br>Sale At: Shovel Ready",
         "parcel_size_acres": 43.0,
         "sale_at": "Shovel Ready",
         "img_file": null,
@@ -326,11 +326,11 @@
         ]
       },
       "properties": {
-        "name": "Hopkins Tract",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "1ecba16f-4dce-5426-9deb-94b342ccb376",
         "last_updated": "2025-04-01T22:46:04.598890",
-        "description": "Approved Units: 150 Single-Family & Townhomes<br><br>Parcel Size: 45 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 45 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 45.0,
         "sale_at": "TBD",
         "img_file": null,
@@ -342,16 +342,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.5988252,
-          35.8660977
+          -78.599,
+          35.867
         ]
       },
       "properties": {
-        "name": "Johnston Heirs Tract",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "f65b42cf-39cb-52d9-91c8-ef0a9eef4c10",
         "last_updated": "2025-04-01T22:46:04.598901",
-        "description": "Approved Units: 15 Townhomes<br><br>Parcel Size: 3.8 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 3.8 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 3.8,
         "sale_at": "TBD",
         "img_file": null,
@@ -363,16 +363,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.774967,
-          35.51012
+          -78.78,
+          35.51
         ]
       },
       "properties": {
-        "name": "Cross Link Partners Tract",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "7077cca8-cd3f-5e9b-bc06-5f59c72acb91",
         "last_updated": "2025-04-01T22:46:04.598912",
-        "description": "Approved Units: 144 Single-Family<br><br>Parcel Size: 48 Acres<br><br>Sale At: Finished Lot Development",
+        "description": "Location Approximate. Approved Units: TBD<br><br>Parcel Size: 48 Acres<br><br>Sale At: Finished Lot Development",
         "parcel_size_acres": 48.0,
         "sale_at": "Finished Lot Development",
         "img_file": null,
