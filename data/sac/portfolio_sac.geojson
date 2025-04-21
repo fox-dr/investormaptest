@@ -195,16 +195,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.4462967,
-          38.6531662
+          -121.45,
+          38.654
         ]
       },
       "properties": {
-        "name": "Dry Creek",
+        "name": "Prospect",
         "status": "Onboarded",
         "uuid": "0eb4fde2-4121-5b4a-b9b4-b0a2ebb9a79a",
         "last_updated": "2025-04-01T22:46:04.597701",
-        "description": "Approved Units: 135 Single-Family<br><br>Parcel Size: 26.56<br><br>Sale At: Finished Lots<br><br>Homebuilder: Lennar",
+        "description": "Location Approximate. Units TBD<br><br>Parcel Size: 26.56<br><br>Sale At: Finished Lots<br><br>Homebuilder: Lennar",
         "parcel_size_acres": null,
         "sale_at": "Finished Lots",
         "img_file": null,
@@ -216,16 +216,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.978348,
-          38.705394
+          -120.97,
+          38.70
         ]
       },
       "properties": {
-        "name": "Green Valley 88",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "1ac78c47-94e1-5ba5-b0c0-f3dd9662cf7a",
         "last_updated": "2025-04-01T22:46:04.597731",
-        "description": "Approved Units: 178 Single-Family<br><br>Parcel Size: 88 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Units TBD<br><br>Parcel Size: 88 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 88.0,
         "sale_at": "TBD",
         "img_file": null,
@@ -237,16 +237,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.7144363,
-          37.9364159
+          -121.72,
+          37.94
         ]
       },
       "properties": {
-        "name": "Brentwood II",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "cffbfc72-950c-5b7d-b71f-0a86bdf5f873",
         "last_updated": "2025-04-01T22:46:04.597744",
-        "description": "Approved Units: 57 Single-Family<br><br>Parcel Size: 13.6 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Units TBD<br><br>Parcel Size: 13.6 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 13.6,
         "sale_at": "TBD",
         "img_file": null,
@@ -258,16 +258,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.3309346,
-          38.8678105
+          -121.33,
+          38.86
         ]
       },
       "properties": {
-        "name": "Lincoln Village 7",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "bb6bdfba-bf00-5ec6-994d-3cb8c500a637",
         "last_updated": "2025-04-01T22:46:04.597755",
-        "description": "Approved Units: 96 Single-Family<br><br>Parcel Size: 20.3 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Units TBD<br><br>Parcel Size: 20.3 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 20.3,
         "sale_at": "TBD",
         "img_file": null,
@@ -284,11 +284,11 @@
         ]
       },
       "properties": {
-        "name": "Antelope Elverta",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "a45aa69e-5f9d-5edc-bc80-578a335fa9fa",
         "last_updated": "2025-04-01T22:46:04.597765",
-        "description": "Approved Units: 320 Single-Family<br><br>Parcel Size: 43 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Units TBD<br><br>Parcel Size: 43 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 43.0,
         "sale_at": "TBD",
         "img_file": null,
@@ -300,16 +300,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.2945529,
-          38.2644378
+          -121.28,
+          38.27
         ]
       },
       "properties": {
-        "name": "Simmerhorn Road",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "cc2fa460-4ff6-592a-98a5-9e1bcc73ffaa",
         "last_updated": "2025-04-01T22:46:04.597776",
-        "description": "Approved Units: 126 Single-Family<br><br>Parcel Size: 23 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Units TBD<br><br>Parcel Size: 23 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 23.0,
         "sale_at": "TBD",
         "img_file": null,
@@ -321,16 +321,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.1354141,
-          37.7394537
+          -121.12,
+          37.74
         ]
       },
       "properties": {
-        "name": "Ripon",
+        "name": "Prospect",
         "status": "LOI",
         "uuid": "bfe70fa3-93f7-5af5-b329-7c1b965cc885",
         "last_updated": "2025-04-01T22:46:04.597787",
-        "description": "Approved Units: 100 Single-Family<br><br>Parcel Size: 19.8 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Units TBD<br><br>Parcel Size: 19.8 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 19.8,
         "sale_at": "TBD",
         "img_file": null,
@@ -342,16 +342,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.274574,
-          38.531723
+          -121.28,
+          38.54
         ]
       },
       "properties": {
-        "name": "Shalako East",
+        "name": "Prospect",
         "status": "In Feasibility",
         "uuid": "2bb42a97-6575-5505-8658-3162c247181d",
         "last_updated": "2025-04-01T22:46:04.597797",
-        "description": "Approved Units: 559 (Type TBD)<br><br>Parcel Size: 135 Acres<br><br>Sale At: TBD",
+        "description": "Location Approximate. Units TBD<br><br>Parcel Size: 135 Acres<br><br>Sale At: TBD",
         "parcel_size_acres": 135.0,
         "sale_at": "TBD",
         "img_file": null,
