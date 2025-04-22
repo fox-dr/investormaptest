@@ -391,7 +391,6 @@ async function loadRegionData(region, config) {
               'circle-stroke-color': '#fff',
               'circle-opacity': 0.7
             };
-                  
         } else {
           paint = {
             'circle-radius': [
