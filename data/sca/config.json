@@ -7,13 +7,15 @@
     "portfolio_sac": "portfolio_sca.geojson",
     "amenities_sac": "amenities_sca.geojson",
     "income_mln_sac": "income_mln_sca.geojson",
-    "entitlement_sca": "entitlement_sca.geojson"
+    "entitlement_sca": "entitlement_sca.geojson",
+    "lit_sca": "lit_sca.geojson"
   },
   "layerVisibility": {
     "communities_sca": true,
     "portfolio_sca": true,
     "amenities_sca": true,
     "income_mln_sca": true,
-    "entitlement_sca": true
+    "entitlement_sca": true,
+    ""lit_sca": true
   }
 }
