@@ -464,7 +464,7 @@ async function loadRegionData(region, config) {
         source: layerName,
         paint: paint,
         layout: {
-          visibility: layerName.startsWith('income_mln') ? 'none' : 'visible'
+          visibility: layerName.startsWith('income_mln') || layerName.startsWith('lit_') ? 'none' : 'visible'
         },
       });
 
