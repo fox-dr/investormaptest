@@ -8,7 +8,8 @@
     "amenities_car": "amenities_car.geojson",
     "income_mln_car": "income_mln_car.geojson",
     "entitlement_car": "entitlement_car.geojson",
-    "entitlement_den": "entitlement_den.geojson"
+    "entitlement_den": "entitlement_den.geojson",
+    "lit_car": "lit_car.geojson"
   },
   "layerVisibility": {
     "communities_car": true,
@@ -16,6 +17,7 @@
     "amenities_car": true,
     "income_mln_car": true,
     "entitlement_car": true,
-    "entitlement_den": true
+     "lit_car": true
+    
   }
 }
