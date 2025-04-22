@@ -1,0 +1,4037 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.25469,
+          31.07555
+        ]
+      },
+      "properties": {
+        "zip": 76501.0,
+        "city": "Temple",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.843558914005875,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.41082,
+          31.09388
+        ]
+      },
+      "properties": {
+        "zip": 76502.0,
+        "city": "Temple",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 26.92775405406161,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.37748,
+          31.14135
+        ]
+      },
+      "properties": {
+        "zip": 76504.0,
+        "city": "Temple",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 31.28313141142238,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.42293,
+          30.79955
+        ]
+      },
+      "properties": {
+        "zip": 76511.0,
+        "city": "Bartlett",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.88632157829023,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50369,
+          31.05777
+        ]
+      },
+      "properties": {
+        "zip": 76513.0,
+        "city": "Belton",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 29.42328445862469,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.13957,
+          30.85091
+        ]
+      },
+      "properties": {
+        "zip": 76518.0,
+        "city": "Buckholts",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.03579,
+          30.98978
+        ]
+      },
+      "properties": {
+        "zip": 76519.0,
+        "city": "Burlington",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 33.17225434207628,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.89972,
+          30.87266
+        ]
+      },
+      "properties": {
+        "zip": 76520.0,
+        "city": "Cameron",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 34.161058717758955,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.27795,
+          30.80366
+        ]
+      },
+      "properties": {
+        "zip": 76523.0,
+        "city": "Davilla",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.79531,
+          30.8379
+        ]
+      },
+      "properties": {
+        "zip": 76527.0,
+        "city": "Florence",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 32.84347524244393,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.42434,
+          30.71357
+        ]
+      },
+      "properties": {
+        "zip": 76530.0,
+        "city": "Granger",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 31.88032846533186,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.36952,
+          30.88225
+        ]
+      },
+      "properties": {
+        "zip": 76534.0,
+        "city": "Holland",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 43.38019572210711,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.60645,
+          30.81779
+        ]
+      },
+      "properties": {
+        "zip": 76537.0,
+        "city": "Jarrell",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 45.24612813097604,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72922,
+          31.11447
+        ]
+      },
+      "properties": {
+        "zip": 76541.0,
+        "city": "Killeen",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 36.574353229467526,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7274,
+          31.00062
+        ]
+      },
+      "properties": {
+        "zip": 76542.0,
+        "city": "Killeen",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 28.848620039357346,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.64077,
+          31.12343
+        ]
+      },
+      "properties": {
+        "zip": 76543.0,
+        "city": "Killeen",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 34.950029873805164,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.64613,
+          31.05299
+        ]
+      },
+      "properties": {
+        "zip": 76548.0,
+        "city": "Harker Heights",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 34.412207134536644,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.82546,
+          31.01583
+        ]
+      },
+      "properties": {
+        "zip": 76549.0,
+        "city": "Killeen",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.200638703669284,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3677,
+          30.97583
+        ]
+      },
+      "properties": {
+        "zip": 76554.0,
+        "city": "Little River Academy",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 33.64034104420417,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.84487,
+          30.69481
+        ]
+      },
+      "properties": {
+        "zip": 76556.0,
+        "city": "Milano",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 40.219541416136714,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.39814,
+          31.29075
+        ]
+      },
+      "properties": {
+        "zip": 76557.0,
+        "city": "Moody",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.3101769129515,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61079,
+          31.07987
+        ]
+      },
+      "properties": {
+        "zip": 76559.0,
+        "city": "Nolanville",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 37.616281991934216,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.01363,
+          30.64535
+        ]
+      },
+      "properties": {
+        "zip": 76567.0,
+        "city": "Rockdale",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.76773742079402,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.21904,
+          30.93873
+        ]
+      },
+      "properties": {
+        "zip": 76569.0,
+        "city": "Rogers",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 26.03598803194725,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.58448,
+          30.93305
+        ]
+      },
+      "properties": {
+        "zip": 76571.0,
+        "city": "Salado",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.50226,
+          30.81864
+        ]
+      },
+      "properties": {
+        "zip": 76573.0,
+        "city": "Schwertner",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 35.505286622358845,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.38967,
+          30.58297
+        ]
+      },
+      "properties": {
+        "zip": 76574.0,
+        "city": "Taylor",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 37.35641657051396,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1787,
+          30.62128
+        ]
+      },
+      "properties": {
+        "zip": 76577.0,
+        "city": "Thorndale",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 45.108794189909,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.24092,
+          30.53488
+        ]
+      },
+      "properties": {
+        "zip": 76578.0,
+        "city": "Thrall",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 35.693442345209974,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.26046,
+          31.19894
+        ]
+      },
+      "properties": {
+        "zip": 76579.0,
+        "city": "Troy",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.95543,
+          30.74599
+        ]
+      },
+      "properties": {
+        "zip": 76831.0,
+        "city": "Castell",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.85742,
+          30.87304
+        ]
+      },
+      "properties": {
+        "zip": 76885.0,
+        "city": "Valley Spring",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.84035,
+          30.3623
+        ]
+      },
+      "properties": {
+        "zip": 77853.0,
+        "city": "Dime Box",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.73927,
+          30.78246
+        ]
+      },
+      "properties": {
+        "zip": 77857.0,
+        "city": "Gause",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 29.518842566121634,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.73652,
+          29.28305
+        ]
+      },
+      "properties": {
+        "zip": 78002.0,
+        "city": "Atascosa",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 35.776007181635904,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.53773,
+          29.85767
+        ]
+      },
+      "properties": {
+        "zip": 78004.0,
+        "city": "Bergheim",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.71368,
+          29.86869
+        ]
+      },
+      "properties": {
+        "zip": 78006.0,
+        "city": "Boerne",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.90647,
+          29.97798
+        ]
+      },
+      "properties": {
+        "zip": 78013.0,
+        "city": "Comfort",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 33.74346485384373,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.64785,
+          29.7439
+        ]
+      },
+      "properties": {
+        "zip": 78015.0,
+        "city": "Boerne",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 31.98032731104295,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.75443,
+          29.61549
+        ]
+      },
+      "properties": {
+        "zip": 78023.0,
+        "city": "Helotes",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.53868,
+          29.98193
+        ]
+      },
+      "properties": {
+        "zip": 78027.0,
+        "city": "Kendalia",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 34.69296047274195,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.40732,
+          29.89291
+        ]
+      },
+      "properties": {
+        "zip": 78070.0,
+        "city": "Spring Branch",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 31.280664334636747,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6213,
+          29.24569
+        ]
+      },
+      "properties": {
+        "zip": 78073.0,
+        "city": "Von Ormy",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.79214,
+          29.94234
+        ]
+      },
+      "properties": {
+        "zip": 78074.0,
+        "city": "Waring",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.23316,
+          29.34444
+        ]
+      },
+      "properties": {
+        "zip": 78101.0,
+        "city": "Adkins",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 31.868157553189395,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.22068,
+          29.57354
+        ]
+      },
+      "properties": {
+        "zip": 78108.0,
+        "city": "Cibolo",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 40.94732906789916,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.29295,
+          29.47977
+        ]
+      },
+      "properties": {
+        "zip": 78109.0,
+        "city": "Converse",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.37266,
+          29.21353
+        ]
+      },
+      "properties": {
+        "zip": 78112.0,
+        "city": "Elmendorf",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 47.00992356091965,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.04236,
+          29.60056
+        ]
+      },
+      "properties": {
+        "zip": 78123.0,
+        "city": "McQueeney",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 41.642880249662646,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.15176,
+          29.5585
+        ]
+      },
+      "properties": {
+        "zip": 78124.0,
+        "city": "Marion",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.06877,
+          29.69224
+        ]
+      },
+      "properties": {
+        "zip": 78130.0,
+        "city": "New Braunfels",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 52.7621597943072,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19,
+          29.76299
+        ]
+      },
+      "properties": {
+        "zip": 78132.0,
+        "city": "New Braunfels",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 40.38730263755993,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.24624,
+          29.88119
+        ]
+      },
+      "properties": {
+        "zip": 78133.0,
+        "city": "Canyon Lake",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 33.31830528778589,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.29609,
+          29.54331
+        ]
+      },
+      "properties": {
+        "zip": 78148.0,
+        "city": "Universal City",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2815,
+          29.5381
+        ]
+      },
+      "properties": {
+        "zip": 78150.0,
+        "city": "Jbsa Randolph",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 30.158308868958333,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.20171,
+          29.43046
+        ]
+      },
+      "properties": {
+        "zip": 78152.0,
+        "city": "Saint Hedwig",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 44.73248274420674,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26574,
+          29.54774
+        ]
+      },
+      "properties": {
+        "zip": 78154.0,
+        "city": "Schertz",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 35.5811081155707,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.93832,
+          29.53305
+        ]
+      },
+      "properties": {
+        "zip": 78155.0,
+        "city": "Seguin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 26.110329279087733,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.44514,
+          29.7663
+        ]
+      },
+      "properties": {
+        "zip": 78163.0,
+        "city": "Bulverde",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 41.39354102252776,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.52861,
+          29.46901
+        ]
+      },
+      "properties": {
+        "zip": 78201.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 24.990111946623543,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.46078,
+          29.42821
+        ]
+      },
+      "properties": {
+        "zip": 78202.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 25.920364366593805,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4593,
+          29.41513
+        ]
+      },
+      "properties": {
+        "zip": 78203.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 29.298614845057244,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.50368,
+          29.40327
+        ]
+      },
+      "properties": {
+        "zip": 78204.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 37.886509135854155,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.48647,
+          29.42364
+        ]
+      },
+      "properties": {
+        "zip": 78205.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 23.35279531989017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.52545,
+          29.42223
+        ]
+      },
+      "properties": {
+        "zip": 78207.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 22.150506566357173,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45823,
+          29.4399
+        ]
+      },
+      "properties": {
+        "zip": 78208.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.86197975400529,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45675,
+          29.48899
+        ]
+      },
+      "properties": {
+        "zip": 78209.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 29.04434146435109,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.46433,
+          29.39597
+        ]
+      },
+      "properties": {
+        "zip": 78210.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 29.25190485791588,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.56327,
+          29.34644
+        ]
+      },
+      "properties": {
+        "zip": 78211.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 31.597108050340914,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.49222,
+          29.46447
+        ]
+      },
+      "properties": {
+        "zip": 78212.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 30.05765213610441,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.52358,
+          29.51745
+        ]
+      },
+      "properties": {
+        "zip": 78213.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 24.69636533734722,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.47971,
+          29.34944
+        ]
+      },
+      "properties": {
+        "zip": 78214.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 41.4106460882415,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.48031,
+          29.4404
+        ]
+      },
+      "properties": {
+        "zip": 78215.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 30.961260126789814,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.48999,
+          29.53641
+        ]
+      },
+      "properties": {
+        "zip": 78216.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 28.733160845789605,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.42097,
+          29.54073
+        ]
+      },
+      "properties": {
+        "zip": 78217.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 27.195843064767317,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.39948,
+          29.49354
+        ]
+      },
+      "properties": {
+        "zip": 78218.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 27.456366373330418,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.38459,
+          29.44137
+        ]
+      },
+      "properties": {
+        "zip": 78219.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 24.689786465918857,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.40152,
+          29.41308
+        ]
+      },
+      "properties": {
+        "zip": 78220.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 32.76535114423214,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.47529,
+          29.28097
+        ]
+      },
+      "properties": {
+        "zip": 78221.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 34.216156765971476,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.38334,
+          29.3679
+        ]
+      },
+      "properties": {
+        "zip": 78222.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 29.274930907915145,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.38675,
+          29.31102
+        ]
+      },
+      "properties": {
+        "zip": 78223.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 30.000251482891958,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.53751,
+          29.30831
+        ]
+      },
+      "properties": {
+        "zip": 78224.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 27.450445389044894,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.52586,
+          29.38795
+        ]
+      },
+      "properties": {
+        "zip": 78225.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 22.780762449194167,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.56885,
+          29.38442
+        ]
+      },
+      "properties": {
+        "zip": 78226.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 27.022983217987132,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.64019,
+          29.39654
+        ]
+      },
+      "properties": {
+        "zip": 78227.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 28.161127975093606,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.57201,
+          29.46072
+        ]
+      },
+      "properties": {
+        "zip": 78228.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 27.82050690689021,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.57261,
+          29.5056
+        ]
+      },
+      "properties": {
+        "zip": 78229.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 33.31221983171466,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.55571,
+          29.5455
+        ]
+      },
+      "properties": {
+        "zip": 78230.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 48.11023980731305,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.54504,
+          29.57978
+        ]
+      },
+      "properties": {
+        "zip": 78231.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 40.65391140219426,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.47503,
+          29.58792
+        ]
+      },
+      "properties": {
+        "zip": 78232.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 36.14195690483849,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.36323,
+          29.55483
+        ]
+      },
+      "properties": {
+        "zip": 78233.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 50.480771654737275,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.43715,
+          29.46108
+        ]
+      },
+      "properties": {
+        "zip": 78234.0,
+        "city": "Jbsa Ft Sam Houston",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 30.98346381786053,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.43934,
+          29.34244
+        ]
+      },
+      "properties": {
+        "zip": 78235.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 45.58576236846518,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.62256,
+          29.3859
+        ]
+      },
+      "properties": {
+        "zip": 78236.0,
+        "city": "Jbsa Lackland",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 24.50278204556769,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.56832,
+          29.42079
+        ]
+      },
+      "properties": {
+        "zip": 78237.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 31.845295974975837,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.61925,
+          29.47088
+        ]
+      },
+      "properties": {
+        "zip": 78238.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 35.60183156057004,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3625,
+          29.51664
+        ]
+      },
+      "properties": {
+        "zip": 78239.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 33.22422742636033,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.60813,
+          29.5244
+        ]
+      },
+      "properties": {
+        "zip": 78240.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 27.372814706190237,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.60751,
+          29.35067
+        ]
+      },
+      "properties": {
+        "zip": 78242.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.59349,
+          29.37213
+        ]
+      },
+      "properties": {
+        "zip": 78243.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 33.71468229134465,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.35075,
+          29.47702
+        ]
+      },
+      "properties": {
+        "zip": 78244.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.87464408150488,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.73549,
+          29.40106
+        ]
+      },
+      "properties": {
+        "zip": 78245.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 40.35934243398939,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.41196,
+          29.58005
+        ]
+      },
+      "properties": {
+        "zip": 78247.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 56.87461232417575,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.52553,
+          29.59022
+        ]
+      },
+      "properties": {
+        "zip": 78248.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 41.129892750036184,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.614,
+          29.56752
+        ]
+      },
+      "properties": {
+        "zip": 78249.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 38.65574367761528,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.66668,
+          29.50341
+        ]
+      },
+      "properties": {
+        "zip": 78250.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 38.34423411548238,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.67763,
+          29.46292
+        ]
+      },
+      "properties": {
+        "zip": 78251.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 38.670875081900505,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.69682,
+          29.34167
+        ]
+      },
+      "properties": {
+        "zip": 78252.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 51.57467350148802,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.78885,
+          29.46899
+        ]
+      },
+      "properties": {
+        "zip": 78253.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 49.873377350113834,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.72805,
+          29.53011
+        ]
+      },
+      "properties": {
+        "zip": 78254.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 65.62253766246754,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.66405,
+          29.64814
+        ]
+      },
+      "properties": {
+        "zip": 78255.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 50.79228121687018,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6262,
+          29.62272
+        ]
+      },
+      "properties": {
+        "zip": 78256.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 40.75966676040517,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.57713,
+          29.64373
+        ]
+      },
+      "properties": {
+        "zip": 78257.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 51.67401446005628,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.49282,
+          29.63574
+        ]
+      },
+      "properties": {
+        "zip": 78258.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 48.496584031943556,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.42031,
+          29.62512
+        ]
+      },
+      "properties": {
+        "zip": 78259.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 56.11080535134302,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.49212,
+          29.69737
+        ]
+      },
+      "properties": {
+        "zip": 78260.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 52.49160370681586,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.40072,
+          29.69189
+        ]
+      },
+      "properties": {
+        "zip": 78261.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.093074155815586,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.31219,
+          29.35084
+        ]
+      },
+      "properties": {
+        "zip": 78263.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 28.856843628642796,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.50534,
+          29.19868
+        ]
+      },
+      "properties": {
+        "zip": 78264.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 59.818821760153064,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3295,
+          29.65611
+        ]
+      },
+      "properties": {
+        "zip": 78266.0,
+        "city": "San Antonio",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.32801,
+          30.12735
+        ]
+      },
+      "properties": {
+        "zip": 78602.0,
+        "city": "Bastrop",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 45.601551659893246,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.04663,
+          30.77366
+        ]
+      },
+      "properties": {
+        "zip": 78605.0,
+        "city": "Bertram",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 44.129364706011735,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.488,
+          30.81961
+        ]
+      },
+      "properties": {
+        "zip": 78607.0,
+        "city": "Bluffton",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.93255,
+          30.9341
+        ]
+      },
+      "properties": {
+        "zip": 78608.0,
+        "city": "Briggs",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 32.29167240139014,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45271,
+          30.75975
+        ]
+      },
+      "properties": {
+        "zip": 78609.0,
+        "city": "Buchanan Dam",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 44.38824329671775,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.84047,
+          30.07962
+        ]
+      },
+      "properties": {
+        "zip": 78610.0,
+        "city": "Buda",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 44.169989237081865,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.26663,
+          30.79188
+        ]
+      },
+      "properties": {
+        "zip": 78611.0,
+        "city": "Burnet",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.4996484100883,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.49017,
+          30.09301
+        ]
+      },
+      "properties": {
+        "zip": 78612.0,
+        "city": "Cedar Creek",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 52.808211894305735,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.81939,
+          30.50683
+        ]
+      },
+      "properties": {
+        "zip": 78613.0,
+        "city": "Cedar Park",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.39061,
+          30.46426
+        ]
+      },
+      "properties": {
+        "zip": 78615.0,
+        "city": "Coupland",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 34.800853964167075,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.55655,
+          29.92687
+        ]
+      },
+      "properties": {
+        "zip": 78616.0,
+        "city": "Dale",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 35.97732064734375,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59928,
+          30.1508
+        ]
+      },
+      "properties": {
+        "zip": 78617.0,
+        "city": "Del Valle",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 38.317754157983224,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.16794,
+          30.48624
+        ]
+      },
+      "properties": {
+        "zip": 78618.0,
+        "city": "Doss",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 70.92346331586953,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.03101,
+          30.11215
+        ]
+      },
+      "properties": {
+        "zip": 78619.0,
+        "city": "Driftwood",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 59.66882349158643,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.13491,
+          30.22214
+        ]
+      },
+      "properties": {
+        "zip": 78620.0,
+        "city": "Dripping Springs",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 42.240899662500674,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.36053,
+          30.33737
+        ]
+      },
+      "properties": {
+        "zip": 78621.0,
+        "city": "Elgin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.78229,
+          29.77225
+        ]
+      },
+      "properties": {
+        "zip": 78622.0,
+        "city": "Fentress",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.21933,
+          29.95973
+        ]
+      },
+      "properties": {
+        "zip": 78623.0,
+        "city": "Fischer",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 37.73026093943057,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.87141,
+          30.29227
+        ]
+      },
+      "properties": {
+        "zip": 78624.0,
+        "city": "Fredericksburg",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 44.516695761356495,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59878,
+          30.66664
+        ]
+      },
+      "properties": {
+        "zip": 78626.0,
+        "city": "Georgetown",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 52.88370444394618,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74636,
+          30.63981
+        ]
+      },
+      "properties": {
+        "zip": 78628.0,
+        "city": "Georgetown",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 33.30975275492902,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75465,
+          30.73803
+        ]
+      },
+      "properties": {
+        "zip": 78633.0,
+        "city": "Georgetown",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 44.92902652812903,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.54404,
+          30.56
+        ]
+      },
+      "properties": {
+        "zip": 78634.0,
+        "city": "Hutto",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.79595,
+          29.65821
+        ]
+      },
+      "properties": {
+        "zip": 78638.0,
+        "city": "Kingsbury",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 36.04097122841315,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45506,
+          30.65823
+        ]
+      },
+      "properties": {
+        "zip": 78639.0,
+        "city": "Kingsland",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.937307831860025,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.82355,
+          29.99619
+        ]
+      },
+      "properties": {
+        "zip": 78640.0,
+        "city": "Kyle",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 52.79406732073476,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.91473,
+          30.55851
+        ]
+      },
+      "properties": {
+        "zip": 78641.0,
+        "city": "Leander",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 53.770042897132136,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.94087,
+          30.6946
+        ]
+      },
+      "properties": {
+        "zip": 78642.0,
+        "city": "Liberty Hill",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 33.87997643598223,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.71281,
+          30.68161
+        ]
+      },
+      "properties": {
+        "zip": 78643.0,
+        "city": "Llano",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 37.30592373230128,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.67292,
+          29.87111
+        ]
+      },
+      "properties": {
+        "zip": 78644.0,
+        "city": "Lockhart",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 46.8923262341377,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.96934,
+          30.4502
+        ]
+      },
+      "properties": {
+        "zip": 78645.0,
+        "city": "Leander",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 29.12263003434858,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.63827,
+          29.69594
+        ]
+      },
+      "properties": {
+        "zip": 78648.0,
+        "city": "Luling",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 35.31055202807935,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.21574,
+          30.30536
+        ]
+      },
+      "properties": {
+        "zip": 78650.0,
+        "city": "McDade",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 58.8739313512547,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8606,
+          30.13462
+        ]
+      },
+      "properties": {
+        "zip": 78652.0,
+        "city": "Manchaca",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 42.03728359179289,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52006,
+          30.33783
+        ]
+      },
+      "properties": {
+        "zip": 78653.0,
+        "city": "Manor",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 35.39640630021947,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.20982,
+          30.57112
+        ]
+      },
+      "properties": {
+        "zip": 78654.0,
+        "city": "Marble Falls",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83517,
+          29.82346
+        ]
+      },
+      "properties": {
+        "zip": 78655.0,
+        "city": "Martindale",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 32.80729144958794,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8089,
+          29.90275
+        ]
+      },
+      "properties": {
+        "zip": 78656.0,
+        "city": "Maxwell",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.93516969864581,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.37906,
+          30.53328
+        ]
+      },
+      "properties": {
+        "zip": 78657.0,
+        "city": "Horseshoe Bay",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.12624,
+          30.20667
+        ]
+      },
+      "properties": {
+        "zip": 78659.0,
+        "city": "Paige",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 47.12406698020172,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59558,
+          30.44361
+        ]
+      },
+      "properties": {
+        "zip": 78660.0,
+        "city": "Pflugerville",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74212,
+          29.72925
+        ]
+      },
+      "properties": {
+        "zip": 78661.0,
+        "city": "Prairie Lea",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 42.17823591214554,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.44231,
+          29.94316
+        ]
+      },
+      "properties": {
+        "zip": 78662.0,
+        "city": "Red Rock",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 47.41649781519237,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.64583,
+          30.50461
+        ]
+      },
+      "properties": {
+        "zip": 78664.0,
+        "city": "Round Rock",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 51.33503810970997,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.63681,
+          30.55038
+        ]
+      },
+      "properties": {
+        "zip": 78665.0,
+        "city": "Round Rock",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 31.110600508213608,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.97974,
+          29.8826
+        ]
+      },
+      "properties": {
+        "zip": 78666.0,
+        "city": "San Marcos",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 54.319707604971704,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.13066,
+          30.4347
+        ]
+      },
+      "properties": {
+        "zip": 78669.0,
+        "city": "Spicewood",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.84608,
+          29.76267
+        ]
+      },
+      "properties": {
+        "zip": 78670.0,
+        "city": "Staples",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 47.84346657089301,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.63275,
+          30.20409
+        ]
+      },
+      "properties": {
+        "zip": 78671.0,
+        "city": "Stonewall",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.49128,
+          30.88151
+        ]
+      },
+      "properties": {
+        "zip": 78672.0,
+        "city": "Tow",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.59653,
+          30.67213
+        ]
+      },
+      "properties": {
+        "zip": 78674.0,
+        "city": "Weir",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.70534,
+          30.4585
+        ]
+      },
+      "properties": {
+        "zip": 78675.0,
+        "city": "Willow City",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.20096764724071,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.15051,
+          30.04141
+        ]
+      },
+      "properties": {
+        "zip": 78676.0,
+        "city": "Wimberley",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71981,
+          30.5355
+        ]
+      },
+      "properties": {
+        "zip": 78681.0,
+        "city": "Round Rock",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 64.88504617534826,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74248,
+          30.27022
+        ]
+      },
+      "properties": {
+        "zip": 78701.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 41.35998877824312,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7144,
+          30.26339
+        ]
+      },
+      "properties": {
+        "zip": 78702.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 54.954897641379965,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76554,
+          30.29385
+        ]
+      },
+      "properties": {
+        "zip": 78703.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 42.509811032134934,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76537,
+          30.24298
+        ]
+      },
+      "properties": {
+        "zip": 78704.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 38.61182971083097,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.739,
+          30.2947
+        ]
+      },
+      "properties": {
+        "zip": 78705.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73294,
+          30.28393
+        ]
+      },
+      "properties": {
+        "zip": 78712.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 54.86147766709725,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75393,
+          30.48988
+        ]
+      },
+      "properties": {
+        "zip": 78717.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 32.35236249031677,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.67148,
+          30.14465
+        ]
+      },
+      "properties": {
+        "zip": 78719.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 36.71349636017736,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.68345,
+          30.27127
+        ]
+      },
+      "properties": {
+        "zip": 78721.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 42.74319649605604,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71458,
+          30.29005
+        ]
+      },
+      "properties": {
+        "zip": 78722.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 40.43187449148707,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.68578,
+          30.30423
+        ]
+      },
+      "properties": {
+        "zip": 78723.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 34.187538675258104,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.61439,
+          30.29474
+        ]
+      },
+      "properties": {
+        "zip": 78724.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 38.260517976556486,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.60859,
+          30.23554
+        ]
+      },
+      "properties": {
+        "zip": 78725.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 50.79754431401287,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.84254,
+          30.42898
+        ]
+      },
+      "properties": {
+        "zip": 78726.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 44.516695761356495,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71736,
+          30.42894
+        ]
+      },
+      "properties": {
+        "zip": 78727.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 34.710558953812814,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.68948,
+          30.45537
+        ]
+      },
+      "properties": {
+        "zip": 78728.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 41.326929949315605,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.75516,
+          30.45738
+        ]
+      },
+      "properties": {
+        "zip": 78729.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 57.45273065094299,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83847,
+          30.36322
+        ]
+      },
+      "properties": {
+        "zip": 78730.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 50.13603879189115,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7687,
+          30.34766
+        ]
+      },
+      "properties": {
+        "zip": 78731.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 79.73224321487365,
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.89291,
+          30.3802
+        ]
+      },
+      "properties": {
+        "zip": 78732.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 72.62985809260068,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.87762,
+          30.32338
+        ]
+      },
+      "properties": {
+        "zip": 78733.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 58.04630932556687,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.94676,
+          30.38079
+        ]
+      },
+      "properties": {
+        "zip": 78734.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 51.14523766900175,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.86775,
+          30.26634
+        ]
+      },
+      "properties": {
+        "zip": 78735.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 49.02042666942682,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.94965,
+          30.24833
+        ]
+      },
+      "properties": {
+        "zip": 78736.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 66.97202866421011,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.96059,
+          30.18935
+        ]
+      },
+      "properties": {
+        "zip": 78737.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 64.98882787213066,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.99002,
+          30.30668
+        ]
+      },
+      "properties": {
+        "zip": 78738.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 77.35973770602092,
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.89087,
+          30.17596
+        ]
+      },
+      "properties": {
+        "zip": 78739.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 31.805000387477126,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.71389,
+          30.23007
+        ]
+      },
+      "properties": {
+        "zip": 78741.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.65869,
+          30.24375
+        ]
+      },
+      "properties": {
+        "zip": 78742.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 34.71779571238402,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72888,
+          30.18024
+        ]
+      },
+      "properties": {
+        "zip": 78744.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.093074155815586,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.79822,
+          30.20743
+        ]
+      },
+      "properties": {
+        "zip": 78745.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 69.97265192268563,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.81136,
+          30.29759
+        ]
+      },
+      "properties": {
+        "zip": 78746.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 43.784302899594195,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.74117,
+          30.12521
+        ]
+      },
+      "properties": {
+        "zip": 78747.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 44.38330914314648,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8227,
+          30.16144
+        ]
+      },
+      "properties": {
+        "zip": 78748.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 51.66546192719941,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.85732,
+          30.21329
+        ]
+      },
+      "properties": {
+        "zip": 78749.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 55.60439672314492,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.80223,
+          30.41685
+        ]
+      },
+      "properties": {
+        "zip": 78750.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 40.28829062256309,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.72278,
+          30.3108
+        ]
+      },
+      "properties": {
+        "zip": 78751.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 30.004363277534686,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.70364,
+          30.33141
+        ]
+      },
+      "properties": {
+        "zip": 78752.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 31.272605217137006,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.67335,
+          30.38353
+        ]
+      },
+      "properties": {
+        "zip": 78753.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 41.087294557537554,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.63925,
+          30.35633
+        ]
+      },
+      "properties": {
+        "zip": 78754.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 44.237751612793986,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7402,
+          30.32219
+        ]
+      },
+      "properties": {
+        "zip": 78756.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 45.75779985631682,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.73267,
+          30.35164
+        ]
+      },
+      "properties": {
+        "zip": 78757.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 34.86022827880804,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.70665,
+          30.38768
+        ]
+      },
+      "properties": {
+        "zip": 78758.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 49.957586904396855,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.76093,
+          30.4027
+        ]
+      },
+      "properties": {
+        "zip": 78759.0,
+        "city": "Austin",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 32.216837738892536,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.93153,
+          30.16803
+        ]
+      },
+      "properties": {
+        "zip": 78942.0,
+        "city": "Giddings",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.77412,
+          30.18947
+        ]
+      },
+      "properties": {
+        "zip": 78946.0,
+        "city": "Ledbetter",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 39.463135673660894,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.04183,
+          30.42378
+        ]
+      },
+      "properties": {
+        "zip": 78947.0,
+        "city": "Lexington",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 34.24625510275623,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.97022,
+          30.30748
+        ]
+      },
+      "properties": {
+        "zip": 78948.0,
+        "city": "Lincoln",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 92.5492005316068,
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.35214,
+          29.85552
+        ]
+      },
+      "properties": {
+        "zip": 78953.0,
+        "city": "Rosanky",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 42.2923793314276,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.17481,
+          30.01279
+        ]
+      },
+      "properties": {
+        "zip": 78957.0,
+        "city": "Smithville",
+        "region": "aus",
+        "state_id": "TX",
+        "LIT_norm": 30.650901867156875,
+        "LIT_tier": 1
+      }
+    }
+  ]
+}
