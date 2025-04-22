@@ -5,6 +5,7 @@ let map;
 
 async function loadRegion(region) {
   document.getElementById('toggle-communities').checked = true;
+  document.getElementById('toggle-lit').checked = false;
 
   try {
     const configResponse = await fetch(`data/${region}/config.json`);
