@@ -6,12 +6,7 @@ let map;
 async function loadRegion(region) {
   document.getElementById('toggle-communities').checked = true;
   document.getElementById('toggle-lit').checked = false;
-  map.getStyle().layers.forEach(layer => {
-    if (layer.id.startsWith('lit_')) {
-      map.setLayoutProperty(layer.id, 'visibility', 'none');
-    }
-  });
-
+  
   try {
     const configResponse = await fetch(`data/${region}/config.json`);
     const config = await configResponse.json();
