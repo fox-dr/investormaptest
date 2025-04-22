@@ -391,6 +391,28 @@ async function loadRegionData(region, config) {
               'circle-stroke-color': '#fff',
               'circle-opacity': 0.7
             };
+          } else if (layerName.startsWith('lit_')) {
+              paint = {
+                'circle-radius': [
+                  'interpolate',
+                  ['linear'],
+                  ['get', 'LIT_norm'],
+                  0, 4,
+                  100, 12
+                ],
+                'circle-color': [
+                  'match',
+                  ['get', 'LIT_tier'],
+                  1, '#e6f7f2',
+                  2, '#bce3d9',
+                  3, '#7dcab2',
+                  4, '#379d85',
+                  '#cccccc' // fallback
+                ],
+                'circle-stroke-width': 1,
+                'circle-stroke-color': '#cccccc',
+                'circle-opacity': 0.5
+              };
         } else {
           paint = {
             'circle-radius': [
