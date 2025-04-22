@@ -207,13 +207,7 @@ async function loadRegionData(region, config) {
       if (map.getSource(layer.id)) map.removeSource(layer.id);
     }
   });
-  map.getStyle().layers.forEach(layer => {
-    if (layer.id.startsWith('lit_')) {
-      map.setLayoutProperty(layer.id, 'visibility', 'none');
-    }
-  });
-
-  
+ 
   // Hide income layers and reset toggle
   map.getStyle().layers.forEach(layer => {
     if (layer.id.startsWith('income_')) {
