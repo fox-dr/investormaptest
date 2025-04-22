@@ -263,7 +263,17 @@ async function loadRegionData(region, config) {
           }
         });
       };
-
+      document.getElementById('toggle-lit').onchange = function () {
+        const visible = this.checked ? 'visible' : 'none';
+        Object.keys(config.dataFiles).forEach(layerName => {
+          if (layerName.startsWith('lit_')) {
+            if (map.getLayer(layerName)) {
+              map.setLayoutProperty(layerName, 'visibility', visible);
+            }
+          }
+        });
+      };
+     
       const firstFeature = geojson.features?.[0];
       if (!firstFeature) continue;
 
