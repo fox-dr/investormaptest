@@ -10,7 +10,8 @@
     "income_mln_bay": "income_mln_bay.geojson",
     "evm_bay": "evm_bay.geojson",
     "resales_bay": "resales_bay.geojson",
-    "entitlement_bay": "entitlement_bay.geojson"
+    "entitlement_bay": "entitlement_bay.geojson",
+    "lit_bay": "lit_bay.geojson"
   },
   "layerVisibility": {
     "communities_bay": true,
@@ -20,6 +21,7 @@
     "income_mln_bay": false,
     "evm_bay": true,
     "resales_bay": true,
-    "entitlement_bay": true
+    "entitlement_bay": true,
+    "lit_bay.geojson": true
   }
 }
