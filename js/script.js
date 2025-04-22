@@ -403,10 +403,10 @@ async function loadRegionData(region, config) {
                 'circle-color': [
                   'match',
                   ['get', 'LIT_tier'],
-                  1, '#e6f7f2',
-                  2, '#bce3d9',
-                  3, '#7dcab2',
-                  4, '#379d85',
+                  1, '#7a0177',
+                  2, '#c51b8a',
+                  3, '#fa9fb5',
+                  4, '#fae0dd',
                   '#cccccc' // fallback
                 ],
                 'circle-stroke-width': 1,
