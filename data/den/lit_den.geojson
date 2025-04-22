@@ -1,0 +1,9491 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10845,
+          39.79405
+        ]
+      },
+      "properties": {
+        "zip": 80002.0,
+        "city": "Arvada",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.983106100212375,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06412,
+          39.827
+        ]
+      },
+      "properties": {
+        "zip": 80003.0,
+        "city": "Arvada",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 57.45904123822764,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.12293,
+          39.81443
+        ]
+      },
+      "properties": {
+        "zip": 80004.0,
+        "city": "Arvada",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.18487076405541,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13031,
+          39.85053
+        ]
+      },
+      "properties": {
+        "zip": 80005.0,
+        "city": "Arvada",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.42698884957948,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.19875,
+          39.8665
+        ]
+      },
+      "properties": {
+        "zip": 80007.0,
+        "city": "Arvada",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 67.25987129909115,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.86193,
+          39.73979
+        ]
+      },
+      "properties": {
+        "zip": 80010.0,
+        "city": "Aurora",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 52.83296742087484,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.78994,
+          39.74393
+        ]
+      },
+      "properties": {
+        "zip": 80011.0,
+        "city": "Aurora",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 51.677579077662074,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.83784,
+          39.69976
+        ]
+      },
+      "properties": {
+        "zip": 80012.0,
+        "city": "Aurora",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 53.957966080362496,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.76577,
+          39.66145
+        ]
+      },
+      "properties": {
+        "zip": 80013.0,
+        "city": "Aurora",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.210080326180645,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.83781,
+          39.66353
+        ]
+      },
+      "properties": {
+        "zip": 80014.0,
+        "city": "Aurora",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 54.22664678968273,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.79497,
+          39.62737
+        ]
+      },
+      "properties": {
+        "zip": 80015.0,
+        "city": "Aurora",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 60.155414086764765,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.72311,
+          39.59391
+        ]
+      },
+      "properties": {
+        "zip": 80016.0,
+        "city": "Aurora",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 65.35942801371607,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7735,
+          39.69914
+        ]
+      },
+      "properties": {
+        "zip": 80017.0,
+        "city": "Aurora",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 54.0036012563272,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.68096,
+          39.69071
+        ]
+      },
+      "properties": {
+        "zip": 80018.0,
+        "city": "Aurora",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 57.77057639266103,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6972,
+          39.78653
+        ]
+      },
+      "properties": {
+        "zip": 80019.0,
+        "city": "Aurora",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 55.373755737798234,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07407,
+          39.93121
+        ]
+      },
+      "properties": {
+        "zip": 80020.0,
+        "city": "Broomfield",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 60.26494845373412,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.11448,
+          39.89105
+        ]
+      },
+      "properties": {
+        "zip": 80021.0,
+        "city": "Broomfield",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.34588958903835,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.78868,
+          39.86448
+        ]
+      },
+      "properties": {
+        "zip": 80022.0,
+        "city": "Commerce City",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.98062146732973,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.01011,
+          39.97407
+        ]
+      },
+      "properties": {
+        "zip": 80023.0,
+        "city": "Broomfield",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 67.71491046272197,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.91842,
+          39.84403
+        ]
+      },
+      "properties": {
+        "zip": 80024.0,
+        "city": "Dupont",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 26.987375076381127,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.29226,
+          39.92444
+        ]
+      },
+      "properties": {
+        "zip": 80025.0,
+        "city": "Eldorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0985,
+          40.01188
+        ]
+      },
+      "properties": {
+        "zip": 80026.0,
+        "city": "Lafayette",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 61.89541875250374,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.16354,
+          39.9508
+        ]
+      },
+      "properties": {
+        "zip": 80027.0,
+        "city": "Louisville",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 64.79706973945649,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03695,
+          39.83006
+        ]
+      },
+      "properties": {
+        "zip": 80030.0,
+        "city": "Westminster",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 52.77556199893787,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04039,
+          39.87522
+        ]
+      },
+      "properties": {
+        "zip": 80031.0,
+        "city": "Westminster",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 59.48717869007064,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10222,
+          39.77315
+        ]
+      },
+      "properties": {
+        "zip": 80033.0,
+        "city": "Wheat Ridge",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.37131469063242,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.83843,
+          39.74702
+        ]
+      },
+      "properties": {
+        "zip": 80045.0,
+        "city": "Aurora",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 62.04381620667682,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.95395,
+          39.42503
+        ]
+      },
+      "properties": {
+        "zip": 80101.0,
+        "city": "Agate",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 49.76006711705655,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.43874,
+          39.73237
+        ]
+      },
+      "properties": {
+        "zip": 80102.0,
+        "city": "Bennett",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.20133814824028,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.09576,
+          39.78035
+        ]
+      },
+      "properties": {
+        "zip": 80103.0,
+        "city": "Byers",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 54.561725456797625,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.81967,
+          39.30213
+        ]
+      },
+      "properties": {
+        "zip": 80104.0,
+        "city": "Castle Rock",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 61.69593928447367,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.96078,
+          39.62679
+        ]
+      },
+      "properties": {
+        "zip": 80105.0,
+        "city": "Deer Trail",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.26582934362024,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.52975,
+          39.17646
+        ]
+      },
+      "properties": {
+        "zip": 80106.0,
+        "city": "Elbert",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.98774471839325,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.57226,
+          39.41195
+        ]
+      },
+      "properties": {
+        "zip": 80107.0,
+        "city": "Elizabeth",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 62.41202679382573,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.85321,
+          39.44441
+        ]
+      },
+      "properties": {
+        "zip": 80108.0,
+        "city": "Castle Rock",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 68.1309018554541,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.90056,
+          39.36473
+        ]
+      },
+      "properties": {
+        "zip": 80109.0,
+        "city": "Castle Rock",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 64.32078765538384,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.00928,
+          39.64612
+        ]
+      },
+      "properties": {
+        "zip": 80110.0,
+        "city": "Englewood",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 55.2939578969605,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.88025,
+          39.6124
+        ]
+      },
+      "properties": {
+        "zip": 80111.0,
+        "city": "Englewood",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 64.73166270580613,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.85854,
+          39.57288
+        ]
+      },
+      "properties": {
+        "zip": 80112.0,
+        "city": "Englewood",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 61.97428922743908,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.96189,
+          39.64224
+        ]
+      },
+      "properties": {
+        "zip": 80113.0,
+        "city": "Englewood",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.09278072595313,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.71947,
+          39.30711
+        ]
+      },
+      "properties": {
+        "zip": 80116.0,
+        "city": "Franktown",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 67.20115053146012,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.39978,
+          39.37203
+        ]
+      },
+      "properties": {
+        "zip": 80117.0,
+        "city": "Kiowa",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.034909298106164,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8848,
+          39.19132
+        ]
+      },
+      "properties": {
+        "zip": 80118.0,
+        "city": "Larkspur",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 65.00664999452611,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.00949,
+          39.5929
+        ]
+      },
+      "properties": {
+        "zip": 80120.0,
+        "city": "Littleton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 60.98534249116781,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.95421,
+          39.61045
+        ]
+      },
+      "properties": {
+        "zip": 80121.0,
+        "city": "Littleton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 65.23678816749694,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.95573,
+          39.5806
+        ]
+      },
+      "properties": {
+        "zip": 80122.0,
+        "city": "Littleton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 62.66837751647385,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0692,
+          39.61578
+        ]
+      },
+      "properties": {
+        "zip": 80123.0,
+        "city": "Littleton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 60.56811607791153,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.89173,
+          39.53197
+        ]
+      },
+      "properties": {
+        "zip": 80124.0,
+        "city": "Lone Tree",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 62.59443675091935,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05737,
+          39.48546
+        ]
+      },
+      "properties": {
+        "zip": 80125.0,
+        "city": "Littleton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.5812131055794,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.96251,
+          39.54127
+        ]
+      },
+      "properties": {
+        "zip": 80126.0,
+        "city": "Littleton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 65.72272744710119,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.15773,
+          39.52249
+        ]
+      },
+      "properties": {
+        "zip": 80127.0,
+        "city": "Littleton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 64.00470270132836,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07914,
+          39.56167
+        ]
+      },
+      "properties": {
+        "zip": 80128.0,
+        "city": "Littleton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 59.21777085710917,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.01203,
+          39.54521
+        ]
+      },
+      "properties": {
+        "zip": 80129.0,
+        "city": "Littleton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 62.67184825475454,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.92448,
+          39.52918
+        ]
+      },
+      "properties": {
+        "zip": 80130.0,
+        "city": "Littleton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 64.40124371804544,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.00899,
+          39.47627
+        ]
+      },
+      "properties": {
+        "zip": 80131.0,
+        "city": "Louviers",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 51.92051567403776,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8576,
+          39.09183
+        ]
+      },
+      "properties": {
+        "zip": 80132.0,
+        "city": "Monument",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 66.49342468541569,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.90443,
+          39.1155
+        ]
+      },
+      "properties": {
+        "zip": 80133.0,
+        "city": "Palmer Lake",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 55.58620788818728,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.77957,
+          39.48282
+        ]
+      },
+      "properties": {
+        "zip": 80134.0,
+        "city": "Parker",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.1238486207416,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13494,
+          39.27763
+        ]
+      },
+      "properties": {
+        "zip": 80135.0,
+        "city": "Sedalia",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.88207711546076,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.29613,
+          39.80729
+        ]
+      },
+      "properties": {
+        "zip": 80136.0,
+        "city": "Strasburg",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.501181786679766,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.59235,
+          39.70901
+        ]
+      },
+      "properties": {
+        "zip": 80137.0,
+        "city": "Watkins",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 64.2049880312835,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.67114,
+          39.51649
+        ]
+      },
+      "properties": {
+        "zip": 80138.0,
+        "city": "Parker",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 64.87922124294691,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.99768,
+          39.75156
+        ]
+      },
+      "properties": {
+        "zip": 80202.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.039576279841214,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.98274,
+          39.73142
+        ]
+      },
+      "properties": {
+        "zip": 80203.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 57.58206861894638,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0207,
+          39.73476
+        ]
+      },
+      "properties": {
+        "zip": 80204.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.97582907230251,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.96353,
+          39.75891
+        ]
+      },
+      "properties": {
+        "zip": 80205.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 61.91845698653391,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.95258,
+          39.73041
+        ]
+      },
+      "properties": {
+        "zip": 80206.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.840687502522016,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.91674,
+          39.76137
+        ]
+      },
+      "properties": {
+        "zip": 80207.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 62.460432205192376,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9656,
+          39.70608
+        ]
+      },
+      "properties": {
+        "zip": 80209.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 64.61003534424842,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.96275,
+          39.6781
+        ]
+      },
+      "properties": {
+        "zip": 80210.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 66.26782761739042,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02006,
+          39.76715
+        ]
+      },
+      "properties": {
+        "zip": 80211.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.15565231309571,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04819,
+          39.77174
+        ]
+      },
+      "properties": {
+        "zip": 80212.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.6001215240383,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07123,
+          39.74205
+        ]
+      },
+      "properties": {
+        "zip": 80214.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.06981148102202,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1158,
+          39.74412
+        ]
+      },
+      "properties": {
+        "zip": 80215.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.409624877157455,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.96187,
+          39.78659
+        ]
+      },
+      "properties": {
+        "zip": 80216.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 57.6018321466955,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.97073,
+          39.73119
+        ]
+      },
+      "properties": {
+        "zip": 80218.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.097516210503215,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03432,
+          39.69496
+        ]
+      },
+      "properties": {
+        "zip": 80219.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 54.11457641705647,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.91648,
+          39.73375
+        ]
+      },
+      "properties": {
+        "zip": 80220.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 61.43472629974401,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0103,
+          39.81555
+        ]
+      },
+      "properties": {
+        "zip": 80221.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 55.22904195206231,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.92828,
+          39.6713
+        ]
+      },
+      "properties": {
+        "zip": 80222.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.6096300666402,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.00216,
+          39.69646
+        ]
+      },
+      "properties": {
+        "zip": 80223.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 59.37971468103038,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.91161,
+          39.68803
+        ]
+      },
+      "properties": {
+        "zip": 80224.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 61.74107735855125,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.09155,
+          39.71081
+        ]
+      },
+      "properties": {
+        "zip": 80226.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.65290603787797,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10536,
+          39.66331
+        ]
+      },
+      "properties": {
+        "zip": 80227.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.12839579679964,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.15726,
+          39.69186
+        ]
+      },
+      "properties": {
+        "zip": 80228.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 60.422538293885005,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.95867,
+          39.85472
+        ]
+      },
+      "properties": {
+        "zip": 80229.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 54.06841664939583,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.88933,
+          39.72032
+        ]
+      },
+      "properties": {
+        "zip": 80230.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 64.38345590922525,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.88787,
+          39.67123
+        ]
+      },
+      "properties": {
+        "zip": 80231.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 57.1555444580155,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08983,
+          39.68892
+        ]
+      },
+      "properties": {
+        "zip": 80232.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.90963195175744,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.94697,
+          39.89937
+        ]
+      },
+      "properties": {
+        "zip": 80233.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 53.63782786782003,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.00526,
+          39.91208
+        ]
+      },
+      "properties": {
+        "zip": 80234.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 57.854526892395356,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08909,
+          39.64615
+        ]
+      },
+      "properties": {
+        "zip": 80235.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 55.477501290782726,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03966,
+          39.65169
+        ]
+      },
+      "properties": {
+        "zip": 80236.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.49878854542625,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.90178,
+          39.63996
+        ]
+      },
+      "properties": {
+        "zip": 80237.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.36302062498635,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8808,
+          39.77722
+        ]
+      },
+      "properties": {
+        "zip": 80238.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 67.6510217465841,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8333,
+          39.78801
+        ]
+      },
+      "properties": {
+        "zip": 80239.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 52.81747846219993,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.95492,
+          39.92876
+        ]
+      },
+      "properties": {
+        "zip": 80241.0,
+        "city": "Thornton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 57.243280385854426,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9314,
+          39.70461
+        ]
+      },
+      "properties": {
+        "zip": 80246.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.785397231172595,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.88127,
+          39.69684
+        ]
+      },
+      "properties": {
+        "zip": 80247.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 53.97342807961214,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.69496,
+          39.84964
+        ]
+      },
+      "properties": {
+        "zip": 80249.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 54.16183705835844,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.00569,
+          39.86705
+        ]
+      },
+      "properties": {
+        "zip": 80260.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 52.37487531922154,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.98548,
+          39.74248
+        ]
+      },
+      "properties": {
+        "zip": 80264.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.90021,
+          39.79002
+        ]
+      },
+      "properties": {
+        "zip": 80266.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.98675,
+          39.74411
+        ]
+      },
+      "properties": {
+        "zip": 80290.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 49.01843538602126,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.98972,
+          39.74608
+        ]
+      },
+      "properties": {
+        "zip": 80293.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.98971,
+          39.74979
+        ]
+      },
+      "properties": {
+        "zip": 80294.0,
+        "city": "Denver",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.19876,
+          40.04795
+        ]
+      },
+      "properties": {
+        "zip": 80301.0,
+        "city": "Boulder",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 61.74566160152588,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.35542,
+          40.0306
+        ]
+      },
+      "properties": {
+        "zip": 80302.0,
+        "city": "Boulder",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 65.81966102848617,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.21206,
+          39.97422
+        ]
+      },
+      "properties": {
+        "zip": 80303.0,
+        "city": "Boulder",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.10457718888916,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.29006,
+          40.04557
+        ]
+      },
+      "properties": {
+        "zip": 80304.0,
+        "city": "Boulder",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 64.62464226927904,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.24877,
+          39.97733
+        ]
+      },
+      "properties": {
+        "zip": 80305.0,
+        "city": "Boulder",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 64.745872269766,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.26254,
+          40.00465
+        ]
+      },
+      "properties": {
+        "zip": 80310.0,
+        "city": "Boulder",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.23286,
+          39.71672
+        ]
+      },
+      "properties": {
+        "zip": 80401.0,
+        "city": "Golden",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.09624396466964,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.32013,
+          39.83229
+        ]
+      },
+      "properties": {
+        "zip": 80403.0,
+        "city": "Golden",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 64.95728572763954,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.20239,
+          39.7284
+        ]
+      },
+      "properties": {
+        "zip": 80419.0,
+        "city": "Golden",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.10553,
+          39.31451
+        ]
+      },
+      "properties": {
+        "zip": 80420.0,
+        "city": "Alma",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 49.1909965628829,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.50462,
+          39.48166
+        ]
+      },
+      "properties": {
+        "zip": 80421.0,
+        "city": "Bailey",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.3963994143392,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.53846,
+          39.8635
+        ]
+      },
+      "properties": {
+        "zip": 80422.0,
+        "city": "Black Hawk",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 62.434779125492724,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.55359,
+          39.84776
+        ]
+      },
+      "properties": {
+        "zip": 80423.0,
+        "city": "Bond",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 49.60216337547965,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.01685,
+          39.47089
+        ]
+      },
+      "properties": {
+        "zip": 80424.0,
+        "city": "Breckenridge",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 61.19408983832804,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.23162,
+          39.34714
+        ]
+      },
+      "properties": {
+        "zip": 80425.0,
+        "city": "Buffalo Creek",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 44.348345182701166,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.98452,
+          39.87393
+        ]
+      },
+      "properties": {
+        "zip": 80426.0,
+        "city": "Burns",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 41.3786563259211,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.52413,
+          39.79366
+        ]
+      },
+      "properties": {
+        "zip": 80427.0,
+        "city": "Central City",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 52.33223177220204,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.91373,
+          40.85326
+        ]
+      },
+      "properties": {
+        "zip": 80428.0,
+        "city": "Clark",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 52.143492319371624,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.44688,
+          40.50925
+        ]
+      },
+      "properties": {
+        "zip": 80430.0,
+        "city": "Coalmont",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 32.538322514828685,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.82969,
+          39.22256
+        ]
+      },
+      "properties": {
+        "zip": 80432.0,
+        "city": "Como",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.29586,
+          39.49636
+        ]
+      },
+      "properties": {
+        "zip": 80433.0,
+        "city": "Conifer",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 62.04544565928986,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.28228,
+          40.91209
+        ]
+      },
+      "properties": {
+        "zip": 80434.0,
+        "city": "Cowdrey",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.92452,
+          39.60161
+        ]
+      },
+      "properties": {
+        "zip": 80435.0,
+        "city": "Dillon",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 60.64605475239384,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.64349,
+          39.78203
+        ]
+      },
+      "properties": {
+        "zip": 80436.0,
+        "city": "Dumont",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 41.37868922027823,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.78356,
+          39.7602
+        ]
+      },
+      "properties": {
+        "zip": 80438.0,
+        "city": "Empire",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 53.52954955274688,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.42994,
+          39.6343
+        ]
+      },
+      "properties": {
+        "zip": 80439.0,
+        "city": "Evergreen",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 66.55204700390443,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.04137,
+          39.13412
+        ]
+      },
+      "properties": {
+        "zip": 80440.0,
+        "city": "Fairplay",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 53.600913125106864,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.89813,
+          39.91633
+        ]
+      },
+      "properties": {
+        "zip": 80442.0,
+        "city": "Fraser",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 55.691348528335325,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.16673,
+          39.50165
+        ]
+      },
+      "properties": {
+        "zip": 80443.0,
+        "city": "Frisco",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 58.95261681535663,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.73078,
+          39.63138
+        ]
+      },
+      "properties": {
+        "zip": 80444.0,
+        "city": "Georgetown",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 60.14380641019077,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.937,
+          40.16335
+        ]
+      },
+      "properties": {
+        "zip": 80446.0,
+        "city": "Granby",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 55.01485425870342,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.81712,
+          40.30116
+        ]
+      },
+      "properties": {
+        "zip": 80447.0,
+        "city": "Grand Lake",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 51.658485673496294,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.63747,
+          39.41769
+        ]
+      },
+      "properties": {
+        "zip": 80448.0,
+        "city": "Grant",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.79169,
+          38.93059
+        ]
+      },
+      "properties": {
+        "zip": 80449.0,
+        "city": "Hartsel",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 49.496732743614885,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.04456,
+          40.04007
+        ]
+      },
+      "properties": {
+        "zip": 80451.0,
+        "city": "Hot Sulphur Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 54.13725507321927,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.59515,
+          39.70969
+        ]
+      },
+      "properties": {
+        "zip": 80452.0,
+        "city": "Idaho Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.710715365604344,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.24285,
+          39.66477
+        ]
+      },
+      "properties": {
+        "zip": 80453.0,
+        "city": "Idledale",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 40.653089043265716,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.25204,
+          39.63109
+        ]
+      },
+      "properties": {
+        "zip": 80454.0,
+        "city": "Indian Hills",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 65.21781944167608,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.39071,
+          40.11071
+        ]
+      },
+      "properties": {
+        "zip": 80455.0,
+        "city": "Jamestown",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 69.82713910809987,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.69211,
+          39.30643
+        ]
+      },
+      "properties": {
+        "zip": 80456.0,
+        "city": "Jefferson",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 59.82895786110055,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.29972,
+          39.65091
+        ]
+      },
+      "properties": {
+        "zip": 80457.0,
+        "city": "Kittredge",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 61.05849164175981,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.41877,
+          40.1843
+        ]
+      },
+      "properties": {
+        "zip": 80459.0,
+        "city": "Kremmling",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 53.89707846882043,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.29016,
+          39.24244
+        ]
+      },
+      "properties": {
+        "zip": 80461.0,
+        "city": "Leadville",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 54.13961995686017,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.73888,
+          39.95523
+        ]
+      },
+      "properties": {
+        "zip": 80463.0,
+        "city": "McCoy",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 55.76985533956821,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.21521,
+          39.60437
+        ]
+      },
+      "properties": {
+        "zip": 80465.0,
+        "city": "Morrison",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.11399376529409,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.546,
+          39.99008
+        ]
+      },
+      "properties": {
+        "zip": 80466.0,
+        "city": "Nederland",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 60.46727705358715,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.87326,
+          40.25692
+        ]
+      },
+      "properties": {
+        "zip": 80467.0,
+        "city": "Oak Creek",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 54.29736689343338,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.10979,
+          39.91447
+        ]
+      },
+      "properties": {
+        "zip": 80468.0,
+        "city": "Parshall",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 37.31581161941831,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.96797,
+          40.21448
+        ]
+      },
+      "properties": {
+        "zip": 80469.0,
+        "city": "Phippsburg",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.30816509787314,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.34527,
+          39.40104
+        ]
+      },
+      "properties": {
+        "zip": 80470.0,
+        "city": "Pine",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 60.958702678447025,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.42048,
+          39.93507
+        ]
+      },
+      "properties": {
+        "zip": 80471.0,
+        "city": "Pinecliffe",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.1555,
+          40.45096
+        ]
+      },
+      "properties": {
+        "zip": 80473.0,
+        "city": "Rand",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.56404,
+          39.92353
+        ]
+      },
+      "properties": {
+        "zip": 80474.0,
+        "city": "Rollinsville",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 41.3786563259211,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.59234,
+          39.43012
+        ]
+      },
+      "properties": {
+        "zip": 80475.0,
+        "city": "Shawnee",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.80972,
+          39.68522
+        ]
+      },
+      "properties": {
+        "zip": 80476.0,
+        "city": "Silver Plume",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.01462773345324,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.85693,
+          40.02218
+        ]
+      },
+      "properties": {
+        "zip": 80478.0,
+        "city": "Tabernash",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.896673853335535,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.86356,
+          40.02078
+        ]
+      },
+      "properties": {
+        "zip": 80479.0,
+        "city": "Toponas",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.34175,
+          40.67188
+        ]
+      },
+      "properties": {
+        "zip": 80480.0,
+        "city": "Walden",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 48.59871100332634,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.52253,
+          40.10351
+        ]
+      },
+      "properties": {
+        "zip": 80481.0,
+        "city": "Ward",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 61.42719671997927,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.78404,
+          39.90429
+        ]
+      },
+      "properties": {
+        "zip": 80482.0,
+        "city": "Winter Park",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 55.51635405691013,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.92124,
+          40.12482
+        ]
+      },
+      "properties": {
+        "zip": 80483.0,
+        "city": "Yampa",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 52.24847634707981,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.89321,
+          40.58803
+        ]
+      },
+      "properties": {
+        "zip": 80487.0,
+        "city": "Steamboat Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 63.256022690134714,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.22338,
+          39.7794
+        ]
+      },
+      "properties": {
+        "zip": 80498.0,
+        "city": "Silverthorne",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.19644615360781,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10208,
+          40.16479
+        ]
+      },
+      "properties": {
+        "zip": 80501.0,
+        "city": "Longmont",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 54.63086964877588,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.20725,
+          40.16922
+        ]
+      },
+      "properties": {
+        "zip": 80503.0,
+        "city": "Longmont",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 62.688938526304284,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03029,
+          40.16523
+        ]
+      },
+      "properties": {
+        "zip": 80504.0,
+        "city": "Longmont",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 59.58448092081493,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.57878,
+          40.20964
+        ]
+      },
+      "properties": {
+        "zip": 80510.0,
+        "city": "Allenspark",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 60.73996036733755,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.56828,
+          40.62989
+        ]
+      },
+      "properties": {
+        "zip": 80512.0,
+        "city": "Bellvue",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 64.73025939936839,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10913,
+          40.29789
+        ]
+      },
+      "properties": {
+        "zip": 80513.0,
+        "city": "Berthoud",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 60.822814138790186,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.95401,
+          40.07152
+        ]
+      },
+      "properties": {
+        "zip": 80514.0,
+        "city": "Dacono",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 56.26932170767541,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.37726,
+          40.45659
+        ]
+      },
+      "properties": {
+        "zip": 80515.0,
+        "city": "Drake",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 55.85154662386077,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.01869,
+          40.05333
+        ]
+      },
+      "properties": {
+        "zip": 80516.0,
+        "city": "Erie",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.61165,
+          40.39731
+        ]
+      },
+      "properties": {
+        "zip": 80517.0,
+        "city": "Estes Park",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.93347,
+          40.11387
+        ]
+      },
+      "properties": {
+        "zip": 80520.0,
+        "city": "Firestone",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1268,
+          40.59372
+        ]
+      },
+      "properties": {
+        "zip": 80521.0,
+        "city": "Fort Collins",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02155,
+          40.64814
+        ]
+      },
+      "properties": {
+        "zip": 80524.0,
+        "city": "Fort Collins",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.04249,
+          40.52795
+        ]
+      },
+      "properties": {
+        "zip": 80525.0,
+        "city": "Fort Collins",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.13262,
+          40.5174
+        ]
+      },
+      "properties": {
+        "zip": 80526.0,
+        "city": "Fort Collins",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.00075,
+          40.49343
+        ]
+      },
+      "properties": {
+        "zip": 80528.0,
+        "city": "Fort Collins",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.92302,
+          40.10153
+        ]
+      },
+      "properties": {
+        "zip": 80530.0,
+        "city": "Frederick",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.46048,
+          40.4775
+        ]
+      },
+      "properties": {
+        "zip": 80532.0,
+        "city": "Glen Haven",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.93522,
+          40.33192
+        ]
+      },
+      "properties": {
+        "zip": 80534.0,
+        "city": "Johnstown",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.19292,
+          40.73718
+        ]
+      },
+      "properties": {
+        "zip": 80535.0,
+        "city": "Laporte",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.38842,
+          40.87458
+        ]
+      },
+      "properties": {
+        "zip": 80536.0,
+        "city": "Livermore",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.20277,
+          40.38304
+        ]
+      },
+      "properties": {
+        "zip": 80537.0,
+        "city": "Loveland",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.16825,
+          40.48174
+        ]
+      },
+      "properties": {
+        "zip": 80538.0,
+        "city": "Loveland",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.39341,
+          40.23186
+        ]
+      },
+      "properties": {
+        "zip": 80540.0,
+        "city": "Lyons",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.99882,
+          40.23431
+        ]
+      },
+      "properties": {
+        "zip": 80542.0,
+        "city": "Mead",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8532,
+          40.34645
+        ]
+      },
+      "properties": {
+        "zip": 80543.0,
+        "city": "Milliken",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.17178,
+          40.10305
+        ]
+      },
+      "properties": {
+        "zip": 80544.0,
+        "city": "Niwot",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.69644,
+          40.85911
+        ]
+      },
+      "properties": {
+        "zip": 80545.0,
+        "city": "Red Feather Lakes",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.84986,
+          40.52415
+        ]
+      },
+      "properties": {
+        "zip": 80546.0,
+        "city": "Severance",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.96347,
+          40.52948
+        ]
+      },
+      "properties": {
+        "zip": 80547.0,
+        "city": "Timnath",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.05499,
+          40.84341
+        ]
+      },
+      "properties": {
+        "zip": 80549.0,
+        "city": "Wellington",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.90223,
+          40.48213
+        ]
+      },
+      "properties": {
+        "zip": 80550.0,
+        "city": "Windsor",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.80777,
+          39.96288
+        ]
+      },
+      "properties": {
+        "zip": 80601.0,
+        "city": "Brighton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.90661,
+          39.96369
+        ]
+      },
+      "properties": {
+        "zip": 80602.0,
+        "city": "Brighton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.74539,
+          39.9845
+        ]
+      },
+      "properties": {
+        "zip": 80603.0,
+        "city": "Brighton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.58269,
+          40.66996
+        ]
+      },
+      "properties": {
+        "zip": 80610.0,
+        "city": "Ault",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.24964,
+          40.62015
+        ]
+      },
+      "properties": {
+        "zip": 80611.0,
+        "city": "Briggsdale",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.82287,
+          40.89924
+        ]
+      },
+      "properties": {
+        "zip": 80612.0,
+        "city": "Carr",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.64236,
+          40.5444
+        ]
+      },
+      "properties": {
+        "zip": 80615.0,
+        "city": "Eaton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.71337,
+          40.37425
+        ]
+      },
+      "properties": {
+        "zip": 80620.0,
+        "city": "Evans",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.79841,
+          40.10732
+        ]
+      },
+      "properties": {
+        "zip": 80621.0,
+        "city": "Fort Lupton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.44732,
+          40.54235
+        ]
+      },
+      "properties": {
+        "zip": 80622.0,
+        "city": "Galeton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.78253,
+          40.28531
+        ]
+      },
+      "properties": {
+        "zip": 80623.0,
+        "city": "Gilcrest",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.45635,
+          40.45683
+        ]
+      },
+      "properties": {
+        "zip": 80624.0,
+        "city": "Gill",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.67809,
+          40.44216
+        ]
+      },
+      "properties": {
+        "zip": 80631.0,
+        "city": "Greeley",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.79222,
+          40.40075
+        ]
+      },
+      "properties": {
+        "zip": 80634.0,
+        "city": "Greeley",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.88202,
+          39.88536
+        ]
+      },
+      "properties": {
+        "zip": 80640.0,
+        "city": "Henderson",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.61565,
+          40.05353
+        ]
+      },
+      "properties": {
+        "zip": 80642.0,
+        "city": "Hudson",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.47164,
+          40.11186
+        ]
+      },
+      "properties": {
+        "zip": 80643.0,
+        "city": "Keenesburg",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.43866,
+          40.3371
+        ]
+      },
+      "properties": {
+        "zip": 80644.0,
+        "city": "Kersey",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.64731,
+          40.28409
+        ]
+      },
+      "properties": {
+        "zip": 80645.0,
+        "city": "La Salle",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.69761,
+          40.47537
+        ]
+      },
+      "properties": {
+        "zip": 80646.0,
+        "city": "Lucerne",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.72816,
+          40.76559
+        ]
+      },
+      "properties": {
+        "zip": 80648.0,
+        "city": "Nunn",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.17595,
+          40.37924
+        ]
+      },
+      "properties": {
+        "zip": 80649.0,
+        "city": "Orchard",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.77666,
+          40.6484
+        ]
+      },
+      "properties": {
+        "zip": 80650.0,
+        "city": "Pierce",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.81409,
+          40.23717
+        ]
+      },
+      "properties": {
+        "zip": 80651.0,
+        "city": "Platteville",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.2751,
+          40.11048
+        ]
+      },
+      "properties": {
+        "zip": 80652.0,
+        "city": "Roggen",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.97685,
+          40.3931
+        ]
+      },
+      "properties": {
+        "zip": 80653.0,
+        "city": "Weldona",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.07642,
+          40.13501
+        ]
+      },
+      "properties": {
+        "zip": 80654.0,
+        "city": "Wiggins",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.81102,
+          40.13494
+        ]
+      },
+      "properties": {
+        "zip": 80701.0,
+        "city": "Fort Morgan",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.83428,
+          40.27116
+        ]
+      },
+      "properties": {
+        "zip": 80705.0,
+        "city": "Log Lane Village",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.18878,
+          40.07457
+        ]
+      },
+      "properties": {
+        "zip": 80720.0,
+        "city": "Akron",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.15297,
+          40.68821
+        ]
+      },
+      "properties": {
+        "zip": 80721.0,
+        "city": "Amherst",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.23833,
+          40.49515
+        ]
+      },
+      "properties": {
+        "zip": 80722.0,
+        "city": "Atwood",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.55046,
+          40.15981
+        ]
+      },
+      "properties": {
+        "zip": 80723.0,
+        "city": "Brush",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.7773,
+          40.91044
+        ]
+      },
+      "properties": {
+        "zip": 80726.0,
+        "city": "Crook",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.51484,
+          40.02185
+        ]
+      },
+      "properties": {
+        "zip": 80727.0,
+        "city": "Eckley",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.87285,
+          40.64
+        ]
+      },
+      "properties": {
+        "zip": 80728.0,
+        "city": "Fleming",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.22632,
+          40.87439
+        ]
+      },
+      "properties": {
+        "zip": 80729.0,
+        "city": "Grover",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.60558,
+          40.58734
+        ]
+      },
+      "properties": {
+        "zip": 80731.0,
+        "city": "Haxtun",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.30525,
+          40.9884
+        ]
+      },
+      "properties": {
+        "zip": 80732.0,
+        "city": "Hereford",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.47989,
+          40.35695
+        ]
+      },
+      "properties": {
+        "zip": 80733.0,
+        "city": "Hillrose",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.29259,
+          40.52472
+        ]
+      },
+      "properties": {
+        "zip": 80734.0,
+        "city": "Holyoke",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.25029,
+          39.71549
+        ]
+      },
+      "properties": {
+        "zip": 80735.0,
+        "city": "Idalia",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.01907,
+          40.81635
+        ]
+      },
+      "properties": {
+        "zip": 80736.0,
+        "city": "Iliff",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.19267,
+          40.88974
+        ]
+      },
+      "properties": {
+        "zip": 80737.0,
+        "city": "Julesburg",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.38744,
+          39.74256
+        ]
+      },
+      "properties": {
+        "zip": 80740.0,
+        "city": "Lindon",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.47339,
+          40.5598
+        ]
+      },
+      "properties": {
+        "zip": 80741.0,
+        "city": "Merino",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.81371,
+          40.74855
+        ]
+      },
+      "properties": {
+        "zip": 80742.0,
+        "city": "New Raymer",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.95679,
+          40.21588
+        ]
+      },
+      "properties": {
+        "zip": 80743.0,
+        "city": "Otis",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.38355,
+          40.87471
+        ]
+      },
+      "properties": {
+        "zip": 80744.0,
+        "city": "Ovid",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.40077,
+          40.88801
+        ]
+      },
+      "properties": {
+        "zip": 80745.0,
+        "city": "Padroni",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.45695,
+          40.60706
+        ]
+      },
+      "properties": {
+        "zip": 80746.0,
+        "city": "Paoli",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.16392,
+          40.94709
+        ]
+      },
+      "properties": {
+        "zip": 80747.0,
+        "city": "Peetz",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.55354,
+          40.87574
+        ]
+      },
+      "properties": {
+        "zip": 80749.0,
+        "city": "Sedgwick",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.60681,
+          40.41144
+        ]
+      },
+      "properties": {
+        "zip": 80750.0,
+        "city": "Snyder",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.24504,
+          40.65263
+        ]
+      },
+      "properties": {
+        "zip": 80751.0,
+        "city": "Sterling",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.64694,
+          40.69052
+        ]
+      },
+      "properties": {
+        "zip": 80754.0,
+        "city": "Stoneham",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.35155,
+          39.89966
+        ]
+      },
+      "properties": {
+        "zip": 80755.0,
+        "city": "Vernon",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.58588,
+          39.79244
+        ]
+      },
+      "properties": {
+        "zip": 80757.0,
+        "city": "Woodrow",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.2122,
+          40.11998
+        ]
+      },
+      "properties": {
+        "zip": 80758.0,
+        "city": "Wray",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.68759,
+          40.10892
+        ]
+      },
+      "properties": {
+        "zip": 80759.0,
+        "city": "Yuma",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.11354,
+          39.73943
+        ]
+      },
+      "properties": {
+        "zip": 80801.0,
+        "city": "Anton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.16393,
+          38.84317
+        ]
+      },
+      "properties": {
+        "zip": 80802.0,
+        "city": "Arapahoe",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.26331,
+          39.35644
+        ]
+      },
+      "properties": {
+        "zip": 80804.0,
+        "city": "Arriba",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.44923,
+          39.29378
+        ]
+      },
+      "properties": {
+        "zip": 80805.0,
+        "city": "Bethune",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.23303,
+          39.31575
+        ]
+      },
+      "properties": {
+        "zip": 80807.0,
+        "city": "Burlington",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.30638,
+          39.00043
+        ]
+      },
+      "properties": {
+        "zip": 80808.0,
+        "city": "Calhan",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.99733,
+          38.86503
+        ]
+      },
+      "properties": {
+        "zip": 80809.0,
+        "city": "Cascade",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.4454,
+          38.82589
+        ]
+      },
+      "properties": {
+        "zip": 80810.0,
+        "city": "Cheyenne Wells",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.89161,
+          39.67901
+        ]
+      },
+      "properties": {
+        "zip": 80812.0,
+        "city": "Cope",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.09278,
+          38.76307
+        ]
+      },
+      "properties": {
+        "zip": 80813.0,
+        "city": "Cripple Creek",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.17604,
+          38.94731
+        ]
+      },
+      "properties": {
+        "zip": 80814.0,
+        "city": "Divide",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.08191,
+          39.40174
+        ]
+      },
+      "properties": {
+        "zip": 80815.0,
+        "city": "Flagler",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.31591,
+          38.85162
+        ]
+      },
+      "properties": {
+        "zip": 80816.0,
+        "city": "Florissant",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.67412,
+          38.58347
+        ]
+      },
+      "properties": {
+        "zip": 80817.0,
+        "city": "Fountain",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.48119,
+          39.41539
+        ]
+      },
+      "properties": {
+        "zip": 80818.0,
+        "city": "Genoa",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.00249,
+          38.94076
+        ]
+      },
+      "properties": {
+        "zip": 80819.0,
+        "city": "Green Mountain Falls",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.56613,
+          38.77781
+        ]
+      },
+      "properties": {
+        "zip": 80820.0,
+        "city": "Guffey",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.43248,
+          38.97366
+        ]
+      },
+      "properties": {
+        "zip": 80821.0,
+        "city": "Hugo",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.67815,
+          39.67088
+        ]
+      },
+      "properties": {
+        "zip": 80822.0,
+        "city": "Joes",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.46738,
+          38.69026
+        ]
+      },
+      "properties": {
+        "zip": 80823.0,
+        "city": "Karval",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.49943,
+          39.66302
+        ]
+      },
+      "properties": {
+        "zip": 80824.0,
+        "city": "Kirk",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.80624,
+          38.81864
+        ]
+      },
+      "properties": {
+        "zip": 80825.0,
+        "city": "Kit Carson",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.69129,
+          39.21874
+        ]
+      },
+      "properties": {
+        "zip": 80826.0,
+        "city": "Limon",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.46272,
+          39.05821
+        ]
+      },
+      "properties": {
+        "zip": 80827.0,
+        "city": "Lake George",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.70983,
+          39.26643
+        ]
+      },
+      "properties": {
+        "zip": 80828.0,
+        "city": "Limon",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.93289,
+          38.82922
+        ]
+      },
+      "properties": {
+        "zip": 80829.0,
+        "city": "Manitou Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.91139,
+          39.11313
+        ]
+      },
+      "properties": {
+        "zip": 80830.0,
+        "city": "Matheson",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.51172,
+          38.98867
+        ]
+      },
+      "properties": {
+        "zip": 80831.0,
+        "city": "Peyton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.02769,
+          39.06344
+        ]
+      },
+      "properties": {
+        "zip": 80832.0,
+        "city": "Ramah",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.93699,
+          38.73874
+        ]
+      },
+      "properties": {
+        "zip": 80833.0,
+        "city": "Rush",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.88617,
+          39.29735
+        ]
+      },
+      "properties": {
+        "zip": 80834.0,
+        "city": "Seibert",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.07223,
+          39.20933
+        ]
+      },
+      "properties": {
+        "zip": 80835.0,
+        "city": "Simla",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.58239,
+          39.30518
+        ]
+      },
+      "properties": {
+        "zip": 80836.0,
+        "city": "Stratton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.85446,
+          39.00041
+        ]
+      },
+      "properties": {
+        "zip": 80840.0,
+        "city": "Usaf Academy",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.09876,
+          38.69307
+        ]
+      },
+      "properties": {
+        "zip": 80860.0,
+        "city": "Victor",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.74844,
+          39.32645
+        ]
+      },
+      "properties": {
+        "zip": 80861.0,
+        "city": "Vona",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.06782,
+          38.90926
+        ]
+      },
+      "properties": {
+        "zip": 80862.0,
+        "city": "Wild Horse",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07132,
+          39.03004
+        ]
+      },
+      "properties": {
+        "zip": 80863.0,
+        "city": "Woodland Park",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.18757,
+          38.69923
+        ]
+      },
+      "properties": {
+        "zip": 80864.0,
+        "city": "Yoder",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8127,
+          38.68683
+        ]
+      },
+      "properties": {
+        "zip": 80902.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.81342,
+          38.83249
+        ]
+      },
+      "properties": {
+        "zip": 80903.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.87197,
+          38.86321
+        ]
+      },
+      "properties": {
+        "zip": 80904.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.83649,
+          38.81855
+        ]
+      },
+      "properties": {
+        "zip": 80905.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.87023,
+          38.76744
+        ]
+      },
+      "properties": {
+        "zip": 80906.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.82137,
+          38.87912
+        ]
+      },
+      "properties": {
+        "zip": 80907.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.69094,
+          39.0463
+        ]
+      },
+      "properties": {
+        "zip": 80908.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.77434,
+          38.85255
+        ]
+      },
+      "properties": {
+        "zip": 80909.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7743,
+          38.81178
+        ]
+      },
+      "properties": {
+        "zip": 80910.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.71955,
+          38.75325
+        ]
+      },
+      "properties": {
+        "zip": 80911.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.76268,
+          38.70005
+        ]
+      },
+      "properties": {
+        "zip": 80913.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.70546,
+          38.82401
+        ]
+      },
+      "properties": {
+        "zip": 80914.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.71652,
+          38.85271
+        ]
+      },
+      "properties": {
+        "zip": 80915.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.71208,
+          38.80327
+        ]
+      },
+      "properties": {
+        "zip": 80916.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.74049,
+          38.88684
+        ]
+      },
+      "properties": {
+        "zip": 80917.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.78032,
+          38.91156
+        ]
+      },
+      "properties": {
+        "zip": 80918.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.88025,
+          38.92797
+        ]
+      },
+      "properties": {
+        "zip": 80919.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.77191,
+          38.95579
+        ]
+      },
+      "properties": {
+        "zip": 80920.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.88156,
+          39.02648
+        ]
+      },
+      "properties": {
+        "zip": 80921.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.70084,
+          38.88996
+        ]
+      },
+      "properties": {
+        "zip": 80922.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.71433,
+          38.92673
+        ]
+      },
+      "properties": {
+        "zip": 80923.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.72199,
+          38.96727
+        ]
+      },
+      "properties": {
+        "zip": 80924.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.64441,
+          38.76156
+        ]
+      },
+      "properties": {
+        "zip": 80925.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.92439,
+          38.64318
+        ]
+      },
+      "properties": {
+        "zip": 80926.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.65878,
+          38.92833
+        ]
+      },
+      "properties": {
+        "zip": 80927.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.44268,
+          38.64517
+        ]
+      },
+      "properties": {
+        "zip": 80928.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.60833,
+          38.82453
+        ]
+      },
+      "properties": {
+        "zip": 80929.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.50644,
+          38.80507
+        ]
+      },
+      "properties": {
+        "zip": 80930.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.65926,
+          38.90157
+        ]
+      },
+      "properties": {
+        "zip": 80938.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.67742,
+          38.87772
+        ]
+      },
+      "properties": {
+        "zip": 80939.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6558,
+          38.88396
+        ]
+      },
+      "properties": {
+        "zip": 80951.0,
+        "city": "Colorado Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.5378,
+          38.29525
+        ]
+      },
+      "properties": {
+        "zip": 81001.0,
+        "city": "Pueblo",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.65668,
+          38.27782
+        ]
+      },
+      "properties": {
+        "zip": 81003.0,
+        "city": "Pueblo",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.71595,
+          38.05121
+        ]
+      },
+      "properties": {
+        "zip": 81004.0,
+        "city": "Pueblo",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.84608,
+          38.21054
+        ]
+      },
+      "properties": {
+        "zip": 81005.0,
+        "city": "Pueblo",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.47413,
+          38.24059
+        ]
+      },
+      "properties": {
+        "zip": 81006.0,
+        "city": "Pueblo",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.78472,
+          38.35858
+        ]
+      },
+      "properties": {
+        "zip": 81007.0,
+        "city": "Pueblo",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.59354,
+          38.40765
+        ]
+      },
+      "properties": {
+        "zip": 81008.0,
+        "city": "Pueblo",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.83714,
+          37.94152
+        ]
+      },
+      "properties": {
+        "zip": 81019.0,
+        "city": "Colorado City",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6253,
+          37.43821
+        ]
+      },
+      "properties": {
+        "zip": 81020.0,
+        "city": "Aguilar",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.36732,
+          38.43332
+        ]
+      },
+      "properties": {
+        "zip": 81021.0,
+        "city": "Arlington",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.43768,
+          38.03279
+        ]
+      },
+      "properties": {
+        "zip": 81022.0,
+        "city": "Avondale",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.92966,
+          38.06352
+        ]
+      },
+      "properties": {
+        "zip": 81023.0,
+        "city": "Beulah",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.71162,
+          37.2293
+        ]
+      },
+      "properties": {
+        "zip": 81024.0,
+        "city": "Boncarbo",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.26422,
+          38.34567
+        ]
+      },
+      "properties": {
+        "zip": 81025.0,
+        "city": "Boone",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.72308,
+          37.24687
+        ]
+      },
+      "properties": {
+        "zip": 81027.0,
+        "city": "Branson",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.48274,
+          37.08921
+        ]
+      },
+      "properties": {
+        "zip": 81029.0,
+        "city": "Campo",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.51876,
+          38.10322
+        ]
+      },
+      "properties": {
+        "zip": 81030.0,
+        "city": "Cheraw",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.85557,
+          38.19575
+        ]
+      },
+      "properties": {
+        "zip": 81033.0,
+        "city": "Crowley",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.79292,
+          38.42984
+        ]
+      },
+      "properties": {
+        "zip": 81036.0,
+        "city": "Eads",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.08615,
+          37.94079
+        ]
+      },
+      "properties": {
+        "zip": 81039.0,
+        "city": "Fowler",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2493,
+          37.79283
+        ]
+      },
+      "properties": {
+        "zip": 81040.0,
+        "city": "Gardner",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.3839,
+          37.844
+        ]
+      },
+      "properties": {
+        "zip": 81041.0,
+        "city": "Granada",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.22312,
+          38.11982
+        ]
+      },
+      "properties": {
+        "zip": 81043.0,
+        "city": "Hartman",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.93628,
+          37.90328
+        ]
+      },
+      "properties": {
+        "zip": 81044.0,
+        "city": "Hasty",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.16093,
+          38.55956
+        ]
+      },
+      "properties": {
+        "zip": 81045.0,
+        "city": "Haswell",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.36867,
+          37.29597
+        ]
+      },
+      "properties": {
+        "zip": 81046.0,
+        "city": "Hoehne",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.19206,
+          38.03226
+        ]
+      },
+      "properties": {
+        "zip": 81047.0,
+        "city": "Holly",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.36308,
+          37.31338
+        ]
+      },
+      "properties": {
+        "zip": 81049.0,
+        "city": "Kim",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.51528,
+          37.92266
+        ]
+      },
+      "properties": {
+        "zip": 81050.0,
+        "city": "La Junta",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.65625,
+          37.94242
+        ]
+      },
+      "properties": {
+        "zip": 81052.0,
+        "city": "Lamar",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.19493,
+          37.88583
+        ]
+      },
+      "properties": {
+        "zip": 81054.0,
+        "city": "Las Animas",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.06635,
+          37.47727
+        ]
+      },
+      "properties": {
+        "zip": 81055.0,
+        "city": "La Veta",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.89675,
+          38.12525
+        ]
+      },
+      "properties": {
+        "zip": 81057.0,
+        "city": "McClave",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.88161,
+          38.10727
+        ]
+      },
+      "properties": {
+        "zip": 81058.0,
+        "city": "Manzanola",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.99322,
+          37.56259
+        ]
+      },
+      "properties": {
+        "zip": 81059.0,
+        "city": "Model",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.94995,
+          38.29345
+        ]
+      },
+      "properties": {
+        "zip": 81062.0,
+        "city": "Olney Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.78494,
+          38.45232
+        ]
+      },
+      "properties": {
+        "zip": 81063.0,
+        "city": "Ordway",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.99753,
+          37.24593
+        ]
+      },
+      "properties": {
+        "zip": 81064.0,
+        "city": "Pritchett",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.72326,
+          38.01674
+        ]
+      },
+      "properties": {
+        "zip": 81067.0,
+        "city": "Rocky Ford",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.88951,
+          37.88998
+        ]
+      },
+      "properties": {
+        "zip": 81069.0,
+        "city": "Rye",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.2816,
+          38.44838
+        ]
+      },
+      "properties": {
+        "zip": 81071.0,
+        "city": "Sheridan Lake",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.71496,
+          37.42414
+        ]
+      },
+      "properties": {
+        "zip": 81073.0,
+        "city": "Springfield",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.6167,
+          38.32338
+        ]
+      },
+      "properties": {
+        "zip": 81076.0,
+        "city": "Sugar City",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.60985,
+          38.01374
+        ]
+      },
+      "properties": {
+        "zip": 81077.0,
+        "city": "Swink",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.14954,
+          37.07295
+        ]
+      },
+      "properties": {
+        "zip": 81081.0,
+        "city": "Trinchera",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.41717,
+          37.20343
+        ]
+      },
+      "properties": {
+        "zip": 81082.0,
+        "city": "Trinidad",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.41929,
+          37.57031
+        ]
+      },
+      "properties": {
+        "zip": 81084.0,
+        "city": "Two Buttes",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.41277,
+          37.39168
+        ]
+      },
+      "properties": {
+        "zip": 81087.0,
+        "city": "Vilas",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.66427,
+          37.6642
+        ]
+      },
+      "properties": {
+        "zip": 81089.0,
+        "city": "Walsenburg",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.22434,
+          37.36311
+        ]
+      },
+      "properties": {
+        "zip": 81090.0,
+        "city": "Walsh",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.97774,
+          37.14869
+        ]
+      },
+      "properties": {
+        "zip": 81091.0,
+        "city": "Weston",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.86779,
+          38.20283
+        ]
+      },
+      "properties": {
+        "zip": 81092.0,
+        "city": "Wiley",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.85243,
+          37.47197
+        ]
+      },
+      "properties": {
+        "zip": 81101.0,
+        "city": "Alamosa",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.26715,
+          37.14248
+        ]
+      },
+      "properties": {
+        "zip": 81120.0,
+        "city": "Antonito",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.42041,
+          37.01861
+        ]
+      },
+      "properties": {
+        "zip": 81121.0,
+        "city": "Arboles",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.50574,
+          37.31839
+        ]
+      },
+      "properties": {
+        "zip": 81122.0,
+        "city": "Bayfield",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.5659,
+          37.40469
+        ]
+      },
+      "properties": {
+        "zip": 81123.0,
+        "city": "Blanca",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.10688,
+          37.28543
+        ]
+      },
+      "properties": {
+        "zip": 81124.0,
+        "city": "Capulin",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.06678,
+          37.81745
+        ]
+      },
+      "properties": {
+        "zip": 81125.0,
+        "city": "Center",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.34724,
+          37.16146
+        ]
+      },
+      "properties": {
+        "zip": 81126.0,
+        "city": "Chama",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.65223,
+          37.06529
+        ]
+      },
+      "properties": {
+        "zip": 81128.0,
+        "city": "Chromo",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.02167,
+          37.10495
+        ]
+      },
+      "properties": {
+        "zip": 81129.0,
+        "city": "Conejos",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.04471,
+          37.7179
+        ]
+      },
+      "properties": {
+        "zip": 81130.0,
+        "city": "Creede",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.66651,
+          37.87706
+        ]
+      },
+      "properties": {
+        "zip": 81131.0,
+        "city": "Crestone",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.41009,
+          37.71656
+        ]
+      },
+      "properties": {
+        "zip": 81132.0,
+        "city": "Del Norte",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.32747,
+          37.44964
+        ]
+      },
+      "properties": {
+        "zip": 81133.0,
+        "city": "Fort Garland",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.85355,
+          37.72672
+        ]
+      },
+      "properties": {
+        "zip": 81136.0,
+        "city": "Hooper",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.61596,
+          37.05555
+        ]
+      },
+      "properties": {
+        "zip": 81137.0,
+        "city": "Ignacio",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.62737,
+          37.02302
+        ]
+      },
+      "properties": {
+        "zip": 81138.0,
+        "city": "Jaroso",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.1543,
+          37.28692
+        ]
+      },
+      "properties": {
+        "zip": 81140.0,
+        "city": "La Jara",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.89507,
+          37.16256
+        ]
+      },
+      "properties": {
+        "zip": 81141.0,
+        "city": "Manassa",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.87112,
+          38.14477
+        ]
+      },
+      "properties": {
+        "zip": 81143.0,
+        "city": "Moffat",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.14851,
+          37.5516
+        ]
+      },
+      "properties": {
+        "zip": 81144.0,
+        "city": "Monte Vista",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.6776,
+          37.64616
+        ]
+      },
+      "properties": {
+        "zip": 81146.0,
+        "city": "Mosca",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.08333,
+          37.28675
+        ]
+      },
+      "properties": {
+        "zip": 81147.0,
+        "city": "Pagosa Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.98542,
+          37.17183
+        ]
+      },
+      "properties": {
+        "zip": 81148.0,
+        "city": "Romeo",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.33858,
+          38.1035
+        ]
+      },
+      "properties": {
+        "zip": 81149.0,
+        "city": "Saguache",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.71506,
+          37.23376
+        ]
+      },
+      "properties": {
+        "zip": 81151.0,
+        "city": "Sanford",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.39411,
+          37.12609
+        ]
+      },
+      "properties": {
+        "zip": 81152.0,
+        "city": "San Luis",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.67179,
+          37.63473
+        ]
+      },
+      "properties": {
+        "zip": 81154.0,
+        "city": "South Fork",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.09603,
+          38.26671
+        ]
+      },
+      "properties": {
+        "zip": 81155.0,
+        "city": "Villa Grove",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.08157,
+          38.55129
+        ]
+      },
+      "properties": {
+        "zip": 81201.0,
+        "city": "Salida",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.62219,
+          38.81898
+        ]
+      },
+      "properties": {
+        "zip": 81210.0,
+        "city": "Almont",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.24128,
+          38.89548
+        ]
+      },
+      "properties": {
+        "zip": 81211.0,
+        "city": "Buena Vista",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.42498,
+          38.54409
+        ]
+      },
+      "properties": {
+        "zip": 81212.0,
+        "city": "Canon City",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.48414,
+          38.29861
+        ]
+      },
+      "properties": {
+        "zip": 81220.0,
+        "city": "Cimarron",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.14238,
+          38.36243
+        ]
+      },
+      "properties": {
+        "zip": 81221.0,
+        "city": "Coal Creek",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.81612,
+          38.35492
+        ]
+      },
+      "properties": {
+        "zip": 81222.0,
+        "city": "Coaldale",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.6031,
+          38.39372
+        ]
+      },
+      "properties": {
+        "zip": 81223.0,
+        "city": "Cotopaxi",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.90957,
+          38.87985
+        ]
+      },
+      "properties": {
+        "zip": 81224.0,
+        "city": "Crested Butte",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.00664,
+          38.94115
+        ]
+      },
+      "properties": {
+        "zip": 81225.0,
+        "city": "Crested Butte",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.10193,
+          38.32213
+        ]
+      },
+      "properties": {
+        "zip": 81226.0,
+        "city": "Florence",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.29009,
+          38.54934
+        ]
+      },
+      "properties": {
+        "zip": 81227.0,
+        "city": "Monarch",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.27723,
+          39.03402
+        ]
+      },
+      "properties": {
+        "zip": 81228.0,
+        "city": "Granite",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.98372,
+          38.40752
+        ]
+      },
+      "properties": {
+        "zip": 81230.0,
+        "city": "Gunnison",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.60895,
+          38.27535
+        ]
+      },
+      "properties": {
+        "zip": 81232.0,
+        "city": "Hillside",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.81369,
+          38.49244
+        ]
+      },
+      "properties": {
+        "zip": 81233.0,
+        "city": "Howard",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.33098,
+          37.99363
+        ]
+      },
+      "properties": {
+        "zip": 81235.0,
+        "city": "Lake City",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.25424,
+          38.6955
+        ]
+      },
+      "properties": {
+        "zip": 81236.0,
+        "city": "Nathrop",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.59108,
+          38.62842
+        ]
+      },
+      "properties": {
+        "zip": 81237.0,
+        "city": "Ohio City",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.60825,
+          38.53667
+        ]
+      },
+      "properties": {
+        "zip": 81239.0,
+        "city": "Parlin",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.03076,
+          38.4995
+        ]
+      },
+      "properties": {
+        "zip": 81240.0,
+        "city": "Penrose",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.48848,
+          38.62675
+        ]
+      },
+      "properties": {
+        "zip": 81241.0,
+        "city": "Pitkin",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.07288,
+          38.47181
+        ]
+      },
+      "properties": {
+        "zip": 81242.0,
+        "city": "Poncha Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.17654,
+          38.26041
+        ]
+      },
+      "properties": {
+        "zip": 81243.0,
+        "city": "Powderhorn",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.16495,
+          38.36393
+        ]
+      },
+      "properties": {
+        "zip": 81244.0,
+        "city": "Rockvale",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.47763,
+          38.3991
+        ]
+      },
+      "properties": {
+        "zip": 81248.0,
+        "city": "Sargents",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.43723,
+          39.13482
+        ]
+      },
+      "properties": {
+        "zip": 81251.0,
+        "city": "Twin Lakes",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.42143,
+          38.10891
+        ]
+      },
+      "properties": {
+        "zip": 81252.0,
+        "city": "Westcliffe",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.07497,
+          38.18763
+        ]
+      },
+      "properties": {
+        "zip": 81253.0,
+        "city": "Wetmore",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.82066,
+          37.51095
+        ]
+      },
+      "properties": {
+        "zip": 81301.0,
+        "city": "Durango",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.85677,
+          37.12903
+        ]
+      },
+      "properties": {
+        "zip": 81303.0,
+        "city": "Durango",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.72654,
+          37.70115
+        ]
+      },
+      "properties": {
+        "zip": 81320.0,
+        "city": "Cahone",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.76267,
+          37.31826
+        ]
+      },
+      "properties": {
+        "zip": 81321.0,
+        "city": "Cortez",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.27823,
+          37.64874
+        ]
+      },
+      "properties": {
+        "zip": 81323.0,
+        "city": "Dolores",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.02911,
+          37.63734
+        ]
+      },
+      "properties": {
+        "zip": 81324.0,
+        "city": "Dove Creek",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.72011,
+          37.89605
+        ]
+      },
+      "properties": {
+        "zip": 81325.0,
+        "city": "Egnar",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.11525,
+          37.14635
+        ]
+      },
+      "properties": {
+        "zip": 81326.0,
+        "city": "Hesperus",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.66488,
+          37.5155
+        ]
+      },
+      "properties": {
+        "zip": 81327.0,
+        "city": "Lewis",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.3101,
+          37.30054
+        ]
+      },
+      "properties": {
+        "zip": 81328.0,
+        "city": "Mancos",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.47828,
+          37.23484
+        ]
+      },
+      "properties": {
+        "zip": 81330.0,
+        "city": "Mesa Verde National Park",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.86252,
+          37.51387
+        ]
+      },
+      "properties": {
+        "zip": 81331.0,
+        "city": "Pleasant View",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.99292,
+          37.69857
+        ]
+      },
+      "properties": {
+        "zip": 81332.0,
+        "city": "Rico",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.63674,
+          37.11594
+        ]
+      },
+      "properties": {
+        "zip": 81334.0,
+        "city": "Towaoc",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.71978,
+          37.54381
+        ]
+      },
+      "properties": {
+        "zip": 81335.0,
+        "city": "Yellow Jacket",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.78472,
+          38.51559
+        ]
+      },
+      "properties": {
+        "zip": 81401.0,
+        "city": "Montrose",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.92816,
+          38.32308
+        ]
+      },
+      "properties": {
+        "zip": 81403.0,
+        "city": "Montrose",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.97595,
+          38.81261
+        ]
+      },
+      "properties": {
+        "zip": 81410.0,
+        "city": "Austin",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.97862,
+          38.25188
+        ]
+      },
+      "properties": {
+        "zip": 81411.0,
+        "city": "Bedrock",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.90845,
+          38.97171
+        ]
+      },
+      "properties": {
+        "zip": 81413.0,
+        "city": "Cedaredge",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.6368,
+          38.64027
+        ]
+      },
+      "properties": {
+        "zip": 81415.0,
+        "city": "Crawford",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.20403,
+          38.66482
+        ]
+      },
+      "properties": {
+        "zip": 81416.0,
+        "city": "Delta",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.05687,
+          38.90479
+        ]
+      },
+      "properties": {
+        "zip": 81418.0,
+        "city": "Eckert",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.74872,
+          38.86332
+        ]
+      },
+      "properties": {
+        "zip": 81419.0,
+        "city": "Hotchkiss",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.70843,
+          38.32039
+        ]
+      },
+      "properties": {
+        "zip": 81422.0,
+        "city": "Naturita",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.45816,
+          38.03835
+        ]
+      },
+      "properties": {
+        "zip": 81423.0,
+        "city": "Norwood",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.47346,
+          38.34098
+        ]
+      },
+      "properties": {
+        "zip": 81424.0,
+        "city": "Nucla",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.10469,
+          38.49363
+        ]
+      },
+      "properties": {
+        "zip": 81425.0,
+        "city": "Olathe",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.83191,
+          37.87339
+        ]
+      },
+      "properties": {
+        "zip": 81426.0,
+        "city": "Ophir",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.64387,
+          37.99301
+        ]
+      },
+      "properties": {
+        "zip": 81427.0,
+        "city": "Ouray",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.59899,
+          38.95928
+        ]
+      },
+      "properties": {
+        "zip": 81428.0,
+        "city": "Paonia",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.90732,
+          38.34121
+        ]
+      },
+      "properties": {
+        "zip": 81429.0,
+        "city": "Paradox",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.05764,
+          38.04013
+        ]
+      },
+      "properties": {
+        "zip": 81430.0,
+        "city": "Placerville",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.51429,
+          38.13808
+        ]
+      },
+      "properties": {
+        "zip": 81431.0,
+        "city": "Redvale",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.74273,
+          38.12494
+        ]
+      },
+      "properties": {
+        "zip": 81432.0,
+        "city": "Ridgway",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.59448,
+          37.79346
+        ]
+      },
+      "properties": {
+        "zip": 81433.0,
+        "city": "Silverton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.35954,
+          38.95384
+        ]
+      },
+      "properties": {
+        "zip": 81434.0,
+        "city": "Somerset",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.92397,
+          37.90014
+        ]
+      },
+      "properties": {
+        "zip": 81435.0,
+        "city": "Telluride",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.54569,
+          39.07174
+        ]
+      },
+      "properties": {
+        "zip": 81501.0,
+        "city": "Grand Junction",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.48682,
+          39.03094
+        ]
+      },
+      "properties": {
+        "zip": 81503.0,
+        "city": "Grand Junction",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.49542,
+          39.1198
+        ]
+      },
+      "properties": {
+        "zip": 81504.0,
+        "city": "Grand Junction",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.59997,
+          39.18593
+        ]
+      },
+      "properties": {
+        "zip": 81505.0,
+        "city": "Grand Junction",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.53454,
+          39.15785
+        ]
+      },
+      "properties": {
+        "zip": 81506.0,
+        "city": "Grand Junction",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.62644,
+          39.0079
+        ]
+      },
+      "properties": {
+        "zip": 81507.0,
+        "city": "Grand Junction",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.43561,
+          39.10962
+        ]
+      },
+      "properties": {
+        "zip": 81520.0,
+        "city": "Clifton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.85049,
+          39.12529
+        ]
+      },
+      "properties": {
+        "zip": 81521.0,
+        "city": "Fruita",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.93025,
+          38.66026
+        ]
+      },
+      "properties": {
+        "zip": 81522.0,
+        "city": "Gateway",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.87362,
+          38.93803
+        ]
+      },
+      "properties": {
+        "zip": 81523.0,
+        "city": "Glade Park",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.73257,
+          39.2842
+        ]
+      },
+      "properties": {
+        "zip": 81524.0,
+        "city": "Loma",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.95075,
+          39.26984
+        ]
+      },
+      "properties": {
+        "zip": 81525.0,
+        "city": "Mack",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.33056,
+          39.07741
+        ]
+      },
+      "properties": {
+        "zip": 81526.0,
+        "city": "Palisade",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.52466,
+          38.75758
+        ]
+      },
+      "properties": {
+        "zip": 81527.0,
+        "city": "Whitewater",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.32815,
+          39.59357
+        ]
+      },
+      "properties": {
+        "zip": 81601.0,
+        "city": "Glenwood Springs",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.82468,
+          40.29418
+        ]
+      },
+      "properties": {
+        "zip": 81610.0,
+        "city": "Dinosaur",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.74885,
+          39.14561
+        ]
+      },
+      "properties": {
+        "zip": 81611.0,
+        "city": "Aspen",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.82335,
+          39.05048
+        ]
+      },
+      "properties": {
+        "zip": 81612.0,
+        "city": "Aspen",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.94172,
+          39.21437
+        ]
+      },
+      "properties": {
+        "zip": 81615.0,
+        "city": "Snowmass Village",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.50555,
+          39.61485
+        ]
+      },
+      "properties": {
+        "zip": 81620.0,
+        "city": "Avon",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.8772,
+          39.37803
+        ]
+      },
+      "properties": {
+        "zip": 81621.0,
+        "city": "Basalt",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.20921,
+          39.2451
+        ]
+      },
+      "properties": {
+        "zip": 81623.0,
+        "city": "Carbondale",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.77259,
+          39.24611
+        ]
+      },
+      "properties": {
+        "zip": 81624.0,
+        "city": "Collbran",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.74652,
+          40.70295
+        ]
+      },
+      "properties": {
+        "zip": 81625.0,
+        "city": "Craig",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.54627,
+          39.45769
+        ]
+      },
+      "properties": {
+        "zip": 81630.0,
+        "city": "De Beque",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.77136,
+          39.63116
+        ]
+      },
+      "properties": {
+        "zip": 81631.0,
+        "city": "Eagle",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.61132,
+          39.62015
+        ]
+      },
+      "properties": {
+        "zip": 81632.0,
+        "city": "Edwards",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.50983,
+          40.37644
+        ]
+      },
+      "properties": {
+        "zip": 81633.0,
+        "city": "Dinosaur",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.06022,
+          39.53722
+        ]
+      },
+      "properties": {
+        "zip": 81635.0,
+        "city": "Parachute",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.10065,
+          39.77162
+        ]
+      },
+      "properties": {
+        "zip": 81637.0,
+        "city": "Gypsum",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.64205,
+          40.30589
+        ]
+      },
+      "properties": {
+        "zip": 81638.0,
+        "city": "Hamilton",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.24457,
+          40.52636
+        ]
+      },
+      "properties": {
+        "zip": 81639.0,
+        "city": "Hayden",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.51791,
+          40.69357
+        ]
+      },
+      "properties": {
+        "zip": 81640.0,
+        "city": "Maybell",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.84699,
+          40.09112
+        ]
+      },
+      "properties": {
+        "zip": 81641.0,
+        "city": "Meeker",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.58448,
+          39.31202
+        ]
+      },
+      "properties": {
+        "zip": 81642.0,
+        "city": "Meredith",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.15001,
+          39.11968
+        ]
+      },
+      "properties": {
+        "zip": 81643.0,
+        "city": "Mesa",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.46779,
+          39.47634
+        ]
+      },
+      "properties": {
+        "zip": 81645.0,
+        "city": "Minturn",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.99199,
+          39.10875
+        ]
+      },
+      "properties": {
+        "zip": 81646.0,
+        "city": "Molina",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.5364,
+          39.57972
+        ]
+      },
+      "properties": {
+        "zip": 81647.0,
+        "city": "New Castle",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.78498,
+          39.95096
+        ]
+      },
+      "properties": {
+        "zip": 81648.0,
+        "city": "Rangely",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.31954,
+          39.46433
+        ]
+      },
+      "properties": {
+        "zip": 81649.0,
+        "city": "Red Cliff",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.11201,
+          39.75926
+        ]
+      },
+      "properties": {
+        "zip": 81650.0,
+        "city": "Rifle",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.67082,
+          39.472
+        ]
+      },
+      "properties": {
+        "zip": 81652.0,
+        "city": "Silt",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.2242,
+          40.9144
+        ]
+      },
+      "properties": {
+        "zip": 81653.0,
+        "city": "Slater",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.02597,
+          39.21462
+        ]
+      },
+      "properties": {
+        "zip": 81654.0,
+        "city": "Snowmass",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.67821,
+          39.7477
+        ]
+      },
+      "properties": {
+        "zip": 81655.0,
+        "city": "Wolcott",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.78711,
+          39.27948
+        ]
+      },
+      "properties": {
+        "zip": 81656.0,
+        "city": "Woody Creek",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.32608,
+          39.64864
+        ]
+      },
+      "properties": {
+        "zip": 81657.0,
+        "city": "Vail",
+        "region": "den",
+        "state_id": "CO",
+        "LIT_norm": "No Data",
+        "LIT_tier": 4
+      }
+    }
+  ]
+}
