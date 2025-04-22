@@ -1,0 +1,1247 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.08778,
+          36.08673
+        ]
+      },
+      "properties": {
+        "zip": 27278.0,
+        "city": "Hillsborough",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 60.83922491582715,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.90828,
+          35.72123
+        ]
+      },
+      "properties": {
+        "zip": 27502.0,
+        "city": "Apex",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 63.43079639928592,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.87757,
+          36.15832
+        ]
+      },
+      "properties": {
+        "zip": 27503.0,
+        "city": "Bahama",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 63.91912905192489,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.77604,
+          36.12889
+        ]
+      },
+      "properties": {
+        "zip": 27509.0,
+        "city": "Butner",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 48.03745998951738,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.08211,
+          35.91147
+        ]
+      },
+      "properties": {
+        "zip": 27510.0,
+        "city": "Carrboro",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 55.53009215321266,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.78437,
+          35.76324
+        ]
+      },
+      "properties": {
+        "zip": 27511.0,
+        "city": "Cary",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 59.369250535090075,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.80159,
+          35.80269
+        ]
+      },
+      "properties": {
+        "zip": 27513.0,
+        "city": "Cary",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 63.03008541614912,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.04406,
+          35.96776
+        ]
+      },
+      "properties": {
+        "zip": 27514.0,
+        "city": "Chapel Hill",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 65.0015811788663,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.15156,
+          35.91239
+        ]
+      },
+      "properties": {
+        "zip": 27516.0,
+        "city": "Chapel Hill",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 65.23733511873752,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.03186,
+          35.84389
+        ]
+      },
+      "properties": {
+        "zip": 27517.0,
+        "city": "Chapel Hill",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 65.40728085441853,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.03186,
+          35.84389
+        ]
+      },
+      "properties": {
+        "zip": 27517.0,
+        "city": "Chapel Hill",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 65.40728085441853,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7736,
+          35.72927
+        ]
+      },
+      "properties": {
+        "zip": 27518.0,
+        "city": "Cary",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 63.52983403898698,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.88711,
+          35.80815
+        ]
+      },
+      "properties": {
+        "zip": 27519.0,
+        "city": "Cary",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 66.27107267641338,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.88711,
+          35.80815
+        ]
+      },
+      "properties": {
+        "zip": 27519.0,
+        "city": "Cary",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 66.27107267641338,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.47075,
+          35.61274
+        ]
+      },
+      "properties": {
+        "zip": 27520.0,
+        "city": "Clayton",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 54.67870023742751,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.67676,
+          36.10565
+        ]
+      },
+      "properties": {
+        "zip": 27522.0,
+        "city": "Creedmoor",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 53.213617296938956,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.67676,
+          36.10565
+        ]
+      },
+      "properties": {
+        "zip": 27522.0,
+        "city": "Creedmoor",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 53.213617296938956,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.95367,
+          35.77102
+        ]
+      },
+      "properties": {
+        "zip": 27523.0,
+        "city": "Apex",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 63.95171671852788,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.46997,
+          36.11721
+        ]
+      },
+      "properties": {
+        "zip": 27525.0,
+        "city": "Franklinton",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 54.134981875422824,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.46997,
+          36.11721
+        ]
+      },
+      "properties": {
+        "zip": 27525.0,
+        "city": "Franklinton",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 54.134981875422824,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8274,
+          35.54179
+        ]
+      },
+      "properties": {
+        "zip": 27526.0,
+        "city": "Fuquay Varina",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 58.4587881498409,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.38336,
+          35.65767
+        ]
+      },
+      "properties": {
+        "zip": 27527.0,
+        "city": "Clayton",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 59.371016616677835,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.58167,
+          35.65048
+        ]
+      },
+      "properties": {
+        "zip": 27529.0,
+        "city": "Garner",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 56.58835847380508,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.81269,
+          35.67713
+        ]
+      },
+      "properties": {
+        "zip": 27539.0,
+        "city": "Apex",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 63.76409204217845,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.87332,
+          35.6103
+        ]
+      },
+      "properties": {
+        "zip": 27540.0,
+        "city": "Holly Springs",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 61.866523107043285,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.48045,
+          35.78513
+        ]
+      },
+      "properties": {
+        "zip": 27545.0,
+        "city": "Knightdale",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 55.115191251633554,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.82544,
+          35.85845
+        ]
+      },
+      "properties": {
+        "zip": 27560.0,
+        "city": "Morrisville",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 59.494117449011654,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.82544,
+          35.85845
+        ]
+      },
+      "properties": {
+        "zip": 27560.0,
+        "city": "Morrisville",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 59.494117449011654,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.98141,
+          35.64157
+        ]
+      },
+      "properties": {
+        "zip": 27562.0,
+        "city": "New Hill",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 64.72255155431677,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.98141,
+          35.64157
+        ]
+      },
+      "properties": {
+        "zip": 27562.0,
+        "city": "New Hill",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 64.72255155431677,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4647,
+          35.92151
+        ]
+      },
+      "properties": {
+        "zip": 27571.0,
+        "city": "Rolesville",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 64.39733002875084,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4647,
+          35.92151
+        ]
+      },
+      "properties": {
+        "zip": 27571.0,
+        "city": "Rolesville",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 64.39733002875084,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.54963,
+          35.98098
+        ]
+      },
+      "properties": {
+        "zip": 27587.0,
+        "city": "Wake Forest",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 62.33149109517056,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.38638,
+          35.7859
+        ]
+      },
+      "properties": {
+        "zip": 27591.0,
+        "city": "Wendell",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 55.77606567906632,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.67164,
+          35.55922
+        ]
+      },
+      "properties": {
+        "zip": 27592.0,
+        "city": "Willow Spring",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 56.850668751872725,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.67164,
+          35.55922
+        ]
+      },
+      "properties": {
+        "zip": 27592.0,
+        "city": "Willow Spring",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 56.850668751872725,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.44448,
+          36.00906
+        ]
+      },
+      "properties": {
+        "zip": 27596.0,
+        "city": "Youngsville",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 54.313174769196166,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.44448,
+          36.00906
+        ]
+      },
+      "properties": {
+        "zip": 27596.0,
+        "city": "Youngsville",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 54.313174769196166,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.30303,
+          35.84034
+        ]
+      },
+      "properties": {
+        "zip": 27597.0,
+        "city": "Zebulon",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 54.13686196885244,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.30303,
+          35.84034
+        ]
+      },
+      "properties": {
+        "zip": 27597.0,
+        "city": "Zebulon",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 54.13686196885244,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.63453,
+          35.7737
+        ]
+      },
+      "properties": {
+        "zip": 27601.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 62.972116167526295,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.66186,
+          35.66408
+        ]
+      },
+      "properties": {
+        "zip": 27603.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 58.579814943615375,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.56369,
+          35.82011
+        ]
+      },
+      "properties": {
+        "zip": 27604.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 55.51607433804692,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.65452,
+          35.79046
+        ]
+      },
+      "properties": {
+        "zip": 27605.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 61.79704616230667,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.71833,
+          35.73991
+        ]
+      },
+      "properties": {
+        "zip": 27606.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 58.91390656416202,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.71833,
+          35.73991
+        ]
+      },
+      "properties": {
+        "zip": 27606.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 58.91390656416202,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.72697,
+          35.82145
+        ]
+      },
+      "properties": {
+        "zip": 27607.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 62.11971191145294,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.64815,
+          35.81004
+        ]
+      },
+      "properties": {
+        "zip": 27608.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 70.30987855638685,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.63282,
+          35.8437
+        ]
+      },
+      "properties": {
+        "zip": 27609.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 59.00934863681415,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.54644,
+          35.7435
+        ]
+      },
+      "properties": {
+        "zip": 27610.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 53.21311985202308,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.54644,
+          35.7435
+        ]
+      },
+      "properties": {
+        "zip": 27610.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 53.21311985202308,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.70387,
+          35.85034
+        ]
+      },
+      "properties": {
+        "zip": 27612.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 62.97025538308432,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.70387,
+          35.85034
+        ]
+      },
+      "properties": {
+        "zip": 27612.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 62.97025538308432,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.71183,
+          35.92633
+        ]
+      },
+      "properties": {
+        "zip": 27613.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 63.28947378715494,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.62059,
+          35.94739
+        ]
+      },
+      "properties": {
+        "zip": 27614.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 64.95794622201927,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.636,
+          35.89772
+        ]
+      },
+      "properties": {
+        "zip": 27615.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 60.899474680889085,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.53792,
+          35.86735
+        ]
+      },
+      "properties": {
+        "zip": 27616.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 55.47574755025046,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.77221,
+          35.90723
+        ]
+      },
+      "properties": {
+        "zip": 27617.0,
+        "city": "Raleigh",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 60.46595697117792,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.89872,
+          35.99858
+        ]
+      },
+      "properties": {
+        "zip": 27701.0,
+        "city": "Durham",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 59.80898595263537,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.80452,
+          35.96299
+        ]
+      },
+      "properties": {
+        "zip": 27703.0,
+        "city": "Durham",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 56.38226200409702,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.80452,
+          35.96299
+        ]
+      },
+      "properties": {
+        "zip": 27703.0,
+        "city": "Durham",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 56.38226200409702,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.80452,
+          35.96299
+        ]
+      },
+      "properties": {
+        "zip": 27703.0,
+        "city": "Durham",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 56.38226200409702,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.83007,
+          36.04088
+        ]
+      },
+      "properties": {
+        "zip": 27704.0,
+        "city": "Durham",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 50.591953331891006,
+        "LIT_tier": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.98046,
+          36.0259
+        ]
+      },
+      "properties": {
+        "zip": 27705.0,
+        "city": "Durham",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 60.77828997775315,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.95451,
+          35.95463
+        ]
+      },
+      "properties": {
+        "zip": 27707.0,
+        "city": "Durham",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 58.35767443213038,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.95451,
+          35.95463
+        ]
+      },
+      "properties": {
+        "zip": 27707.0,
+        "city": "Durham",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 58.35767443213038,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.86666,
+          35.91441
+        ]
+      },
+      "properties": {
+        "zip": 27709.0,
+        "city": "Durham",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 12.596176062734017,
+        "LIT_tier": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.90481,
+          36.09606
+        ]
+      },
+      "properties": {
+        "zip": 27712.0,
+        "city": "Durham",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 62.77981532804866,
+        "LIT_tier": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.936,
+          35.88401
+        ]
+      },
+      "properties": {
+        "zip": 27713.0,
+        "city": "Durham",
+        "region": "car",
+        "state_id": "NC",
+        "LIT_norm": 59.51027884140771,
+        "LIT_tier": 3
+      }
+    }
+  ]
+}
