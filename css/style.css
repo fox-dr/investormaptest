@@ -91,6 +91,7 @@ body {
 .legend-title {
   font-weight: bold;
   margin-bottom: 4px;
+  text-align: center;
 }
 
 .legend-item {
