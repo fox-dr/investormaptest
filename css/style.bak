@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif; /* Apply Lato to the entire body */
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+#region-selector {
+  position: absolute;
+  top: calc(env(safe-area-inset-top, 20px) + 10px);
+  left: 10px;
+  background: rgba(255,255,255,0.9);
+  padding: 8px;
+  border-radius: 6px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: max-content;
+  font-family: 'Lato', sans-serif;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+#region-selector button {
+  width: 100%;
+  display: block;
+  margin-bottom: 4px;
+  padding: 6px 8px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  font-family: 'Lato', sans-serif;
+}
+
+#region-selector button:hover {
+  background-color: #e0e0e0;
+}
+
+#layer-toggle {
+  position: absolute;
+  bottom: 340px;
+  left: 10px;
+  background: rgba(255,255,255,0.9);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  z-index: 1000;
+  font-family: 'Lato', sans-serif;
+}
+
+#legend {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  background: rgba(255,255,255,0.9);
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1.4;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  z-index: 1000;
+  font-family: 'Lato', sans-serif;
+}
+#legend, #layer-toggle {
+  width: 150px; /* or whatever width your legend uses */
+  font-family: sans-serif;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.region-stat-box {
+  background: rgba(255, 255, 255, 0.9);
+  color: #222;
+  font-size: 12px;
+  font-family: Lato, sans-serif;
+  padding: 6px 8px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  text-align: center;
+  pointer-events: none;
+}
+  
+
+
+.legend-title {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 2px 0;
+}
+
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#ttlc-logo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 90px;              /* smaller size */
+  height: auto;
+  z-index: 1000;
+  opacity: 0.8;             /* 80% transparency */
+}
+
+.tooltip {
+  display: inline-block;
+  position: relative;
+  cursor: help;
+  font-size: 12px;
+  color: #666;
+  margin-left: 6px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 240px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 10px;
+  position: absolute;
+  z-index: 10;
+  bottom: 125%; /* Position above */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.pinwheel .tooltiptext {
+  white-space: normal;
+  width: auto;
+  max-width: 180px;
+}
+
+
+/* ===== Economic Region Arrows ===== */
+
+
+
+.economic-arrow {
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  color: #222;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 6px;
+  padding: 4px;
+  pointer-events: none;
+  width: max-content;
+}
+
+.arrow-label {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.arrow {
+  width: 100px;
+  height: 20px;
+  margin-bottom: 4px;
+}
+
+
+
+
+}
