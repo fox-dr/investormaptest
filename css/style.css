@@ -107,6 +107,20 @@ body {
   display: inline-block;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+.legend-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.legend-grid > div {
+  flex: 1;
+}
+
+.legend-section {
+  margin-top: 1rem;
+}
+
 
 #ttlc-logo {
   position: absolute;
