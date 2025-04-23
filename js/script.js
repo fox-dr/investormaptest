@@ -56,7 +56,19 @@ async function loadRegion(region) {
               const values = feature.properties.values;
               const svg = createPinwheelSVG(values);
 
-              const tooltipText = values.map((v, i) => `${2019 + i}: ${v.toFixed(1)}`).join('<br>');
+              //const tooltipText = values.map((v, i) => `${2019 + i}: ${v.toFixed(1)}`).join('<br>');
+              const total = values.reduce((sum, val) => sum + val, 0).toFixed(0);
+              const tooltipText = `
+                <strong>${feature.properties.metro || 'Unknown Region'}</strong><br>
+                Permits per 100k households:<br>
+                2019: <b>${values[0]}</b><br>
+                2020: <b>${values[1]}</b><br>
+                2021: <b>${values[2]}</b><br>
+                2022: <b>${values[3]}</b><br>
+                2023: <b>${values[4]}</b><br>
+                2024: <b>${values[5]}</b><br>
+                <em>Total (6 yrs): ${total}</em>
+              `;
 
               const el = document.createElement('div');
               el.className = 'pinwheel-marker';
