@@ -97,8 +97,11 @@ function createPinwheelSVG(values) {
   let paths = '';
   for (let i = 0; i < numSlices; i++) {
     const value = values[i];
-    const ratio = value / maxValue;
-    const r = radius * ratio;
+    //const ratio = value / maxValue;
+    //const r = radius * ratio;
+    const scaledRatio = Math.pow(value / maxValue, 0.6); // Lift lower values
+    const r = radius * scaledRatio;
+
     const angle1 = anglePerSlice * i;
     const angle2 = angle1 + anglePerSlice;
 
