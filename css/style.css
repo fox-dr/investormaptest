@@ -192,6 +192,20 @@ body {
 .tooltip-icon:hover .tooltip-text {
   display: block;
 }
+.custom-info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7em;
+  font-weight: bold;
+  width: 16px;
+  height: 16px;
+  background-color: #333;
+  color: white;
+  border-radius: 50%;
+  margin-left: 4px;
+  font-family: sans-serif;
+}
 
 .pinwheel .tooltiptext {
   white-space: normal;
