@@ -1,0 +1,537 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "purchase_price": "$2,695,900",
+        "building_size": 0,
+        "lot_size_sqft": 29621,
+        "description": "Price: $2,695,900<br>Size: 0 SF<br>Lot: 29621 SF",
+        "marker-color": "#FFB300",
+        "marker-opacity": 0.7,
+        "cohort_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2003,
+          2
+        ]
+      },
+      "properties": {
+        "purchase_price": "$2,799,000",
+        "building_size": 3832,
+        "lot_size_sqft": 30056,
+        "description": "Price: $2,799,000<br>Size: 3832 SF<br>Lot: 30056 SF",
+        "marker-color": "#FFA000",
+        "marker-opacity": 0.7,
+        "cohort_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "purchase_price": "$2,350,000",
+        "building_size": 0,
+        "lot_size_sqft": 16117,
+        "description": "Price: $2,350,000<br>Size: 0 SF<br>Lot: 16117 SF",
+        "marker-color": "#FFCA28",
+        "marker-opacity": 0.7,
+        "cohort_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2005,
+          2
+        ]
+      },
+      "properties": {
+        "purchase_price": "$3,200,000",
+        "building_size": 3922,
+        "lot_size_sqft": 27878,
+        "description": "Price: $3,200,000<br>Size: 3922 SF<br>Lot: 27878 SF",
+        "marker-color": "#FFA000",
+        "marker-opacity": 0.7,
+        "cohort_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2004,
+          1
+        ]
+      },
+      "properties": {
+        "purchase_price": "$2,300,000",
+        "building_size": 3886,
+        "lot_size_sqft": 32401,
+        "description": "Price: $2,300,000<br>Size: 3886 SF<br>Lot: 32401 SF",
+        "marker-color": "#FFCA28",
+        "marker-opacity": 0.7,
+        "cohort_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "purchase_price": "$2,575,000",
+        "building_size": 0,
+        "lot_size_sqft": 22216,
+        "description": "Price: $2,575,000<br>Size: 0 SF<br>Lot: 22216 SF",
+        "marker-color": "#FFB300",
+        "marker-opacity": 0.7,
+        "cohort_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2005,
+          2
+        ]
+      },
+      "properties": {
+        "purchase_price": "$2,650,000",
+        "building_size": 4301,
+        "lot_size_sqft": 24394,
+        "description": "Price: $2,650,000<br>Size: 4301 SF<br>Lot: 24394 SF",
+        "marker-color": "#FFB300",
+        "marker-opacity": 0.7,
+        "cohort_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2005,
+          2
+        ]
+      },
+      "properties": {
+        "purchase_price": "$2,900,000",
+        "building_size": 4448,
+        "lot_size_sqft": 23522,
+        "description": "Price: $2,900,000<br>Size: 4448 SF<br>Lot: 23522 SF",
+        "marker-color": "#FFA000",
+        "marker-opacity": 0.7,
+        "cohort_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2006,
+          2
+        ]
+      },
+      "properties": {
+        "purchase_price": "$2,100,000",
+        "building_size": 3567,
+        "lot_size_sqft": 27007,
+        "description": "Price: $2,100,000<br>Size: 3567 SF<br>Lot: 27007 SF",
+        "marker-color": "#FFE082",
+        "marker-opacity": 0.7,
+        "cohort_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2005,
+          2
+        ]
+      },
+      "properties": {
+        "purchase_price": "$1,553,000",
+        "building_size": 2712,
+        "lot_size_sqft": 12632,
+        "description": "Price: $1,553,000<br>Size: 2712 SF<br>Lot: 12632 SF",
+        "marker-color": "#FFE082",
+        "marker-opacity": 0.7,
+        "cohort_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2004,
+          2
+        ]
+      },
+      "properties": {
+        "purchase_price": "$2,200,000",
+        "building_size": 2967,
+        "lot_size_sqft": 12632,
+        "description": "Price: $2,200,000<br>Size: 2967 SF<br>Lot: 12632 SF",
+        "marker-color": "#FFCA28",
+        "marker-opacity": 0.7,
+        "cohort_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2006,
+          2
+        ]
+      },
+      "properties": {
+        "purchase_price": "$3,200,000",
+        "building_size": 4705,
+        "lot_size_sqft": 24829,
+        "description": "Price: $3,200,000<br>Size: 4705 SF<br>Lot: 24829 SF",
+        "marker-color": "#FFA000",
+        "marker-opacity": 0.7,
+        "cohort_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2006,
+          3
+        ]
+      },
+      "properties": {
+        "purchase_price": "$2,300,000",
+        "building_size": 3780,
+        "lot_size_sqft": 15682,
+        "description": "Price: $2,300,000<br>Size: 3780 SF<br>Lot: 15682 SF",
+        "marker-color": "#FFCA28",
+        "marker-opacity": 0.7,
+        "cohort_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2007,
+          2
+        ]
+      },
+      "properties": {
+        "purchase_price": "$1,725,000",
+        "building_size": 2962,
+        "lot_size_sqft": 10890,
+        "description": "Price: $1,725,000<br>Size: 2962 SF<br>Lot: 10890 SF",
+        "marker-color": "#FFE082",
+        "marker-opacity": 0.7,
+        "cohort_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2006,
+          2
+        ]
+      },
+      "properties": {
+        "purchase_price": "$2,000,000",
+        "building_size": 2852,
+        "lot_size_sqft": 15682,
+        "description": "Price: $2,000,000<br>Size: 2852 SF<br>Lot: 15682 SF",
+        "marker-color": "#FFE082",
+        "marker-opacity": 0.7,
+        "cohort_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2006,
+          3
+        ]
+      },
+      "properties": {
+        "purchase_price": "$2,425,000",
+        "building_size": 3894,
+        "lot_size_sqft": 17860,
+        "description": "Price: $2,425,000<br>Size: 3894 SF<br>Lot: 17860 SF",
+        "marker-color": "#FFCA28",
+        "marker-opacity": 0.7,
+        "cohort_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2008,
+          3
+        ]
+      },
+      "properties": {
+        "purchase_price": "$4,895,000",
+        "building_size": 6522,
+        "lot_size_sqft": 28314,
+        "description": "Price: $4,895,000<br>Size: 6522 SF<br>Lot: 28314 SF",
+        "marker-color": "#FFA000",
+        "marker-opacity": 0.7,
+        "cohort_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "purchase_price": "$5,100,000",
+        "building_size": 0,
+        "lot_size_sqft": 60548,
+        "description": "Price: $5,100,000<br>Size: 0 SF<br>Lot: 60548 SF",
+        "marker-color": "#FFA000",
+        "marker-opacity": 0.7,
+        "cohort_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "purchase_price": "$4,775,000",
+        "building_size": 0,
+        "lot_size_sqft": 28314,
+        "description": "Price: $4,775,000<br>Size: 0 SF<br>Lot: 28314 SF",
+        "marker-color": "#FFA000",
+        "marker-opacity": 0.7,
+        "cohort_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2008,
+          3
+        ]
+      },
+      "properties": {
+        "purchase_price": "$3,950,000",
+        "building_size": 6429,
+        "lot_size_sqft": 20473,
+        "description": "Price: $3,950,000<br>Size: 6429 SF<br>Lot: 20473 SF",
+        "marker-color": "#FFA000",
+        "marker-opacity": 0.7,
+        "cohort_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "purchase_price": "$225,000",
+        "building_size": 0,
+        "lot_size_sqft": 56628,
+        "description": "Price: $225,000<br>Size: 0 SF<br>Lot: 56628 SF",
+        "marker-color": "#FFF9C4",
+        "marker-opacity": 0.7,
+        "cohort_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2007,
+          2
+        ]
+      },
+      "properties": {
+        "purchase_price": "$3,725,000",
+        "building_size": 6669,
+        "lot_size_sqft": 40946,
+        "description": "Price: $3,725,000<br>Size: 6669 SF<br>Lot: 40946 SF",
+        "marker-color": "#FFA000",
+        "marker-opacity": 0.7,
+        "cohort_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2005,
+          2
+        ]
+      },
+      "properties": {
+        "purchase_price": "$3,350,000",
+        "building_size": 4164,
+        "lot_size_sqft": 37026,
+        "description": "Price: $3,350,000<br>Size: 4164 SF<br>Lot: 37026 SF",
+        "marker-color": "#FFA000",
+        "marker-opacity": 0.7,
+        "cohort_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2005,
+          2
+        ]
+      },
+      "properties": {
+        "purchase_price": "$4,050,000",
+        "building_size": 4509,
+        "lot_size_sqft": 31799,
+        "description": "Price: $4,050,000<br>Size: 4509 SF<br>Lot: 31799 SF",
+        "marker-color": "#FFA000",
+        "marker-opacity": 0.7,
+        "cohort_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "purchase_price": "$1,750,000",
+        "building_size": 0,
+        "lot_size_sqft": 14810,
+        "description": "Price: $1,750,000<br>Size: 0 SF<br>Lot: 14810 SF",
+        "marker-color": "#FFE082",
+        "marker-opacity": 0.7,
+        "cohort_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "purchase_price": "$1,950,000",
+        "building_size": 0,
+        "lot_size_sqft": 19602,
+        "description": "Price: $1,950,000<br>Size: 0 SF<br>Lot: 19602 SF",
+        "marker-color": "#FFE082",
+        "marker-opacity": 0.7,
+        "cohort_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "purchase_price": "$1,875,000",
+        "building_size": 0,
+        "lot_size_sqft": 22216,
+        "description": "Price: $1,875,000<br>Size: 0 SF<br>Lot: 22216 SF",
+        "marker-color": "#FFE082",
+        "marker-opacity": 0.7,
+        "cohort_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "purchase_price": "$2,474,000",
+        "building_size": 0,
+        "lot_size_sqft": 19506,
+        "description": "Price: $2,474,000<br>Size: 0 SF<br>Lot: 19506 SF",
+        "marker-color": "#FFCA28",
+        "marker-opacity": 0.7,
+        "cohort_id": 3
+      }
+    }
+  ]
+}
