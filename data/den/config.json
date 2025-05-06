@@ -9,7 +9,7 @@
     "income_mln_den": "income_mln_den.geojson",
     "entitlement_den": "entitlement_den.geojson",
     "lit_den": "lit_den.geojson",
-    "resales_flag": "resales_flag.geojson
+    "resales_flag": "resales_flag.geojson"
   },
   "layerVisibility": {
     "communities_den": true,
