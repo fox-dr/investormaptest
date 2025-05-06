@@ -8,7 +8,8 @@
     "amenities_den": "amenities_den.geojson",
     "income_mln_den": "income_mln_den.geojson",
     "entitlement_den": "entitlement_den.geojson",
-     "lit_den": "lit_den.geojson"
+    "lit_den": "lit_den.geojson",
+    "resales_flag": "resales_flag.geojson
   },
   "layerVisibility": {
     "communities_den": true,
@@ -16,6 +17,7 @@
     "amenities_den": true,
     "income_mln_den": true,
     "entitlement_den": true,
-    "lit_den": true
+    "lit_den": true,
+    "resales_flag": true
   }
 }
