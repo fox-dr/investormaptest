@@ -283,7 +283,7 @@ async function loadRegionData(region, config) {
         document.getElementById('toggle-income').onchange = function () {
           const visible = this.checked ? 'visible' : 'none';
           Object.keys(config.dataFiles).forEach(layerName => {
-            if (layerName.startsWith('income_mln')) {
+            if (layerName.startsWith('income_mln') && !layerName.startsWith('dns_')) {
               if (map.getLayer(layerName)) {
                 map.setLayoutProperty(layerName, 'visibility', visible);
               }
@@ -293,7 +293,7 @@ async function loadRegionData(region, config) {
         document.getElementById('toggle-lit').onchange = function () {
           const visible = this.checked ? 'visible' : 'none';
           Object.keys(config.dataFiles).forEach(layerName => {
-            if (layerName.startsWith('lit_')) {
+            if (layerName.startsWith('lit_') && !layerName.startsWith('dns_')) {
               if (map.getLayer(layerName)) {
                 map.setLayoutProperty(layerName, 'visibility', visible);
               }
@@ -505,7 +505,11 @@ async function loadRegionData(region, config) {
           source: layerName,
           paint: paint,
           layout: {
-            visibility: layerName.startsWith('income_mln') || layerName.startsWith('lit_') ? 'none' : 'visible'
+            visibility: layerName.startsWith('dns_')
+              ? 'none'
+              : (config.layerVisibility && config.layerVisibility[layerName] === false)
+                ? 'none'
+                : (layerName.startsWith('income_mln') || layerName.startsWith('lit_') ? 'none' : 'visible')
           },
         });
   
@@ -590,7 +594,7 @@ async function loadRegionData(region, config) {
   document.getElementById('toggle-communities').onchange = function () {
     const visible = this.checked ? 'visible' : 'none';
     Object.keys(config.dataFiles).forEach(layerName => {
-      if (layerName.startsWith('communities_')) {
+      if (layerName.startsWith('communities_') && !layerName.startsWith('dns_')) {
         if (map.getLayer(layerName)) {
           map.setLayoutProperty(layerName, 'visibility', visible);
         }
