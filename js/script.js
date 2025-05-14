@@ -4,7 +4,7 @@ const regions = ['aus', 'bay', 'car', 'den', 'sac', 'sca', 'TTLC'];
 let map;
 
 async function loadRegion(region) {
-  document.getElementById('toggle-communities').checked = false;
+  document.getElementById('toggle-communities').checked = true;
   document.getElementById('toggle-lit').checked = false;
 
   if (map && map.getStyle && map.getStyle().layers) {
