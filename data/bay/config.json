@@ -12,7 +12,7 @@
     "dns_resales_bay": "resales_bay.geojson",
     "entitlement_bay": "entitlement_bay.geojson",
     "lit_bay": "lit_bay.geojson",
-    "SoMiTest": "SoMiTest.geojson"
+    "sample_lot_markers": "sample_lot_markers.geojson"
   },
   "layerVisibility": {
     "communities_bay": true,
@@ -24,6 +24,6 @@
     "dns_resales_bay": true,
     "entitlement_bay": true,
     "lit_bay.geojson": true,
-    "SoMiTest": true
+    "sample_lot_markers": true
   }
 }
