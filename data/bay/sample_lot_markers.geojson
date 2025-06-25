@@ -1,0 +1,107 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.050189,
+          37.634118
+        ]
+      },
+      "properties": {
+        "id": "Lot_1",
+        "status": "For Sale",
+        "milestone": null,
+        "color": "#FF0000",
+        "label": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.049955,
+          37.634227
+        ]
+      },
+      "properties": {
+        "id": "Lot_2",
+        "status": "Sold",
+        "milestone": null,
+        "color": "#FFD700",
+        "label": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.050349,
+          37.633999
+        ]
+      },
+      "properties": {
+        "id": "Lot_3",
+        "status": "Closed",
+        "milestone": 1,
+        "color": "#00AA00",
+        "label": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.049766,
+          37.633825
+        ]
+      },
+      "properties": {
+        "id": "Lot_4",
+        "status": "Model",
+        "milestone": null,
+        "color": "#0000FF",
+        "label": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.04991,
+          37.633728
+        ]
+      },
+      "properties": {
+        "id": "Lot_5",
+        "status": "Under Construction",
+        "milestone": 3,
+        "color": "#000000",
+        "label": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.050043,
+          37.634185
+        ]
+      },
+      "properties": {
+        "id": "Lot_6",
+        "status": "Not Released",
+        "milestone": null,
+        "color": "#FFFFFF",
+        "label": ""
+      }
+    }
+  ]
+}
