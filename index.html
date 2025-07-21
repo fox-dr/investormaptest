@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Investor Map</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <div id="map"></div>
+
+    <div id="region-selector" class="panel">
+        </div>
+    <button id="toggle-region-button" class="slide-toggle-button" aria-controls="region-selector" aria-expanded="false">
+        <span class="button-icon visible-icon">☰</span>
+        <span class="button-icon hidden-icon">◀</span>
+    </button>
+
+
+    <div id="layer-toggle" class="panel">
+        <label><input type="checkbox" id="toggle-communities" checked> Builder Communities</label><br>
+        <label><input type="checkbox" id="toggle-income"> Millennial Income Zips</label><br>
+        <label><input type="checkbox" id="toggle-lit"> Locality Indexed Targets</label>
+    </div>
+    <button id="toggle-layer-button" class="slide-toggle-button" aria-controls="layer-toggle" aria-expanded="false">
+        <span class="button-icon visible-icon">☰</span>
+        <span class="button-icon hidden-icon">◀</span>
+    </button>
+
+
+    <div id="legend" class="panel">
+        <div class="legend-title">TTLC Portfolio</div>
+        <div class="legend-item"><span class="legend-dot" style="background-color:rgba(0,109,44, .9);"></span> Sold</div>
+        <div class="legend-item"><span class="legend-dot" style="background-color:rgba(153,0,13, .9);"></span> Onboarded</div>
+        <div class="legend-item"><span class="legend-dot" style="background-color:rgba(254,227,145, 1.0);"></span> In Feasibility</div>
+        <div class="legend-item"><span class="legend-dot" style="background-color: rgba(116,196,118, 0.9);"></span> LOI</div>
+
+        <div class="legend-grid">
+            <div>
+                <div class="legend-title">Millennial Income</div>
+                <div class="legend-item"><span class="legend-dot" style="background-color: rgba(253, 224, 221, 0.7);"></span> $75k</div>
+                <div class="legend-item"><span class="legend-dot" style="background-color: rgba(250, 159, 181, 0.7);"></span> $100k</div>
+                <div class="legend-item"><span class="legend-dot" style="background-color:rgba(197, 27, 138, 0.7);"></span> $125k</div>
+                <div class="legend-item"><span class="legend-dot" style="background-color:rgba(122, 1, 119, 0.7);"></span> $150k</div>
+            </div>
+
+            <div>
+                <div class="legend-title">
+                    LIT<br>Tier
+                    <span class="tooltip-icon">ℹ️
+                        <span class="tooltip-text">
+                            <strong>LIT = Locality Indexed Targeting</strong><br>
+                            Combines household income and permit velocity<br>
+                            to identify high-opportunity zip codes.
+                        </span>
+                    </span>
+                </div>
+
+                <div class="legend-item"><span class="legend-dot" style="background-color:#fde0dd"></span> Tier 1</div>
+                <div class="legend-item"><span class="legend-dot" style="background-color:#fa9fb5"></span> Tier 2</div>
+                <div class="legend-item"><span class="legend-dot" style="background-color:#c51b8a"></span> Tier 3</div>
+                <div class="legend-item"><span class="legend-dot" style="background-color:#7a0177"></span> Tier 4</div>
+            </div>
+        </div>
+
+        <div class="legend-section">
+            <div class="legend-title">Permits per 100k (by year)</div>
+            <div class="legend-item"><span class="legend-dot" style="background-color:rgba(254,196,79,1.0)"></span> 2024</div>
+
+            <div class="legend-item"><span class="legend-dot" style="background-color:rgba(254,196,79,0.1)"></span> 2019</div>
+        </div>
+
+    </div>
+
+    <img id="ttlc-logo" src="data/assets/TTLCRed.png" alt="TTLC Logo">
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+
+    <script src="js/region-loader.js"></script> <script src="js/script.js?v=11"></script>
+
+</body>
+</html>
