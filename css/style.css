@@ -118,7 +118,7 @@ body {
 }
 
 #toggle-legend-button {
-    bottom: 20px;
+    bottom: 55px;
     /* Calculate position based on #legend's current left + width + its padding/margin adjustments */
     left: calc(10px + 220px + 5px); /* Assumes #legend is 220px wide */
     border-top-left-radius: 0;
