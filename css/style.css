@@ -322,3 +322,82 @@ body {
     height: 20px;
     margin-bottom: 4px;
 }
+/* --- FRED Sparkline Charts --- */
+#fred-charts-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 12px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex; /* Use flexbox for vertical stacking of chart items */
+    flex-direction: column;
+    gap: 12px; /* Space between individual charts */
+    width: 200px; /* Fixed width for the entire container */
+    pointer-events: auto; /* Allow interaction (though charts are non-interactive here) */
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    text-align: left;
+}
+
+.fred-chart-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #eee; /* Separator between charts */
+    padding-bottom: 8px;
+}
+.fred-chart-item:last-child {
+    border-bottom: none; /* No border for the last item */
+    padding-bottom: 0;
+}
+
+.fred-chart-label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.fred-value-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px; /* Space below value row, before sparkline */
+}
+
+.fred-current-value {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a73e8; /* A blue color for emphasis */
+}
+
+.fred-change-arrow {
+    font-size: 16px;
+    font-weight: bold;
+}
+.fred-change-arrow.positive {
+    color: #28a745; /* Green for positive change */
+}
+.fred-change-arrow.negative {
+    color: #dc3545; /* Red for negative change */
+}
+.fred-change-arrow.no-change {
+    color: #6c757d; /* Grey for no change */
+}
+
+
+/* Sparkline SVG styling */
+.fred-sparkline-svg {
+    display: block; /* Ensures it takes its own line */
+    width: 100%;
+    height: 30px; /* Height of the sparkline */
+}
+.fred-sparkline-line {
+    stroke: #1a73e8; /* Blue line color */
+    stroke-width: 2;
+    fill: none;
+}
+.fred-sparkline-dot {
+    fill: #1a73e8;
+    stroke: #fff;
+    stroke-width: 1;
+    r: 3; /* Radius of the dots */
+}
