@@ -3,6 +3,34 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
 const regions = ['aus', 'bay', 'car', 'den', 'sac', 'sca', 'TTLC'];
 let map;
 
+// --- Start: NEW CODE FOR SLIDE MENUS ---
+
+// Function to toggle the visibility of a panel
+function togglePanel(panelId) {
+    const panel = document.getElementById(panelId);
+    let buttonId;
+    // Determine the corresponding button ID based on the panel ID
+    if (panelId === 'region-selector') {
+        buttonId = 'toggle-region-button';
+    } else if (panelId === 'layer-toggle') {
+        buttonId = 'toggle-layer-button';
+    } else if (panelId === 'legend') {
+        buttonId = 'toggle-legend-button';
+    } else {
+        return; // Exit if panelId is not recognized
+    }
+    const button = document.getElementById(buttonId);
+
+    if (panel && button) {
+        panel.classList.toggle('hidden');
+        const isHidden = panel.classList.contains('hidden');
+        button.setAttribute('aria-expanded', !isHidden);
+        button.classList.toggle('open', !isHidden); // Add/remove 'open' class for button icon styling
+    }
+}
+
+// --- End: NEW CODE FOR SLIDE MENUS ---
+
 async function loadRegion(region) {
   document.getElementById('toggle-communities').checked = true;
   document.getElementById('toggle-lit').checked = false;
@@ -621,6 +649,46 @@ function createRegionSelector() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  createRegionSelector();
-  loadRegion('TTLC'); // Default load
+    // Check for region in URL first (using getRegionCode from region-loader.js)
+    // Assuming getRegionCode is in region-loader.js and loaded before script.js
+    const initialRegion = getRegionCode();
+    const defaultRegion = initialRegion || 'TTLC'; // Default to TTLC if no region in URL
+
+    loadRegion(defaultRegion); // Load the initial or default region
+
+    createRegionSelector();
+
+    // --- Start: NEW CODE FOR SLIDE MENU EVENT LISTENERS AND INITIAL STATE ---
+    // Get references to panels and buttons
+    const regionSelectorPanel = document.getElementById('region-selector');
+    const toggleRegionButton = document.getElementById('toggle-region-button');
+
+    const layerTogglePanel = document.getElementById('layer-toggle');
+    const toggleLayerButton = document.getElementById('toggle-layer-button');
+
+    const legendPanel = document.getElementById('legend');
+    const toggleLegendButton = document.getElementById('toggle-legend-button');
+
+    // Set initial state and add event listeners
+    if (toggleRegionButton && regionSelectorPanel) {
+        toggleRegionButton.addEventListener('click', () => togglePanel('region-selector'));
+        regionSelectorPanel.classList.add('hidden'); // Initially hide the panel
+        toggleRegionButton.setAttribute('aria-expanded', 'false');
+        toggleRegionButton.classList.remove('open'); // Ensure it starts closed
+    }
+
+    if (toggleLayerButton && layerTogglePanel) {
+        toggleLayerButton.addEventListener('click', () => togglePanel('layer-toggle'));
+        layerTogglePanel.classList.add('hidden'); // Initially hide the panel
+        toggleLayerButton.setAttribute('aria-expanded', 'false');
+        toggleLayerButton.classList.remove('open');
+    }
+
+    if (toggleLegendButton && legendPanel) {
+        toggleLegendButton.addEventListener('click', () => togglePanel('legend'));
+        legendPanel.classList.add('hidden'); // Initially hide the panel
+        toggleLegendButton.setAttribute('aria-expanded', 'false');
+        toggleLegendButton.classList.remove('open');
+    }
+    // --- End: NEW CODE FOR SLIDE MENU EVENT LISTENERS AND INITIAL STATE ---
 });
