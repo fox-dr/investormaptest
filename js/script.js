@@ -317,8 +317,9 @@ async function fetchFredDataAndRenderCharts(mapInstance) {
                     <div class="fred-chart-label">${res.label}</div>
                     <div class="fred-value-row">
                         <span class="fred-current-value">${formattedLatestValue}</span>
-                        <span class="fred-change-arrow ${arrowClass}">${arrowHtml}</span>
+                        <span class="fred-change-arrow ${arrowClass}">${arrowHtml}</span> MoM
                     </div>
+                     <div class="fred-chart-info">Last 6 Months (MoM Change)</div>
                     ${sparklineSvg}
                 </div>
             `;
