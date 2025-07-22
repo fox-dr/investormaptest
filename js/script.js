@@ -43,7 +43,17 @@ async function loadRegion(region) {
     }
   });
 }
-
+    // --- Start: MODIFIED loadRegion for FRED charts visibility ---
+    // If the FRED charts marker already exists, control its display based on the selected region
+    if (fredChartsMarker) {
+        const fredChartsElement = fredChartsMarker.getElement();
+        if (region === 'TTLC') {
+            fredChartsElement.style.display = 'flex'; // Show for TTLC
+        } else {
+            fredChartsElement.style.display = 'none'; // Hide for other regions
+        }
+    }
+    // --- End: MODIFIED loadRegion ---
   try {
     const configResponse = await fetch(`data/${region}/config.json`);
     const config = await configResponse.json();
@@ -157,7 +167,47 @@ function createPinwheelSVG(values) {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">${paths}</svg>`;
 }
-      
+// --- Start: NEW CODE FOR SPARKLINE SVG HELPER ---
+function createSparklineSVG(values) {
+    if (!values || values.length < 2) return '';
+
+    const width = 180; // Width of the SVG
+    const height = 30; // Height of the SVG
+    const padding = 5;
+
+    const minVal = Math.min(...values);
+    const maxVal = Math.max(...values);
+
+    const xScale = (index) => (index / (values.length - 1)) * (width - 2 * padding) + padding;
+    const yScale = (value) => {
+        if (maxVal === minVal) return height / 2;
+        return height - ((value - minVal) / (maxVal - minVal)) * (height - 2 * padding) - padding;
+    };
+
+    let pathD = values.map((val, i) => {
+        const x = xScale(i);
+        const y = yScale(val);
+        return `${i === 0 ? 'M' : 'L'}${x},${y}`;
+    }).join(' ');
+
+    let circles = values.map((val, i) => {
+        const x = xScale(i);
+        const y = yScale(val);
+        // Only draw dots for the first and last point
+        if (i === 0 || i === values.length - 1) {
+             return `<circle class="fred-sparkline-dot" cx="${x}" cy="${y}" r="3"></circle>`;
+        }
+        return '';
+    }).join('');
+
+    return `
+        <svg class="fred-sparkline-svg" viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">
+            <path class="fred-sparkline-line" d="${pathD}"/>
+            ${circles}
+        </svg>
+    `;
+}
+// --- End: NEW CODE FOR SPARKLINE SVG HELPER ---      
       
     } else {
       map.flyTo({
@@ -249,6 +299,113 @@ function addStaticRegionStats(map) {
       .addTo(map);
   });
 }
+// Your existing addStaticRegionStats function
+function addStaticRegionStats(map) {
+    // ... (your existing addStaticRegionStats code) ...
+}
+
+// --- Start: NEW CODE FOR FRED CHARTS (from local JSON) ---
+async function fetchFredDataAndRenderCharts(mapInstance) {
+    try {
+        // Fetch data from your local JSON file
+        const response = await fetch('data/TTLC/fred_charts_data.json'); // Corrected path to data/TTLC/
+        if (!response.ok) {
+            throw new Error(`Failed to load local FRED data: ${response.statusText}`);
+        }
+        const results = await response.json(); // Assuming the JSON structure matches Python output
+
+        const containerDiv = document.createElement('div');
+        containerDiv.id = 'fred-charts-container';
+        containerDiv.style.display = 'none'; // Initially hidden, visibility controlled by loadRegion
+
+        let allChartsHtml = '';
+
+        results.forEach(res => {
+            if (res.error) {
+                allChartsHtml += `
+                    <div class="fred-chart-item">
+                        <div class="fred-chart-label">${res.label}</div>
+                        <div style="color: red; font-size: 11px;">Error: ${res.error}</div>
+                    </div>
+                `;
+                return;
+            }
+
+            const change = res.latestValue - res.previousValue;
+            let arrowHtml = '';
+            let arrowClass = 'no-change';
+
+            if (change > 0) {
+                arrowHtml = '▲';
+                arrowClass = 'positive';
+            } else if (change < 0) {
+                arrowHtml = '▼';
+                arrowClass = 'negative';
+            } else {
+                arrowHtml = '•'; // Dot for no change
+            }
+
+            let formattedLatestValue = res.latestValue.toFixed(res.decimals);
+            // Special formatting for thousands (K) to millions (M) if value is large
+            if (res.unit === 'K' && res.latestValue >= 1000) {
+                formattedLatestValue = (res.latestValue / 1000).toFixed(1) + 'M';
+            } else if (res.unit === 'K') {
+                formattedLatestValue += 'K';
+            }
+
+
+            const sparklineSvg = createSparklineSVG(res.sparklineValues);
+
+            allChartsHtml += `
+                <div class="fred-chart-item">
+                    <div class="fred-chart-label">${res.label}</div>
+                    <div class="fred-value-row">
+                        <span class="fred-current-value">${formattedLatestValue}</span>
+                        <span class="fred-change-arrow ${arrowClass}">${arrowHtml}</span>
+                    </div>
+                    ${sparklineSvg}
+                </div>
+            `;
+        });
+
+        containerDiv.innerHTML = allChartsHtml;
+
+        // Remove existing FRED charts marker if it exists before adding a new one
+        if (fredChartsMarker) {
+            fredChartsMarker.remove(); // Removes the DOM element from the map
+            fredChartsMarker = null; // Clear the reference
+        }
+
+        // Position the marker roughly over the center of the US (near Denver/Kansas)
+        const centerUS = [-98.5795, 39.8283]; // Longitude, Latitude for geographic center of Contiguous US
+
+        fredChartsMarker = new mapboxgl.Marker(containerDiv)
+            .setLngLat(centerUS)
+            .addTo(mapInstance);
+
+        // Visibility will be handled by the loadRegion function
+        // Initially hide it as it's only for TTLC
+        fredChartsMarker.getElement().style.display = 'none';
+    } catch (error) {
+        console.error(`Error fetching FRED data from local JSON:`, error);
+        // Display an error message on the map if data cannot be loaded
+        if (fredChartsMarker) {
+             fredChartsMarker.remove(); // Clean up any previous partial marker
+             fredChartsMarker = null;
+        }
+        const errorDiv = document.createElement('div');
+        errorDiv.id = 'fred-charts-container'; // Reuse the ID for error display
+        errorDiv.style.cssText = 'background: rgba(255, 255, 255, 0.95); padding: 10px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 200px; text-align: center; color: red; font-family: Lato, sans-serif;';
+        errorDiv.innerHTML = `<div>Error loading FRED charts.</div><div>${error.message}</div>`;
+        
+        fredChartsMarker = new mapboxgl.Marker(errorDiv)
+            .setLngLat([-98.5795, 39.8283]) // Place in same central US location
+            .addTo(mapInstance);
+        
+        fredChartsMarker.getElement().style.display = 'flex'; // Ensure error is visible
+    }
+}
+// --- End: NEW CODE FOR FRED CHARTS ---
 async function loadRegionData(region, config) {
   console.log('Loading data files:', config.dataFiles);
 
