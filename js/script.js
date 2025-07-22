@@ -308,7 +308,7 @@ async function fetchFredDataAndRenderCharts(mapInstance) {
             let formattedLatestValue = res.latestValue.toFixed(res.decimals);
             if (res.unit === 'K' && res.latestValue >= 1000) formattedLatestValue = (res.latestValue / 1000).toFixed(1) + 'M';
             else if (res.unit === 'K') formattedLatestValue += 'K';
-            }
+            
 
             const sparklineSvg = createSparklineSVG(res.sparklineValues);
 
