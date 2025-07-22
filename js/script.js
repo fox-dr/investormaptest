@@ -550,7 +550,7 @@ async function loadRegionData(region, config) {
               ? 'none'
               : (config.layerVisibility && config.layerVisibility[layerName] === false)
                 ? 'none'
-                : (layerName.startsWith('income_mln') || layerName.startsWith('lit_') ? 'none' : 'visible')|| layerName.startsWith('communities_') ? 'none' : 'visible')
+                : (layerName.startsWith('income_mln') || layerName.startsWith('lit_') || layerName.startsWith('communities_') ? 'none' : 'visible')
           },
         });
   
