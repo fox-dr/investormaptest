@@ -67,9 +67,9 @@ async function loadRegion(region) {
         zoom: config.initialZoom,
       });
 
-      map.on('load', () => {
+      map.on('load', async () => {
         console.log('Map loaded');
-
+        await fetchFredDataAndRenderCharts(map);
         // ✅ Load mascot icons
         const mascots = ['rabbit', 'tortoise', 'snail'];
         mascots.forEach((name) => {
