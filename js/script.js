@@ -369,7 +369,7 @@ async function loadRegionData(region, config) {
 
   // Clear region-related layers
   map.getStyle().layers.forEach((layer) => {
-    if (layer.id.startsWith('communities_') || layer.id.startsWith('portfolio_') || layer.id.startsWith('amenities_')) || layer.id.startsWith('entitlement_')){
+    if (layer.id.startsWith('communities_') || layer.id.startsWith('portfolio_') || layer.id.startsWith('amenities_') || layer.id.startsWith('entitlement_')) {
       if (map.getLayer(layer.id)) map.removeLayer(layer.id);
       if (map.getSource(layer.id)) map.removeSource(layer.id);
     }
