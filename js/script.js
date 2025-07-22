@@ -32,7 +32,7 @@ function togglePanel(panelId) {
 // --- End: NEW CODE FOR SLIDE MENUS ---
 
 async function loadRegion(region) {
-  document.getElementById('toggle-communities').checked = true;
+  document.getElementById('toggle-communities').checked = false;
   document.getElementById('toggle-lit').checked = false;
 
   if (map && map.getStyle && map.getStyle().layers) {
