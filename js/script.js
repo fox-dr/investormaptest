@@ -2,7 +2,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
 
 const regions = ['aus', 'bay', 'car', 'den', 'sac', 'sca', 'TTLC'];
 let map;
-
+let fredChartsMarker = null; // To hold the FRED charts Mapbox Marker instance
 // --- Start: NEW CODE FOR SLIDE MENUS ---
 
 // Function to toggle the visibility of a panel
