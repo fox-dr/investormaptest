@@ -1,12 +1,27 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhOWpzemwifQ.cRt9ebRFaM0_DlIS9MlACA';
 
+const FRED_API_KEY = "7263c4512c658e1b732c98da7d5f5914"; // Your FRED API Key
+const FRED_BASE_URL = "https://api.stlouisfed.org/fred/series/observations";
+
 const regions = ['aus', 'bay', 'car', 'den', 'sac', 'sca', 'TTLC'];
 let map;
+let fredChartsMarker = null; // To hold the FRED charts Mapbox Marker
 
-// --- NEW: Function to toggle the visibility of a panel ---
+// --- Function to toggle the visibility of a panel (Corrected) ---
 function togglePanel(panelId) {
     const panel = document.getElementById(panelId);
-    const button = document.getElementById(`toggle-${panelId.replace('-selector', '-button').replace('layer-toggle', 'layer-button').replace('legend', 'legend-button')}`);
+    // Dynamically determine the button ID based on the panel ID
+    let buttonId;
+    if (panelId === 'region-selector') {
+        buttonId = 'toggle-region-button';
+    } else if (panelId === 'layer-toggle') {
+        buttonId = 'toggle-layer-button';
+    } else if (panelId === 'legend') {
+        buttonId = 'toggle-legend-button';
+    } else {
+        return; // Exit if panelId is not recognized
+    }
+    const button = document.getElementById(buttonId);
 
     if (panel && button) {
         panel.classList.toggle('hidden');
@@ -15,27 +30,41 @@ function togglePanel(panelId) {
         button.classList.toggle('open', !isHidden); // Add/remove 'open' class for button icon styling
     }
 }
-// --- END NEW FUNCTION ---
 
-
+// --- Main function to load a region ---
 async function loadRegion(region) {
+    // Reset toggle checkboxes for layer visibility
     document.getElementById('toggle-communities').checked = true;
     document.getElementById('toggle-lit').checked = false;
-    document.getElementById('toggle-income').checked = false; // Ensure income is also reset
+    document.getElementById('toggle-income').checked = false;
 
+    // Hide specific layers (LIT and Income) that are controlled by toggles
     if (map && map.getStyle && map.getStyle().layers) {
         map.getStyle().layers.forEach(layer => {
-            if (layer.id.startsWith('lit_') || layer.id.startsWith('income_')) { // Also hide income layers
+            if (layer.id.startsWith('lit_') || layer.id.startsWith('income_')) {
                 map.setLayoutProperty(layer.id, 'visibility', 'none');
             }
         });
     }
 
+    // --- Handle FRED charts visibility based on region ---
+    if (fredChartsMarker) {
+        const fredChartsElement = fredChartsMarker.getElement();
+        if (region === 'TTLC') {
+            fredChartsElement.style.display = 'flex'; // Show for TTLC (because its CSS uses flex)
+        } else {
+            fredChartsElement.style.display = 'none'; // Hide for other regions
+        }
+    }
+    // --- End FRED charts visibility handling ---
+
     try {
-        const config = await loadRegionConfig(region); // Use function from region-loader.js
+        // Assuming loadRegionConfig is defined in region-loader.js and loaded before script.js
+        const config = await loadRegionConfig(region);
         console.log('Config loaded:', config);
 
         if (!map) {
+            // Map does not exist yet, initialize it
             map = new mapboxgl.Map({
                 container: 'map',
                 style: 'mapbox://styles/mapbox/light-v11',
@@ -43,10 +72,11 @@ async function loadRegion(region) {
                 zoom: config.initialZoom,
             });
 
-            map.on('load', () => {
+            // Map load event listener
+            map.on('load', async () => { // Keep this callback async
                 console.log('Map loaded');
 
-                // ✅ Load mascot icons
+                // Load mascot icons for entitlement layers
                 const mascots = ['rabbit', 'tortoise', 'snail'];
                 mascots.forEach((name) => {
                     map.loadImage(`icons/${name}.png`, (error, image) => {
@@ -61,10 +91,16 @@ async function loadRegion(region) {
                     });
                 });
 
-                loadRegionData(region, config);
-                addStaticRegionStats(map); // ✅ Add stat boxes
+                loadRegionData(region, config); // Load region-specific GeoJSON data and layers
+                addStaticRegionStats(map); // Add existing static regional stat boxes
 
-                // ✅ Add pinwheels
+                // --- Fetch and render FRED charts on initial map load ---
+                // This call ensures the fredChartsMarker is created when the map is ready.
+                await fetchFredDataAndRenderCharts(map);
+                // Its visibility is then managed by the 'if (fredChartsMarker)' block above.
+                // --- End NEW FRED Charts init ---
+
+                // Add pinwheel markers
                 fetch('data/pinwheels.geojson')
                     .then(res => res.json())
                     .then(data => {
@@ -105,6 +141,7 @@ async function loadRegion(region) {
             });
 
         } else {
+            // Map already exists, just fly to the new region
             map.flyTo({
                 center: config.initialCenter,
                 zoom: config.initialZoom,
@@ -112,25 +149,26 @@ async function loadRegion(region) {
             });
             console.log('Switched to region:', region);
             loadRegionData(region, config);
+            // FRED charts visibility already handled at the top of loadRegion.
         }
     } catch (error) {
         console.error('Failed to load region:', error);
-        // The region-loader.js already handles redirecting, so no need to repeat here.
+        // region-loader.js typically handles redirects for failed config loads.
     }
 }
 
-// Your existing createPinwheelSVG function (copy-pasted for completeness)
+// --- Helper function to create Pinwheel SVG ---
 function createPinwheelSVG(values) {
     const numSlices = values.length;
     const center = 30;
     const radius = 30;
-    const maxValue = 2405; //Austin 2021 max
+    const maxValue = 2405; // Austin 2021 max permit value
     const anglePerSlice = (2 * Math.PI) / numSlices;
 
     let paths = '';
     for (let i = 0; i < numSlices; i++) {
         const value = values[i];
-        const scaledRatio = Math.pow(value / maxValue, 0.6); // Lift lower values
+        const scaledRatio = Math.pow(value / maxValue, 0.6); // Lift lower values for better visibility
         const r = radius * scaledRatio;
 
         const angle1 = anglePerSlice * i;
@@ -140,64 +178,63 @@ function createPinwheelSVG(values) {
         const y1 = center + r * Math.sin(angle1);
         const x2 = center + r * Math.cos(angle2);
         const y2 = center + r * Math.sin(angle2);
-        const opacities = [0.2, 0.35, 0.5, 0.65, 0.8, 1]; // 2019 → 2024
+        const opacities = [0.2, 0.35, 0.5, 0.65, 0.8, 1]; // Opacity for years 2019 → 2024
         paths += `<path d="M${center},${center} L${x1},${y1} A${r},${r} 0 0,1 ${x2},${y2} Z" fill="rgba(254, 196, 79, ${opacities[i]})" stroke="black" stroke-width="0.5"/>`;
     }
     return `<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">${paths}</svg>`;
 }
 
-// Your existing addStaticRegionStats function (copy-pasted for completeness)
+// --- Helper function to create a sparkline SVG ---
+function createSparklineSVG(values) {
+    if (!values || values.length < 2) return '';
+
+    const width = 180;
+    const height = 30;
+    const padding = 5;
+
+    const minVal = Math.min(...values);
+    const maxVal = Math.max(...values);
+
+    const xScale = (index) => (index / (values.length - 1)) * (width - 2 * padding) + padding;
+    const yScale = (value) => {
+        if (maxVal === minVal) return height / 2;
+        return height - ((value - minVal) / (maxVal - minVal)) * (height - 2 * padding) - padding;
+    };
+
+    let pathD = values.map((val, i) => {
+        const x = xScale(i);
+        const y = yScale(val);
+        return `${i === 0 ? 'M' : 'L'}${x},${y}`;
+    }).join(' ');
+
+    let circles = values.map((val, i) => {
+        const x = xScale(i);
+        const y = yScale(val);
+        // Only draw dots for the first and last point
+        if (i === 0 || i === values.length - 1) {
+             return `<circle class="fred-sparkline-dot" cx="${x}" cy="${y}" r="3"></circle>`;
+        }
+        return '';
+    }).join('');
+
+    return `
+        <svg class="fred-sparkline-svg" viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">
+            <path class="fred-sparkline-line" d="${pathD}"/>
+            ${circles}
+        </svg>
+    `;
+}
+
+// --- Function to add existing static regional stats ---
 function addStaticRegionStats(map) {
     const stats = [
-        {
-            name: "United States",
-            gdpTotal: "$26T",
-            outputPerWorker: "$191K",
-            lng: -103.4591,
-            lat: 43.8791
-        },
-        {
-            name: "Bay Area",
-            gdpTotal: "$1.04T",
-            outputPerWorker: "$399K",
-            lng: -123.5,
-            lat: 40.5
-        },
-        {
-            name: "Sacramento",
-            gdpTotal: "$150B",
-            outputPerWorker: "$175K",
-            lng: -117.7,
-            lat: 38.2
-        },
-        {
-            name: "SoCal",
-            gdpTotal: "$1.5T",
-            outputPerWorker: "$238K",
-            lng: -113.5,
-            lat: 34.0
-        },
-        {
-            name: "Denver",
-            gdpTotal: "$250B",
-            outputPerWorker: "$172K",
-            lng: -99.5,
-            lat: 40.5
-        },
-        {
-            name: "Austin",
-            gdpTotal: "$198B",
-            outputPerWorker: "$173K",
-            lng: -97.0,
-            lat: 33.5
-        },
-        {
-            name: "Raleigh-Durham",
-            gdpTotal: "$163B",
-            outputPerWorker: "$183K",
-            lng: -84.5,
-            lat: 36.2
-        }
+        { name: "United States", gdpTotal: "$26T", outputPerWorker: "$191K", lng: -103.4591, lat: 43.8791 },
+        { name: "Bay Area", gdpTotal: "$1.04T", outputPerWorker: "$399K", lng: -123.5, lat: 40.5 },
+        { name: "Sacramento", gdpTotal: "$150B", outputPerWorker: "$175K", lng: -117.7, lat: 38.2 },
+        { name: "SoCal", gdpTotal: "$1.5T", outputPerWorker: "$238K", lng: -113.5, lat: 34.0 },
+        { name: "Denver", gdpTotal: "$250B", outputPerWorker: "$172K", lng: -99.5, lat: 40.5 },
+        { name: "Austin", gdpTotal: "$198B", outputPerWorker: "$173K", lng: -97.0, lat: 33.5 },
+        { name: "Raleigh-Durham", gdpTotal: "$163B", outputPerWorker: "$183K", lng: -84.5, lat: 36.2 }
     ];
 
     stats.forEach(stat => {
@@ -220,6 +257,129 @@ function addStaticRegionStats(map) {
             .setLngLat([stat.lng, stat.lat])
             .addTo(map);
     });
+}
+
+// --- Function to fetch FRED data and render charts ---
+async function fetchFredDataAndRenderCharts(mapInstance) {
+    const seriesMap = {
+        "UMICHENT": { label: "Consumer Sentiment", unit: "", frequency: "m", decimals: 1 },
+        "PERMIT": { label: "Building Permits", unit: "K", frequency: "m", decimals: 0 },
+        "HOUST": { label: "Housing Starts", unit: "K", frequency: "m", decimals: 0 }
+    };
+
+    const dataPromises = Object.keys(seriesMap).map(async (seriesId) => {
+        const params = new URLSearchParams({
+            series_id: seriesId,
+            api_key: FRED_API_KEY,
+            file_type: "json",
+            observation_start: new Date(new Date().setMonth(new Date().getMonth() - 6)).toISOString().split('T')[0], // Last 6 months + 1 for change
+            sort_order: "asc"
+        });
+        const url = `${FRED_BASE_URL}?${params.toString()}`;
+
+        try {
+            const response = await fetch(url);
+            if (!response.ok) throw new Error(`FRED API error for ${seriesId}: ${response.statusText}`);
+            const data = await response.json();
+
+            const observations = data.observations.map(obs => parseFloat(obs.value)).filter(val => !isNaN(val));
+
+            if (observations.length < 2) {
+                console.warn(`Not enough data for ${seriesId} sparkline or change calculation.`);
+                return { id: seriesId, error: "Not enough data" };
+            }
+
+            const latestValue = observations[observations.length - 1];
+            const previousValue = observations[observations.length - 2];
+
+            const sparklineValues = observations.slice(Math.max(0, observations.length - 6));
+
+            return {
+                id: seriesId,
+                label: seriesMap[seriesId].label,
+                unit: seriesMap[seriesId].unit,
+                decimals: seriesMap[seriesId].decimals,
+                latestValue: latestValue,
+                previousValue: previousValue,
+                sparklineValues: sparklineValues
+            };
+
+        } catch (error) {
+            console.error(`Error fetching FRED data for ${seriesId}:`, error);
+            return { id: seriesId, error: error.message };
+        }
+    });
+
+    const results = await Promise.all(dataPromises);
+
+    const containerDiv = document.createElement('div');
+    containerDiv.id = 'fred-charts-container';
+    containerDiv.style.display = 'none'; // Initially hidden, visibility controlled by loadRegion
+
+    let allChartsHtml = '';
+
+    results.forEach(res => {
+        if (res.error) {
+            allChartsHtml += `
+                <div class="fred-chart-item">
+                    <div class="fred-chart-label">${res.label}</div>
+                    <div>Error: ${res.error}</div>
+                </div>
+            `;
+            return;
+        }
+
+        const change = res.latestValue - res.previousValue;
+        let arrowHtml = '';
+        let arrowClass = 'no-change';
+
+        if (change > 0) {
+            arrowHtml = '▲';
+            arrowClass = 'positive';
+        } else if (change < 0) {
+            arrowHtml = '▼';
+            arrowClass = 'negative';
+        } else {
+            arrowHtml = '•'; // Dot for no change
+        }
+
+        let formattedLatestValue = res.latestValue.toFixed(res.decimals);
+        if (res.unit === 'K' && res.latestValue >= 1000) formattedLatestValue = (res.latestValue / 1000).toFixed(1) + 'M';
+        else if (res.unit === 'K') formattedLatestValue += 'K';
+
+
+        const sparklineSvg = createSparklineSVG(res.sparklineValues);
+
+        allChartsHtml += `
+            <div class="fred-chart-item">
+                <div class="fred-chart-label">${res.label}</div>
+                <div class="fred-value-row">
+                    <span class="fred-current-value">${formattedLatestValue}</span>
+                    <span class="fred-change-arrow ${arrowClass}">${arrowHtml}</span>
+                </div>
+                ${sparklineSvg}
+            </div>
+        `;
+    });
+
+    containerDiv.innerHTML = allChartsHtml;
+
+    // Remove existing FRED charts marker if it exists before adding a new one
+    if (fredChartsMarker) {
+        fredChartsMarker.remove(); // Removes the DOM element from the map
+        fredChartsMarker = null; // Clear the reference
+    }
+
+    // Position the marker roughly over the center of the US (near Denver/Kansas)
+    const centerUS = [-98.5795, 39.8283]; // Longitude, Latitude for geographic center of Contiguous US
+
+    fredChartsMarker = new mapboxgl.Marker(containerDiv)
+        .setLngLat(centerUS)
+        .addTo(mapInstance);
+
+    // Visibility will be handled by the loadRegion function
+    // Initially hide it as it's only for TTLC
+    fredChartsMarker.getElement().style.display = 'none';
 }
 
 async function loadRegionData(region, config) {
@@ -627,12 +787,12 @@ function createRegionSelector() {
 document.addEventListener('DOMContentLoaded', () => {
     // Check for region in URL first (using getRegionCode from region-loader.js)
     const initialRegion = getRegionCode();
-    if (initialRegion) {
-        loadRegion(initialRegion);
-    } else {
-        // Fallback to TTLC if no region in URL and no home.html redirect (as per original script logic)
-        loadRegion('TTLC');
-    }
+    const defaultRegion = initialRegion || 'TTLC'; // Default to TTLC if no region in URL
+
+    // --- REMOVED: Initial call to fetchFredDataAndRenderCharts moved to map.on('load') ---
+    // Was: await fetchFredDataAndRenderCharts(map);
+
+    loadRegion(defaultRegion); // Load the initial or default region
 
     createRegionSelector();
 
@@ -650,24 +810,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // Set initial state and add event listeners
     if (toggleRegionButton && regionSelectorPanel) {
         toggleRegionButton.addEventListener('click', () => togglePanel('region-selector'));
-        // Initially hide the panel
-        regionSelectorPanel.classList.add('hidden');
+        regionSelectorPanel.classList.add('hidden'); // Initially hide
         toggleRegionButton.setAttribute('aria-expanded', 'false');
-        toggleRegionButton.classList.remove('open'); // Ensure it starts closed
+        toggleRegionButton.classList.remove('open');
     }
 
     if (toggleLayerButton && layerTogglePanel) {
         toggleLayerButton.addEventListener('click', () => togglePanel('layer-toggle'));
-        // Initially hide the panel
-        layerTogglePanel.classList.add('hidden');
+        layerTogglePanel.classList.add('hidden'); // Initially hide
         toggleLayerButton.setAttribute('aria-expanded', 'false');
         toggleLayerButton.classList.remove('open');
     }
 
     if (toggleLegendButton && legendPanel) {
         toggleLegendButton.addEventListener('click', () => togglePanel('legend'));
-        // Initially hide the panel
-        legendPanel.classList.add('hidden');
+        legendPanel.classList.add('hidden'); // Initially hide
         toggleLegendButton.setAttribute('aria-expanded', 'false');
         toggleLegendButton.classList.remove('open');
     }
