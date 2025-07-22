@@ -1,7 +1,19 @@
 [
     {
-        "id": "UMICHENT",
-        "error": "Failed to fetch from FRED API: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=UMICHENT&api_key=7263c4512c658e1b732c98da7d5f5914&file_type=json&observation_start=2024-12-24&sort_order=asc"
+        "id": "UMCSENT",
+        "label": "Consumer Sentiment",
+        "unit": "",
+        "decimals": 1,
+        "latestValue": 52.2,
+        "previousValue": 52.2,
+        "sparklineValues": [
+            74.0,
+            71.7,
+            64.7,
+            57.0,
+            52.2,
+            52.2
+        ]
     },
     {
         "id": "PERMIT",
