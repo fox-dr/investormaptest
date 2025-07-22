@@ -267,9 +267,9 @@ async function loadRegionData(region, config) {
     }
   });
 
-  document.getElementById('toggle-income').checked = false; //--possible redundancy
-  document.getElementById('toggle-lit').checked = false;//--possible redundancy
-  document.getElementById('toggle-communities').checked = false;
+  //--document.getElementById('toggle-income').checked = false; //--possible redundancy
+  //--document.getElementById('toggle-lit').checked = false;//--possible redundancy
+  //--document.getElementById('toggle-communities').checked = false;
 
 
   for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
@@ -550,7 +550,7 @@ async function loadRegionData(region, config) {
               ? 'none'
               : (config.layerVisibility && config.layerVisibility[layerName] === false)
                 ? 'none'
-                : (layerName.startsWith('income_mln') || layerName.startsWith('lit_') ? 'none' : 'visible')
+                : (layerName.startsWith('income_mln') || layerName.startsWith('lit_') ? 'none' : 'visible')|| layerName.startsWith('communities_') ? 'none' : 'visible')
           },
         });
   
