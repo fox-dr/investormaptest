@@ -69,7 +69,7 @@ async function loadRegion(region) {
 
       map.on('load', async () => {
         console.log('Map loaded');
-        await fetchFredDataAndRenderCharts(map);
+        
         // ✅ Load mascot icons
         const mascots = ['rabbit', 'tortoise', 'snail'];
         mascots.forEach((name) => {
@@ -208,7 +208,7 @@ function createSparklineSVG(values) {
     `;
 }
 // --- End: NEW CODE FOR SPARKLINE SVG HELPER ---      
-      
+   await fetchFredDataAndRenderCharts(map);   
     } else {
       map.flyTo({
         center: config.initialCenter,
