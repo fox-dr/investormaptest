@@ -1,0 +1,38 @@
+[
+    {
+        "id": "UMICHENT",
+        "error": "Failed to fetch from FRED API: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=UMICHENT&api_key=7263c4512c658e1b732c98da7d5f5914&file_type=json&observation_start=2024-12-24&sort_order=asc"
+    },
+    {
+        "id": "PERMIT",
+        "label": "Building Permits",
+        "unit": "K",
+        "decimals": 0,
+        "latestValue": 1397.0,
+        "previousValue": 1394.0,
+        "sparklineValues": [
+            1460.0,
+            1454.0,
+            1481.0,
+            1422.0,
+            1394.0,
+            1397.0
+        ]
+    },
+    {
+        "id": "HOUST",
+        "label": "Housing Starts",
+        "unit": "K",
+        "decimals": 0,
+        "latestValue": 1321.0,
+        "previousValue": 1263.0,
+        "sparklineValues": [
+            1358.0,
+            1490.0,
+            1355.0,
+            1398.0,
+            1263.0,
+            1321.0
+        ]
+    }
+]
