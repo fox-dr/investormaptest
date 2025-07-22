@@ -1,10 +1,18 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhOWpzemwifQ.cRt9ebRFaM0_DlIS9MlACA';
 
+// --- NEW/CORRECTED: FRED API constants (needed by fetchFredDataAndRenderCharts) ---
+// Note: These are for client-side use with a local JSON file, so the API key
+// is conceptually still "present" but used by your Python script.
+// It's removed from direct use in the browser's fetch.
+const FRED_API_KEY = "7263c4512c658e1b732c98da7d5f5914"; // Your FRED API Key--needed for python script
+const FRED_BASE_URL = "https://api.stlouisfed.org/fred/series/observations"; 
+
+
 const regions = ['aus', 'bay', 'car', 'den', 'sac', 'sca', 'TTLC'];
 let map;
 let fredChartsMarker = null; // To hold the FRED charts Mapbox Marker instance
-// --- Start: NEW CODE FOR SLIDE MENUS ---
 
+// --- Start: NEW CODE FOR SLIDE MENUS ---
 // Function to toggle the visibility of a panel
 function togglePanel(panelId) {
     const panel = document.getElementById(panelId);
@@ -28,7 +36,6 @@ function togglePanel(panelId) {
         button.classList.toggle('open', !isHidden); // Add/remove 'open' class for button icon styling
     }
 }
-
 // --- End: NEW CODE FOR SLIDE MENUS ---
 
 async function loadRegion(region) {
@@ -43,6 +50,7 @@ async function loadRegion(region) {
     }
   });
 }
+    
     // --- Start: MODIFIED loadRegion for FRED charts visibility ---
     // If the FRED charts marker already exists, control its display based on the selected region
     if (fredChartsMarker) {
@@ -54,6 +62,7 @@ async function loadRegion(region) {
         }
     }
     // --- End: MODIFIED loadRegion ---
+    
   try {
     const configResponse = await fetch(`data/${region}/config.json`);
     const config = await configResponse.json();
@@ -67,6 +76,7 @@ async function loadRegion(region) {
         zoom: config.initialZoom,
       });
 
+      // CORRECTED: map.on('load') callback needs to be async if it uses await
       map.on('load', async () => {
         console.log('Map loaded');
         
@@ -87,14 +97,20 @@ async function loadRegion(region) {
 
         loadRegionData(region, config);
         addStaticRegionStats(map); // ✅ Add stat boxes
-          // ✅ Add pinwheels
+                
+         // --- NEW/CORRECTED: Call fetchFredDataAndRenderCharts here ---
+        // This call creates the fredChartsMarker when the map is first loaded.
+        await fetchFredDataAndRenderCharts(map);
+        // The visibility is then managed by the 'if (fredChartsMarker)' block at the top of loadRegion.
+        // --- End NEW/CORRECTED ---
+
+        // ✅ Add pinwheels
         fetch('data/pinwheels.geojson')
           .then(res => res.json())
           .then(data => {
             data.features.forEach(feature => {
               const values = feature.properties.values;
               const svg = createPinwheelSVG(values);
-
               //const tooltipText = values.map((v, i) => `${2019 + i}: ${v.toFixed(1)}`).join('<br>');
               const total = values.reduce((sum, val) => sum + val, 0).toFixed(0);
               const tooltipText = `
@@ -124,20 +140,26 @@ async function loadRegion(region) {
               new mapboxgl.Marker(el)
                 .setLngLat(feature.geometry.coordinates)
                 .addTo(map);
-
-      
-              //const el = document.createElement('div');
-              //el.innerHTML = svg;
-              //el.style.width = '60px';
-              //el.style.height = '60px';
-              //el.style.pointerEvents = 'none';
-      //
-        //      new mapboxgl.Marker(el)
-          //      .setLngLat(feature.geometry.coordinates)
-            //    .addTo(map);
             });
           });
       });
+    
+        } else {
+            map.flyTo({
+                center: config.initialCenter,
+                zoom: config.initialZoom,
+                essential: true,
+            });
+            console.log('Switched to region:', region);
+            loadRegionData(region, config);
+            // FRED charts visibility is already handled by the 'if (fredChartsMarker)' block at the top of loadRegion.
+        }
+    } catch (error) {
+        console.error('Failed to load region:', error);
+    }
+}
+
+// Your existing createPinwheelSVG function
 function createPinwheelSVG(values) {
   const numSlices = values.length;
   const center = 30;
@@ -148,8 +170,6 @@ function createPinwheelSVG(values) {
   let paths = '';
   for (let i = 0; i < numSlices; i++) {
     const value = values[i];
-    //const ratio = value / maxValue;
-    //const r = radius * ratio;
     const scaledRatio = Math.pow(value / maxValue, 0.6); // Lift lower values
     const r = radius * scaledRatio;
 
@@ -162,11 +182,10 @@ function createPinwheelSVG(values) {
     const y2 = center + r * Math.sin(angle2);
     const opacities = [0.2, 0.35, 0.5, 0.65, 0.8, 1]; // 2019 → 2024
     paths += `<path d="M${center},${center} L${x1},${y1} A${r},${r} 0 0,1 ${x2},${y2} Z" fill="rgba(254, 196, 79, ${opacities[i]})" stroke="black" stroke-width="0.5"/>`;
-
   }
-
   return `<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">${paths}</svg>`;
 }
+
 // --- Start: NEW CODE FOR SPARKLINE SVG HELPER ---
 function createSparklineSVG(values) {
     if (!values || values.length < 2) return '';
@@ -207,102 +226,43 @@ function createSparklineSVG(values) {
         </svg>
     `;
 }
-// --- End: NEW CODE FOR SPARKLINE SVG HELPER ---      
-   await fetchFredDataAndRenderCharts(map);   
-    } else {
-      map.flyTo({
-        center: config.initialCenter,
-        zoom: config.initialZoom,
-        essential: true,
-      });
-      console.log('Switched to region:', region);
-      loadRegionData(region, config);
-    }
-  } catch (error) {
-    console.error('Failed to load region:', error);
-  }
-}
+// --- End: NEW CODE FOR SPARKLINE SVG HELPER ---     
+
+// --- NEW/CORRECTED: Function to add existing static regional stats --- 
 function addStaticRegionStats(map) {
   const stats = [
-    {
-      name: "United States",
-      gdpTotal: "$26T",
-      outputPerWorker: "$191K",
-      lng: -103.4591,
-      lat: 43.8791
-    },
-    {
-      name: "Bay Area",
-      gdpTotal: "$1.04T",
-      outputPerWorker: "$399K",
-      lng: -123.5,
-      lat: 40.5
-    },
-    {
-      name: "Sacramento",
-      gdpTotal: "$150B",
-      outputPerWorker: "$175K",
-      lng: -117.7,
-      lat: 38.2
-    },
-    {
-      name: "SoCal",
-      gdpTotal: "$1.5T",
-      outputPerWorker: "$238K",
-      lng: -113.5,
-      lat: 34.0
-    },
-    {
-      name: "Denver",
-      gdpTotal: "$250B",
-      outputPerWorker: "$172K",
-      lng: -99.5,
-      lat: 40.5
-    },
-    {
-      name: "Austin",
-      gdpTotal: "$198B",
-      outputPerWorker: "$173K",
-      lng: -97.0,
-      lat: 33.5
-    },
-    {
-      name: "Raleigh-Durham",
-      gdpTotal: "$163B",
-      outputPerWorker: "$183K",
-      lng: -84.5,
-      lat: 36.2
-    }
+    {name: "United States", gdpTotal: "$26T", outputPerWorker: "$191K", lng: -103.4591, lat: 43.8791},
+    {name: "Bay Area", gdpTotal: "$1.04T", outputPerWorker: "$399K", lng: -123.5, lat: 40.5},
+    {name: "Sacramento", gdpTotal: "$150B", outputPerWorker: "$175K", lng: -117.7, lat: 38.2},
+    {name: "SoCal", gdpTotal: "$1.5T", outputPerWorker: "$238K", lng: -113.5, lat: 34.0},
+    {name: "Denver", gdpTotal: "$250B", outputPerWorker: "$172K", lng: -99.5, lat: 40.5},
+    {name: "Austin", gdpTotal: "$198B", outputPerWorker: "$173K", lng: -97.0, lat: 33.5},
+    {name: "Raleigh-Durham", gdpTotal: "$163B", outputPerWorker: "$183K", lng: -84.5, lat: 36.2}
   ];
 
-
   stats.forEach(stat => {
-    const el = document.createElement('div');
-    el.className = 'region-stat-box';
-    el.innerHTML = `
-  <strong>${stat.name}</strong><br>
-  Total GDP: ${stat.gdpTotal}<br>
-  Output per worker: ${stat.outputPerWorker}
-  <div class="tooltip">ⓘ
-    <span class="tooltiptext">
-      GDP: BEA 2022 • Labor Force: BLS (LAUS) 2022<br>
-      GDP per worker (25–54) = GDP ÷ est. workers<br>
-      Workers = labor force × % 25–54<br>
-      Estimates are approximate.
-    </span>
-  </div>
-`;
-
-    
+      const el = document.createElement('div');
+      el.className = 'region-stat-box';
+      el.innerHTML = `
+    <strong>${stat.name}</strong><br>
+    Total GDP: ${stat.gdpTotal}<br>
+    Output per worker: ${stat.outputPerWorker}
+    <div class="tooltip">ⓘ
+        <span class="tooltiptext">
+              GDP: BEA 2022 • Labor Force: BLS (LAUS) 2022<br>
+              GDP per worker (25–54) = GDP ÷ est. workers<br>
+              Workers = labor force × % 25–54<br>
+              Estimates are approximate.
+        </span>
+      </div>
+    `;
     new mapboxgl.Marker(el)
-      .setLngLat([stat.lng, stat.lat])
-      .addTo(map);
-  });
+        .setLngLat([stat.lng, stat.lat])
+        .addTo(map);
+    });
 }
-// Your existing addStaticRegionStats function
-function addStaticRegionStats(map) {
-    // ... (your existing addStaticRegionStats code) ...
-}
+// --- End NEW/CORRECTED ---
+
 
 // --- Start: NEW CODE FOR FRED CHARTS (from local JSON) ---
 async function fetchFredDataAndRenderCharts(mapInstance) {
@@ -346,13 +306,9 @@ async function fetchFredDataAndRenderCharts(mapInstance) {
             }
 
             let formattedLatestValue = res.latestValue.toFixed(res.decimals);
-            // Special formatting for thousands (K) to millions (M) if value is large
-            if (res.unit === 'K' && res.latestValue >= 1000) {
-                formattedLatestValue = (res.latestValue / 1000).toFixed(1) + 'M';
-            } else if (res.unit === 'K') {
-                formattedLatestValue += 'K';
+            if (res.unit === 'K' && res.latestValue >= 1000) formattedLatestValue = (res.latestValue / 1000).toFixed(1) + 'M';
+            else if (res.unit === 'K') formattedLatestValue += 'K';
             }
-
 
             const sparklineSvg = createSparklineSVG(res.sparklineValues);
 
@@ -406,6 +362,7 @@ async function fetchFredDataAndRenderCharts(mapInstance) {
     }
 }
 // --- End: NEW CODE FOR FRED CHARTS ---
+
 async function loadRegionData(region, config) {
   console.log('Loading data files:', config.dataFiles);
 
@@ -424,7 +381,8 @@ async function loadRegionData(region, config) {
     }
   });
 
-  //--document.getElementById('toggle-income').checked = false; //--possible redundancy
+  
+    //--document.getElementById('toggle-income').checked = false; //--possible redundancy
   //--document.getElementById('toggle-lit').checked = false;//--possible redundancy
   //--document.getElementById('toggle-communities').checked = false;
 
