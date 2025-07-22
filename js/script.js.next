@@ -34,6 +34,7 @@ function togglePanel(panelId) {
 async function loadRegion(region) {
   document.getElementById('toggle-communities').checked = false;
   document.getElementById('toggle-lit').checked = false;
+  document.getElementById('toggle-income').checked = false;//--added for consistency
 
   if (map && map.getStyle && map.getStyle().layers) {
   map.getStyle().layers.forEach(layer => {
@@ -266,8 +267,8 @@ async function loadRegionData(region, config) {
     }
   });
 
-  document.getElementById('toggle-income').checked = false;
-  document.getElementById('toggle-lit').checked = false;
+  //--document.getElementById('toggle-income').checked = false; //--possible redundancy
+  //--document.getElementById('toggle-lit').checked = false;//--possible redundancy
 
 
   for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
@@ -322,6 +323,17 @@ async function loadRegionData(region, config) {
           const visible = this.checked ? 'visible' : 'none';
           Object.keys(config.dataFiles).forEach(layerName => {
             if (layerName.startsWith('lit_') && !layerName.startsWith('dns_')) {
+              if (map.getLayer(layerName)) {
+                map.setLayoutProperty(layerName, 'visibility', visible);
+              }
+            }
+          });
+        };
+        //--adding communities below
+        document.getElementById('toggle-communities').onchange = function () {
+          const visible = this.checked ? 'visible' : 'none';
+          Object.keys(config.dataFiles).forEach(layerName => {
+            if (layerName.startsWith('communities_') && !layerName.startsWith('dns_')) {
               if (map.getLayer(layerName)) {
                 map.setLayoutProperty(layerName, 'visibility', visible);
               }
