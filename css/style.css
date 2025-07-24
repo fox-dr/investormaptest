@@ -306,6 +306,12 @@ body {
     display: block;
 }
 
+/* Styling for the smaller source URL in tooltips */
+.tooltip-source-url {
+    font-size: 0.8em; /* Makes it 80% of its parent's font size, adjust as needed */
+    /* You could also add: color: #888; for a lighter grey */
+}
+
 .pinwheel .tooltiptext {
     white-space: normal;
     width: auto;
