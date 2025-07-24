@@ -5,6 +5,7 @@
       "type": "Feature",
       "properties": {
         "region": "aus",
+        "msa": "Austin metro",
         "values": [
           1513,
           1996,
@@ -26,6 +27,7 @@
       "type": "Feature",
       "properties": {
         "region": "den",
+        "msa": "Denver metro",
         "values": [
           648,
           663,
@@ -47,6 +49,7 @@
       "type": "Feature",
       "properties": {
         "region": "car",
+        "msa": "Raleigh metro",
         "values": [
           935,
           1099,
@@ -68,6 +71,7 @@
       "type": "Feature",
       "properties": {
         "region": "sca",
+        "msa": "LA/San Diego metro",
         "values": [
           256,
           248,
@@ -89,6 +93,7 @@
       "type": "Feature",
       "properties": {
         "region": "sac",
+        "msa": "Sacramento metro",
         "values": [
           393,
           465,
@@ -110,6 +115,7 @@
       "type": "Feature",
       "properties": {
         "region": "bay",
+        "msa": "Bay Area metro",
         "values": [
           306,
           244,
