@@ -272,37 +272,7 @@ async function addStaticRegionStats(map) { // Made the function async
             .addTo(map);
     }
 }
-    // --- const stats = [
-    // --- {name: "United States", gdpTotal: "$26T", outputPerWorker: "$191K", lng: -103.4591, lat: 43.8791},
-    // --- {name: "Bay Area", gdpTotal: "$1.04T", outputPerWorker: "$399K", lng: -123.5, lat: 40.5},
-    // --- {name: "Sacramento", gdpTotal: "$150B", outputPerWorker: "$175K", lng: -117.7, lat: 38.2},
-    // --- {name: "SoCal", gdpTotal: "$1.5T", outputPerWorker: "$238K", lng: -113.5, lat: 34.0},
-    // --- {name: "Denver", gdpTotal: "$250B", outputPerWorker: "$172K", lng: -99.5, lat: 40.5},
-    // --- {name: "Austin", gdpTotal: "$198B", outputPerWorker: "$173K", lng: -97.0, lat: 33.5},
-    // --- {name: "Raleigh-Durham", gdpTotal: "$163B", outputPerWorker: "$183K", lng: -84.5, lat: 36.2}
-  // --- ];
-
-  //stats.forEach(stat => {
-    //  const el = document.createElement('div');
-      //el.className = 'region-stat-box';
-      //el.innerHTML = `
-    //<strong>${stat.name}</strong><br>
-    //Total GDP: ${stat.gdpTotal}<br>
-    //Output per worker: ${stat.outputPerWorker}
-    //<div class="tooltip">ⓘ
-      //  <span class="tooltiptext">
-        //      GDP: BEA 2022 • Labor Force: BLS (LAUS) 2022<br>
-          //    GDP per worker (25–54) = GDP ÷ est. workers<br>
-            //  Workers = labor force × % 25–54<br>
-              //Estimates are approximate.
-        //</span>
-      //</div>
-    //`;
-    //new mapboxgl.Marker(el)
-      //  .setLngLat([stat.lng, stat.lat])
-        //.addTo(map);
-    //});
-//}
+   
 // --- End NEW/CORRECTED ---
 
 
