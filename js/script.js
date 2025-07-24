@@ -281,7 +281,7 @@ async function addStaticRegionStats(map) { // Made the function async
 async function fetchFredDataAndRenderCharts(mapInstance) {
     try {
         // Fetch data from your local JSON file
-        const response = await fetch('data/TTLC/fred_charts_data.json'); // Corrected path to data/TTLC/
+        const response = await fetch('data/TTLC/fred_charts_data.json?t=${Date.now()}'); // Corrected path to data/TTLC/
         if (!response.ok) {
             throw new Error(`Failed to load local FRED data: ${response.statusText}`);
         }
