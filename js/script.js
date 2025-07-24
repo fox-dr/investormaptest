@@ -289,8 +289,15 @@ async function fetchFredDataAndRenderCharts(mapInstance) {
 
         const containerDiv = document.createElement('div');
         containerDiv.id = 'fred-charts-container';
-        containerDiv.style.display = 'flex'; // Initially hidden, visibility controlled by loadRegion changed from 'none' to add disappear click below
-        containerDiv.addEventListener('click', function() { ... }); // added to disappear on click 
+        containerDiv.style.display = 'none'; // Initially hidden, visibility controlled by loadRegion
+        containerDiv.addEventListener('click', function() {
+            // added to disappear on click 
+            if(containerDiv.style.display === 'flex') {
+            containerDiv.style.display = 'none';
+        } else {
+            containerDiv.style.display = 'flex';
+        }
+    });
         
         let allChartsHtml = '';
 
