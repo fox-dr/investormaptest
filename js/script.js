@@ -114,7 +114,7 @@ async function loadRegion(region) {
               //const tooltipText = values.map((v, i) => `${2019 + i}: ${v.toFixed(1)}`).join('<br>');
               const total = values.reduce((sum, val) => sum + val, 0).toFixed(0);
               const tooltipText = `
-                <b>${config.regionName}</b><br>
+                <b>${feature.properties.msa}</b><br>
                 Permits per 100k households:<br>
                 2019: <b>${values[0]}</b><br>
                 2020: <b>${values[1]}</b><br>
