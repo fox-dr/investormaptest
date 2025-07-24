@@ -51,7 +51,7 @@
         "id": "ACMSNO",
         "label": "Const. Materials Orders",
         "unit": "",
-        "decimals": 1,
+        "decimals": 0,
         "latestValue": 67616.0,
         "previousValue": 68185.0,
         "sparklineValues": [
