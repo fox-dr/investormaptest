@@ -123,7 +123,7 @@ async function loadRegion(region) {
                 2023: <b>${values[4]}</b><br>
                 2024: <b>${values[5]}</b><br>
                 <em>Total (6 yrs): ${total}<br></em>
-                <span class="tooltip-source-url">census.gov/construction/bps/msamonthly.html</span> // <-- Modified line
+                <span class="tooltip-source-url">census.gov/construction/bps/msamonthly.html</span>
               `;
 
               const el = document.createElement('div');
