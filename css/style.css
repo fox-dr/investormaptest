@@ -253,11 +253,17 @@ body {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 240px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
+    /* --- NEW/MODIFIED STYLES FOR CONSISTENCY WITH FRED CHARTS --- */
+    background-color: rgba(255, 255, 255, 0.95); /* White background with slight transparency */
+    color: #333; /* Dark gray text */
+    border: 1px solid #ccc; /* Subtle light gray border */
+    border-radius: 8px; /* Slightly more rounded corners */
+    padding: 12px 15px; /* More generous padding */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* More prominent shadow */
+    font-size: 12px; /* Slightly larger font size */
+    /* --- END NEW/MODIFIED STYLES --- */
+   
     text-align: center;
-    border-radius: 6px;
-    padding: 8px 10px;
     position: absolute;
     z-index: 10;
     bottom: 125%; /* Position above */
@@ -265,7 +271,6 @@ body {
     transform: translateX(-50%);
     opacity: 0;
     transition: opacity 0.3s;
-    font-size: 11px;
     line-height: 1.4;
 }
 
