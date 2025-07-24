@@ -43,8 +43,8 @@
   },
   {
     "name": "Raleigh-Durham", 
-    gdpTotal: "$163B", "
-    outputPerWorker": "$183K", 
+    "gdpTotal: "$163B", "
+    "outputPerWorker": "$183K", 
     "lng": -84.5, 
     "lat": 36.2
   }
