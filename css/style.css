@@ -179,7 +179,10 @@ body {
 /* --- Other existing UI elements --- */
 
 .region-stat-box {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.95);
+    padding: 12px 15px; /* Matching FRED charts padding */
+    border-radius: 8px; /* Matching FRED charts border-radius */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* More prominent shadow like FRED charts */
     color: #222;
     font-size: 12px;
     font-family: Lato, sans-serif;
