@@ -20,7 +20,7 @@
         "label": "Building Permits",
         "unit": "K",
         "decimals": 0,
-        "latestValue": 1397.0,
+        "latestValue": 1393.0,
         "previousValue": 1394.0,
         "sparklineValues": [
             1460.0,
@@ -28,7 +28,7 @@
             1481.0,
             1422.0,
             1394.0,
-            1397.0
+            1393.0
         ]
     },
     {
@@ -45,6 +45,54 @@
             1398.0,
             1263.0,
             1321.0
+        ]
+    },
+    {
+        "id": "ACMSNO",
+        "label": "Const. Materials Orders",
+        "unit": "",
+        "decimals": 1,
+        "latestValue": 67616.0,
+        "previousValue": 68185.0,
+        "sparklineValues": [
+            68349.0,
+            68537.0,
+            68478.0,
+            68688.0,
+            68185.0,
+            67616.0
+        ]
+    },
+    {
+        "id": "FIXHAI",
+        "label": "Housing Affordability",
+        "unit": "",
+        "decimals": 1,
+        "latestValue": 97.2,
+        "previousValue": 101.0,
+        "sparklineValues": [
+            100.9,
+            101.7,
+            102.6,
+            103.4,
+            101.0,
+            97.2
+        ]
+    },
+    {
+        "id": "10Y2YSpread",
+        "label": "10Y-2Y Spread",
+        "unit": "%",
+        "decimals": 2,
+        "latestValue": 0.52,
+        "previousValue": 0.53,
+        "sparklineValues": [
+            0.55,
+            0.58,
+            0.56,
+            0.56,
+            0.53,
+            0.52
         ]
     }
 ]
