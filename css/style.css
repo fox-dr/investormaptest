@@ -237,7 +237,7 @@ body {
     right: 10px;
     width: 90px;
     height: auto;
-    z-index: 1000;
+    z-index: 3000;
     opacity: 0.8;
 }
 
@@ -354,6 +354,7 @@ body {
     font-family: 'Lato', sans-serif;
     color: #333;
     text-align: left;
+    z-index: 2000;
 }
 
 .fred-chart-item {
