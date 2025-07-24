@@ -318,11 +318,33 @@ async function fetchFredDataAndRenderCharts(mapInstance) {
                 arrowHtml = '•'; // Dot for no change
             }
 
-            let formattedLatestValue = res.latestValue.toFixed(res.decimals);
-            if (res.unit === 'K' && res.latestValue >= 1000) formattedLatestValue = (res.latestValue / 1000).toFixed(1) + 'M';
-            else if (res.unit === 'K') formattedLatestValue += 'K';
+            //let formattedLatestValue = res.latestValue.toFixed(res.decimals);
+            //if (res.unit === 'K' && res.latestValue >= 1000) formattedLatestValue = (res.latestValue / 1000).toFixed(1) + 'M';
+            //else if (res.unit === 'K') formattedLatestValue += 'K';
+                        
+            let displayValue = res.latestValue; // Start with the raw number
+            let unitSuffix = res.unit;          // Keep the unit suffix
             
-
+            // Handle 'K' to 'M' conversion if applicable
+            if (unitSuffix === 'K' && displayValue >= 1000) {
+                displayValue = displayValue / 1000;
+                unitSuffix = 'M';
+                // Now, this is crucial: we want one decimal for 'M' conversion, so we force decimals here.
+                // If not 'K' unit, it uses res.decimals as originally intended.
+                formattedLatestValue = displayValue.toLocaleString(undefined, {
+                    minimumFractionDigits: unitSuffix === 'M' ? 1 : res.decimals, // Ensure at least 1 decimal for 'M'
+                    maximumFractionDigits: unitSuffix === 'M' ? 1 : res.decimals // Ensure max 1 decimal for 'M'
+                });
+            } else {
+                // For other units or if not converting to 'M'
+                formattedLatestValue = displayValue.toLocaleString(undefined, {
+                    minimumFractionDigits: res.decimals,
+                    maximumFractionDigits: res.decimals
+                });
+            }
+            
+            formattedLatestValue += unitSuffix; // Add the unit suffix after formatting
+            
             const sparklineSvg = createSparklineSVG(res.sparklineValues);
 
             allChartsHtml += `
