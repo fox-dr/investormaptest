@@ -41,7 +41,7 @@ Here's the updated CSS for your style.css file. I've added new rules for the .me
 }
 
 #layer-toggle {
-    bottom: 340px; /* Original position */
+    bottom: 350px; /* FIX: Raised the bottom position to prevent overlap */
     font-size: 13px;
     width: 180px; /* Example fixed width, adjust as needed */
     padding: 6px 10px; /* Original padding */
