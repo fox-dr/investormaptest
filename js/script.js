@@ -481,7 +481,7 @@ async function fetchMetroOverviewAndDisplay(mapInstance, regionCode, centerCoord
         let markerCoords = centerCoords; // Default to region's initial center
         if (regionCode === 'bay') {
             // Specific coordinates for San Francisco City Hall
-            markerCoords = [-122.4164, 37.7796]; // Longitude, Latitude
+            markerCoords = [-122.419167, 37.779167]; // Longitude, Latitude
         }
         
         // Create a Mapbox Marker for the overview
