@@ -481,9 +481,9 @@ Here's the updated CSS for your style.css file. I've added new rules for the .me
 /* --- NEW STYLES FOR METRO OVERVIEW FLASH-UP --- */
 .metro-overview-flash {
     /* Positioning */
-    position: absolute;
-    top: 50%;
-    left: 50%;
+  /*  position: absolute;
+  /*  top: 50%;
+  /*  left: 50%;
     transform: translate(-50%, -50%); /* Center horizontally and vertically */
     
     /* Appearance */
