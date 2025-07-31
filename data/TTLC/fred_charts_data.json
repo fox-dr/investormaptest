@@ -1,7 +1,7 @@
 [
     {
         "id": "UMCSENT",
-        "label": "Consumer Sentiment",
+        "label": "Consumer Sentiment - 2 mo. lag",
         "unit": "",
         "decimals": 1,
         "latestValue": 52.2,
@@ -16,7 +16,7 @@
     },
     {
         "id": "PERMIT",
-        "label": "Building Permits",
+        "label": "Building Permits - 1 mo. lag",
         "unit": "K",
         "decimals": 0,
         "latestValue": 1393.0,
@@ -32,7 +32,7 @@
     },
     {
         "id": "HOUST",
-        "label": "Housing Starts",
+        "label": "Housing Starts - 1 mo. lag",
         "unit": "K",
         "decimals": 0,
         "latestValue": 1321.0,
@@ -48,7 +48,7 @@
     },
     {
         "id": "ACMSNO",
-        "label": "Const. Materials Orders",
+        "label": "Const. Materials Orders - 2 mo. lag",
         "unit": "",
         "decimals": 0,
         "latestValue": 67616.0,
@@ -63,7 +63,7 @@
     },
     {
         "id": "FIXHAI",
-        "label": "Housing Affordability",
+        "label": "Housing Affordability - 2 mo. lag",
         "unit": "",
         "decimals": 1,
         "latestValue": 97.2,
@@ -78,7 +78,7 @@
     },
     {
         "id": "10Y2YSpread",
-        "label": "10Y-2Y Spread",
+        "label": "10Y-2Y Spread - < mo. lag",
         "unit": "%",
         "decimals": 2,
         "latestValue": 0.51,
