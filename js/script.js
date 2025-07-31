@@ -112,7 +112,8 @@ async function loadRegion(region) {
                             const values = feature.properties.values;
                             const svg = createPinwheelSVG(values);
                             //const tooltipText = values.map((v, i) => `${2019 + i}: ${v.toFixed(1)}`).join('<br>');
-                            const total = values.reduce((sum, val) => sum + val, 0).toFixed(0);
+                            //const total = values.reduce((sum, val) => sum + val, 0).toFixed(0);
+                            const average = (values.reduce((sum, val) => sum + val, 0) / values.length).toFixed(0);
                             const tooltipText = `
                                 <b>${feature.properties.msa}</b><br>
                                 Permits per 100k households:<br>
@@ -122,7 +123,7 @@ async function loadRegion(region) {
                                 2022: <b>${values[3]}</b><br>
                                 2023: <b>${values[4]}</b><br>
                                 2024: <b>${values[5]}</b><br>
-                                <em>Total (6 yrs): ${total}<br></em>
+                                <em>Average (6 yrs): ${average}<br></em>
                                 <span class="tooltip-source-url">census.gov/construction/bps/msamonthly.html</span>
                             `;
 
