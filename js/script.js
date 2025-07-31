@@ -11,7 +11,7 @@ const FRED_BASE_URL = "https://api.stlouisfed.org/fred/series/observations";
 const regions = ['aus', 'bay', 'car', 'den', 'sac', 'sca', 'TTLC'];
 let map;
 let fredChartsMarker = null; // To hold the FRED charts Mapbox Marker instance
-let metroOverviewMarker = null; // NEW: To hold the metro overview Mapbox Marker instance
+let metroOverviewMarker = null; // To hold the metro overview Mapbox Marker instance
 
 // --- Start: NEW CODE FOR SLIDE MENUS ---
 // Function to toggle the visibility of a panel
@@ -52,7 +52,6 @@ async function loadRegion(region) {
         });
     }
 
-    // --- Start: MODIFIED loadRegion for FRED charts visibility ---
     // If the FRED charts marker already exists, control its display based on the selected region
     if (fredChartsMarker) {
         const fredChartsElement = fredChartsMarker.getElement();
@@ -62,7 +61,6 @@ async function loadRegion(region) {
             fredChartsElement.style.display = 'none'; // Hide for other regions
         }
     }
-    // --- End: MODIFIED loadRegion ---
 
     // NEW: Control metro overview visibility
     if (metroOverviewMarker) {
@@ -74,12 +72,20 @@ async function loadRegion(region) {
         const configResponse = await fetch(`data/${region}/config.json`);
         const config = await configResponse.json();
         console.log('Config loaded:', config);
+        
+        // FIX: Determine the final destination coordinates for the map animation.
+        // For 'bay', this is SF City Hall. For others, it's the config's initialCenter.
+        let finalMapCenter = config.initialCenter;
+        if (region === 'bay') {
+            finalMapCenter = [-122.419167, 37.779167]; // San Francisco City Hall
+        }
 
         // This conditional logic handles both initial map creation and subsequent region changes.
         const handlePostMove = async () => {
             // This code runs *after* the map has moved to the new center
             if (region !== 'TTLC') {
-                await fetchMetroOverviewAndDisplay(map, region, config.initialCenter);
+                // FIX: Pass the new, corrected center coordinate to the flash-up function
+                await fetchMetroOverviewAndDisplay(map, region, finalMapCenter);
             }
         };
 
@@ -87,7 +93,7 @@ async function loadRegion(region) {
             map = new mapboxgl.Map({
                 container: 'map',
                 style: 'mapbox://styles/mapbox/light-v11',
-                center: config.initialCenter,
+                center: finalMapCenter, // FIX: Use the new, corrected center for initial map creation
                 zoom: config.initialZoom,
             });
 
@@ -112,6 +118,7 @@ async function loadRegion(region) {
                 loadRegionData(region, config);
                 addStaticRegionStats(map); // ✅ Add stat boxes
                 await fetchFredDataAndRenderCharts(map);
+                addPinwheels(); // FIX: Call new function to add pinwheels
 
                 // For initial load, fire the post-move logic directly
                 handlePostMove();
@@ -121,7 +128,7 @@ async function loadRegion(region) {
             // For subsequent region changes, wait for the flyTo animation to finish
             map.once('moveend', handlePostMove);
             map.flyTo({
-                center: config.initialCenter,
+                center: finalMapCenter, // FIX: Use the new, corrected center for flyTo
                 zoom: config.initialZoom,
                 essential: true,
             });
@@ -132,6 +139,47 @@ async function loadRegion(region) {
     } catch (error) {
         console.error('Failed to load region:', error);
     }
+}
+
+// FIX: New function to handle adding pinwheels
+async function addPinwheels() {
+    fetch('data/pinwheels.geojson')
+        .then(res => res.json())
+        .then(data => {
+            data.features.forEach(feature => {
+                const values = feature.properties.values;
+                const svg = createPinwheelSVG(values);
+                const average = (values.reduce((sum, val) => sum + val, 0) / values.length).toFixed(0);
+                const tooltipText = `
+                    <b>${feature.properties.msa}</b><br>
+                    Permits per 100k households:<br>
+                    2019: <b>${values[0]}</b><br>
+                    2020: <b>${values[1]}</b><br>
+                    2021: <b>${values[2]}</b><br>
+                    2022: <b>${values[3]}</b><br>
+                    2023: <b>${values[4]}</b><br>
+                    2024: <b>${values[5]}</b><br>
+                    <em>Average (6 yrs): ${average}<br></em>
+                    <span class="tooltip-source-url">census.gov/construction/bps/msamonthly.html</span>
+                `;
+
+                const el = document.createElement('div');
+                el.className = 'pinwheel-marker';
+                el.innerHTML = `
+                    <div class="tooltip" style="position: relative; width: 60px; height: 60px;">
+                        ${svg}
+                        <div class="tooltiptext">${tooltipText}</div>
+                    </div>
+                `;
+
+                el.style.width = '60px';
+                el.style.height = '60px';
+
+                new mapboxgl.Marker(el)
+                    .setLngLat(feature.geometry.coordinates)
+                    .addTo(map);
+            });
+        });
 }
 
 // Your existing createPinwheelSVG function
