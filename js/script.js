@@ -5,7 +5,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
 // is conceptually still "present" but used by your Python script.
 // It's removed from direct use in the browser's fetch.
 const FRED_API_KEY = "7263c4512c658e1b732c98da7d5f5914"; // Your FRED API Key--needed for python script
-const FRED_BASE_URL = "https://api.stlouisfed.org/fred/series/observations"; 
+const FRED_BASE_URL = "https://api.stlouisfed.org/fred/series/observations";
 
 
 const regions = ['aus', 'bay', 'car', 'den', 'sac', 'sca', 'TTLC'];
@@ -39,18 +39,18 @@ function togglePanel(panelId) {
 // --- End: NEW CODE FOR SLIDE MENUS ---
 
 async function loadRegion(region) {
-  document.getElementById('toggle-communities').checked = false;
-  document.getElementById('toggle-lit').checked = false;
-  document.getElementById('toggle-income').checked = false;//--added for consistency
+    document.getElementById('toggle-communities').checked = false;
+    document.getElementById('toggle-lit').checked = false;
+    document.getElementById('toggle-income').checked = false;//--added for consistency
 
-  if (map && map.getStyle && map.getStyle().layers) {
-  map.getStyle().layers.forEach(layer => {
-    if (layer.id.startsWith('lit_')) {
-      map.setLayoutProperty(layer.id, 'visibility', 'none');
+    if (map && map.getStyle && map.getStyle().layers) {
+        map.getStyle().layers.forEach(layer => {
+            if (layer.id.startsWith('lit_')) {
+                map.setLayoutProperty(layer.id, 'visibility', 'none');
+            }
+        });
     }
-  });
-}
-    
+
     // --- Start: MODIFIED loadRegion for FRED charts visibility ---
     // If the FRED charts marker already exists, control its display based on the selected region
     if (fredChartsMarker) {
@@ -62,89 +62,89 @@ async function loadRegion(region) {
         }
     }
     // --- End: MODIFIED loadRegion ---
-    
-  try {
-    const configResponse = await fetch(`data/${region}/config.json`);
-    const config = await configResponse.json();
-    console.log('Config loaded:', config);
 
-    if (!map) {
-      map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/light-v11',
-        center: config.initialCenter,
-        zoom: config.initialZoom,
-      });
+    try {
+        const configResponse = await fetch(`data/${region}/config.json`);
+        const config = await configResponse.json();
+        console.log('Config loaded:', config);
 
-      // CORRECTED: map.on('load') callback needs to be async if it uses await
-      map.on('load', async () => {
-        console.log('Map loaded');
-        
-        // ✅ Load mascot icons
-        const mascots = ['rabbit', 'tortoise', 'snail'];
-        mascots.forEach((name) => {
-          map.loadImage(`icons/${name}.png`, (error, image) => {
-            if (error) {
-              console.error(`Failed to load ${name}.png`, error);
-              return;
-            }
-            if (!map.hasImage(`${name}-icon`)) {
-              map.addImage(`${name}-icon`, image);
-              console.log(`✅ ${name}-icon loaded`);
-            }
-          });
-        });
-
-        loadRegionData(region, config);
-        addStaticRegionStats(map); // ✅ Add stat boxes
-                
-         // --- NEW/CORRECTED: Call fetchFredDataAndRenderCharts here ---
-        // This call creates the fredChartsMarker when the map is first loaded.
-        await fetchFredDataAndRenderCharts(map);
-        // The visibility is then managed by the 'if (fredChartsMarker)' block at the top of loadRegion.
-        // --- End NEW/CORRECTED ---
-
-        // ✅ Add pinwheels
-        fetch('data/pinwheels.geojson')
-          .then(res => res.json())
-          .then(data => {
-            data.features.forEach(feature => {
-              const values = feature.properties.values;
-              const svg = createPinwheelSVG(values);
-              //const tooltipText = values.map((v, i) => `${2019 + i}: ${v.toFixed(1)}`).join('<br>');
-              const total = values.reduce((sum, val) => sum + val, 0).toFixed(0);
-              const tooltipText = `
-                <b>${feature.properties.msa}</b><br>
-                Permits per 100k households:<br>
-                2019: <b>${values[0]}</b><br>
-                2020: <b>${values[1]}</b><br>
-                2021: <b>${values[2]}</b><br>
-                2022: <b>${values[3]}</b><br>
-                2023: <b>${values[4]}</b><br>
-                2024: <b>${values[5]}</b><br>
-                <em>Total (6 yrs): ${total}<br></em>
-                <span class="tooltip-source-url">census.gov/construction/bps/msamonthly.html</span>
-              `;
-
-              const el = document.createElement('div');
-              el.className = 'pinwheel-marker';
-              el.innerHTML = `
-                <div class="tooltip" style="position: relative; width: 60px; height: 60px;">
-                  ${svg}
-                  <div class="tooltiptext">${tooltipText}</div>
-                </div>
-              `;
-
-              el.style.width = '60px';
-              el.style.height = '60px';
-
-              new mapboxgl.Marker(el)
-                .setLngLat(feature.geometry.coordinates)
-                .addTo(map);
+        if (!map) {
+            map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/light-v11',
+                center: config.initialCenter,
+                zoom: config.initialZoom,
             });
-          });
-      });
-    
+
+            // CORRECTED: map.on('load') callback needs to be async if it uses await
+            map.on('load', async () => {
+                console.log('Map loaded');
+
+                // ✅ Load mascot icons
+                const mascots = ['rabbit', 'tortoise', 'snail'];
+                mascots.forEach((name) => {
+                    map.loadImage(`icons/${name}.png`, (error, image) => {
+                        if (error) {
+                            console.error(`Failed to load ${name}.png`, error);
+                            return;
+                        }
+                        if (!map.hasImage(`${name}-icon`)) {
+                            map.addImage(`${name}-icon`, image);
+                            console.log(`✅ ${name}-icon loaded`);
+                        }
+                    });
+                });
+
+                loadRegionData(region, config);
+                addStaticRegionStats(map); // ✅ Add stat boxes
+
+                // --- NEW/CORRECTED: Call fetchFredDataAndRenderCharts here ---
+                // This call creates the fredChartsMarker when the map is first loaded.
+                await fetchFredDataAndRenderCharts(map);
+                // The visibility is then managed by the 'if (fredChartsMarker)' block at the top of loadRegion.
+                // --- End NEW/CORRECTED ---
+
+                // ✅ Add pinwheels
+                fetch('data/pinwheels.geojson')
+                    .then(res => res.json())
+                    .then(data => {
+                        data.features.forEach(feature => {
+                            const values = feature.properties.values;
+                            const svg = createPinwheelSVG(values);
+                            //const tooltipText = values.map((v, i) => `${2019 + i}: ${v.toFixed(1)}`).join('<br>');
+                            const total = values.reduce((sum, val) => sum + val, 0).toFixed(0);
+                            const tooltipText = `
+                                <b>${feature.properties.msa}</b><br>
+                                Permits per 100k households:<br>
+                                2019: <b>${values[0]}</b><br>
+                                2020: <b>${values[1]}</b><br>
+                                2021: <b>${values[2]}</b><br>
+                                2022: <b>${values[3]}</b><br>
+                                2023: <b>${values[4]}</b><br>
+                                2024: <b>${values[5]}</b><br>
+                                <em>Total (6 yrs): ${total}<br></em>
+                                <span class="tooltip-source-url">census.gov/construction/bps/msamonthly.html</span>
+                            `;
+
+                            const el = document.createElement('div');
+                            el.className = 'pinwheel-marker';
+                            el.innerHTML = `
+                                <div class="tooltip" style="position: relative; width: 60px; height: 60px;">
+                                    ${svg}
+                                    <div class="tooltiptext">${tooltipText}</div>
+                                </div>
+                            `;
+
+                            el.style.width = '60px';
+                            el.style.height = '60px';
+
+                            new mapboxgl.Marker(el)
+                                .setLngLat(feature.geometry.coordinates)
+                                .addTo(map);
+                        });
+                    });
+            });
+
         } else {
             map.flyTo({
                 center: config.initialCenter,
@@ -162,29 +162,29 @@ async function loadRegion(region) {
 
 // Your existing createPinwheelSVG function
 function createPinwheelSVG(values) {
-  const numSlices = values.length;
-  const center = 30;
-  const radius = 30;
-  const maxValue = 2405; //Austin 2021 max
-  const anglePerSlice = (2 * Math.PI) / numSlices;
+    const numSlices = values.length;
+    const center = 30;
+    const radius = 30;
+    const maxValue = 2405; //Austin 2021 max
+    const anglePerSlice = (2 * Math.PI) / numSlices;
 
-  let paths = '';
-  for (let i = 0; i < numSlices; i++) {
-    const value = values[i];
-    const scaledRatio = Math.pow(value / maxValue, 0.6); // Lift lower values
-    const r = radius * scaledRatio;
+    let paths = '';
+    for (let i = 0; i < numSlices; i++) {
+        const value = values[i];
+        const scaledRatio = Math.pow(value / maxValue, 0.6); // Lift lower values
+        const r = radius * scaledRatio;
 
-    const angle1 = anglePerSlice * i;
-    const angle2 = angle1 + anglePerSlice;
+        const angle1 = anglePerSlice * i;
+        const angle2 = angle1 + anglePerSlice;
 
-    const x1 = center + r * Math.cos(angle1);
-    const y1 = center + r * Math.sin(angle1);
-    const x2 = center + r * Math.cos(angle2);
-    const y2 = center + r * Math.sin(angle2);
-    const opacities = [0.2, 0.35, 0.5, 0.65, 0.8, 1]; // 2019 → 2024
-    paths += `<path d="M${center},${center} L${x1},${y1} A${r},${r} 0 0,1 ${x2},${y2} Z" fill="rgba(254, 196, 79, ${opacities[i]})" stroke="black" stroke-width="0.5"/>`;
-  }
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">${paths}</svg>`;
+        const x1 = center + r * Math.cos(angle1);
+        const y1 = center + r * Math.sin(angle1);
+        const x2 = center + r * Math.cos(angle2);
+        const y2 = center + r * Math.sin(angle2);
+        const opacities = [0.2, 0.35, 0.5, 0.65, 0.8, 1]; // 2019 → 2024
+        paths += `<path d="M${center},${center} L${x1},${y1} A${r},${r} 0 0,1 ${x2},${y2} Z" fill="rgba(254, 196, 79, ${opacities[i]})" stroke="black" stroke-width="0.5"/>`;
+    }
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">${paths}</svg>`;
 }
 
 // --- Start: NEW CODE FOR SPARKLINE SVG HELPER ---
@@ -215,7 +215,7 @@ function createSparklineSVG(values) {
         const y = yScale(val);
         // Only draw dots for the first and last point
         if (i === 0 || i === values.length - 1) {
-             return `<circle class="fred-sparkline-dot" cx="${x}" cy="${y}" r="3"></circle>`;
+            return `<circle class="fred-sparkline-dot" cx="${x}" cy="${y}" r="3"></circle>`;
         }
         return '';
     }).join('');
@@ -227,11 +227,11 @@ function createSparklineSVG(values) {
         </svg>
     `;
 }
-// --- End: NEW CODE FOR SPARKLINE SVG HELPER ---     
+// --- End: NEW CODE FOR SPARKLINE SVG HELPER ---
 
-// --- NEW/CORRECTED: Function to add existing static regional stats --- 
+// --- NEW/CORRECTED: Function to add existing static regional stats ---
 async function addStaticRegionStats(map) { // Made the function async
-      try {
+    try {
         // Fetch data from the local JSON file
         const response = await fetch('data/static_region_stats.json');
         if (!response.ok) {
@@ -267,48 +267,52 @@ async function addStaticRegionStats(map) { // Made the function async
         errorDiv.className = 'region-stat-box'; // Reuse existing styling
         errorDiv.style.cssText = 'background: rgba(255, 255, 255, 0.95); padding: 10px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 180px; text-align: center; color: red; font-family: Lato, sans-serif;';
         errorDiv.innerHTML = `<div>Error loading Regional Stats.</div><div>${error.message}</div>`;
-        
+
         new mapboxgl.Marker(errorDiv)
             .setLngLat([-90, 45]) // Place error message in a visible, but arbitrary, spot
             .addTo(map);
     }
 }
-   
+
 // --- End NEW/CORRECTED ---
 
 
-// --- Start: NEW CODE FOR FRED CHARTS (from local JSON) ---
+// --- Start: MODIFIED CODE FOR FRED CHARTS (from local JSON) ---
 async function fetchFredDataAndRenderCharts(mapInstance) {
     try {
-        // Fetch data from your local JSON file
-        const response = await fetch('data/TTLC/fred_charts_data.json?t=${Date.now()}'); // Corrected path to data/TTLC/
+        const response = await fetch('data/TTLC/fred_charts_data.json?t=${Date.now()}');
         if (!response.ok) {
             throw new Error(`Failed to load local FRED data: ${response.statusText}`);
         }
-        const results = await response.json(); // Assuming the JSON structure matches Python output
+        const results = await response.json();
 
+        // Create the main container div once
         const containerDiv = document.createElement('div');
         containerDiv.id = 'fred-charts-container';
-        containerDiv.style.display = 'none'; // Initially hidden, visibility controlled by loadRegion
-        containerDiv.addEventListener('click', function() {
-            // added to disappear on click 
-            if(containerDiv.style.display === 'flex') {
-            containerDiv.style.display = 'none';
-        } else {
-            containerDiv.style.display = 'flex';
-        }
-    });
-        
-        let allChartsHtml = '';
+        containerDiv.style.display = 'none'; // Initially hidden
+        // The click event listener for the whole container should remain,
+        // but individual 'i' clicks will stop propagation.
+        containerDiv.addEventListener('click', function(event) {
+            // Only hide the container if the click didn't originate from an 'info-icon' or its tooltip
+            // This ensures clicking the 'i' or the tooltip doesn't hide the whole chart
+            if (!event.target.closest('.info-icon') && !event.target.closest('.fred-tooltip')) {
+                containerDiv.style.display = 'none';
+            }
+        });
+
+        // Use a DocumentFragment to build up chart items efficiently
+        const fragment = document.createDocumentFragment();
 
         results.forEach(res => {
+            const fredChartItem = document.createElement('div');
+            fredChartItem.className = 'fred-chart-item';
+
             if (res.error) {
-                allChartsHtml += `
-                    <div class="fred-chart-item">
-                        <div class="fred-chart-label">${res.label}</div>
-                        <div style="color: red; font-size: 11px;">Error: ${res.error}</div>
-                    </div>
+                fredChartItem.innerHTML = `
+                    <div class="fred-chart-label">${res.label}</div>
+                    <div style="color: red; font-size: 11px;">Error: ${res.error}</div>
                 `;
+                fragment.appendChild(fredChartItem);
                 return;
             }
 
@@ -326,498 +330,519 @@ async function fetchFredDataAndRenderCharts(mapInstance) {
                 arrowHtml = '•'; // Dot for no change
             }
 
-            //let formattedLatestValue = res.latestValue.toFixed(res.decimals);
-            //if (res.unit === 'K' && res.latestValue >= 1000) formattedLatestValue = (res.latestValue / 1000).toFixed(1) + 'M';
-            //else if (res.unit === 'K') formattedLatestValue += 'K';
-                        
-            let displayValue = res.latestValue; // Start with the raw number
-            let unitSuffix = res.unit;          // Keep the unit suffix
-            
-            // Handle 'K' to 'M' conversion if applicable
+            let displayValue = res.latestValue;
+            let unitSuffix = res.unit;
+
             if (unitSuffix === 'K' && displayValue >= 1000) {
                 displayValue = displayValue / 1000;
                 unitSuffix = 'M';
-                // Now, this is crucial: we want one decimal for 'M' conversion, so we force decimals here.
-                // If not 'K' unit, it uses res.decimals as originally intended.
                 formattedLatestValue = displayValue.toLocaleString(undefined, {
-                    minimumFractionDigits: unitSuffix === 'M' ? 1 : res.decimals, // Ensure at least 1 decimal for 'M'
-                    maximumFractionDigits: unitSuffix === 'M' ? 1 : res.decimals // Ensure max 1 decimal for 'M'
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1
                 });
             } else {
-                // For other units or if not converting to 'M'
                 formattedLatestValue = displayValue.toLocaleString(undefined, {
                     minimumFractionDigits: res.decimals,
                     maximumFractionDigits: res.decimals
                 });
             }
-            
-            formattedLatestValue += unitSuffix; // Add the unit suffix after formatting
-            
+
+            formattedLatestValue += unitSuffix;
+
             const sparklineSvg = createSparklineSVG(res.sparklineValues);
 
-            allChartsHtml += `
-                <div class="fred-chart-item">
-                    <div class="fred-chart-label">${res.label}</div>
-                    <div class="fred-value-row">
-                        <span class="fred-current-value">${formattedLatestValue}</span>
-                        <span class="fred-change-arrow ${arrowClass}">${arrowHtml}</span> MoM
-                    </div>
-                     <div class="fred-chart-info">Last 6 Months (MoM Change)</div>
+            // Create the individual chart item HTML structure
+            fredChartItem.innerHTML = `
+                <div class="fred-chart-label">${res.label}</div>
+                <div class="fred-value-row">
+                    <span class="fred-current-value">${formattedLatestValue}</span>
+                    <span class="fred-change-arrow ${arrowClass}">${arrowHtml}</span> MoM
+                </div>
+                <div class="fred-chart-info">Last 6 Months (MoM Change)</div>
+                <div class="fred-sparkline-wrapper">
                     ${sparklineSvg}
+                    <div class="info-icon">ⓘ</div>
+                    <div class="fred-tooltip" style="display: none;">${res.context_info || 'No context available.'}</div>
                 </div>
             `;
+
+            // Add event listener to the info icon *after* it's been created in the DOM
+            // This requires appending to fragment first, then querying within the fragment's context
+            // or better, find the element after appending to the main container.
+            // For now, let's create the element directly and append.
+
+            const infoIcon = fredChartItem.querySelector('.info-icon');
+            const fredTooltip = fredChartItem.querySelector('.fred-tooltip');
+
+            if (infoIcon && fredTooltip) {
+                infoIcon.addEventListener('click', function(event) {
+                    event.stopPropagation(); // Crucial: Prevent the container from hiding
+                    // Hide any other open tooltips
+                    document.querySelectorAll('.fred-tooltip').forEach(tip => {
+                        if (tip !== fredTooltip) {
+                            tip.style.display = 'none';
+                        }
+                    });
+                    // Toggle visibility of the current tooltip
+                    fredTooltip.style.display = fredTooltip.style.display === 'none' ? 'block' : 'none';
+                });
+            }
+
+            fragment.appendChild(fredChartItem);
         });
 
-        containerDiv.innerHTML = allChartsHtml;
+        // Clear existing content and append the fragment to the containerDiv
+        containerDiv.innerHTML = ''; // Clear any previous content from error state, etc.
+        containerDiv.appendChild(fragment);
 
         // Remove existing FRED charts marker if it exists before adding a new one
         if (fredChartsMarker) {
-            fredChartsMarker.remove(); // Removes the DOM element from the map
-            fredChartsMarker = null; // Clear the reference
+            fredChartsMarker.remove();
+            fredChartsMarker = null;
         }
 
-        // Position the marker roughly over the center of the US (near Denver/Kansas)
-        const centerUS = [-98.5795, 39.8283]; // Longitude, Latitude for geographic center of Contiguous US
+        const centerUS = [-98.5795, 39.8283];
 
         fredChartsMarker = new mapboxgl.Marker(containerDiv)
             .setLngLat(centerUS)
             .addTo(mapInstance);
 
-        // Visibility will be handled by the loadRegion function
-        // Initially hide it as it's only for TTLC
-        fredChartsMarker.getElement().style.display = 'none';
+        fredChartsMarker.getElement().style.display = 'none'; // Initially hidden
     } catch (error) {
         console.error(`Error fetching FRED data from local JSON:`, error);
-        // Display an error message on the map if data cannot be loaded
         if (fredChartsMarker) {
-             fredChartsMarker.remove(); // Clean up any previous partial marker
-             fredChartsMarker = null;
+            fredChartsMarker.remove();
+            fredChartsMarker = null;
         }
         const errorDiv = document.createElement('div');
-        errorDiv.id = 'fred-charts-container'; // Reuse the ID for error display
+        errorDiv.id = 'fred-charts-container';
         errorDiv.style.cssText = 'background: rgba(255, 255, 255, 0.95); padding: 10px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 200px; text-align: center; color: red; font-family: Lato, sans-serif;';
         errorDiv.innerHTML = `<div>Error loading FRED charts.</div><div>${error.message}</div>`;
-        
+
         fredChartsMarker = new mapboxgl.Marker(errorDiv)
-            .setLngLat([-98.5795, 39.8283]) // Place in same central US location
+            .setLngLat([-98.5795, 39.8283])
             .addTo(mapInstance);
-        
-        fredChartsMarker.getElement().style.display = 'flex'; // Ensure error is visible
+
+        fredChartsMarker.getElement().style.display = 'flex';
     }
 }
-// --- End: NEW CODE FOR FRED CHARTS ---
+// --- End: MODIFIED CODE FOR FRED CHARTS ---
 
 async function loadRegionData(region, config) {
-  console.log('Loading data files:', config.dataFiles);
+    console.log('Loading data files:', config.dataFiles);
 
-  // Clear region-related layers
-  map.getStyle().layers.forEach((layer) => {
-    if (layer.id.startsWith('communities_') || layer.id.startsWith('portfolio_') || layer.id.startsWith('amenities_') || layer.id.startsWith('entitlement_')) {
-      if (map.getLayer(layer.id)) map.removeLayer(layer.id);
-      if (map.getSource(layer.id)) map.removeSource(layer.id);
-    }
-  });
- 
-  // Hide income layers and reset toggle
-  map.getStyle().layers.forEach(layer => {
-    if (layer.id.startsWith('income_')) {
-      map.setLayoutProperty(layer.id, 'visibility', 'none');
-    }
-  });
-
-  
-    //--document.getElementById('toggle-income').checked = false; //--possible redundancy
-  //--document.getElementById('toggle-lit').checked = false;//--possible redundancy
-  //--document.getElementById('toggle-communities').checked = false;
-
-
-  for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
-    if (!layerName.startsWith('dns_')) { // Add this condition
-      try {
-        const geojsonResponse = await fetch(`data/${region}/${fileName}`);
-        const geojson = await geojsonResponse.json();
-  
-        if (map.getLayer(layerName)) {
-          map.removeLayer(layerName);
-          map.removeSource(layerName);
+    // Clear region-related layers
+    map.getStyle().layers.forEach((layer) => {
+        if (layer.id.startsWith('communities_') || layer.id.startsWith('portfolio_') || layer.id.startsWith('amenities_') || layer.id.startsWith('entitlement_')) {
+            if (map.getLayer(layer.id)) map.removeLayer(layer.id);
+            if (map.getSource(layer.id)) map.removeSource(layer.id);
         }
-  
-        map.addSource(layerName, {
-          type: 'geojson',
-          data: geojson,
-        });
-        if (layerName.startsWith('entitlement_')) {
-          map.addLayer({
-            id: `${layerName}_mascots`,
-            type: 'symbol',
-            source: layerName,
-            layout: {
-              'icon-image': ['concat', ['get', 'mascot'], '-icon'],
-              'icon-size': 0.5,
-              'icon-anchor': 'bottom',
-              'icon-allow-overlap': true,
-              'text-field': ['get', 'City'],
-              'text-font': ['Open Sans Bold'],
-              'text-size': 12,
-              'text-offset': [0, 1.2]
-            },
-            paint: {
-              'text-color': '#000000',
-              'text-halo-color': '#ffffff',
-              'text-halo-width': 1
-            }
-          });
-        }
-  
-        document.getElementById('toggle-income').onchange = function () {
-          const visible = this.checked ? 'visible' : 'none';
-          Object.keys(config.dataFiles).forEach(layerName => {
-            if (layerName.startsWith('income_mln') && !layerName.startsWith('dns_')) {
-              if (map.getLayer(layerName)) {
-                map.setLayoutProperty(layerName, 'visibility', visible);
-              }
-            }
-          });
-        };
-        document.getElementById('toggle-lit').onchange = function () {
-          const visible = this.checked ? 'visible' : 'none';
-          Object.keys(config.dataFiles).forEach(layerName => {
-            if (layerName.startsWith('lit_') && !layerName.startsWith('dns_')) {
-              if (map.getLayer(layerName)) {
-                map.setLayoutProperty(layerName, 'visibility', visible);
-              }
-            }
-          });
-        };
-        //--adding communities below
-        document.getElementById('toggle-communities').onchange = function () {
-          const visible = this.checked ? 'visible' : 'none';
-          Object.keys(config.dataFiles).forEach(layerName => {
-            if (layerName.startsWith('communities_') && !layerName.startsWith('dns_')) {
-              if (map.getLayer(layerName)) {
-                map.setLayoutProperty(layerName, 'visibility', visible);
-              }
-            }
-          });
-        };
-       
-        const firstFeature = geojson.features?.[0];
-        if (!firstFeature) continue;
-  
-        const geometryType = firstFeature.geometry.type;
-        let layerType;
-        let paint = {};
-  
-        if (geometryType === 'Point') {
-          layerType = 'circle';
-          if (layerName.startsWith('income_mln')) {
-            paint = {
-              'circle-radius': [
-                'interpolate',
-                ['linear'],
-                ['zoom'],
-                4, 6,
-                10, 8,
-                14, 10
-              ],
-              'circle-color': [
-                'case',
-                ['any',
-                ['==', ['get', 'miln_inc'], null],
-                ['==', ['get', 'miln_inc'], 0],
-                ['==', ['get', 'miln_inc'], '-']
-                ],
-                'rgba(0,0,0,0)',
-                [
-                  'interpolate',
-                  ['linear'],
-                  ['get', 'miln_inc'],
-                  74999, '#fde0dd',
-                  99999, '#fa9fb5',
-                  124999, '#c51b8a',
-                  149999, '#7a0177'
-                ]
-              ],
-              'circle-stroke-width': 0.7,
-              'circle-stroke-color': '#fff',
-              'circle-opacity': 0.7
-            };
-          } else if (layerName.startsWith('portfolio_')) {
-            paint = {
-              'circle-radius': [
-                'interpolate',
-                ['linear'],
-                ['zoom'],
-                4, 12,
-                10, 10,
-                14, 6
-              ],
-              'circle-color': [
-                'match',
-                ['get', 'status'],
-                'Onboarded', 'rgba(153, 0, 13, 0.9)',
-                'LOI', 'rgba(116, 196, 118, 0.9)',
-                'In Feasibility', 'rgba(254, 227, 145, 0.9)',
-                'Sold', 'rgba(0, 109, 44, 0.9)',
-                'rgba(255, 0, 255, 1)' // hot pink fallback for debugging
-              ],
-              'circle-stroke-width': 1,
-              'circle-stroke-color': '#fff',
-            };
-          }else if (layerName.startsWith('entitlement_')) {
-            paint = {
-              'circle-radius': 4,
-              'circle-color': 'rgba(41, 121, 255, 0.3)',
-              'circle-stroke-width': 1,
-              'circle-stroke-color': '#ffffff',
-            };
-          }else if (layerName.startsWith('communities_')) {
-            paint = {
-              'circle-radius': [
-                'interpolate',
-                ['linear'],
-                ['zoom'],
-                4, 12,
-                10, 10,
-                14, 6
-              ],
-              'circle-color': [
-                'match',
-                ['get', 'status'],
-                'Active', 'rgba(8, 81, 156, 0.7)',
-                'Close Out', 'rgba(49, 130, 189, 0.7)',
-                'Grand Opening', 'rgba(107, 174, 214, 0.7)',
-                'Coming Soon', 'rgba(189, 215, 231, 0.7)',
-                'rgba(8, 81, 156, 0.7)' // fallback = Active
-              ],
-              'circle-stroke-width': 1,
-              'circle-stroke-color': '#fff'
-              };
-            } else if (layerName.startsWith('resales_')) {
-              paint = {
-                'circle-radius': [
-                  'interpolate',
-                  ['linear'],
-                  ['zoom'],
-                  4, 6,
-                  10, 8,
-                  14, 10
-                ],
-                'circle-color': [
-                  'match',
-                  ['get', 'cohort_id'],
-                  1, '#FFF9C4',
-                  2, '#FFE082',
-                  3, '#FFCA28',
-                  4, '#FFB300',
-                  5, '#FFA000',
-                  '#000000' // fallback
-                ],
-                'circle-stroke-width': 0.7,
-                'circle-stroke-color': '#fff',
-                'circle-opacity': 0.7
-              };
-            } else if (layerName.startsWith('lit_')) {
-                paint = {
-                  'circle-radius': [
-                    'interpolate',
-                    ['linear'],
-                    ['get', 'LIT_norm'],
-                    0, 4,
-                    100, 12
-                  ],
-                  'circle-color': [
-                    'match',
-                    ['get', 'LIT_tier'],
-                    1, '#fae0dd',
-                    2, '#fa9fb5',
-                    3, '#c51b8a',
-                    4, '#7a0177',
-                    '#cccccc' // fallback
-                  ],
-                  'circle-stroke-width': 1,
-                  'circle-stroke-color': '#cccccc',
-                  'circle-opacity': 0.5
-                };
-          } else {
-            paint = {
-              'circle-radius': [
-                'interpolate',
-                ['linear'],
-                ['zoom'],
-                4, 12,
-                10, 10,
-                14, 6
-              ],
-              'circle-color': '#2979FF',
-              'circle-stroke-width': 1,
-              'circle-stroke-color': '#fff',
-            };
-          }
-  
-        } else if (geometryType.includes('Polygon')) {
-          layerType = 'fill';
-          paint = {
-            'fill-color': [
-              'interpolate',
-              ['linear'],
-              ['get', 'median_income'],
-              55000, '#f0f0f0',
-              78000, '#a6bddb',
-              104000, '#3690c0',
-              111000, '#034e7b'
-            ],
-            'fill-opacity': 0.7,
-            'fill-outline-color': '#ffffff'
-          };
-  
-        } else if (geometryType.includes('LineString')) {
-          layerType = 'line';
-  
-          if (layerName.startsWith('commute_corridors_')) {
-            paint = {
-              'line-width': 6,
-              'line-color': [
-                'match',
-                ['get', 'congestion_level'],
-                'High', '#FF3B30',
-                'Medium', '#FF9500',
-                'Low', '#34C759',
-                '#A9A9A9'
-              ],
-              'line-opacity': 0.8
-            };
-          } else {
-            paint = {
-              'line-color': '#888',
-              'line-width': 2,
-            };
-          }
-  
-        } else {
-          console.warn('Unknown geometry type:', geometryType);
-          continue;
-        }
-  
-        map.addLayer({
-          id: layerName,
-          type: layerType,
-          source: layerName,
-          paint: paint,
-          layout: {
-            visibility: layerName.startsWith('dns_')
-              ? 'none'
-              : (config.layerVisibility && config.layerVisibility[layerName] === false)
-                ? 'none'
-                : (layerName.startsWith('income_mln') || layerName.startsWith('lit_') || layerName.startsWith('communities_') ? 'none' : 'visible')
-          },
-        });
-  
-        if (layerType === 'circle') {
-            map.on('click', layerName, (e) => {
-            const { geometry, properties } = e.features[0];
-            const coords = geometry.coordinates;
-            let html = '';
-          
-            if (layerName.startsWith('communities_')) {
-              html += `<b>${properties.community || 'Unnamed'}</b><br>`;
-              if (properties.builder) html += `${properties.builder}<br>`;
-              if (properties.city && properties.state && properties.zip)
-                html += `${properties.city}, ${properties.state} ${properties.zip}<br>`;
-              if (properties.price_range) html += `${properties.price_range}<br>`;
-              if (properties.sf_range) html += `${properties.sf_range}<br>`;
-          
-            } else if (layerName.startsWith('portfolio_')) {
-              html += `<b>${properties.name || 'Unnamed'}</b><br>`;
-              if (properties.description) html += `${properties.description}<br>`;
-          
-            } else if (layerName.startsWith('amenities_')) {
-              html += `<b>${properties.name || 'Unnamed Amenity'}</b><br>`;
-              if (properties.description) html += `${properties.description}<br>`;
-          
-            } else if (layerName.startsWith('income_')) {
-              const county = properties.county_name || 'Unknown';
-              const zip = properties.zip ? properties.zip.toString().split('.')[0] : null;
-              const rawIncome = properties.miln_inc;
-          
-              let formattedIncome;
-              if (rawIncome === null || rawIncome === '-' || isNaN(parseFloat(rawIncome))) {
-                formattedIncome = 'No data';
-              } else {
-                formattedIncome = `$${parseFloat(rawIncome).toLocaleString(undefined, {
-                  maximumFractionDigits: 0
-                })}`;
-              }
-          
-              html += `<div style="text-align:center;">`;
-              html += `<b>${county} County</b><br>`;
-              if (zip) html += `<small>ZIP ${zip}</small><br>`;
-              html += `<strong>${formattedIncome}</strong>`;
-              html += `</div>`;
-          
-            } else if (layerName.startsWith('resales_')) {
-              html += `<strong>Resale Info</strong><br>`;
-              html += `Price: ${properties.purchase_price || 'n/a'}<br>`;
-              html += `Size: ${properties.building_size || 'n/a'} SF<br>`;
-              html += `Lot: ${properties.lot_size_sqft || 'n/a'} SF<br>`;
-            }
-          
-            // ✅ Show status on any layer that has it
-            if (properties.status) {
-              html += `<em>Status:</em> ${properties.status}`;
-            }
-          
-            // ✅ Always show popup
-            new mapboxgl.Popup()
-              .setLngLat(coords)
-              .setHTML(html)
-              .addTo(map);
-          });
-  
-          map.on('mouseenter', layerName, () => {
-            map.getCanvas().style.cursor = 'pointer';
-          });
-  
-          map.on('mouseleave', layerName, () => {
-            map.getCanvas().style.cursor = '';
-          });
-        }
-  
-        console.log('Loaded layer:', layerName);
-      } catch (e) {
-        console.error(`Failed to load ${layerName}:`, e);
-      }
-    }
-  }
-
-  // toggle communities
-  document.getElementById('toggle-communities').onchange = function () {
-    const visible = this.checked ? 'visible' : 'none';
-    Object.keys(config.dataFiles).forEach(layerName => {
-      if (layerName.startsWith('communities_') && !layerName.startsWith('dns_')) {
-        if (map.getLayer(layerName)) {
-          map.setLayoutProperty(layerName, 'visibility', visible);
-        }
-      }
     });
-  };
+
+    // Hide income layers and reset toggle
+    map.getStyle().layers.forEach(layer => {
+        if (layer.id.startsWith('income_')) {
+            map.setLayoutProperty(layer.id, 'visibility', 'none');
+        }
+    });
+
+
+    //--document.getElementById('toggle-income').checked = false; //--possible redundancy
+    //--document.getElementById('toggle-lit').checked = false;//--possible redundancy
+    //--document.getElementById('toggle-communities').checked = false;
+
+
+    for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
+        if (!layerName.startsWith('dns_')) { // Add this condition
+            try {
+                const geojsonResponse = await fetch(`data/${region}/${fileName}`);
+                const geojson = await geojsonResponse.json();
+
+                if (map.getLayer(layerName)) {
+                    map.removeLayer(layerName);
+                    map.removeSource(layerName);
+                }
+
+                map.addSource(layerName, {
+                    type: 'geojson',
+                    data: geojson,
+                });
+                if (layerName.startsWith('entitlement_')) {
+                    map.addLayer({
+                        id: `${layerName}_mascots`,
+                        type: 'symbol',
+                        source: layerName,
+                        layout: {
+                            'icon-image': ['concat', ['get', 'mascot'], '-icon'],
+                            'icon-size': 0.5,
+                            'icon-anchor': 'bottom',
+                            'icon-allow-overlap': true,
+                            'text-field': ['get', 'City'],
+                            'text-font': ['Open Sans Bold'],
+                            'text-size': 12,
+                            'text-offset': [0, 1.2]
+                        },
+                        paint: {
+                            'text-color': '#000000',
+                            'text-halo-color': '#ffffff',
+                            'text-halo-width': 1
+                        }
+                    });
+                }
+
+                document.getElementById('toggle-income').onchange = function() {
+                    const visible = this.checked ? 'visible' : 'none';
+                    Object.keys(config.dataFiles).forEach(layerName => {
+                        if (layerName.startsWith('income_mln') && !layerName.startsWith('dns_')) {
+                            if (map.getLayer(layerName)) {
+                                map.setLayoutProperty(layerName, 'visibility', visible);
+                            }
+                        }
+                    });
+                };
+                document.getElementById('toggle-lit').onchange = function() {
+                    const visible = this.checked ? 'visible' : 'none';
+                    Object.keys(config.dataFiles).forEach(layerName => {
+                        if (layerName.startsWith('lit_') && !layerName.startsWith('dns_')) {
+                            if (map.getLayer(layerName)) {
+                                map.setLayoutProperty(layerName, 'visibility', visible);
+                            }
+                        }
+                    });
+                };
+                //--adding communities below
+                document.getElementById('toggle-communities').onchange = function() {
+                    const visible = this.checked ? 'visible' : 'none';
+                    Object.keys(config.dataFiles).forEach(layerName => {
+                        if (layerName.startsWith('communities_') && !layerName.startsWith('dns_')) {
+                            if (map.getLayer(layerName)) {
+                                map.setLayoutProperty(layerName, 'visibility', visible);
+                            }
+                        }
+                    });
+                };
+
+                const firstFeature = geojson.features?.[0];
+                if (!firstFeature) continue;
+
+                const geometryType = firstFeature.geometry.type;
+                let layerType;
+                let paint = {};
+
+                if (geometryType === 'Point') {
+                    layerType = 'circle';
+                    if (layerName.startsWith('income_mln')) {
+                        paint = {
+                            'circle-radius': [
+                                'interpolate',
+                                ['linear'],
+                                ['zoom'],
+                                4, 6,
+                                10, 8,
+                                14, 10
+                            ],
+                            'circle-color': [
+                                'case',
+                                ['any',
+                                    ['==', ['get', 'miln_inc'], null],
+                                    ['==', ['get', 'miln_inc'], 0],
+                                    ['==', ['get', 'miln_inc'], '-']
+                                ],
+                                'rgba(0,0,0,0)',
+                                [
+                                    'interpolate',
+                                    ['linear'],
+                                    ['get', 'miln_inc'],
+                                    74999, '#fde0dd',
+                                    99999, '#fa9fb5',
+                                    124999, '#c51b8a',
+                                    149999, '#7a0177'
+                                ]
+                            ],
+                            'circle-stroke-width': 0.7,
+                            'circle-stroke-color': '#fff',
+                            'circle-opacity': 0.7
+                        };
+                    } else if (layerName.startsWith('portfolio_')) {
+                        paint = {
+                            'circle-radius': [
+                                'interpolate',
+                                ['linear'],
+                                ['zoom'],
+                                4, 12,
+                                10, 10,
+                                14, 6
+                            ],
+                            'circle-color': [
+                                'match',
+                                ['get', 'status'],
+                                'Onboarded', 'rgba(153, 0, 13, 0.9)',
+                                'LOI', 'rgba(116, 196, 118, 0.9)',
+                                'In Feasibility', 'rgba(254, 227, 145, 0.9)',
+                                'Sold', 'rgba(0, 109, 44, 0.9)',
+                                'rgba(255, 0, 255, 1)' // hot pink fallback for debugging
+                            ],
+                            'circle-stroke-width': 1,
+                            'circle-stroke-color': '#fff',
+                        };
+                    } else if (layerName.startsWith('entitlement_')) {
+                        paint = {
+                            'circle-radius': 4,
+                            'circle-color': 'rgba(41, 121, 255, 0.3)',
+                            'circle-stroke-width': 1,
+                            'circle-stroke-color': '#ffffff',
+                        };
+                    } else if (layerName.startsWith('communities_')) {
+                        paint = {
+                            'circle-radius': [
+                                'interpolate',
+                                ['linear'],
+                                ['zoom'],
+                                4, 12,
+                                10, 10,
+                                14, 6
+                            ],
+                            'circle-color': [
+                                'match',
+                                ['get', 'status'],
+                                'Active', 'rgba(8, 81, 156, 0.7)',
+                                'Close Out', 'rgba(49, 130, 189, 0.7)',
+                                'Grand Opening', 'rgba(107, 174, 214, 0.7)',
+                                'Coming Soon', 'rgba(189, 215, 231, 0.7)',
+                                'rgba(8, 81, 156, 0.7)' // fallback = Active
+                            ],
+                            'circle-stroke-width': 1,
+                            'circle-stroke-color': '#fff'
+                        };
+                    } else if (layerName.startsWith('resales_')) {
+                        paint = {
+                            'circle-radius': [
+                                'interpolate',
+                                ['linear'],
+                                ['zoom'],
+                                4, 6,
+                                10, 8,
+                                14, 10
+                            ],
+                            'circle-color': [
+                                'match',
+                                ['get', 'cohort_id'],
+                                1, '#FFF9C4',
+                                2, '#FFE082',
+                                3, '#FFCA28',
+                                4, '#FFB300',
+                                5, '#FFA000',
+                                '#000000' // fallback
+                            ],
+                            'circle-stroke-width': 0.7,
+                            'circle-stroke-color': '#fff',
+                            'circle-opacity': 0.7
+                        };
+                    } else if (layerName.startsWith('lit_')) {
+                        paint = {
+                            'circle-radius': [
+                                'interpolate',
+                                ['linear'],
+                                ['get', 'LIT_norm'],
+                                0, 4,
+                                100, 12
+                            ],
+                            'circle-color': [
+                                'match',
+                                ['get', 'LIT_tier'],
+                                1, '#fae0dd',
+                                2, '#fa9fb5',
+                                3, '#c51b8a',
+                                4, '#7a0177',
+                                '#cccccc' // fallback
+                            ],
+                            'circle-stroke-width': 1,
+                            'circle-stroke-color': '#cccccc',
+                            'circle-opacity': 0.5
+                        };
+                    } else {
+                        paint = {
+                            'circle-radius': [
+                                'interpolate',
+                                ['linear'],
+                                ['zoom'],
+                                4, 12,
+                                10, 10,
+                                14, 6
+                            ],
+                            'circle-color': '#2979FF',
+                            'circle-stroke-width': 1,
+                            'circle-stroke-color': '#fff',
+                        };
+                    }
+
+                } else if (geometryType.includes('Polygon')) {
+                    layerType = 'fill';
+                    paint = {
+                        'fill-color': [
+                            'interpolate',
+                            ['linear'],
+                            ['get', 'median_income'],
+                            55000, '#f0f0f0',
+                            78000, '#a6bddb',
+                            104000, '#3690c0',
+                            111000, '#034e7b'
+                        ],
+                        'fill-opacity': 0.7,
+                        'fill-outline-color': '#ffffff'
+                    };
+
+                } else if (geometryType.includes('LineString')) {
+                    layerType = 'line';
+
+                    if (layerName.startsWith('commute_corridors_')) {
+                        paint = {
+                            'line-width': 6,
+                            'line-color': [
+                                'match',
+                                ['get', 'congestion_level'],
+                                'High', '#FF3B30',
+                                'Medium', '#FF9500',
+                                'Low', '#34C759',
+                                '#A9A9A9'
+                            ],
+                            'line-opacity': 0.8
+                        };
+                    } else {
+                        paint = {
+                            'line-color': '#888',
+                            'line-width': 2,
+                        };
+                    }
+
+                } else {
+                    console.warn('Unknown geometry type:', geometryType);
+                    continue;
+                }
+
+                map.addLayer({
+                    id: layerName,
+                    type: layerType,
+                    source: layerName,
+                    paint: paint,
+                    layout: {
+                        visibility: layerName.startsWith('dns_') ?
+                            'none' :
+                            (config.layerVisibility && config.layerVisibility[layerName] === false) ?
+                            'none' :
+                            (layerName.startsWith('income_mln') || layerName.startsWith('lit_') || layerName.startsWith('communities_') ? 'none' : 'visible')
+                    },
+                });
+
+                if (layerType === 'circle') {
+                    map.on('click', layerName, (e) => {
+                        const {
+                            geometry,
+                            properties
+                        } = e.features[0];
+                        const coords = geometry.coordinates;
+                        let html = '';
+
+                        if (layerName.startsWith('communities_')) {
+                            html += `<b>${properties.community || 'Unnamed'}</b><br>`;
+                            if (properties.builder) html += `${properties.builder}<br>`;
+                            if (properties.city && properties.state && properties.zip)
+                                html += `${properties.city}, ${properties.state} ${properties.zip}<br>`;
+                            if (properties.price_range) html += `${properties.price_range}<br>`;
+                            if (properties.sf_range) html += `${properties.sf_range}<br>`;
+
+                        } else if (layerName.startsWith('portfolio_')) {
+                            html += `<b>${properties.name || 'Unnamed'}</b><br>`;
+                            if (properties.description) html += `${properties.description}<br>`;
+
+                        } else if (layerName.startsWith('amenities_')) {
+                            html += `<b>${properties.name || 'Unnamed Amenity'}</b><br>`;
+                            if (properties.description) html += `${properties.description}<br>`;
+
+                        } else if (layerName.startsWith('income_')) {
+                            const county = properties.county_name || 'Unknown';
+                            const zip = properties.zip ? properties.zip.toString().split('.')[0] : null;
+                            const rawIncome = properties.miln_inc;
+
+                            let formattedIncome;
+                            if (rawIncome === null || rawIncome === '-' || isNaN(parseFloat(rawIncome))) {
+                                formattedIncome = 'No data';
+                            } else {
+                                formattedIncome = `$${parseFloat(rawIncome).toLocaleString(undefined, {
+                                    maximumFractionDigits: 0
+                                })}`;
+                            }
+
+                            html += `<div style="text-align:center;">`;
+                            html += `<b>${county} County</b><br>`;
+                            if (zip) html += `<small>ZIP ${zip}</small><br>`;
+                            html += `<strong>${formattedIncome}</strong>`;
+                            html += `</div>`;
+
+                        } else if (layerName.startsWith('resales_')) {
+                            html += `<strong>Resale Info</strong><br>`;
+                            html += `Price: ${properties.purchase_price || 'n/a'}<br>`;
+                            html += `Size: ${properties.building_size || 'n/a'} SF<br>`;
+                            html += `Lot: ${properties.lot_size_sqft || 'n/a'} SF<br>`;
+                            html += `</div>`;
+                        }
+
+                        // ✅ Show status on any layer that has it
+                        if (properties.status) {
+                            html += `<em>Status:</em> ${properties.status}`;
+                        }
+
+                        // ✅ Always show popup
+                        new mapboxgl.Popup()
+                            .setLngLat(coords)
+                            .setHTML(html)
+                            .addTo(map);
+                    });
+
+                    map.on('mouseenter', layerName, () => {
+                        map.getCanvas().style.cursor = 'pointer';
+                    });
+
+                    map.on('mouseleave', layerName, () => {
+                        map.getCanvas().style.cursor = '';
+                    });
+                }
+
+                console.log('Loaded layer:', layerName);
+            } catch (e) {
+                console.error(`Failed to load ${layerName}:`, e);
+            }
+        }
+    }
+
+    // toggle communities
+    document.getElementById('toggle-communities').onchange = function() {
+        const visible = this.checked ? 'visible' : 'none';
+        Object.keys(config.dataFiles).forEach(layerName => {
+            if (layerName.startsWith('communities_') && !layerName.startsWith('dns_')) {
+                if (map.getLayer(layerName)) {
+                    map.setLayoutProperty(layerName, 'visibility', visible);
+                }
+            }
+        });
+    };
 }
 
 function createRegionSelector() {
-  const selector = document.getElementById('region-selector');
-  if (!selector) return;
+    const selector = document.getElementById('region-selector');
+    if (!selector) return;
 
-  regions.forEach(region => {
-    fetch(`data/${region}/config.json`)
-      .then(res => res.json())
-      .then(config => {
-        const button = document.createElement('button');
-        button.textContent = config.regionName || region.toUpperCase();
-        button.onclick = () => loadRegion(region);
-        selector.appendChild(button);
-      })
-      .catch(err => console.warn(`Failed to load config for ${region}:`, err));
-  });
+    regions.forEach(region => {
+        fetch(`data/${region}/config.json`)
+            .then(res => res.json())
+            .then(config => {
+                const button = document.createElement('button');
+                button.textContent = config.regionName || region.toUpperCase();
+                button.onclick = () => loadRegion(region);
+                selector.appendChild(button);
+            })
+            .catch(err => console.warn(`Failed to load config for ${region}:`, err));
+    });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
