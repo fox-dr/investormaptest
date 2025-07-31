@@ -507,13 +507,13 @@ Here's the updated CSS for your style.css file. I've added new rules for the .me
 
     /* Text styling */
     h2 {
-        font-size: 18px; /* Smaller heading */
+        font-size: 16px; /* Smaller heading */
         margin-bottom: 8px;
         color: #1a73e8; /* Blue accent color */
     }
 
     p {
-        font-size: 14px; /* Smaller paragraph text */
+        font-size: 12px; /* Smaller paragraph text */
         margin-bottom: 6px;
     }
 
@@ -522,7 +522,7 @@ Here's the updated CSS for your style.css file. I've added new rules for the .me
     }
 
     small {
-        font-size: 12px;
+        font-size: 10px;
         color: #666;
         margin-top: 15px;
         display: block; /* Ensure it's on its own line */
