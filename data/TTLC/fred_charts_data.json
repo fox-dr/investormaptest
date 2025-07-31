@@ -1,4 +1,4 @@
-Here is your fred_charts_data.json file, updated with the context_info for each sparkline. This is the data that script.js will now use to populate the tooltips.[
+[
   {
     "id": "UMCSENT",
     "label": "Consumer Sentiment - 2 mo. lag",
