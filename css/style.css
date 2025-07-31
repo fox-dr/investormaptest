@@ -488,31 +488,33 @@ Here's the updated CSS for your style.css file. I've added new rules for the .me
     
     /* Appearance */
     background-color: rgba(255, 255, 255, 0.95); /* Opaque white background */
-    padding: 20px 25px; /* Generous padding */
-    border-radius: 12px; /* More rounded corners */
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Stronger shadow for "flash-up" effect */
+    border: 1px solid #ddd; /* Subtle border for a balloon effect */
+    padding: 15px 20px; /* Adjusted padding for smaller size */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); /* Slightly softer shadow */
     color: #333; /* Dark text for readability */
     font-family: 'Lato', sans-serif;
     text-align: center; /* Center text content */
-    line-height: 1.6; /* Improved line spacing */
+    line-height: 1.5; /* Improved line spacing */
     z-index: 4000; /* Ensure it's on top of everything */
+    cursor: pointer; /* Indicate it's clickable to dismiss */
     pointer-events: auto; /* Allow clicks to dismiss */
 
     /* Sizing */
-    width: 280px; /* Fixed width for control */
-    max-width: 90vw; /* Responsive max-width for smaller screens */
+    width: 250px; /* Smaller fixed width */
+    max-width: 85vw; /* Responsive max-width for smaller screens */
     box-sizing: border-box; /* Include padding in width */
 
     /* Text styling */
     h2 {
-        font-size: 22px;
-        margin-bottom: 10px;
+        font-size: 18px; /* Smaller heading */
+        margin-bottom: 8px;
         color: #1a73e8; /* Blue accent color */
     }
 
     p {
-        font-size: 16px;
-        margin-bottom: 8px;
+        font-size: 14px; /* Smaller paragraph text */
+        margin-bottom: 6px;
     }
 
     strong {
