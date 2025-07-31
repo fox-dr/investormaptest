@@ -362,7 +362,7 @@ async function fetchFredDataAndRenderCharts(mapInstance) {
                         <span class="fred-current-value">${formattedLatestValue}</span>
                         <span class="fred-change-arrow ${arrowClass}">${arrowHtml}</span> MoM
                     </div>
-                     <div class="fred-chart-info">Last 6 Months (MoM Change)</div>
+                     <div class="fred-chart-info">Last 6 Months (MoM Change - 1 Mo. lag)</div>
                     ${sparklineSvg}
                 </div>
             `;
