@@ -165,10 +165,11 @@ async function loadRegion(region) {
             // FRED charts visibility is already handled by the 'if (fredChartsMarker)' block at the top of loadRegion.
         }
 
-        // NEW: Fetch and display metro overview for the selected region
-        // This call is now outside map.on('load') so it runs on subsequent region changes too
-        await fetchMetroOverviewAndDisplay(map, region, config.initialCenter);
-
+        // NEW: Fetch and display metro overview for the selected region. This call is now outside map.on('load') so it runs on subsequent region changes too
+        if (region !== 'TTLC') {
+            await fetchMetroOverviewAndDisplay(map, region, config.initialCenter);
+        }
+        
     } catch (error) {
         console.error('Failed to load region:', error);
     }
