@@ -477,9 +477,16 @@ async function fetchMetroOverviewAndDisplay(mapInstance, regionCode, centerCoord
             overviewDiv.style.display = 'none'; // Hide on click
         });
 
+               // Determine coordinates for the marker
+        let markerCoords = centerCoords; // Default to region's initial center
+        if (regionCode === 'bay') {
+            // Specific coordinates for San Francisco City Hall
+            markerCoords = [-122.4164, 37.7796]; // Longitude, Latitude
+        }
+        
         // Create a Mapbox Marker for the overview
         metroOverviewMarker = new mapboxgl.Marker(overviewDiv)
-            .setLngLat(centerCoords) // Position at the center of the region
+            .setLngLat(markerCoords) // Use determined coordinates
             .addTo(mapInstance);
 
         // Initially show it
