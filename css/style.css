@@ -1,4 +1,4 @@
-body {
+Here's the updated CSS, incorporating the styles for the new info icon and tooltips. I've added comments to highlight the new sections.body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif; /* Apply Lato to the entire body */
@@ -54,15 +54,6 @@ body {
     width: 220px; /* Example fixed width for legend content */
     padding: 10px 14px; /* Original padding */
 }
-
-/* Shared styles for legend and layer-toggle (re-iterated if needed, but above properties mostly cover it) */
-/* This rule from your old CSS was redundant if properties are defined per ID */
-/* #legend, #layer-toggle {
-    font-family: sans-serif;
-    font-size: 11px;
-    line-height: 1.4;
-} */
-
 
 /* Class to hide panels to the left */
 #region-selector.hidden {
@@ -241,6 +232,7 @@ body {
     opacity: 0.8;
 }
 
+/* --- Old tooltip styles (will be largely overridden by fred-tooltip) --- */
 .tooltip {
     display: inline-block;
     position: relative;
@@ -253,7 +245,6 @@ body {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 240px;
-    /* --- NEW/MODIFIED STYLES FOR CONSISTENCY WITH FRED CHARTS --- */
     background-color: rgba(255, 255, 255, 0.95); /* White background with slight transparency */
     color: #333; /* Dark gray text */
     border: 1px solid #ccc; /* Subtle light gray border */
@@ -261,8 +252,7 @@ body {
     padding: 12px 15px; /* More generous padding */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* More prominent shadow */
     font-size: 12px; /* Slightly larger font size */
-    /* --- END NEW/MODIFIED STYLES --- */
-   
+    
     text-align: center;
     position: absolute;
     z-index: 10;
@@ -278,7 +268,7 @@ body {
     visibility: visible;
     opacity: 1;
 }
-.tooltip-icon {
+.tooltip-icon { /* This was an old class, replaced by .info-icon for FRED charts */
     position: relative;
     cursor: pointer;
     font-size: 0.85em;
@@ -286,7 +276,7 @@ body {
     display: inline-block;
 }
 
-.tooltip-text {
+.tooltip-text { /* This was an old class, replaced by .fred-tooltip for FRED charts */
     display: none;
     position: absolute;
     top: 1.4em;
@@ -340,6 +330,7 @@ body {
     height: 20px;
     margin-bottom: 4px;
 }
+
 /* --- FRED Sparkline Charts --- */
 #fred-charts-container {
     background: rgba(255, 255, 255, 0.95);
@@ -420,3 +411,69 @@ body {
     stroke-width: 1;
     r: 3; /* Radius of the dots */
 }
+
+/* --- NEW STYLES FOR INFO ICON AND TOOLTIP --- */
+.fred-sparkline-wrapper {
+    position: relative; /* Establishes positioning context for children */
+    width: 100%; /* Take full width of parent */
+    display: flex; /* Use flexbox to align SVG and info icon */
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Push SVG to left, icon to right */
+}
+
+.info-icon {
+    font-size: 14px; /* Size of the 'ⓘ' character */
+    font-weight: bold;
+    color: #666; /* Grey color, similar to existing tooltips */
+    cursor: pointer;
+    margin-left: 8px; /* Space between sparkline and icon */
+    flex-shrink: 0; /* Prevent icon from shrinking */
+    padding: 2px; /* Make it easier to tap */
+    border-radius: 50%; /* Make it round */
+    background-color: rgba(0, 0, 0, 0.05); /* Subtle background */
+    transition: background-color 0.2s ease;
+}
+
+.info-icon:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Darken background on hover */
+}
+
+.fred-tooltip {
+    display: none; /* Hidden by default, toggled by JS */
+    position: absolute;
+    /* Position relative to .fred-sparkline-wrapper */
+    top: 50%; /* Vertically center with the wrapper */
+    left: calc(100% + 10px); /* Position to the right of the wrapper with a small gap */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+    line-height: 1.4;
+    width: 200px; /* Fixed width for the tooltip content */
+    max-width: 80vw; /* Responsive max-width for smaller screens */
+    text-align: left; /* Ensure text aligns left within the tooltip */
+    z-index: 3001; /* Ensure it's above everything, including the FRED charts container */
+    pointer-events: auto; /* Allow interaction within the tooltip */
+}
+
+/* Arrow for the tooltip (optional, but good for visual connection) */
+.fred-tooltip::before {
+    content: "";
+    position: absolute;
+    left: -8px; /* Position to the left of the tooltip */
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg); /* Rotate to form an arrow */
+    width: 16px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    z-index: -1; /* Behind the tooltip content */
+}
+
+/* --- END NEW STYLES --- */
