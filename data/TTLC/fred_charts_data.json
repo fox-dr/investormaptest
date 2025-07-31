@@ -48,7 +48,7 @@
     },
     {
         "id": "ACMSNO",
-        "label": "Const. Materials Orders - 2 mo. lag",
+        "label": "Const. Mt'ls Orders - 2 mo. lag",
         "unit": "",
         "decimals": 0,
         "latestValue": 67616.0,
@@ -63,7 +63,7 @@
     },
     {
         "id": "FIXHAI",
-        "label": "Housing Affordability - 2 mo. lag",
+        "label": "Housing Affordblty - 2 mo. lag",
         "unit": "",
         "decimals": 1,
         "latestValue": 97.2,
