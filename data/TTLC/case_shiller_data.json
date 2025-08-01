@@ -1,0 +1,122 @@
+[
+    {
+        "city": "Atlanta, GA",
+        "series_id": "ATXRSA",
+        "latest_value": 250.228281951596,
+        "yoy_change": 1.67
+    },
+    {
+        "city": "Boston, MA",
+        "series_id": "BOXRSA",
+        "latest_value": 346.69658906753097,
+        "yoy_change": 4.59
+    },
+    {
+        "city": "Charlotte, NC",
+        "series_id": "CRXRSA",
+        "latest_value": 284.229459431775,
+        "yoy_change": 2.52
+    },
+    {
+        "city": "Chicago, IL",
+        "series_id": "CHXRSA",
+        "latest_value": 217.97436337717,
+        "yoy_change": 6.05
+    },
+    {
+        "city": "Cleveland, OH",
+        "series_id": "CEXRSA",
+        "latest_value": 199.633720563786,
+        "yoy_change": 4.77
+    },
+    {
+        "city": "Dallas, TX",
+        "series_id": "DAXRSA",
+        "latest_value": 293.474780496506,
+        "yoy_change": -0.7
+    },
+    {
+        "city": "Denver, CO",
+        "series_id": "DNXRSA",
+        "latest_value": 315.021985213017,
+        "yoy_change": -0.07
+    },
+    {
+        "city": "Detroit, MI",
+        "series_id": "DEXRSA",
+        "latest_value": 194.965262931166,
+        "yoy_change": 4.82
+    },
+    {
+        "city": "Las Vegas, NV",
+        "series_id": "LVXRSA",
+        "latest_value": 303.714613493617,
+        "yoy_change": 3.27
+    },
+    {
+        "city": "Los Angeles, CA",
+        "series_id": "LXXRSA",
+        "latest_value": 440.31436224925005,
+        "yoy_change": 1.03
+    },
+    {
+        "city": "Miami, FL",
+        "series_id": "MIXRSA",
+        "latest_value": 440.0731711543,
+        "yoy_change": 0.53
+    },
+    {
+        "city": "Minneapolis, MN",
+        "series_id": "MNXRSA",
+        "latest_value": 243.41289430944198,
+        "yoy_change": 2.46
+    },
+    {
+        "city": "New York, NY",
+        "series_id": "NYXRSA",
+        "latest_value": 331.134271212219,
+        "yoy_change": 7.32
+    },
+    {
+        "city": "Phoenix, AZ",
+        "series_id": "PHXRSA",
+        "latest_value": 327.88834117027,
+        "yoy_change": 0.9
+    },
+    {
+        "city": "Portland, OR",
+        "series_id": "POXRSA",
+        "latest_value": 330.004526196968,
+        "yoy_change": 1.24
+    },
+    {
+        "city": "San Diego, CA",
+        "series_id": "SDXRSA",
+        "latest_value": 435.789798097678,
+        "yoy_change": 0.29
+    },
+    {
+        "city": "San Francisco, CA",
+        "series_id": "SFXRSA",
+        "latest_value": 351.349240699344,
+        "yoy_change": -0.72
+    },
+    {
+        "city": "Seattle, WA",
+        "series_id": "SEXRSA",
+        "latest_value": 388.81662485437204,
+        "yoy_change": 1.79
+    },
+    {
+        "city": "Tampa, FL",
+        "series_id": "TPXRSA",
+        "latest_value": 374.824242639955,
+        "yoy_change": -2.48
+    },
+    {
+        "city": "Washington, D.C.",
+        "series_id": "WDXRSA",
+        "latest_value": 334.392160922835,
+        "yoy_change": 3.27
+    }
+]
