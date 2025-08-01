@@ -11,9 +11,10 @@ const FRED_BASE_URL = "https://api.stlouisfed.org/fred/series/observations";
 const regions = ['aus', 'bay', 'car', 'den', 'sac', 'sca', 'TTLC'];
 let map;
 let fredChartsMarker = null; // To hold the FRED charts Mapbox Marker instance
-let metroOverviewMarker = null; // NEW: To hold the metro overview Mapbox Marker instance
-let pinwheelMarkers = []; // NEW: To hold pinwheel markers for easy removal
-let gdpMarkers = []; // NEW: To hold GDP markers for easy removal
+let metroOverviewMarker = null; // To hold the metro overview Mapbox Marker instance
+let pinwheelMarkers = []; // To hold pinwheel markers for easy removal
+let gdpMarkers = []; // To hold GDP markers for easy removal
+let caseShillerMarkers = []; // NEW: To hold Case-Shiller markers for easy removal
 
 // --- Start: NEW CODE FOR SLIDE MENUS ---
 // Function to toggle the visibility of a panel
@@ -43,8 +44,11 @@ function togglePanel(panelId) {
 
 async function loadRegion(region) {
     document.getElementById('toggle-communities').checked = false;
+    document.getElementById('toggle-income').checked = false;
     document.getElementById('toggle-lit').checked = false;
-    document.getElementById('toggle-income').checked = false;//--added for consistency
+    document.getElementById('toggle-pinwheels').checked = false;
+    document.getElementById('toggle-gdp').checked = false;
+    document.getElementById('toggle-case-shiller').checked = true; // NEW: Default Case-Shiller to on
 
     if (map && map.getStyle && map.getStyle().layers) {
         map.getStyle().layers.forEach(layer => {
@@ -64,21 +68,17 @@ async function loadRegion(region) {
         }
     }
 
-    // FIX: Remove existing metro overview marker when loading a new region
+    // FIX: Remove existing markers when loading a new region
     if (metroOverviewMarker) {
         metroOverviewMarker.remove();
         metroOverviewMarker = null;
     }
-
-    // FIX: Remove existing pinwheel and GDP markers when loading a new region
-    if (pinwheelMarkers.length > 0) {
-        pinwheelMarkers.forEach(marker => marker.remove());
-        pinwheelMarkers = [];
-    }
-    if (gdpMarkers.length > 0) {
-        gdpMarkers.forEach(marker => marker.remove());
-        gdpMarkers = [];
-    }
+    pinwheelMarkers.forEach(marker => marker.remove());
+    pinwheelMarkers = [];
+    gdpMarkers.forEach(marker => marker.remove());
+    gdpMarkers = [];
+    caseShillerMarkers.forEach(marker => marker.remove()); // NEW: Remove Case-Shiller markers
+    caseShillerMarkers = [];
 
     try {
         const configResponse = await fetch(`data/${region}/config.json`);
@@ -100,7 +100,7 @@ async function loadRegion(region) {
                 await fetchMetroOverviewAndDisplay(map, region, finalMapCenter);
             }
             
-            // FIX: Re-run pinwheel and GDP logic after map moves
+            // FIX: Re-run marker logic after map moves
             // This ensures markers appear in the right place after the flyTo
             // And also allows them to be turned on/off by the new switches
             if (document.getElementById('toggle-pinwheels').checked) {
@@ -108,6 +108,9 @@ async function loadRegion(region) {
             }
             if (document.getElementById('toggle-gdp').checked) {
                 addStaticRegionStats(map);
+            }
+            if (document.getElementById('toggle-case-shiller').checked) { // NEW: Check for Case-Shiller toggle
+                addCaseShillerMarkers();
             }
         };
 
@@ -161,6 +164,16 @@ async function loadRegion(region) {
                         gdpMarkers = [];
                     }
                 });
+                
+                // NEW: Add event listener for the Case-Shiller toggle
+                document.getElementById('toggle-case-shiller').addEventListener('change', () => {
+                    if (document.getElementById('toggle-case-shiller').checked) {
+                        addCaseShillerMarkers();
+                    } else {
+                        caseShillerMarkers.forEach(marker => marker.remove());
+                        caseShillerMarkers = [];
+                    }
+                });
             });
 
         } else {
@@ -173,411 +186,12 @@ async function loadRegion(region) {
             });
             console.log('Switched to region:', region);
             loadRegionData(region, config);
-            
-            // FIX: Clear markers immediately on region switch
-            if (pinwheelMarkers.length > 0) {
-                pinwheelMarkers.forEach(marker => marker.remove());
-                pinwheelMarkers = [];
-            }
-            if (gdpMarkers.length > 0) {
-                gdpMarkers.forEach(marker => marker.remove());
-                gdpMarkers = [];
-            }
         }
 
     } catch (error) {
         console.error('Failed to load region:', error);
     }
 }
-
-// FIX: New function to handle adding pinwheels
-async function addPinwheels() {
-    fetch('data/pinwheels.geojson')
-        .then(res => res.json())
-        .then(data => {
-            // Clear existing markers before adding new ones
-            pinwheelMarkers.forEach(marker => marker.remove());
-            pinwheelMarkers = [];
-
-            data.features.forEach(feature => {
-                const values = feature.properties.values;
-                const svg = createPinwheelSVG(values);
-                const average = (values.reduce((sum, val) => sum + val, 0) / values.length).toFixed(0);
-                const tooltipText = `
-                    <b>${feature.properties.msa}</b><br>
-                    Permits per 100k households:<br>
-                    2019: <b>${values[0]}</b><br>
-                    2020: <b>${values[1]}</b><br>
-                    2021: <b>${values[2]}</b><br>
-                    2022: <b>${values[3]}</b><br>
-                    2023: <b>${values[4]}</b><br>
-                    2024: <b>${values[5]}</b><br>
-                    <em>Average (6 yrs): ${average}<br></em>
-                    <span class="tooltip-source-url">census.gov/construction/bps/msamonthly.html</span>
-                `;
-
-                const el = document.createElement('div');
-                el.className = 'pinwheel-marker';
-                el.innerHTML = `
-                    <div class="tooltip" style="position: relative; width: 60px; height: 60px;">
-                        ${svg}
-                        <div class="tooltiptext">${tooltipText}</div>
-                    </div>
-                `;
-
-                el.style.width = '60px';
-                el.style.height = '60px';
-
-                const newMarker = new mapboxgl.Marker(el)
-                    .setLngLat(feature.geometry.coordinates)
-                    .addTo(map);
-
-                pinwheelMarkers.push(newMarker);
-            });
-        });
-}
-
-// Your existing createPinwheelSVG function
-function createPinwheelSVG(values) {
-    const numSlices = values.length;
-    const center = 30;
-    const radius = 30;
-    const maxValue = 2405; //Austin 2021 max
-    const anglePerSlice = (2 * Math.PI) / numSlices;
-
-    let paths = '';
-    for (let i = 0; i < numSlices; i++) {
-        const value = values[i];
-        const scaledRatio = Math.pow(value / maxValue, 0.6); // Lift lower values
-        const r = radius * scaledRatio;
-
-        const angle1 = anglePerSlice * i;
-        const angle2 = angle1 + anglePerSlice;
-
-        const x1 = center + r * Math.cos(angle1);
-        const y1 = center + r * Math.sin(angle1);
-        const x2 = center + r * Math.cos(angle2);
-        const y2 = center + r * Math.sin(angle2);
-        const opacities = [0.2, 0.35, 0.5, 0.65, 0.8, 1]; // 2019 → 2024
-        paths += `<path d="M${center},${center} L${x1},${y1} A${r},${r} 0 0,1 ${x2},${y2} Z" fill="rgba(254, 196, 79, ${opacities[i]})" stroke="black" stroke-width="0.5"/>`;
-    }
-    return `<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">${paths}</svg>`;
-}
-
-// --- Start: NEW CODE FOR SPARKLINE SVG HELPER ---
-function createSparklineSVG(values) {
-    if (!values || values.length < 2) return '';
-
-    const width = 180; // Width of the SVG
-    const height = 30; // Height of the SVG
-    const padding = 5;
-
-    const minVal = Math.min(...values);
-    const maxVal = Math.max(...values);
-
-    const xScale = (index) => (index / (values.length - 1)) * (width - 2 * padding) + padding;
-    const yScale = (value) => {
-        if (maxVal === minVal) return height / 2;
-        return height - ((value - minVal) / (maxVal - minVal)) * (height - 2 * padding) - padding;
-    };
-
-    let pathD = values.map((val, i) => {
-        const x = xScale(i);
-        const y = yScale(val);
-        return `${i === 0 ? 'M' : 'L'}${x},${y}`;
-    }).join(' ');
-
-    let circles = values.map((val, i) => {
-        const x = xScale(i);
-        const y = yScale(val);
-        // Only draw dots for the first and last point
-        if (i === 0 || i === values.length - 1) {
-            return `<circle class="fred-sparkline-dot" cx="${x}" cy="${y}" r="3"></circle>`;
-        }
-        return '';
-    }).join('');
-
-    return `
-        <svg class="fred-sparkline-svg" viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">
-            <path class="fred-sparkline-line" d="${pathD}"/>
-            ${circles}
-        </svg>
-    `;
-}
-// --- End: NEW CODE FOR SPARKLINE SVG HELPER ---
-
-// --- NEW/CORRECTED: Function to add existing static regional stats ---
-async function addStaticRegionStats(map) { // Made the function async
-    try {
-        // Fetch data from the local JSON file
-        const response = await fetch('data/static_region_stats.json');
-        if (!response.ok) {
-            throw new Error(`Failed to load static_region_stats.json: ${response.statusText}`);
-        }
-        const stats = await response.json(); // Parse the JSON data
-
-        // Clear existing GDP markers
-        gdpMarkers.forEach(marker => marker.remove());
-        gdpMarkers = [];
-
-        stats.forEach(stat => {
-            const el = document.createElement('div');
-            el.className = 'region-stat-box';
-            el.innerHTML = `
-                <strong>${stat.name}</strong><br>
-                Total GDP: ${stat.gdpTotal}<br>
-                Output per worker: ${stat.outputPerWorker}
-                <div class="tooltip">ⓘ
-                    <span class="tooltiptext">
-                        GDP: BEA 2022 • Labor Force: BLS (LAUS) 2022<br>
-                        GDP per worker (25–54) = GDP ÷ est. workers<br>
-                        Workers = labor force × % 25–54<br>
-                        Estimates are approximate.
-                    </span>
-                </div>
-            `;
-
-            const newMarker = new mapboxgl.Marker(el)
-                .setLngLat([stat.lng, stat.lat])
-                .addTo(map);
-
-            gdpMarkers.push(newMarker);
-        });
-    } catch (error) {
-        console.error(`Error loading static region stats:`, error);
-        // Optionally display a small error message on the map if it fails
-        const errorDiv = document.createElement('div');
-        errorDiv.className = 'region-stat-box'; // Reuse existing styling
-        errorDiv.style.cssText = 'background: rgba(255, 255, 255, 0.95); padding: 10px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 180px; text-align: center; color: red; font-family: Lato, sans-serif;';
-        errorDiv.innerHTML = `<div>Error loading Regional Stats.</div><div>${error.message}</div>`;
-
-        new mapboxgl.Marker(errorDiv)
-            .setLngLat([-90, 45]) // Place error message in a visible, but arbitrary, spot
-            .addTo(map);
-    }
-}
-
-// --- End NEW/CORRECTED ---
-
-
-// --- Start: MODIFIED CODE FOR FRED CHARTS (from local JSON) ---
-async function fetchFredDataAndRenderCharts(mapInstance) {
-    try {
-        const response = await fetch('data/TTLC/fred_charts_data.json?t=${Date.now()}');
-        if (!response.ok) {
-            throw new Error(`Failed to load local FRED data: ${response.statusText}`);
-        }
-        const results = await response.json();
-
-        // Create the main container div once
-        const containerDiv = document.createElement('div');
-        containerDiv.id = 'fred-charts-container';
-        containerDiv.style.display = 'none'; // Initially hidden
-        // The click event listener for the whole container should remain,
-        // but individual 'i' clicks will stop propagation.
-        containerDiv.addEventListener('click', function(event) {
-            // Only hide the container if the click didn't originate from an 'info-icon' or its tooltip
-            // This ensures clicking the 'i' or the tooltip doesn't hide the whole chart
-            if (!event.target.closest('.info-icon') && !event.target.closest('.fred-tooltip')) {
-                containerDiv.style.display = 'none';
-            }
-        });
-
-        // Use a DocumentFragment to build up chart items efficiently
-        const fragment = document.createDocumentFragment();
-
-        results.forEach(res => {
-            const fredChartItem = document.createElement('div');
-            fredChartItem.className = 'fred-chart-item';
-
-            if (res.error) {
-                fredChartItem.innerHTML = `
-                    <div class="fred-chart-label">${res.label}</div>
-                    <div style="color: red; font-size: 11px;">Error: ${res.error}</div>
-                `;
-                fragment.appendChild(fredChartItem);
-                return;
-            }
-
-            const change = res.latestValue - res.previousValue;
-            let arrowHtml = '';
-            let arrowClass = 'no-change';
-
-            if (change > 0) {
-                arrowHtml = '▲';
-                arrowClass = 'positive';
-            } else if (change < 0) {
-                arrowHtml = '▼';
-                arrowClass = 'negative';
-            } else {
-                arrowHtml = '•'; // Dot for no change
-            }
-
-            let displayValue = res.latestValue;
-            let unitSuffix = res.unit;
-
-            if (unitSuffix === 'K' && displayValue >= 1000) {
-                displayValue = displayValue / 1000;
-                unitSuffix = 'M';
-                formattedLatestValue = displayValue.toLocaleString(undefined, {
-                    minimumFractionDigits: 1,
-                    maximumFractionDigits: 1
-                });
-            } else {
-                formattedLatestValue = displayValue.toLocaleString(undefined, {
-                    minimumFractionDigits: res.decimals,
-                    maximumFractionDigits: res.decimals
-                });
-            }
-
-            formattedLatestValue += unitSuffix;
-
-            const sparklineSvg = createSparklineSVG(res.sparklineValues);
-
-            // Create the individual chart item HTML structure
-            fredChartItem.innerHTML = `
-                <div class="fred-chart-label">${res.label}</div>
-                <div class="fred-value-row">
-                    <span class="fred-current-value">${formattedLatestValue}</span>
-                    <span class="fred-change-arrow ${arrowClass}">${arrowHtml}</span> MoM
-                </div>
-                <div class="fred-chart-info">Last 6 Months (MoM Change)</div>
-                <div class="fred-sparkline-wrapper">
-                    ${sparklineSvg}
-                    <div class="info-icon">ⓘ</div>
-                    <div class="fred-tooltip" style="display: none;">${res.context_info || 'No context available.'}</div>
-                </div>
-            `;
-
-            // Add event listener to the info icon *after* it's been created in the DOM
-            // This requires appending to fragment first, then querying within the fragment's context
-            // or better, find the element after appending to the main container.
-            // For now, let's create the element directly and append.
-
-            const infoIcon = fredChartItem.querySelector('.info-icon');
-            const fredTooltip = fredChartItem.querySelector('.fred-tooltip');
-
-            if (infoIcon && fredTooltip) {
-                infoIcon.addEventListener('click', function(event) {
-                    event.stopPropagation(); // Crucial: Prevent the container from hiding
-                    // Hide any other open tooltips
-                    document.querySelectorAll('.fred-tooltip').forEach(tip => {
-                        if (tip !== fredTooltip) {
-                            tip.style.display = 'none';
-                        }
-                    });
-                    // Toggle visibility of the current tooltip
-                    fredTooltip.style.display = fredTooltip.style.display === 'none' ? 'block' : 'none';
-                });
-            }
-
-            fragment.appendChild(fredChartItem);
-        });
-
-        // Clear existing content and append the fragment to the containerDiv
-        containerDiv.innerHTML = ''; // Clear any previous content from error state, etc.
-        containerDiv.appendChild(fragment);
-
-        // Remove existing FRED charts marker if it exists before adding a new one
-        if (fredChartsMarker) {
-            fredChartsMarker.remove();
-            fredChartsMarker = null;
-        }
-
-        const centerUS = [-98.5795, 39.8283];
-
-        fredChartsMarker = new mapboxgl.Marker(containerDiv)
-            .setLngLat(centerUS)
-            .addTo(mapInstance);
-
-        fredChartsMarker.getElement().style.display = 'none'; // Initially hidden
-    } catch (error) {
-        console.error(`Error fetching FRED data from local JSON:`, error);
-        if (fredChartsMarker) {
-            fredChartsMarker.remove();
-            fredChartsMarker = null;
-        }
-        const errorDiv = document.createElement('div');
-        errorDiv.id = 'fred-charts-container';
-        errorDiv.style.cssText = 'background: rgba(255, 255, 255, 0.95); padding: 10px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 200px; text-align: center; color: red; font-family: Lato, sans-serif;';
-        errorDiv.innerHTML = `<div>Error loading FRED charts.</div><div>${error.message}</div>`;
-
-        fredChartsMarker = new mapboxgl.Marker(errorDiv)
-            .setLngLat([-98.5795, 39.8283])
-            .addTo(mapInstance);
-
-        fredChartsMarker.getElement().style.display = 'flex';
-    }
-}
-// --- End NEW/CORRECTED ---
-
-// NEW: Function to fetch and display metro overview
-async function fetchMetroOverviewAndDisplay(mapInstance, regionCode, centerCoords) {
-    try {
-        // Remove existing metro overview marker if it exists
-        if (metroOverviewMarker) {
-            metroOverviewMarker.remove();
-            metroOverviewMarker = null;
-        }
-
-        const response = await fetch(`data/${regionCode}/metro_overview_${regionCode}.json?t=${Date.now()}`);
-        if (!response.ok) {
-            throw new Error(`Failed to load metro overview data for ${regionCode}: ${response.statusText}`);
-        }
-        const overviewData = await response.json();
-
-        const overviewDiv = document.createElement('div');
-        overviewDiv.id = 'metro-overview-flash';
-        overviewDiv.className = 'metro-overview-flash'; // Apply common styling class
-        
-        // Populate with data
-        overviewDiv.innerHTML = `
-            <h2>${overviewData.marketName} Metro Area</h2>
-            <p><strong>Total Builders:</strong> ${overviewData.totalBuilders}</p>
-            <p><strong>Total Communities:</strong> ${overviewData.totalCommunities}</p>
-            <p><strong>Average Home Price:</strong> ${overviewData.avgPrice}</p>
-            <p><strong>Average Square Footage:</strong> ${overviewData.avgSF}</p>
-            <small>Click anywhere to dismiss</small>
-        `;
-
-        // Add click listener to dismiss the flash-up
-        overviewDiv.addEventListener('click', function() {
-            overviewDiv.style.display = 'none'; // Hide on click
-        });
-
-        // Determine coordinates for the marker
-        let markerCoords = centerCoords; // Default to region's initial center
-        if (regionCode === 'bay') {
-            // Specific coordinates for San Francisco City Hall
-            // NOTE: Longitude comes first in Mapbox GL JS
-            markerCoords = [-122.419167, 37.779167];
-        }
-
-        // Create a Mapbox Marker for the overview
-        metroOverviewMarker = new mapboxgl.Marker(overviewDiv)
-            .setLngLat(markerCoords) // Use determined coordinates
-            .addTo(mapInstance);
-
-        // Initially show it
-        overviewDiv.style.display = 'block';
-
-    } catch (error) {
-        console.error(`Error fetching metro overview for ${regionCode}:`, error);
-        // Optionally display a small error message on the map if it fails
-        const errorDiv = document.createElement('div');
-        errorDiv.className = 'metro-overview-flash-error'; // A specific error style
-        errorDiv.innerHTML = `<div>Error loading Metro Overview for ${regionCode}.</div><div>${error.message}</div>`;
-        
-        if (metroOverviewMarker) {
-            metroOverviewMarker.remove(); // Remove any previous partial marker
-        }
-        metroOverviewMarker = new mapboxgl.Marker(errorDiv)
-            .setLngLat(centerCoords) // Fallback to centerCoords for error display
-            .addTo(mapInstance);
-        metroOverviewMarker.getElement().style.display = 'block';
-    }
-}
-
 
 // FIX: New function to handle adding pinwheels
 async function addPinwheels() {
