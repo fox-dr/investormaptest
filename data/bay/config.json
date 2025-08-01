@@ -6,10 +6,8 @@
     "communities_bay": "communities_bay.geojson",
     "portfolio_bay": "portfolio_bay.geojson",
     "amenities_bay": "amenities_bay.geojson",
-    "dns_commute_corridors_bay": "commute_corridors_bay.geojson",
     "income_mln_bay": "income_mln_bay.geojson",
     "evm_bay": "evm_bay.geojson",
-    "dns_resales_bay": "resales_bay.geojson",
     "entitlement_bay": "entitlement_bay.geojson",
     "lit_bay": "lit_bay.geojson"
    
@@ -18,10 +16,8 @@
     "communities_bay": true,
     "portfolio_bay": true,
     "amenities_bay": true,
-    "dns_commute_corridors_bay": true,
     "income_mln_bay": false,
     "evm_bay": true,
-    "dns_resales_bay": true,
     "entitlement_bay": true,
     "lit_bay.geojson": true
     
