@@ -102,7 +102,6 @@ async function loadRegion(region) {
             
             // FIX: Re-run marker logic after map moves
             // This ensures markers appear in the right place after the flyTo
-            // And also allows them to be turned on/off by the new switches
             if (document.getElementById('toggle-pinwheels').checked) {
                 addPinwheels();
             }
