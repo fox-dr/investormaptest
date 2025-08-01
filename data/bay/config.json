@@ -11,8 +11,8 @@
     "evm_bay": "evm_bay.geojson",
     "dns_resales_bay": "resales_bay.geojson",
     "entitlement_bay": "entitlement_bay.geojson",
-    "lit_bay": "lit_bay.geojson",
-    "sample_lot_markers": "sample_lot_markers.geojson"
+    "lit_bay": "lit_bay.geojson"
+   
   },
   "layerVisibility": {
     "communities_bay": true,
@@ -23,7 +23,7 @@
     "evm_bay": true,
     "dns_resales_bay": true,
     "entitlement_bay": true,
-    "lit_bay.geojson": true,
-    "sample_lot_markers": true
+    "lit_bay.geojson": true
+    
   }
 }
