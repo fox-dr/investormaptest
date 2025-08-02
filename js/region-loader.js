@@ -4,6 +4,7 @@ import { pinwheelMarkers } from './pinwheelLayer.js';
 import { gdpMarkers } from './regionStats.js';
 // Import the FRED charts marker
 import { fredChartsMarker } from './fredCharts.js';
+import { fetchMetroOverviewAndDisplay } from './metroOverview.js';
 
 // The function to get the region from the URL, exported once.
 export function getRegionCode() {
@@ -31,54 +32,73 @@ export async function loadRegionConfig(region) {
     }
 }
 
+// This is the function that handles all the logic that runs *after* a map move
+async function handlePostMove(map, region) {
+    console.log("Map moveend event triggered.");
+    const centerCoords = map.getCenter().toArray();
+    
+    // Toggling checkboxes off
+    document.getElementById('toggle-communities').checked = false;
+    document.getElementById('toggle-lit').checked = false;
+    document.getElementById('toggle-income').checked = false;
+
+    if (map && map.getStyle && map.getStyle().layers) {
+        map.getStyle().layers.forEach(layer => {
+            if (layer.id.startsWith('lit_')) {
+                map.setLayoutProperty(layer.id, 'visibility', 'none');
+            }
+        });
+    }
+
+    // If the FRED charts marker already exists, control its display based on the selected region
+    if (fredChartsMarker) {
+        const fredChartsElement = fredChartsMarker.getElement();
+        if (region === 'TTLC') {
+            fredChartsElement.style.display = 'flex'; // Show for TTLC
+        } else {
+            fredChartsElement.style.display = 'none'; // Hide for other regions
+        }
+    }
+    
+    if (document.getElementById('toggle-pinwheels').checked) {
+        addPinwheels(map);
+    }
+
+    if (document.getElementById('toggle-gdp').checked) {
+        addStaticRegionStats(map);
+    }
+    
+    // Call the metro overview function, which still needs to be modularized
+    if (region !== 'TTLC') {
+        await fetchMetroOverviewAndDisplay(map, region, centerCoords);
+    }
+}
+
 // The one, true function to load a region.
-// This function now takes 'map' as a parameter to use the map instance.
 export async function loadRegion(map, region) {
     console.log(`Loading region: ${region}`);
     
-    // Clear existing pinwheel markers
+    // Clear existing pinwheel markers and GDP markers
     pinwheelMarkers.forEach(marker => marker.remove());
     pinwheelMarkers.length = 0;
-
-    // Clear existing GDP markers
     gdpMarkers.forEach(marker => marker.remove());
     gdpMarkers.length = 0;
-   
-    // Get the region configuration from our new, exported function
-    const config = await loadRegionConfig(region);
-
-    if (config) {
-        // Fly the map to the new region's center and zoom level
-        map.flyTo({ center: config.center, zoom: config.zoom });
-        // --- YOUR ORIGINAL loadRegion LOGIC ---
-        // Toggling checkboxes off
-        document.getElementById('toggle-communities').checked = false;
-        document.getElementById('toggle-lit').checked = false;
-        document.getElementById('toggle-income').checked = false;
     
-        if (map && map.getStyle && map.getStyle().layers) {
-            map.getStyle().layers.forEach(layer => {
-                if (layer.id.startsWith('lit_')) {
-                    map.setLayoutProperty(layer.id, 'visibility', 'none');
-                }
-            });
-        }    
-
-        // If the FRED charts marker already exists, control its display based on the selected region
-        if (fredChartsMarker) {
-            const fredChartsElement = fredChartsMarker.getElement();
-            if (region === 'TTLC') {
-                fredChartsElement.style.display = 'flex'; // Show for TTLC
-            } else {
-                fredChartsElement.style.display = 'none'; // Hide for other regions
-            }
+    const config = await loadRegionConfig(region);
+    
+    if (config) {
+        // Determine the final destination coordinates for the map animation.
+        let finalMapCenter = config.initialCenter;
+        if (region === 'bay') {
+            finalMapCenter = [-122.419167, 37.779167];
         }
+        
+        // Use a map.once event listener to fire our logic after the map animation is finished
+        map.once('moveend', () => {
+            handlePostMove(map, region);
+        });
 
-        // FIX: Remove existing metro overview marker when loading a new region
-        if (metroOverviewMarker) { // Note: metroOverviewMarker is still undefined at this point
-            metroOverviewMarker.remove();
-            metroOverviewMarker = null;
-        }
+        // Fly the map to the new region's center and zoom level
+        map.flyTo({ center: finalMapCenter, zoom: config.initialZoom });
     }
-
 }
