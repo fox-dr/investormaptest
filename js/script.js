@@ -7,6 +7,7 @@ import { createSparklineSVG } from './sparkline.js';
 import { addStaticRegionStats, gdpMarkers } from './regionStats.js';
 import { fetchFredDataAndRenderCharts, fredChartsMarker } from './fredCharts.js';
 import { fetchMetroOverviewAndDisplay } from './metroOverview.js';
+import { setupLayerToggles } from './layerToggles.js';
 
 // ... all your other massive code ...
 // --- NEW/CORRECTED: FRED API constants (needed by fetchFredDataAndRenderCharts) ---
@@ -156,7 +157,7 @@ async function loadRegion(region) {
                         }
                     });
                 });
-
+                
                 loadRegionData(region, config);
                 await fetchFredDataAndRenderCharts(map);
                 // --- case-shiller cities ---
@@ -182,6 +183,8 @@ async function loadRegion(region) {
                         gdpMarkers = [];
                     }
                 });
+                // This is the call to set up your toggle switches
+                setupLayerToggles(map, config);
             });
 
         } else {
