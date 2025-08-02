@@ -28,7 +28,7 @@ function createPinwheelSVG(values) {
 }
 
 // The main function that adds the markers, now exported
-export function addPinwheels() {
+export function addPinwheels(map) {
     // Note: The fetch URL is correct if your `data` folder is in the root directory.
     fetch('data/pinwheels.geojson')
         .then(res => res.json())
