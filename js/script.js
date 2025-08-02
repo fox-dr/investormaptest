@@ -17,7 +17,7 @@ const regions = ['aus', 'bay', 'car', 'den', 'sac', 'sca', 'TTLC'];
 let map;
 let fredChartsMarker = null; // To hold the FRED charts Mapbox Marker instance
 let metroOverviewMarker = null; // NEW: To hold the metro overview Mapbox Marker instance
-let pinwheelMarkers = []; // NEW: To hold pinwheel markers for easy removal
+//let pinwheelMarkers = []; // NEW: To hold pinwheel markers for easy removal
 let gdpMarkers = []; // NEW: To hold GDP markers for easy removal
 
 // --- Start: NEW CODE FOR SLIDE MENUS ---
