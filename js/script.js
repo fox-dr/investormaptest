@@ -272,38 +272,6 @@ async function loadRegionData(region, config) {
                     });
                 }
 
-                document.getElementById('toggle-income').onchange = function() {
-                    const visible = this.checked ? 'visible' : 'none';
-                    Object.keys(config.dataFiles).forEach(layerName => {
-                        if (layerName.startsWith('income_mln') && !layerName.startsWith('dns_')) {
-                            if (map.getLayer(layerName)) {
-                                map.setLayoutProperty(layerName, 'visibility', visible);
-                            }
-                        }
-                    });
-                };
-                document.getElementById('toggle-lit').onchange = function() {
-                    const visible = this.checked ? 'visible' : 'none';
-                    Object.keys(config.dataFiles).forEach(layerName => {
-                        if (layerName.startsWith('lit_') && !layerName.startsWith('dns_')) {
-                            if (map.getLayer(layerName)) {
-                                map.setLayoutProperty(layerName, 'visibility', visible);
-                            }
-                        }
-                    });
-                };
-                //--added communities below
-                document.getElementById('toggle-communities').onchange = function() {
-                    const visible = this.checked ? 'visible' : 'none';
-                    Object.keys(config.dataFiles).forEach(layerName => {
-                        if (layerName.startsWith('communities_') && !layerName.startsWith('dns_')) {
-                            if (map.getLayer(layerName)) {
-                                map.setLayoutProperty(layerName, 'visibility', visible);
-                            }
-                        }
-                    });
-                };
-
                 const firstFeature = geojson.features?.[0];
                 if (!firstFeature) continue;
 
