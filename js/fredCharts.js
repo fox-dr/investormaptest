@@ -54,6 +54,8 @@ export async function fetchFredDataAndRenderCharts(mapInstance) {
             let displayValue = res.latestValue;
             let unitSuffix = res.unit;
 
+            let formattedLatestValue;
+            
             if (unitSuffix === 'K' && displayValue >= 1000) {
                 displayValue = displayValue / 1000;
                 unitSuffix = 'M';
