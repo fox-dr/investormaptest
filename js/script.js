@@ -81,8 +81,19 @@ async function loadRegion(region) {
 
     // FIX: Remove existing pinwheel and GDP markers when loading a new region
     if (pinwheelMarkers.length > 0) {
-        pinwheelMarkers.forEach(marker => marker.remove());
-        pinwheelMarkers = [];
+       // pinwheelMarkers.forEach(marker => marker.remove());
+        //pinwheelMarkers = [];
+                pinwheelMarkers.length = 0;
+    }
+
+    if (gdpMarkers.length > 0) {
+        // Change this:
+        gdpMarkers.forEach(marker => marker.remove());
+        // gdpMarkers = []; // <-- REMOVE THIS LINE
+
+        // To this:
+        gdpMarkers.length = 0;
+    }
     }
     if (gdpMarkers.length > 0) {
         gdpMarkers.forEach(marker => marker.remove());
