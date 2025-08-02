@@ -6,7 +6,9 @@ import { addPinwheels, pinwheelMarkers } from './pinwheelLayer.js';
 import { createSparklineSVG } from './sparkline.js';
 import { addStaticRegionStats, gdpMarkers } from './regionStats.js';
 import { fetchFredDataAndRenderCharts, fredChartsMarker } from './fredCharts.js';
-import { fetchMetroOverviewAndDisplay, metroOverviewMarker } from './metroOverview.js';
+//import { fetchMetroOverviewAndDisplay, metroOverviewMarker } from './metroOverview.js';
+// AFTER (in script.js)
+import { fetchMetroOverviewAndDisplay, metroOverviewPopup } from './metroOverview.js';
 import { setupLayerToggles } from './layerToggles.js';
 import { getRegionCode } from './region-loader.js'; // Assuming getRegionCode is here
 
