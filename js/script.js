@@ -51,51 +51,6 @@ function togglePanel(panelId) {
 }
 // --- End: NEW CODE FOR SLIDE MENUS ---
 
-async function loadRegion(region) {
-    document.getElementById('toggle-communities').checked = false;
-    document.getElementById('toggle-lit').checked = false;
-    document.getElementById('toggle-income').checked = false;//--added for consistency
-
-    if (map && map.getStyle && map.getStyle().layers) {
-        map.getStyle().layers.forEach(layer => {
-            if (layer.id.startsWith('lit_')) {
-                map.setLayoutProperty(layer.id, 'visibility', 'none');
-            }
-        });
-    }
-
-    // If the FRED charts marker already exists, control its display based on the selected region
-    if (fredChartsMarker) {
-        const fredChartsElement = fredChartsMarker.getElement();
-        if (region === 'TTLC') {
-            fredChartsElement.style.display = 'flex'; // Show for TTLC
-        } else {
-            fredChartsElement.style.display = 'none'; // Hide for other regions
-        }
-    }
-
-    // FIX: Remove existing metro overview marker when loading a new region
-    if (metroOverviewMarker) {
-        metroOverviewMarker.remove();
-        metroOverviewMarker = null;
-    }
-
-    // FIX: Remove existing pinwheel and GDP markers when loading a new region
-    if (pinwheelMarkers.length > 0) {
-       // pinwheelMarkers.forEach(marker => marker.remove());
-        //pinwheelMarkers = [];
-                pinwheelMarkers.length = 0;
-    }
-
-    if (gdpMarkers.length > 0) {
-        // Change this:
-        gdpMarkers.forEach(marker => marker.remove());
-        // gdpMarkers = []; // <-- REMOVE THIS LINE
-
-        // To this:
-        gdpMarkers.length = 0;
-    }
-    }
     if (gdpMarkers.length > 0) {
         gdpMarkers.forEach(marker => marker.remove());
         gdpMarkers = [];
