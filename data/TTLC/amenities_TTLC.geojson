@@ -44,6 +44,17 @@
         "name": "The True Life Companies (CAR)",
         "description": "3101 Glenwood Ave, Suite 205 <br>Raleigh, NC 27612"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.1885, 38.6507]
+      },
+      "properties": {
+        "name": "The True Life Companies (SAC)",
+        "description": "110 Blue Ravine Road, Suite 150 <br>Folsom, CA 95630"
+      }
     }
 
   ]
