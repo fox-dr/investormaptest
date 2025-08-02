@@ -49,7 +49,7 @@ function toGeoJSON(data) {
 export async function addCaseShillerLayer(map) {
     try {
         // --- THIS LINE HAS BEEN UPDATED ---
-        const response = await fetch('../data/TTLC/case_shiller_data.json');
+        const response = await fetch('/investormaptest/data/TTLC/case_shiller_data.json');
         
         const rawData = await response.json();
         const caseShillerGeoJSON = toGeoJSON(rawData);
