@@ -43,7 +43,13 @@ export async function loadRegion(map, region) {
     // Clear existing GDP markers
     gdpMarkers.forEach(marker => marker.remove());
     gdpMarkers.length = 0;
-    
+   
+    // Get the region configuration from our new, exported function
+    const config = await loadRegionConfig(region);
+
+    if (config) {
+        // Fly the map to the new region's center and zoom level
+        map.flyTo({ center: config.center, zoom: config.zoom });
     // --- YOUR ORIGINAL loadRegion LOGIC ---
     // Toggling checkboxes off
     document.getElementById('toggle-communities').checked = false;
@@ -73,7 +79,6 @@ export async function loadRegion(map, region) {
         metroOverviewMarker.remove();
         metroOverviewMarker = null;
     }
+}
 
-    // --- REST OF YOUR ORIGINAL loadRegion LOGIC ---
-    // This is where your code for fetching the config, flying the map, etc. should go.
 }
