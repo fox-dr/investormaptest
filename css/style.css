@@ -543,4 +543,12 @@ Here's the updated CSS for your style.css file. I've added new rules for the .me
     max-width: 80vw;
     box-sizing: border-box;
 }
+
+.mapboxgl-popup-content {
+  text-align: center;
+}
+
+.amenities-popup-content {
+    
+}
 /* --- END NEW STYLES --- */
