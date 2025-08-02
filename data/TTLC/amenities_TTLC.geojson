@@ -55,6 +55,17 @@
         "name": "The True Life Companies (SAC)",
         "description": "110 Blue Ravine Road, Suite 150 <br>Folsom, CA 95630"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.8608, 33.6646]
+      },
+      "properties": {
+        "name": "The True Life Companies (SCA)",
+        "description": "4350 Von Karman Ave, Suite 200 <br>Newport Beach, CA 92660"
+      }
     }
 
   ]
