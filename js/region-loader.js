@@ -1,8 +1,9 @@
-// New
 // region-loader.js
 // Import the marker arrays from their respective modules
 import { pinwheelMarkers } from './pinwheelLayer.js';
 import { gdpMarkers } from './regionStats.js';
+// Import the FRED charts marker
+import { fredChartsMarker } from './fredCharts.js';
 
 // The function to get the region from the URL, exported once.
 export function getRegionCode() {
@@ -31,8 +32,8 @@ export async function loadRegionConfig(region) {
 }
 
 // The one, true function to load a region.
-// This is where you need to paste the body of your original loadRegion function.
-export async function loadRegion(region) {
+// This function now takes 'map' as a parameter to use the map instance.
+export async function loadRegion(map, region) {
     console.log(`Loading region: ${region}`);
     
     // Clear existing pinwheel markers
@@ -42,9 +43,37 @@ export async function loadRegion(region) {
     // Clear existing GDP markers
     gdpMarkers.forEach(marker => marker.remove());
     gdpMarkers.length = 0;
+    
+    // --- YOUR ORIGINAL loadRegion LOGIC ---
+    // Toggling checkboxes off
+    document.getElementById('toggle-communities').checked = false;
+    document.getElementById('toggle-lit').checked = false;
+    document.getElementById('toggle-income').checked = false;
 
-    // --- YOUR EXISTING LOAD REGION LOGIC GOES HERE ---
-    // You should paste the body of your best, async loadRegion function here.
-    // This function body likely contains a fetch call for the region config,
-    // a map.flyTo, and other setup logic.
+    if (map && map.getStyle && map.getStyle().layers) {
+        map.getStyle().layers.forEach(layer => {
+            if (layer.id.startsWith('lit_')) {
+                map.setLayoutProperty(layer.id, 'visibility', 'none');
+            }
+        });
+    }
+
+    // If the FRED charts marker already exists, control its display based on the selected region
+    if (fredChartsMarker) {
+        const fredChartsElement = fredChartsMarker.getElement();
+        if (region === 'TTLC') {
+            fredChartsElement.style.display = 'flex'; // Show for TTLC
+        } else {
+            fredChartsElement.style.display = 'none'; // Hide for other regions
+        }
+    }
+
+    // FIX: Remove existing metro overview marker when loading a new region
+    if (metroOverviewMarker) { // Note: metroOverviewMarker is still undefined at this point
+        metroOverviewMarker.remove();
+        metroOverviewMarker = null;
+    }
+
+    // --- REST OF YOUR ORIGINAL loadRegion LOGIC ---
+    // This is where your code for fetching the config, flying the map, etc. should go.
 }
