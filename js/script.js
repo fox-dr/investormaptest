@@ -231,12 +231,6 @@ async function loadRegionData(region, config) {
         }
     });
 
-
-    //--document.getElementById('toggle-income').checked = false; //--possible redundancy
-    //--document.getElementById('toggle-lit').checked = false;//--possible redundancy
-    //--document.getElementById('toggle-communities').checked = false;
-
-
     for (const [layerName, fileName] of Object.entries(config.dataFiles)) {
         if (!layerName.startsWith('dns_')) { // Add this condition
             try {
