@@ -4,6 +4,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
 import { addCaseShillerLayer } from './caseShillerLayer.js';
 import { addPinwheels, pinwheelMarkers } from './pinwheelLayer.js';
 import { createSparklineSVG } from './sparkline.js';
+import { addStaticRegionStats, gdpMarkers } from './regionStats.js';
+import { fetchFredDataAndRenderCharts, fredChartsMarker } from './fredCharts.js';
 
 // ... all your other massive code ...
 // --- NEW/CORRECTED: FRED API constants (needed by fetchFredDataAndRenderCharts) ---
@@ -16,10 +18,10 @@ const FRED_BASE_URL = "https://api.stlouisfed.org/fred/series/observations";
 
 const regions = ['aus', 'bay', 'car', 'den', 'sac', 'sca', 'TTLC'];
 let map;
-let fredChartsMarker = null; // To hold the FRED charts Mapbox Marker instance
+//let fredChartsMarker = null; // To hold the FRED charts Mapbox Marker instance
 let metroOverviewMarker = null; // NEW: To hold the metro overview Mapbox Marker instance
 //let pinwheelMarkers = []; // NEW: To hold pinwheel markers for easy removal
-let gdpMarkers = []; // NEW: To hold GDP markers for easy removal
+//let gdpMarkers = []; // NEW: To hold GDP markers for easy removal
 
 // --- Start: NEW CODE FOR SLIDE MENUS ---
 // Function to toggle the visibility of a panel
@@ -314,208 +316,208 @@ async function loadRegion(region) {
 // --- End: NEW CODE FOR SPARKLINE SVG HELPER ---
 
 // --- NEW/CORRECTED: Function to add existing static regional stats ---
-async function addStaticRegionStats(map) { // Made the function async
-    try {
+//async function addStaticRegionStats(map) { // Made the function async
+  //  try {
         // Fetch data from the local JSON file
-        const response = await fetch('data/static_region_stats.json');
-        if (!response.ok) {
-            throw new Error(`Failed to load static_region_stats.json: ${response.statusText}`);
-        }
-        const stats = await response.json(); // Parse the JSON data
+    //    const response = await fetch('data/static_region_stats.json');
+      //  if (!response.ok) {
+        //    throw new Error(`Failed to load static_region_stats.json: ${response.statusText}`);
+        //}
+        //const stats = await response.json(); // Parse the JSON data
 
         // Clear existing GDP markers
-        gdpMarkers.forEach(marker => marker.remove());
-        gdpMarkers = [];
+        //gdpMarkers.forEach(marker => marker.remove());
+        //gdpMarkers = [];
 
-        stats.forEach(stat => {
-            const el = document.createElement('div');
-            el.className = 'region-stat-box';
-            el.innerHTML = `
-                <strong>${stat.name}</strong><br>
-                Total GDP: ${stat.gdpTotal}<br>
-                Output per worker: ${stat.outputPerWorker}
-                <div class="tooltip">ⓘ
-                    <span class="tooltiptext">
-                        GDP: BEA 2022 • Labor Force: BLS (LAUS) 2022<br>
-                        GDP per worker (25–54) = GDP ÷ est. workers<br>
-                        Workers = labor force × % 25–54<br>
-                        Estimates are approximate.
-                    </span>
-                </div>
-            `;
+        //stats.forEach(stat => {
+          //  const el = document.createElement('div');
+            //el.className = 'region-stat-box';
+            //el.innerHTML = `
+              //  <strong>${stat.name}</strong><br>
+               // Total GDP: ${stat.gdpTotal}<br>
+               // Output per worker: ${stat.outputPerWorker}
+                //<div class="tooltip">ⓘ
+                  //  <span class="tooltiptext">
+                    //    GDP: BEA 2022 • Labor Force: BLS (LAUS) 2022<br>
+                      //  GDP per worker (25–54) = GDP ÷ est. workers<br>
+                        //Workers = labor force × % 25–54<br>
+                        //Estimates are approximate.
+                    //</span>
+               // </div>
+           // `;
 
-            const newMarker = new mapboxgl.Marker(el)
-                .setLngLat([stat.lng, stat.lat])
-                .addTo(map);
+            //const newMarker = new mapboxgl.Marker(el)
+              //  .setLngLat([stat.lng, stat.lat])
+                //.addTo(map);
 
-            gdpMarkers.push(newMarker);
-        });
-    } catch (error) {
-        console.error(`Error loading static region stats:`, error);
+            //gdpMarkers.push(newMarker);
+        //});
+    //} catch (error) {
+      //  console.error(`Error loading static region stats:`, error);
         // Optionally display a small error message on the map if it fails
-        const errorDiv = document.createElement('div');
-        errorDiv.className = 'region-stat-box'; // Reuse existing styling
-        errorDiv.style.cssText = 'background: rgba(255, 255, 255, 0.95); padding: 10px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 180px; text-align: center; color: red; font-family: Lato, sans-serif;';
-        errorDiv.innerHTML = `<div>Error loading Regional Stats.</div><div>${error.message}</div>`;
+        //const errorDiv = document.createElement('div');
+        //errorDiv.className = 'region-stat-box'; // Reuse existing styling
+        //errorDiv.style.cssText = 'background: rgba(255, 255, 255, 0.95); padding: 10px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 180px; text-align: center; color: red; font-family: Lato, sans-serif;';
+        //errorDiv.innerHTML = `<div>Error loading Regional Stats.</div><div>${error.message}</div>`;
 
-        new mapboxgl.Marker(errorDiv)
-            .setLngLat([-90, 45]) // Place error message in a visible, but arbitrary, spot
-            .addTo(map);
-    }
-}
+        //new mapboxgl.Marker(errorDiv)
+          //  .setLngLat([-90, 45]) // Place error message in a visible, but arbitrary, spot
+            //.addTo(map);
+  //  }
+//}
 
 // --- End NEW/CORRECTED ---
 
 
 // --- Start: MODIFIED CODE FOR FRED CHARTS (from local JSON) ---
-async function fetchFredDataAndRenderCharts(mapInstance) {
-    try {
-        const response = await fetch('data/TTLC/fred_charts_data.json?t=${Date.now()}');
-        if (!response.ok) {
-            throw new Error(`Failed to load local FRED data: ${response.statusText}`);
-        }
-        const results = await response.json();
+//async function fetchFredDataAndRenderCharts(mapInstance) {
+  //  try {
+    //    const response = await fetch('data/TTLC/fred_charts_data.json?t=${Date.now()}');
+      //  if (!response.ok) {
+        //    throw new Error(`Failed to load local FRED data: ${response.statusText}`);
+       // }
+       // const results = await response.json();
 
         // Create the main container div once
-        const containerDiv = document.createElement('div');
-        containerDiv.id = 'fred-charts-container';
-        containerDiv.style.display = 'none'; // Initially hidden
+        //const containerDiv = document.createElement('div');
+        //containerDiv.id = 'fred-charts-container';
+        //containerDiv.style.display = 'none'; // Initially hidden
         // The click event listener for the whole container should remain,
         // but individual 'i' clicks will stop propagation.
-        containerDiv.addEventListener('click', function(event) {
+        //containerDiv.addEventListener('click', function(event) {
             // Only hide the container if the click didn't originate from an 'info-icon' or its tooltip
             // This ensures clicking the 'i' or the tooltip doesn't hide the whole chart
-            if (!event.target.closest('.info-icon') && !event.target.closest('.fred-tooltip')) {
-                containerDiv.style.display = 'none';
-            }
-        });
+            //if (!event.target.closest('.info-icon') && !event.target.closest('.fred-tooltip')) {
+            //    containerDiv.style.display = 'none';
+          //  }
+        //});
 
         // Use a DocumentFragment to build up chart items efficiently
-        const fragment = document.createDocumentFragment();
+        //const fragment = document.createDocumentFragment();
 
-        results.forEach(res => {
-            const fredChartItem = document.createElement('div');
-            fredChartItem.className = 'fred-chart-item';
+        //results.forEach(res => {
+            //const fredChartItem = document.createElement('div');
+            //fredChartItem.className = 'fred-chart-item';
 
-            if (res.error) {
-                fredChartItem.innerHTML = `
-                    <div class="fred-chart-label">${res.label}</div>
-                    <div style="color: red; font-size: 11px;">Error: ${res.error}</div>
-                `;
-                fragment.appendChild(fredChartItem);
-                return;
-            }
+            //if (res.error) {
+                //fredChartItem.innerHTML = `
+                    //<div class="fred-chart-label">${res.label}</div>
+                  //  <div style="color: red; font-size: 11px;">Error: ${res.error}</div>
+                //`;
+               // fragment.appendChild(fredChartItem);
+              //  return;
+            //}
 
-            const change = res.latestValue - res.previousValue;
-            let arrowHtml = '';
-            let arrowClass = 'no-change';
+            //const change = res.latestValue - res.previousValue;
+            //let arrowHtml = '';
+            //let arrowClass = 'no-change';
 
-            if (change > 0) {
-                arrowHtml = '▲';
-                arrowClass = 'positive';
-            } else if (change < 0) {
-                arrowHtml = '▼';
-                arrowClass = 'negative';
-            } else {
-                arrowHtml = '•'; // Dot for no change
-            }
+            //if (change > 0) {
+                //arrowHtml = '▲';
+              //  arrowClass = 'positive';
+            //} else if (change < 0) {
+          //      arrowHtml = '▼';
+        //        arrowClass = 'negative';
+      //      } else {
+    //            arrowHtml = '•'; // Dot for no change
+  //          }
+//
+    //        let displayValue = res.latestValue;
+  //          let unitSuffix = res.unit;
+//
+            //if (unitSuffix === 'K' && displayValue >= 1000) {
+                //displayValue = displayValue / 1000;
+                //unitSuffix = 'M';
+                //formattedLatestValue = displayValue.toLocaleString(undefined, {
+                  //  minimumFractionDigits: 1,
+                //    maximumFractionDigits: 1
+              //  });
+            //} else {
+                //formattedLatestValue = displayValue.toLocaleString(undefined, {
+                  //  minimumFractionDigits: res.decimals,
+                //    maximumFractionDigits: res.decimals
+              //  });
+            //}
 
-            let displayValue = res.latestValue;
-            let unitSuffix = res.unit;
+            //formattedLatestValue += unitSuffix;
 
-            if (unitSuffix === 'K' && displayValue >= 1000) {
-                displayValue = displayValue / 1000;
-                unitSuffix = 'M';
-                formattedLatestValue = displayValue.toLocaleString(undefined, {
-                    minimumFractionDigits: 1,
-                    maximumFractionDigits: 1
-                });
-            } else {
-                formattedLatestValue = displayValue.toLocaleString(undefined, {
-                    minimumFractionDigits: res.decimals,
-                    maximumFractionDigits: res.decimals
-                });
-            }
-
-            formattedLatestValue += unitSuffix;
-
-            const sparklineSvg = createSparklineSVG(res.sparklineValues);
+            //const sparklineSvg = createSparklineSVG(res.sparklineValues);
 
             // Create the individual chart item HTML structure
-            fredChartItem.innerHTML = `
-                <div class="fred-chart-label">${res.label}</div>
-                <div class="fred-value-row">
-                    <span class="fred-current-value">${formattedLatestValue}</span>
-                    <span class="fred-change-arrow ${arrowClass}">${arrowHtml}</span> MoM
-                </div>
-                <div class="fred-chart-info">Last 6 Months (MoM Change)</div>
-                <div class="fred-sparkline-wrapper">
-                    ${sparklineSvg}
-                    <div class="info-icon">ⓘ</div>
-                    <div class="fred-tooltip" style="display: none;">${res.context_info || 'No context available.'}</div>
-                </div>
-            `;
+            //fredChartItem.innerHTML = `
+                //<div class="fred-chart-label">${res.label}</div>
+                //<div class="fred-value-row">
+                    //<span class="fred-current-value">${formattedLatestValue}</span>
+                  //  <span class="fred-change-arrow ${arrowClass}">${arrowHtml}</span> MoM
+                //</div>
+                //<div class="fred-chart-info">Last 6 Months (MoM Change)</div>
+                //<div class="fred-sparkline-wrapper">
+                  //  ${sparklineSvg}
+                  //  <div class="info-icon">ⓘ</div>
+                //    <div class="fred-tooltip" style="display: none;">${res.context_info || 'No context available.'}</div>
+              //  </div>
+            //`;
 
             // Add event listener to the info icon *after* it's been created in the DOM
             // This requires appending to fragment first, then querying within the fragment's context
             // or better, find the element after appending to the main container.
             // For now, let's create the element directly and append.
 
-            const infoIcon = fredChartItem.querySelector('.info-icon');
-            const fredTooltip = fredChartItem.querySelector('.fred-tooltip');
+            //const infoIcon = fredChartItem.querySelector('.info-icon');
+            //const fredTooltip = fredChartItem.querySelector('.fred-tooltip');
 
-            if (infoIcon && fredTooltip) {
-                infoIcon.addEventListener('click', function(event) {
-                    event.stopPropagation(); // Crucial: Prevent the container from hiding
+            //if (infoIcon && fredTooltip) {
+                //infoIcon.addEventListener('click', function(event) {
+                    //event.stopPropagation(); // Crucial: Prevent the container from hiding
                     // Hide any other open tooltips
-                    document.querySelectorAll('.fred-tooltip').forEach(tip => {
-                        if (tip !== fredTooltip) {
-                            tip.style.display = 'none';
-                        }
-                    });
+                    //document.querySelectorAll('.fred-tooltip').forEach(tip => {
+                    //    if (tip !== fredTooltip) {
+                  //          tip.style.display = 'none';
+                //        }
+              //      });
                     // Toggle visibility of the current tooltip
-                    fredTooltip.style.display = fredTooltip.style.display === 'none' ? 'block' : 'none';
-                });
-            }
+            //        fredTooltip.style.display = fredTooltip.style.display === 'none' ? 'block' : 'none';
+              //  });
+            //}
 
-            fragment.appendChild(fredChartItem);
-        });
+          //  fragment.appendChild(fredChartItem);
+        //});
 
         // Clear existing content and append the fragment to the containerDiv
-        containerDiv.innerHTML = ''; // Clear any previous content from error state, etc.
-        containerDiv.appendChild(fragment);
+        //containerDiv.innerHTML = ''; // Clear any previous content from error state, etc.
+        //containerDiv.appendChild(fragment);
 
         // Remove existing FRED charts marker if it exists before adding a new one
-        if (fredChartsMarker) {
-            fredChartsMarker.remove();
-            fredChartsMarker = null;
-        }
+        //if (fredChartsMarker) {
+      //      fredChartsMarker.remove();
+    //        fredChartsMarker = null;
+  //      }
+//
+  //      const centerUS = [-98.5795, 39.8283];
 
-        const centerUS = [-98.5795, 39.8283];
+//        fredChartsMarker = new mapboxgl.Marker(containerDiv)
+          //  .setLngLat(centerUS)
+        //    .addTo(mapInstance);
 
-        fredChartsMarker = new mapboxgl.Marker(containerDiv)
-            .setLngLat(centerUS)
-            .addTo(mapInstance);
+      //  fredChartsMarker.getElement().style.display = 'none'; // Initially hidden
+    //} catch (error) {
+  //      console.error(`Error fetching FRED data from local JSON:`, error);
+//        if (fredChartsMarker) {
+            //fredChartsMarker.remove();
+          //  fredChartsMarker = null;
+        //}
+      //  const errorDiv = document.createElement('div');
+    //    errorDiv.id = 'fred-charts-container';
+  //      errorDiv.style.cssText = 'background: rgba(255, 255, 255, 0.95); padding: 10px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 200px; text-align: center; color: red; font-family: Lato, sans-serif;';
+//        //errorDiv.innerHTML = `<div>Error loading FRED charts.</div><div>${error.message}</div>`;
 
-        fredChartsMarker.getElement().style.display = 'none'; // Initially hidden
-    } catch (error) {
-        console.error(`Error fetching FRED data from local JSON:`, error);
-        if (fredChartsMarker) {
-            fredChartsMarker.remove();
-            fredChartsMarker = null;
-        }
-        const errorDiv = document.createElement('div');
-        errorDiv.id = 'fred-charts-container';
-        errorDiv.style.cssText = 'background: rgba(255, 255, 255, 0.95); padding: 10px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 200px; text-align: center; color: red; font-family: Lato, sans-serif;';
-        errorDiv.innerHTML = `<div>Error loading FRED charts.</div><div>${error.message}</div>`;
-
-        fredChartsMarker = new mapboxgl.Marker(errorDiv)
-            .setLngLat([-98.5795, 39.8283])
-            .addTo(mapInstance);
-
-        fredChartsMarker.getElement().style.display = 'flex';
-    }
-}
+      //  fredChartsMarker = new mapboxgl.Marker(errorDiv)
+    //        .setLngLat([-98.5795, 39.8283])
+  //          .addTo(mapInstance);
+//
+    //    fredChartsMarker.getElement().style.display = 'flex';
+  //  }
+//}
 // --- End NEW/CORRECTED ---
 
 // NEW: Function to fetch and display metro overview
@@ -703,208 +705,208 @@ async function fetchMetroOverviewAndDisplay(mapInstance, regionCode, centerCoord
 // --- End: NEW CODE FOR SPARKLINE SVG HELPER ---
 
 // --- NEW/CORRECTED: Function to add existing static regional stats ---
-async function addStaticRegionStats(map) { // Made the function async
-    try {
+//async function addStaticRegionStats(map) { // Made the function async
+  //  try {
         // Fetch data from the local JSON file
-        const response = await fetch('data/static_region_stats.json');
-        if (!response.ok) {
-            throw new Error(`Failed to load static_region_stats.json: ${response.statusText}`);
-        }
-        const stats = await response.json(); // Parse the JSON data
+    //    const response = await fetch('data/static_region_stats.json');
+      //  if (!response.ok) {
+        //    throw new Error(`Failed to load static_region_stats.json: ${response.statusText}`);
+//        }
+  //      const stats = await response.json(); // Parse the JSON data
 
         // Clear existing GDP markers
-        gdpMarkers.forEach(marker => marker.remove());
-        gdpMarkers = [];
+    //    gdpMarkers.forEach(marker => marker.remove());
+      //  gdpMarkers = [];
 
-        stats.forEach(stat => {
-            const el = document.createElement('div');
-            el.className = 'region-stat-box';
-            el.innerHTML = `
-                <strong>${stat.name}</strong><br>
-                Total GDP: ${stat.gdpTotal}<br>
-                Output per worker: ${stat.outputPerWorker}
-                <div class="tooltip">ⓘ
-                    <span class="tooltiptext">
-                        GDP: BEA 2022 • Labor Force: BLS (LAUS) 2022<br>
-                        GDP per worker (25–54) = GDP ÷ est. workers<br>
-                        Workers = labor force × % 25–54<br>
-                        Estimates are approximate.
-                    </span>
-                </div>
-            `;
+        //stats.forEach(stat => {
+          //  const el = document.createElement('div');
+            //el.className = 'region-stat-box';
+            //el.innerHTML = `
+              //  <strong>${stat.name}</strong><br>
+                //Total GDP: ${stat.gdpTotal}<br>
+                //Output per worker: ${stat.outputPerWorker}
+                //<div class="tooltip">ⓘ
+                  //  <span class="tooltiptext">
+                    //    GDP: BEA 2022 • Labor Force: BLS (LAUS) 2022<br>
+                      //  GDP per worker (25–54) = GDP ÷ est. workers<br>
+                        //Workers = labor force × % 25–54<br>
+                        //Estimates are approximate.
+                    //</span>
+                //</div>
+            //`;
 
-            const newMarker = new mapboxgl.Marker(el)
-                .setLngLat([stat.lng, stat.lat])
-                .addTo(map);
+            //const newMarker = new mapboxgl.Marker(el)
+              //  .setLngLat([stat.lng, stat.lat])
+                //.addTo(map);
 
-            gdpMarkers.push(newMarker);
-        });
-    } catch (error) {
-        console.error(`Error loading static region stats:`, error);
+            //gdpMarkers.push(newMarker);
+       // });
+    //} catch (error) {
+      //  console.error(`Error loading static region stats:`, error);
         // Optionally display a small error message on the map if it fails
-        const errorDiv = document.createElement('div');
-        errorDiv.className = 'region-stat-box'; // Reuse existing styling
-        errorDiv.style.cssText = 'background: rgba(255, 255, 255, 0.95); padding: 10px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 180px; text-align: center; color: red; font-family: Lato, sans-serif;';
-        errorDiv.innerHTML = `<div>Error loading Regional Stats.</div><div>${error.message}</div>`;
+        //const errorDiv = document.createElement('div');
+        //errorDiv.className = 'region-stat-box'; // Reuse existing styling
+        //errorDiv.style.cssText = 'background: rgba(255, 255, 255, 0.95); padding: 10px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 180px; text-align: center; color: red; font-family: Lato, sans-serif;';
+        //errorDiv.innerHTML = `<div>Error loading Regional Stats.</div><div>${error.message}</div>`;
 
-        new mapboxgl.Marker(errorDiv)
-            .setLngLat([-90, 45]) // Place error message in a visible, but arbitrary, spot
-            .addTo(map);
-    }
-}
+        //new mapboxgl.Marker(errorDiv)
+          //  .setLngLat([-90, 45]) // Place error message in a visible, but arbitrary, spot
+            //.addTo(map);
+    //}
+//}
 
 // --- End NEW/CORRECTED ---
 
 
 // --- Start: MODIFIED CODE FOR FRED CHARTS (from local JSON) ---
-async function fetchFredDataAndRenderCharts(mapInstance) {
-    try {
-        const response = await fetch('data/TTLC/fred_charts_data.json?t=${Date.now()}');
-        if (!response.ok) {
-            throw new Error(`Failed to load local FRED data: ${response.statusText}`);
-        }
-        const results = await response.json();
+//async function fetchFredDataAndRenderCharts(mapInstance) {
+  //  try {
+    //    const response = await fetch('data/TTLC/fred_charts_data.json?t=${Date.now()}');
+      //  if (!response.ok) {
+        //    throw new Error(`Failed to load local FRED data: ${response.statusText}`);
+        //}
+        //const results = await response.json();
 
         // Create the main container div once
-        const containerDiv = document.createElement('div');
-        containerDiv.id = 'fred-charts-container';
-        containerDiv.style.display = 'none'; // Initially hidden
+       // const containerDiv = document.createElement('div');
+//        containerDiv.id = 'fred-charts-container';
+  //      containerDiv.style.display = 'none'; // Initially hidden
         // The click event listener for the whole container should remain,
         // but individual 'i' clicks will stop propagation.
-        containerDiv.addEventListener('click', function(event) {
+    //    containerDiv.addEventListener('click', function(event) {
             // Only hide the container if the click didn't originate from an 'info-icon' or its tooltip
             // This ensures clicking the 'i' or the tooltip doesn't hide the whole chart
-            if (!event.target.closest('.info-icon') && !event.target.closest('.fred-tooltip')) {
-                containerDiv.style.display = 'none';
-            }
-        });
+      //      if (!event.target.closest('.info-icon') && !event.target.closest('.fred-tooltip')) {
+        //        containerDiv.style.display = 'none';
+          //  }
+//        });
 
         // Use a DocumentFragment to build up chart items efficiently
-        const fragment = document.createDocumentFragment();
+  //      const fragment = document.createDocumentFragment();
 
-        results.forEach(res => {
-            const fredChartItem = document.createElement('div');
-            fredChartItem.className = 'fred-chart-item';
+    //    results.forEach(res => {
+      //      const fredChartItem = document.createElement('div');
+        //    fredChartItem.className = 'fred-chart-item';
 
-            if (res.error) {
-                fredChartItem.innerHTML = `
-                    <div class="fred-chart-label">${res.label}</div>
-                    <div style="color: red; font-size: 11px;">Error: ${res.error}</div>
-                `;
-                fragment.appendChild(fredChartItem);
-                return;
-            }
+          //  if (res.error) {
+            //    fredChartItem.innerHTML = `
+              //      <div class="fred-chart-label">${res.label}</div>
+                //    <div style="color: red; font-size: 11px;">Error: ${res.error}</div>
+                //`;
+ //               fragment.appendChild(fredChartItem);
+   //             return;
+     //       }
 
-            const change = res.latestValue - res.previousValue;
-            let arrowHtml = '';
-            let arrowClass = 'no-change';
+       //     const change = res.latestValue - res.previousValue;
+         //   let arrowHtml = '';
+           // let arrowClass = 'no-change';
 
-            if (change > 0) {
-                arrowHtml = '▲';
-                arrowClass = 'positive';
-            } else if (change < 0) {
-                arrowHtml = '▼';
-                arrowClass = 'negative';
-            } else {
-                arrowHtml = '•'; // Dot for no change
-            }
+            //if (change > 0) {
+//                arrowHtml = '▲';
+  //              arrowClass = 'positive';
+    //        } else if (change < 0) {
+      //          arrowHtml = '▼';
+        //        arrowClass = 'negative';
+          //  } else {
+            //    arrowHtml = '•'; // Dot for no change
+            //}
 
-            let displayValue = res.latestValue;
-            let unitSuffix = res.unit;
-
-            if (unitSuffix === 'K' && displayValue >= 1000) {
-                displayValue = displayValue / 1000;
-                unitSuffix = 'M';
-                formattedLatestValue = displayValue.toLocaleString(undefined, {
-                    minimumFractionDigits: 1,
-                    maximumFractionDigits: 1
-                });
-            } else {
-                formattedLatestValue = displayValue.toLocaleString(undefined, {
-                    minimumFractionDigits: res.decimals,
-                    maximumFractionDigits: res.decimals
-                });
-            }
-
-            formattedLatestValue += unitSuffix;
-
-            const sparklineSvg = createSparklineSVG(res.sparklineValues);
+            //let displayValue = res.latestValue;
+//            let unitSuffix = res.unit;
+//
+  //          if (unitSuffix === 'K' && displayValue >= 1000) {
+    //            displayValue = displayValue / 1000;
+      //          unitSuffix = 'M';
+        //        formattedLatestValue = displayValue.toLocaleString(undefined, {
+          //          minimumFractionDigits: 1,
+            //        maximumFractionDigits: 1
+              //  });
+//            } else {
+  //              formattedLatestValue = displayValue.toLocaleString(undefined, {
+    //                minimumFractionDigits: res.decimals,
+      //              maximumFractionDigits: res.decimals
+        //        });
+          //  }
+//
+  //          formattedLatestValue += unitSuffix;
+//
+  //          const sparklineSvg = createSparklineSVG(res.sparklineValues);
 
             // Create the individual chart item HTML structure
-            fredChartItem.innerHTML = `
-                <div class="fred-chart-label">${res.label}</div>
-                <div class="fred-value-row">
-                    <span class="fred-current-value">${formattedLatestValue}</span>
-                    <span class="fred-change-arrow ${arrowClass}">${arrowHtml}</span> MoM
-                </div>
-                <div class="fred-chart-info">Last 6 Months (MoM Change)</div>
-                <div class="fred-sparkline-wrapper">
-                    ${sparklineSvg}
-                    <div class="info-icon">ⓘ</div>
-                    <div class="fred-tooltip" style="display: none;">${res.context_info || 'No context available.'}</div>
-                </div>
-            `;
+    //        fredChartItem.innerHTML = `
+      //          <div class="fred-chart-label">${res.label}</div>
+        //        <div class="fred-value-row">
+          //          <span class="fred-current-value">${formattedLatestValue}</span>
+            //        <span class="fred-change-arrow ${arrowClass}">${arrowHtml}</span> MoM
+              //  </div>
+                //<div class="fred-chart-info">Last 6 Months (MoM Change)</div>
+                //<div class="fred-sparkline-wrapper">
+  //                  ${sparklineSvg}
+    //                <div class="info-icon">ⓘ</div>
+      //              <div class="fred-tooltip" style="display: none;">${res.context_info || 'No context available.'}</div>
+        //        </div>
+          //  `;
 
             // Add event listener to the info icon *after* it's been created in the DOM
             // This requires appending to fragment first, then querying within the fragment's context
             // or better, find the element after appending to the main container.
             // For now, let's create the element directly and append.
 
-            const infoIcon = fredChartItem.querySelector('.info-icon');
-            const fredTooltip = fredChartItem.querySelector('.fred-tooltip');
-
-            if (infoIcon && fredTooltip) {
-                infoIcon.addEventListener('click', function(event) {
-                    event.stopPropagation(); // Crucial: Prevent the container from hiding
-                    // Hide any other open tooltips
-                    document.querySelectorAll('.fred-tooltip').forEach(tip => {
-                        if (tip !== fredTooltip) {
-                            tip.style.display = 'none';
-                        }
-                    });
+            //const infoIcon = fredChartItem.querySelector('.info-icon');
+ //           const fredTooltip = fredChartItem.querySelector('.fred-tooltip');
+//
+  //          if (infoIcon && fredTooltip) {
+    //            infoIcon.addEventListener('click', function(event) {
+      //              event.stopPropagation(); // Crucial: Prevent the container from hiding
+        //            // Hide any other open tooltips
+          //          document.querySelectorAll('.fred-tooltip').forEach(tip => {
+            //            if (tip !== fredTooltip) {
+              //              tip.style.display = 'none';
+                //        }
+                  //  });
                     // Toggle visibility of the current tooltip
-                    fredTooltip.style.display = fredTooltip.style.display === 'none' ? 'block' : 'none';
-                });
-            }
+                    //fredTooltip.style.display = fredTooltip.style.display === 'none' ? 'block' : 'none';
+                //});
+            //}
 
-            fragment.appendChild(fredChartItem);
-        });
+            //fragment.appendChild(fredChartItem);
+//        });
 
-        // Clear existing content and append the fragment to the containerDiv
-        containerDiv.innerHTML = ''; // Clear any previous content from error state, etc.
-        containerDiv.appendChild(fragment);
+  //      // Clear existing content and append the fragment to the containerDiv
+    //    containerDiv.innerHTML = ''; // Clear any previous content from error state, etc.
+      //  containerDiv.appendChild(fragment);
 
         // Remove existing FRED charts marker if it exists before adding a new one
-        if (fredChartsMarker) {
-            fredChartsMarker.remove();
-            fredChartsMarker = null;
-        }
+        //if (fredChartsMarker) {
+          //  fredChartsMarker.remove();
+            //fredChartsMarker = null;
+        //}
 
-        const centerUS = [-98.5795, 39.8283];
+//        const centerUS = [-98.5795, 39.8283];
+//
+  //      fredChartsMarker = new mapboxgl.Marker(containerDiv)
+    //        .setLngLat(centerUS)
+      //      .addTo(mapInstance);
+//
+  //      fredChartsMarker.getElement().style.display = 'none'; // Initially hidden
+    //} catch (error) {
+      //  console.error(`Error fetching FRED data from local JSON:`, error);
+        //if (fredChartsMarker) {
+          //  fredChartsMarker.remove();
+            //fredChartsMarker = null;
+        //}
+        //const errorDiv = document.createElement('div');
+        //errorDiv.id = 'fred-charts-container';
+        //errorDiv.style.cssText = 'background: rgba(255, 255, 255, 0.95); padding: 10px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 200px; text-align: center; color: red; font-family: Lato, sans-serif;';
+        //errorDiv.innerHTML = `<div>Error loading FRED charts.</div><div>${error.message}</div>`;
 
-        fredChartsMarker = new mapboxgl.Marker(containerDiv)
-            .setLngLat(centerUS)
-            .addTo(mapInstance);
+        //fredChartsMarker = new mapboxgl.Marker(errorDiv)
+          //  .setLngLat([-98.5795, 39.8283])
+            //.addTo(mapInstance);
 
-        fredChartsMarker.getElement().style.display = 'none'; // Initially hidden
-    } catch (error) {
-        console.error(`Error fetching FRED data from local JSON:`, error);
-        if (fredChartsMarker) {
-            fredChartsMarker.remove();
-            fredChartsMarker = null;
-        }
-        const errorDiv = document.createElement('div');
-        errorDiv.id = 'fred-charts-container';
-        errorDiv.style.cssText = 'background: rgba(255, 255, 255, 0.95); padding: 10px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 200px; text-align: center; color: red; font-family: Lato, sans-serif;';
-        errorDiv.innerHTML = `<div>Error loading FRED charts.</div><div>${error.message}</div>`;
-
-        fredChartsMarker = new mapboxgl.Marker(errorDiv)
-            .setLngLat([-98.5795, 39.8283])
-            .addTo(mapInstance);
-
-        fredChartsMarker.getElement().style.display = 'flex';
-    }
-}
+        //fredChartsMarker.getElement().style.display = 'flex';
+    //}
+//}
 // --- End MODIFIED CODE FOR FRED CHARTS ---
 
 // NEW: Function to fetch and display metro overview
