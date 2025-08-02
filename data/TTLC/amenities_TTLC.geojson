@@ -22,6 +22,17 @@
         "name": "The True Life Companies (AUS)",
         "description": "1601 Rio Grande, Suite 340 <br>Austin, TX 78701"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.9594, 37.7728]
+      },
+      "properties": {
+        "name": "The True Life Companies (BAY)",
+        "description": "12647 Alcosta Blvd. <br>San Ramon CA 94583"
+      }
     }
 
   ]
