@@ -533,7 +533,7 @@ async function loadRegion(region) {
  //       const response = await fetch(`data/${regionCode}/metro_overview_${regionCode}.json?t=${Date.now()}`);
    //     if (!response.ok) {
      //       throw new Error(`Failed to load metro overview data for ${regionCode}: ${response.statusText}`);
-        }
+      //  }
        // const overviewData = await response.json();
 
         //const overviewDiv = document.createElement('div');
