@@ -521,71 +521,71 @@ async function loadRegion(region) {
 // --- End NEW/CORRECTED ---
 
 // NEW: Function to fetch and display metro overview
-async function fetchMetroOverviewAndDisplay(mapInstance, regionCode, centerCoords) {
-    try {
+//async function fetchMetroOverviewAndDisplay(mapInstance, regionCode, centerCoords) {
+  //  try {
         // Remove existing metro overview marker if it exists
-        if (metroOverviewMarker) {
-            metroOverviewMarker.remove();
-            metroOverviewMarker = null;
-        }
+    //    if (metroOverviewMarker) {
+      //      metroOverviewMarker.remove();
+        //    metroOverviewMarker = null;
+        //}
 
-        const response = await fetch(`data/${regionCode}/metro_overview_${regionCode}.json?t=${Date.now()}`);
-        if (!response.ok) {
-            throw new Error(`Failed to load metro overview data for ${regionCode}: ${response.statusText}`);
+ //       const response = await fetch(`data/${regionCode}/metro_overview_${regionCode}.json?t=${Date.now()}`);
+   //     if (!response.ok) {
+     //       throw new Error(`Failed to load metro overview data for ${regionCode}: ${response.statusText}`);
         }
-        const overviewData = await response.json();
+       // const overviewData = await response.json();
 
-        const overviewDiv = document.createElement('div');
-        overviewDiv.id = 'metro-overview-flash';
-        overviewDiv.className = 'metro-overview-flash'; // Apply common styling class
+        //const overviewDiv = document.createElement('div');
+        //overviewDiv.id = 'metro-overview-flash';
+        //overviewDiv.className = 'metro-overview-flash'; // Apply common styling class
         
         // Populate with data
-        overviewDiv.innerHTML = `
-            <h2>${overviewData.marketName} Metro Area</h2>
-            <p><strong>Total Builders:</strong> ${overviewData.totalBuilders}</p>
-            <p><strong>Total Communities:</strong> ${overviewData.totalCommunities}</p>
-            <p><strong>Average Home Price:</strong> ${overviewData.avgPrice}</p>
-            <p><strong>Average Square Footage:</strong> ${overviewData.avgSF}</p>
-            <small>Click anywhere to dismiss</small>
-        `;
+        //overviewDiv.innerHTML = `
+          //  <h2>${overviewData.marketName} Metro Area</h2>
+            //<p><strong>Total Builders:</strong> ${overviewData.totalBuilders}</p>
+           // <p><strong>Total Communities:</strong> ${overviewData.totalCommunities}</p>
+            //<p><strong>Average Home Price:</strong> ${overviewData.avgPrice}</p>
+            //<p><strong>Average Square Footage:</strong> ${overviewData.avgSF}</p>
+            //<small>Click anywhere to dismiss</small>
+       // `;
 
         // Add click listener to dismiss the flash-up
-        overviewDiv.addEventListener('click', function() {
-            overviewDiv.style.display = 'none'; // Hide on click
-        });
+//        overviewDiv.addEventListener('click', function() {
+  //          overviewDiv.style.display = 'none'; // Hide on click
+    //    });
 
         // Determine coordinates for the marker
-        let markerCoords = centerCoords; // Default to region's initial center
-        if (regionCode === 'bay') {
+      //  let markerCoords = centerCoords; // Default to region's initial center
+        //if (regionCode === 'bay') {
             // Specific coordinates for San Francisco City Hall
             // NOTE: Longitude comes first in Mapbox GL JS
-            markerCoords = [-122.419167, 37.779167];
-        }
+          //  markerCoords = [-122.419167, 37.779167];
+       // }
 
         // Create a Mapbox Marker for the overview
-        metroOverviewMarker = new mapboxgl.Marker(overviewDiv)
-            .setLngLat(markerCoords) // Use determined coordinates
-            .addTo(mapInstance);
+//        metroOverviewMarker = new mapboxgl.Marker(overviewDiv)
+  //          .setLngLat(markerCoords) // Use determined coordinates
+    //        .addTo(mapInstance);
 
         // Initially show it
-        overviewDiv.style.display = 'block';
+      //  overviewDiv.style.display = 'block';
 
-    } catch (error) {
-        console.error(`Error fetching metro overview for ${regionCode}:`, error);
+//    } catch (error) {
+  //      console.error(`Error fetching metro overview for ${regionCode}:`, error);
         // Optionally display a small error message on the map if it fails
-        const errorDiv = document.createElement('div');
-        errorDiv.className = 'metro-overview-flash-error'; // A specific error style
-        errorDiv.innerHTML = `<div>Error loading Metro Overview for ${regionCode}.</div><div>${error.message}</div>`;
+    //    const errorDiv = document.createElement('div');
+      //  errorDiv.className = 'metro-overview-flash-error'; // A specific error style
+        //errorDiv.innerHTML = `<div>Error loading Metro Overview for ${regionCode}.</div><div>${error.message}</div>`;
         
-        if (metroOverviewMarker) {
-            metroOverviewMarker.remove(); // Remove any previous partial marker
-        }
-        metroOverviewMarker = new mapboxgl.Marker(errorDiv)
-            .setLngLat(centerCoords) // Fallback to centerCoords for error display
-            .addTo(mapInstance);
-        metroOverviewMarker.getElement().style.display = 'block';
-    }
-}
+        //if (metroOverviewMarker) {
+          //  metroOverviewMarker.remove(); // Remove any previous partial marker
+        //}
+        //metroOverviewMarker = new mapboxgl.Marker(errorDiv)
+          //  .setLngLat(centerCoords) // Fallback to centerCoords for error display
+            //.addTo(mapInstance);
+        //metroOverviewMarker.getElement().style.display = 'block';
+    //}
+//}
 
 
 // FIX: New function to handle adding pinwheels
@@ -910,71 +910,71 @@ async function fetchMetroOverviewAndDisplay(mapInstance, regionCode, centerCoord
 // --- End MODIFIED CODE FOR FRED CHARTS ---
 
 // NEW: Function to fetch and display metro overview
-async function fetchMetroOverviewAndDisplay(mapInstance, regionCode, centerCoords) {
-    try {
+//async function fetchMetroOverviewAndDisplay(mapInstance, regionCode, centerCoords) {
+//    try {
         // Remove existing metro overview marker if it exists
-        if (metroOverviewMarker) {
-            metroOverviewMarker.remove();
-            metroOverviewMarker = null;
-        }
+//        if (metroOverviewMarker) {
+  //          metroOverviewMarker.remove();
+   //         metroOverviewMarker = null;
+   //     }
 
-        const response = await fetch(`data/${regionCode}/metro_overview_${regionCode}.json?t=${Date.now()}`);
-        if (!response.ok) {
-            throw new Error(`Failed to load metro overview data for ${regionCode}: ${response.statusText}`);
-        }
-        const overviewData = await response.json();
+  //      const response = await fetch(`data/${regionCode}/metro_overview_${regionCode}.json?t=${Date.now()}`);
+//        if (!response.ok) {
+          //  throw new Error(`Failed to load metro overview data for ${regionCode}: ${response.statusText}`);
+        //}
+        //const overviewData = await response.json();
 
-        const overviewDiv = document.createElement('div');
-        overviewDiv.id = 'metro-overview-flash';
-        overviewDiv.className = 'metro-overview-flash'; // Apply common styling class
+        //const overviewDiv = document.createElement('div');
+       // overviewDiv.id = 'metro-overview-flash';
+        //overviewDiv.className = 'metro-overview-flash'; // Apply common styling class
         
         // Populate with data
-        overviewDiv.innerHTML = `
-            <h2>${overviewData.marketName} Metro Area</h2>
-            <p><strong>Total Builders:</strong> ${overviewData.totalBuilders}</p>
-            <p><strong>Total Communities:</strong> ${overviewData.totalCommunities}</p>
-            <p><strong>Average Home Price:</strong> ${overviewData.avgPrice}</p>
-            <p><strong>Average Square Footage:</strong> ${overviewData.avgSF}</p>
-            <small>Click anywhere to dismiss</small>
-        `;
+        //overviewDiv.innerHTML = `
+            //<h2>${overviewData.marketName} Metro Area</h2>
+            //<p><strong>Total Builders:</strong> ${overviewData.totalBuilders}</p>
+            //<p><strong>Total Communities:</strong> ${overviewData.totalCommunities}</p>
+            //<p><strong>Average Home Price:</strong> ${overviewData.avgPrice}</p>
+           // <p><strong>Average Square Footage:</strong> ${overviewData.avgSF}</p>
+         //   <small>Click anywhere to dismiss</small>
+       // `;
 
         // Add click listener to dismiss the flash-up
-        overviewDiv.addEventListener('click', function() {
-            overviewDiv.style.display = 'none'; // Hide on click
-        });
+        //overviewDiv.addEventListener('click', function() {
+          //  overviewDiv.style.display = 'none'; // Hide on click
+        //});
 
         // Determine coordinates for the marker
-        let markerCoords = centerCoords; // Default to region's initial center
-        if (regionCode === 'bay') {
+        //let markerCoords = centerCoords; // Default to region's initial center
+        //if (regionCode === 'bay') {
             // Specific coordinates for San Francisco City Hall
             // NOTE: Longitude comes first in Mapbox GL JS
-            markerCoords = [-122.419167, 37.779167];
-        }
+          //  markerCoords = [-122.419167, 37.779167];
+        //}
 
         // Create a Mapbox Marker for the overview
-        metroOverviewMarker = new mapboxgl.Marker(overviewDiv)
-            .setLngLat(markerCoords) // Use determined coordinates
-            .addTo(mapInstance);
+        //metroOverviewMarker = new mapboxgl.Marker(overviewDiv)
+      //      .setLngLat(markerCoords) // Use determined coordinates
+    //        .addTo(mapInstance);
 
         // Initially show it
-        overviewDiv.style.display = 'block';
+  //      overviewDiv.style.display = 'block';
 
-    } catch (error) {
-        console.error(`Error fetching metro overview for ${regionCode}:`, error);
+//    } catch (error) {
+        //console.error(`Error fetching metro overview for ${regionCode}:`, error);
         // Optionally display a small error message on the map if it fails
-        const errorDiv = document.createElement('div');
-        errorDiv.className = 'metro-overview-flash-error'; // A specific error style
-        errorDiv.innerHTML = `<div>Error loading Metro Overview for ${regionCode}.</div><div>${error.message}</div>`;
+        //const errorDiv = document.createElement('div');
+        //errorDiv.className = 'metro-overview-flash-error'; // A specific error style
+      //  errorDiv.innerHTML = `<div>Error loading Metro Overview for ${regionCode}.</div><div>${error.message}</div>`;
         
-        if (metroOverviewMarker) {
-            metroOverviewMarker.remove(); // Remove any previous partial marker
-        }
-        metroOverviewMarker = new mapboxgl.Marker(errorDiv)
-            .setLngLat(centerCoords) // Fallback to centerCoords for error display
-            .addTo(mapInstance);
-        metroOverviewMarker.getElement().style.display = 'block';
-    }
-}
+    //    if (metroOverviewMarker) {
+  //          metroOverviewMarker.remove(); // Remove any previous partial marker
+//        }
+        //metroOverviewMarker = new mapboxgl.Marker(errorDiv)
+        //    .setLngLat(centerCoords) // Fallback to centerCoords for error display
+      //      .addTo(mapInstance);
+    //    metroOverviewMarker.getElement().style.display = 'block';
+  //  }
+//}
 
 
 async function loadRegionData(region, config) {
