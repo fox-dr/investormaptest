@@ -156,7 +156,7 @@ async function loadRegion(region) {
                 // NEW: Add event listeners to the new toggle switches
                 document.getElementById('toggle-pinwheels').addEventListener('change', () => {
                     if (document.getElementById('toggle-pinwheels').checked) {
-                        addPinwheels();
+                        addPinwheels(map);
                     } else {
                         pinwheelMarkers.forEach(marker => marker.remove());
                         pinwheelMarkers = [];
