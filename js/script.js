@@ -209,7 +209,6 @@ async function loadRegion(region) {
     } catch (error) {
         console.error('Failed to load region:', error);
     }
-}
 
 // FIX: New function to handle adding pinwheels
 //async function addPinwheels() {
