@@ -50,35 +50,35 @@ export async function loadRegion(map, region) {
     if (config) {
         // Fly the map to the new region's center and zoom level
         map.flyTo({ center: config.center, zoom: config.zoom });
-    // --- YOUR ORIGINAL loadRegion LOGIC ---
-    // Toggling checkboxes off
-    document.getElementById('toggle-communities').checked = false;
-    document.getElementById('toggle-lit').checked = false;
-    document.getElementById('toggle-income').checked = false;
+        // --- YOUR ORIGINAL loadRegion LOGIC ---
+        // Toggling checkboxes off
+        document.getElementById('toggle-communities').checked = false;
+        document.getElementById('toggle-lit').checked = false;
+        document.getElementById('toggle-income').checked = false;
+    
+        if (map && map.getStyle && map.getStyle().layers) {
+            map.getStyle().layers.forEach(layer => {
+                if (layer.id.startsWith('lit_')) {
+                    map.setLayoutProperty(layer.id, 'visibility', 'none');
+                }
+            });
+        }    
 
-    if (map && map.getStyle && map.getStyle().layers) {
-        map.getStyle().layers.forEach(layer => {
-            if (layer.id.startsWith('lit_')) {
-                map.setLayoutProperty(layer.id, 'visibility', 'none');
+        // If the FRED charts marker already exists, control its display based on the selected region
+        if (fredChartsMarker) {
+            const fredChartsElement = fredChartsMarker.getElement();
+            if (region === 'TTLC') {
+                fredChartsElement.style.display = 'flex'; // Show for TTLC
+            } else {
+                fredChartsElement.style.display = 'none'; // Hide for other regions
             }
-        });
-    }
+        }
 
-    // If the FRED charts marker already exists, control its display based on the selected region
-    if (fredChartsMarker) {
-        const fredChartsElement = fredChartsMarker.getElement();
-        if (region === 'TTLC') {
-            fredChartsElement.style.display = 'flex'; // Show for TTLC
-        } else {
-            fredChartsElement.style.display = 'none'; // Hide for other regions
+        // FIX: Remove existing metro overview marker when loading a new region
+        if (metroOverviewMarker) { // Note: metroOverviewMarker is still undefined at this point
+            metroOverviewMarker.remove();
+            metroOverviewMarker = null;
         }
     }
-
-    // FIX: Remove existing metro overview marker when loading a new region
-    if (metroOverviewMarker) { // Note: metroOverviewMarker is still undefined at this point
-        metroOverviewMarker.remove();
-        metroOverviewMarker = null;
-    }
-}
 
 }
