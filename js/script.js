@@ -6,6 +6,7 @@ import { addPinwheels, pinwheelMarkers } from './pinwheelLayer.js';
 import { createSparklineSVG } from './sparkline.js';
 import { addStaticRegionStats, gdpMarkers } from './regionStats.js';
 import { fetchFredDataAndRenderCharts, fredChartsMarker } from './fredCharts.js';
+import { fetchMetroOverviewAndDisplay } from './metroOverview.js';
 
 // ... all your other massive code ...
 // --- NEW/CORRECTED: FRED API constants (needed by fetchFredDataAndRenderCharts) ---
