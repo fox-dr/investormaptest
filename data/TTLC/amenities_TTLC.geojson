@@ -12,5 +12,17 @@
         "description": "1601 19th Street, Suite 550 <br>Denver, CO 80202"
       }
     }
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.7454,30.2800]
+      },
+      "properties": {
+        "name": "The True Life Companies (AUS)",
+        "description": "1601 Rio Grande, Suite 340 <br>Austin, TX 78701"
+      }
+    }
+
   ]
 }
