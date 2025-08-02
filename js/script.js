@@ -1,5 +1,9 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhOWpzemwifQ.cRt9ebRFaM0_DlIS9MlACA';
 
+// At the top of your script.js file, import the new module
+import { addCaseShillerLayer } from './caseShillerLayer.js';
+
+// ... all your other massive code ...
 // --- NEW/CORRECTED: FRED API constants (needed by fetchFredDataAndRenderCharts) ---
 // Note: These are for client-side use with a local JSON file, so the API key
 // is conceptually still "present" but used by your Python script.
@@ -139,7 +143,8 @@ async function loadRegion(region) {
 
                 loadRegionData(region, config);
                 await fetchFredDataAndRenderCharts(map);
-
+                // --- case-shiller cities ---
+                await addCaseShillerLayer(map);
                 // For initial load, fire the post-move logic directly
                 handlePostMove();
 
