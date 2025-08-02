@@ -2,7 +2,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuZm94IiwiYSI6ImNqbXYxaWh4YzAwN3Iza2xhMzJhO
 
 // At the top of your script.js file, import the new module
 import { addCaseShillerLayer } from './caseShillerLayer.js';
-import { addPinwheels, pinwheelMarkers } from './pinwheelLayer.js'; 
+import { addPinwheels, pinwheelMarkers } from './pinwheelLayer.js';
+import { createSparklineSVG } from './sparkline.js';
 
 // ... all your other massive code ...
 // --- NEW/CORRECTED: FRED API constants (needed by fetchFredDataAndRenderCharts) ---
@@ -271,45 +272,45 @@ async function loadRegion(region) {
 //}
 
 // --- Start: NEW CODE FOR SPARKLINE SVG HELPER ---
-function createSparklineSVG(values) {
-    if (!values || values.length < 2) return '';
+//function createSparklineSVG(values) {
+  //  if (!values || values.length < 2) return '';
 
-    const width = 180; // Width of the SVG
-    const height = 30; // Height of the SVG
-    const padding = 5;
+    //const width = 180; // Width of the SVG
+//    const height = 30; // Height of the SVG
+  //  const padding = 5;
 
-    const minVal = Math.min(...values);
-    const maxVal = Math.max(...values);
+    //const minVal = Math.min(...values);
+    //const maxVal = Math.max(...values);
 
-    const xScale = (index) => (index / (values.length - 1)) * (width - 2 * padding) + padding;
-    const yScale = (value) => {
-        if (maxVal === minVal) return height / 2;
-        return height - ((value - minVal) / (maxVal - minVal)) * (height - 2 * padding) - padding;
-    };
+    //const xScale = (index) => (index / (values.length - 1)) * (width - 2 * padding) + padding;
+    //const yScale = (value) => {
+      //  if (maxVal === minVal) return height / 2;
+       // return height - ((value - minVal) / (maxVal - minVal)) * (height - 2 * padding) - padding;
+    //};
 
-    let pathD = values.map((val, i) => {
-        const x = xScale(i);
-        const y = yScale(val);
-        return `${i === 0 ? 'M' : 'L'}${x},${y}`;
-    }).join(' ');
+   // let pathD = values.map((val, i) => {
+     //   const x = xScale(i);
+       // const y = yScale(val);
+       // return `${i === 0 ? 'M' : 'L'}${x},${y}`;
+    //}).join(' ');
 
-    let circles = values.map((val, i) => {
-        const x = xScale(i);
-        const y = yScale(val);
+    //let circles = values.map((val, i) => {
+      //  const x = xScale(i);
+        //const y = yScale(val);
         // Only draw dots for the first and last point
-        if (i === 0 || i === values.length - 1) {
-            return `<circle class="fred-sparkline-dot" cx="${x}" cy="${y}" r="3"></circle>`;
-        }
-        return '';
-    }).join('');
+        //if (i === 0 || i === values.length - 1) {
+          //  return `<circle class="fred-sparkline-dot" cx="${x}" cy="${y}" r="3"></circle>`;
+        //}
+        //return '';
+    //}).join('');
 
-    return `
-        <svg class="fred-sparkline-svg" viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">
-            <path class="fred-sparkline-line" d="${pathD}"/>
-            ${circles}
-        </svg>
-    `;
-}
+    //return `
+      //  <svg class="fred-sparkline-svg" viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">
+        //    <path class="fred-sparkline-line" d="${pathD}"/>
+          //  ${circles}
+        //</svg>
+    //`;
+//}
 // --- End: NEW CODE FOR SPARKLINE SVG HELPER ---
 
 // --- NEW/CORRECTED: Function to add existing static regional stats ---
@@ -660,45 +661,45 @@ async function fetchMetroOverviewAndDisplay(mapInstance, regionCode, centerCoord
 //}
 
 // --- Start: NEW CODE FOR SPARKLINE SVG HELPER ---
-function createSparklineSVG(values) {
-    if (!values || values.length < 2) return '';
+//function createSparklineSVG(values) {
+  //  if (!values || values.length < 2) return '';
 
-    const width = 180; // Width of the SVG
-    const height = 30; // Height of the SVG
-    const padding = 5;
+//    const width = 180; // Width of the SVG
+  //  const height = 30; // Height of the SVG
+    //const padding = 5;
 
-    const minVal = Math.min(...values);
-    const maxVal = Math.max(...values);
+    //const minVal = Math.min(...values);
+    //const maxVal = Math.max(...values);
 
-    const xScale = (index) => (index / (values.length - 1)) * (width - 2 * padding) + padding;
-    const yScale = (value) => {
-        if (maxVal === minVal) return height / 2;
-        return height - ((value - minVal) / (maxVal - minVal)) * (height - 2 * padding) - padding;
-    };
+    //const xScale = (index) => (index / (values.length - 1)) * (width - 2 * padding) + padding;
+    //const yScale = (value) => {
+      //  if (maxVal === minVal) return height / 2;
+        //return height - ((value - minVal) / (maxVal - minVal)) * (height - 2 * padding) - padding;
+    //};
 
-    let pathD = values.map((val, i) => {
-        const x = xScale(i);
-        const y = yScale(val);
-        return `${i === 0 ? 'M' : 'L'}${x},${y}`;
-    }).join(' ');
+    //let pathD = values.map((val, i) => {
+    //    const x = xScale(i);
+     //   const y = yScale(val);
+       // return `${i === 0 ? 'M' : 'L'}${x},${y}`;
+   // }).join(' ');
 
-    let circles = values.map((val, i) => {
-        const x = xScale(i);
-        const y = yScale(val);
+   // let circles = values.map((val, i) => {
+    //    const x = xScale(i);
+      //  const y = yScale(val);
         // Only draw dots for the first and last point
-        if (i === 0 || i === values.length - 1) {
-            return `<circle class="fred-sparkline-dot" cx="${x}" cy="${y}" r="3"></circle>`;
-        }
-        return '';
-    }).join('');
+        //if (i === 0 || i === values.length - 1) {
+          //  return `<circle class="fred-sparkline-dot" cx="${x}" cy="${y}" r="3"></circle>`;
+       // }
+       // return '';
+    //}).join('');
 
-    return `
-        <svg class="fred-sparkline-svg" viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">
-            <path class="fred-sparkline-line" d="${pathD}"/>
-            ${circles}
-        </svg>
-    `;
-}
+    //return `
+      //  <svg class="fred-sparkline-svg" viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">
+        //    <path class="fred-sparkline-line" d="${pathD}"/>
+          //  ${circles}
+        //</svg>
+    //`;
+//}
 // --- End: NEW CODE FOR SPARKLINE SVG HELPER ---
 
 // --- NEW/CORRECTED: Function to add existing static regional stats ---
