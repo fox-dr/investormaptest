@@ -33,6 +33,17 @@
         "name": "The True Life Companies (BAY)",
         "description": "12647 Alcosta Blvd. <br>San Ramon CA 94583"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.6654, 35.8220]
+      },
+      "properties": {
+        "name": "The True Life Companies (CAR)",
+        "description": "3101 Glenwood Ave, Suite 205 <br>Raleigh, NC 27612"
+      }
     }
 
   ]
