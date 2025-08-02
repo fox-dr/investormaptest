@@ -76,7 +76,7 @@ async function loadRegion(region) {
     console.log(`Loading data for region: ${region}`);
 
     // --- 1. Clean up existing markers and layers from previous region ---
-    if (metroOverviewMarker) metroOverviewMarker.remove();
+   // if (metroOverviewMarker) metroOverviewMarker.remove();
     if (fredChartsMarker) fredChartsMarker.remove();
     if (pinwheelMarkers.length > 0) {
         pinwheelMarkers.forEach(marker => marker.remove());
